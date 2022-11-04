@@ -356,7 +356,8 @@
     "CloseBagAfterUsed": false,
     "PlayGainEffect": false,
     "IsHidden": false,
-    "RankLevel": 3
+    "RankLevel": 3,
+    "EffectGadgetID": 70800031
   },
   {
     "ItemUse": [
@@ -388,7 +389,8 @@
     "CloseBagAfterUsed": false,
     "PlayGainEffect": false,
     "IsHidden": false,
-    "RankLevel": 3
+    "RankLevel": 3,
+    "EffectGadgetID": 70800031
   },
   {
     "ItemUse": [
@@ -420,7 +422,8 @@
     "CloseBagAfterUsed": false,
     "PlayGainEffect": false,
     "IsHidden": false,
-    "RankLevel": 4
+    "RankLevel": 4,
+    "EffectGadgetID": 70800031
   },
   {
     "ItemUse": [
@@ -486,7 +489,8 @@
     "CloseBagAfterUsed": false,
     "PlayGainEffect": false,
     "IsHidden": false,
-    "RankLevel": 3
+    "RankLevel": 3,
+    "EffectGadgetID": 70800031
   },
   {
     "ItemUse": [
@@ -774,7 +778,8 @@
     "CloseBagAfterUsed": false,
     "PlayGainEffect": false,
     "IsHidden": false,
-    "RankLevel": 4
+    "RankLevel": 4,
+    "EffectGadgetID": 70800031
   },
   {
     "ItemUse": [
@@ -1568,6 +1573,102 @@
     "DestroyReturnMaterial": [],
     "DestroyReturnMaterialCount": [],
     "Id": 150,
+    "ItemType": "ITEM_VIRTUAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 151,
+    "ItemType": "ITEM_VIRTUAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 152,
+    "ItemType": "ITEM_VIRTUAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 153,
     "ItemType": "ITEM_VIRTUAL",
     "NoFirstGetHint": false,
     "IsForceGetHint": false,
@@ -4644,6 +4745,78 @@
   {
     "ItemUse": [
       {
+        "UseOp": "ITEM_USE_GAIN_AVATAR",
+        "UseParam": [
+          "10000073",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 1073,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 5,
+    "MaterialType": "MATERIAL_AVATAR",
+    "StackLimit": 1000,
+    "MaxUseCount": 99
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_AVATAR",
+        "UseParam": [
+          "10000074",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 1074,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "MaterialType": "MATERIAL_AVATAR",
+    "StackLimit": 1000,
+    "MaxUseCount": 99
+  },
+  {
+    "ItemUse": [
+      {
         "UseParam": [
           "",
           "",
@@ -6658,6 +6831,76 @@
     "DestroyReturnMaterial": [],
     "DestroyReturnMaterialCount": [],
     "Id": 1172,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 20,
+    "MaterialType": "MATERIAL_TALENT",
+    "StackLimit": 1000
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 1173,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 5,
+    "Rank": 30,
+    "MaterialType": "MATERIAL_TALENT",
+    "StackLimit": 1000
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 1174,
     "ItemType": "ITEM_MATERIAL",
     "NoFirstGetHint": false,
     "IsForceGetHint": false,
@@ -9082,6 +9325,7 @@
     "MaterialType": "MATERIAL_EXCHANGE",
     "GadgetId": 70540017,
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -9191,6 +9435,7 @@
     "Rank": 312,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -9226,6 +9471,7 @@
     "Rank": 320,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -9261,6 +9507,7 @@
     "Rank": 312,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -9296,6 +9543,7 @@
     "Rank": 312,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -9554,6 +9802,7 @@
     "MaterialType": "MATERIAL_EXCHANGE",
     "GadgetId": 70510009,
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -9590,6 +9839,7 @@
     "MaterialType": "MATERIAL_EXCHANGE",
     "GadgetId": 70510012,
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -9774,6 +10024,7 @@
     "MaterialType": "MATERIAL_EXCHANGE",
     "GadgetId": 70590006,
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -9810,6 +10061,7 @@
     "MaterialType": "MATERIAL_EXCHANGE",
     "GadgetId": 70540003,
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -9846,6 +10098,7 @@
     "MaterialType": "MATERIAL_EXCHANGE",
     "GadgetId": 70540003,
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -9881,6 +10134,7 @@
     "Rank": 321,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -9916,6 +10170,7 @@
     "Rank": 321,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -9951,6 +10206,7 @@
     "Rank": 321,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -9986,6 +10242,7 @@
     "Rank": 321,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -10095,6 +10352,7 @@
     "Rank": 320,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -10166,6 +10424,7 @@
     "Rank": 320,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -10238,6 +10497,7 @@
     "Rank": 320,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -10347,6 +10607,7 @@
     "Rank": 321,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -10382,6 +10643,7 @@
     "Rank": 321,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -10417,6 +10679,7 @@
     "Rank": 320,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -10452,6 +10715,7 @@
     "Rank": 321,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -10487,6 +10751,7 @@
     "Rank": 321,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -10522,6 +10787,7 @@
     "Rank": 321,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -10594,6 +10860,7 @@
     "Rank": 321,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -10629,6 +10896,7 @@
     "Rank": 321,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -12217,6 +12485,7 @@
     "IsHidden": false,
     "Rank": 321,
     "MaterialType": "MATERIAL_EXCHANGE",
+    "GadgetId": 70540047,
     "StackLimit": 9999,
     "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
@@ -15132,6 +15401,7 @@
     "PlayGainEffect": false,
     "IsHidden": false,
     "Rank": 10,
+    "EffectGadgetID": 70300049,
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 70300049,
     "StackLimit": 1000,
@@ -15168,6 +15438,7 @@
     "PlayGainEffect": false,
     "IsHidden": false,
     "Rank": 10,
+    "EffectGadgetID": 70300049,
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 70300049,
     "StackLimit": 1000,
@@ -15204,6 +15475,7 @@
     "PlayGainEffect": false,
     "IsHidden": false,
     "Rank": 10,
+    "EffectGadgetID": 70300049,
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 70300049,
     "StackLimit": 1000,
@@ -15681,7 +15953,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 70310011,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 3
   },
   {
     "ItemUse": [
@@ -15719,7 +15992,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 70310012,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 3
   },
   {
     "ItemUse": [
@@ -15757,7 +16031,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 70310013,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 3
   },
   {
     "ItemUse": [
@@ -15831,7 +16106,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 70310015,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 24
   },
   {
     "ItemUse": [
@@ -15869,7 +16145,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 70310016,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 24
   },
   {
     "ItemUse": [
@@ -16055,7 +16332,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700009,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1
   },
   {
     "ItemUse": [
@@ -16093,7 +16371,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700010,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1
   },
   {
     "ItemUse": [
@@ -16131,7 +16410,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700011,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1
   },
   {
     "ItemUse": [
@@ -16169,7 +16449,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700012,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1
   },
   {
     "ItemUse": [
@@ -16207,7 +16488,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700013,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1
   },
   {
     "ItemUse": [
@@ -16245,7 +16527,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700014,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1
   },
   {
     "ItemUse": [
@@ -16283,7 +16566,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700015,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1
   },
   {
     "ItemUse": [
@@ -16321,7 +16605,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700016,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1
   },
   {
     "ItemUse": [
@@ -16359,7 +16644,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700017,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 2
   },
   {
     "ItemUse": [
@@ -16397,7 +16683,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700018,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 2
   },
   {
     "ItemUse": [
@@ -16435,7 +16722,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700019,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 3
   },
   {
     "ItemUse": [
@@ -16473,7 +16761,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700020,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 3
   },
   {
     "ItemUse": [
@@ -16511,7 +16800,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700021,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 3
   },
   {
     "ItemUse": [
@@ -16549,7 +16839,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700022,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1027
   },
   {
     "ItemUse": [
@@ -16587,7 +16878,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700023,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 4
   },
   {
     "ItemUse": [
@@ -16625,7 +16917,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700024,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 4
   },
   {
     "ItemUse": [
@@ -16663,7 +16956,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700025,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 4
   },
   {
     "ItemUse": [
@@ -16701,7 +16995,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700026,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 4
   },
   {
     "ItemUse": [
@@ -16739,7 +17034,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700027,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 4
   },
   {
     "ItemUse": [
@@ -16777,7 +17073,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700028,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 4
   },
   {
     "ItemUse": [
@@ -16815,7 +17112,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700029,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 5
   },
   {
     "ItemUse": [
@@ -16997,7 +17295,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700030,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1027
   },
   {
     "ItemUse": [
@@ -17071,7 +17370,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700031,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 21
   },
   {
     "ItemUse": [
@@ -17109,7 +17409,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700032,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 21
   },
   {
     "ItemUse": [
@@ -17147,7 +17448,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700033,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 21
   },
   {
     "ItemUse": [
@@ -17185,7 +17487,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700034,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 21
   },
   {
     "ItemUse": [
@@ -17223,7 +17526,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700035,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 21
   },
   {
     "ItemUse": [
@@ -17261,7 +17565,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700036,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 21
   },
   {
     "ItemUse": [
@@ -17299,7 +17604,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700037,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 21
   },
   {
     "ItemUse": [
@@ -17372,7 +17678,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700039,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1028
   },
   {
     "ItemUse": [
@@ -17484,7 +17791,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700042,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1006
   },
   {
     "ItemUse": [
@@ -17522,7 +17830,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700043,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1006
   },
   {
     "ItemUse": [
@@ -17560,7 +17869,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700044,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1006
   },
   {
     "ItemUse": [
@@ -17598,7 +17908,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700048,
     "StackLimit": 1,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1007
   },
   {
     "ItemUse": [
@@ -17636,7 +17947,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700049,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1007
   },
   {
     "ItemUse": [
@@ -17674,7 +17986,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700050,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1007
   },
   {
     "ItemUse": [
@@ -17712,7 +18025,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700051,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1007
   },
   {
     "ItemUse": [
@@ -17750,7 +18064,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700052,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1007
   },
   {
     "ItemUse": [
@@ -20378,7 +20693,8 @@
     "Rank": 10,
     "MaterialType": "MATERIAL_QUEST",
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1028
   },
   {
     "ItemUse": [
@@ -20485,7 +20801,8 @@
     "Rank": 10,
     "MaterialType": "MATERIAL_QUEST",
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1011
   },
   {
     "ItemUse": [
@@ -20557,7 +20874,8 @@
     "Rank": 10,
     "MaterialType": "MATERIAL_QUEST",
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1020
   },
   {
     "ItemUse": [
@@ -20593,7 +20911,8 @@
     "Rank": 10,
     "MaterialType": "MATERIAL_QUEST",
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1020
   },
   {
     "ItemUse": [
@@ -20629,7 +20948,8 @@
     "Rank": 10,
     "MaterialType": "MATERIAL_QUEST",
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1020
   },
   {
     "ItemUse": [
@@ -20665,7 +20985,8 @@
     "Rank": 10,
     "MaterialType": "MATERIAL_QUEST",
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1020
   },
   {
     "ItemUse": [
@@ -21333,7 +21654,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700054,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1006
   },
   {
     "ItemUse": [
@@ -21371,7 +21693,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700055,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1006
   },
   {
     "ItemUse": [
@@ -21409,7 +21732,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700056,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1006
   },
   {
     "ItemUse": [
@@ -21447,7 +21771,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700057,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1006
   },
   {
     "ItemUse": [
@@ -21731,7 +22056,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700058,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1008
   },
   {
     "ItemUse": [
@@ -21769,7 +22095,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700059,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1008
   },
   {
     "ItemUse": [
@@ -21843,7 +22170,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700061,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1026
   },
   {
     "ItemUse": [
@@ -21881,7 +22209,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700062,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1024
   },
   {
     "ItemUse": [
@@ -21991,7 +22320,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700065,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1009
   },
   {
     "ItemUse": [
@@ -22029,7 +22359,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700066,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1009
   },
   {
     "ItemUse": [
@@ -22067,7 +22398,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700067,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1009
   },
   {
     "ItemUse": [
@@ -22177,7 +22509,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700070,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1010
   },
   {
     "ItemUse": [
@@ -22215,7 +22548,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700071,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1010
   },
   {
     "ItemUse": [
@@ -22925,7 +23259,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700078,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1011
   },
   {
     "ItemUse": [
@@ -22963,7 +23298,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700079,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1011
   },
   {
     "ItemUse": [
@@ -23001,7 +23337,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700080,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1011
   },
   {
     "ItemUse": [
@@ -23039,7 +23376,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700081,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1011
   },
   {
     "ItemUse": [
@@ -23077,7 +23415,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700082,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1011
   },
   {
     "ItemUse": [
@@ -23115,7 +23454,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700084,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1012
   },
   {
     "ItemUse": [
@@ -23153,7 +23493,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700085,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1012
   },
   {
     "ItemUse": [
@@ -23191,7 +23532,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700086,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1012
   },
   {
     "ItemUse": [
@@ -23229,7 +23571,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700087,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1012
   },
   {
     "ItemUse": [
@@ -23267,7 +23610,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700088,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1006
   },
   {
     "ItemUse": [
@@ -23304,7 +23648,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700089,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1013
   },
   {
     "ItemUse": [
@@ -23341,7 +23686,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700090,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1013
   },
   {
     "ItemUse": [
@@ -23378,7 +23724,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700091,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1013
   },
   {
     "ItemUse": [
@@ -23415,7 +23762,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700092,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1013
   },
   {
     "ItemUse": [
@@ -24520,7 +24868,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700110,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1014
   },
   {
     "ItemUse": [
@@ -24558,7 +24907,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700111,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1014
   },
   {
     "ItemUse": [
@@ -24596,7 +24946,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700112,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1014
   },
   {
     "ItemUse": [
@@ -24634,7 +24985,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700113,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1014
   },
   {
     "ItemUse": [
@@ -25485,7 +25837,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700115,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1015
   },
   {
     "ItemUse": [
@@ -25523,7 +25876,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700116,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1015
   },
   {
     "ItemUse": [
@@ -25561,7 +25915,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700117,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1015
   },
   {
     "ItemUse": [
@@ -27536,7 +27891,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700125,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1016
   },
   {
     "ItemUse": [
@@ -27574,7 +27930,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700126,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1016
   },
   {
     "ItemUse": [
@@ -27612,7 +27969,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700127,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1016
   },
   {
     "ItemUse": [
@@ -27650,7 +28008,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700128,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1017
   },
   {
     "ItemUse": [
@@ -27688,7 +28047,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700129,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1017
   },
   {
     "ItemUse": [
@@ -27726,7 +28086,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700130,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1017
   },
   {
     "ItemUse": [
@@ -27764,7 +28125,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700131,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1017
   },
   {
     "ItemUse": [
@@ -27802,7 +28164,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700132,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1017
   },
   {
     "ItemUse": [
@@ -27840,7 +28203,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700133,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1018
   },
   {
     "ItemUse": [
@@ -27878,7 +28242,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700134,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1018
   },
   {
     "ItemUse": [
@@ -27916,7 +28281,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700135,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1018
   },
   {
     "ItemUse": [
@@ -27954,7 +28320,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700136,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1018
   },
   {
     "ItemUse": [
@@ -27992,7 +28359,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700137,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1019
   },
   {
     "ItemUse": [
@@ -28030,7 +28398,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700138,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1019
   },
   {
     "ItemUse": [
@@ -28068,7 +28437,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700139,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1019
   },
   {
     "ItemUse": [
@@ -28106,7 +28476,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700140,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1019
   },
   {
     "ItemUse": [
@@ -28322,7 +28693,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700141,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1022
   },
   {
     "ItemUse": [
@@ -28360,7 +28732,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700142,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1022
   },
   {
     "ItemUse": [
@@ -28398,7 +28771,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700143,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1022
   },
   {
     "ItemUse": [
@@ -28436,7 +28810,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700144,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1022
   },
   {
     "ItemUse": [
@@ -28474,7 +28849,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700145,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1023
   },
   {
     "ItemUse": [
@@ -28512,7 +28888,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700146,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1023
   },
   {
     "ItemUse": [
@@ -28550,7 +28927,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700147,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1023
   },
   {
     "ItemUse": [
@@ -28588,7 +28966,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700148,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1023
   },
   {
     "ItemUse": [
@@ -29079,7 +29458,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700155,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1
   },
   {
     "ItemUse": [
@@ -29117,7 +29497,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700156,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1
   },
   {
     "ItemUse": [
@@ -29155,7 +29536,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700157,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1
   },
   {
     "ItemUse": [
@@ -29193,7 +29575,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700158,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 4
   },
   {
     "ItemUse": [
@@ -29231,7 +29614,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700159,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 3
   },
   {
     "ItemUse": [
@@ -29269,7 +29653,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700160,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 3
   },
   {
     "ItemUse": [
@@ -29307,7 +29692,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700161,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 3
   },
   {
     "ItemUse": [
@@ -29345,7 +29731,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700162,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 3
   },
   {
     "ItemUse": [
@@ -29383,7 +29770,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700163,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1009
   },
   {
     "ItemUse": [
@@ -29700,7 +30088,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700166,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1024
   },
   {
     "ItemUse": [
@@ -30149,7 +30538,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700167,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1008
   },
   {
     "ItemUse": [
@@ -30187,7 +30577,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700168,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1008
   },
   {
     "ItemUse": [
@@ -30261,7 +30652,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700170,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1024
   },
   {
     "ItemUse": [
@@ -30299,7 +30691,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700171,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1024
   },
   {
     "ItemUse": [
@@ -30337,7 +30730,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700172,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1025
   },
   {
     "ItemUse": [
@@ -30375,7 +30769,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700173,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1025
   },
   {
     "ItemUse": [
@@ -30413,7 +30808,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700174,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1025
   },
   {
     "ItemUse": [
@@ -32111,7 +32507,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700144,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1022
   },
   {
     "ItemUse": [
@@ -32563,7 +32960,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700180,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1006
   },
   {
     "ItemUse": [
@@ -33416,7 +33814,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700185,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1008
   },
   {
     "ItemUse": [
@@ -33454,7 +33853,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700186,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1008
   },
   {
     "ItemUse": [
@@ -33492,7 +33892,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700187,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1026
   },
   {
     "ItemUse": [
@@ -33530,7 +33931,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700189,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1017
   },
   {
     "ItemUse": [
@@ -33568,7 +33970,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700190,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1017
   },
   {
     "ItemUse": [
@@ -33606,7 +34009,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700191,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1017
   },
   {
     "ItemUse": [
@@ -35238,7 +35642,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700203,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1017
   },
   {
     "ItemUse": [
@@ -35276,7 +35681,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700204,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1017
   },
   {
     "ItemUse": [
@@ -35314,7 +35720,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700205,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1017
   },
   {
     "ItemUse": [
@@ -35352,7 +35759,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700206,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1025
   },
   {
     "ItemUse": [
@@ -35390,7 +35798,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700207,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1025
   },
   {
     "ItemUse": [
@@ -35465,7 +35874,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700188,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1026
   },
   {
     "ItemUse": [
@@ -38133,6 +38543,7 @@
     "IsHidden": false,
     "RankLevel": 4,
     "Rank": 10,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -40420,6 +40831,7 @@
     "PlayGainEffect": false,
     "IsHidden": false,
     "Rank": 430041,
+    "EffectGadgetID": 70590054,
     "MaterialType": "MATERIAL_CONSUME",
     "StackLimit": 99
   },
@@ -40454,6 +40866,7 @@
     "PlayGainEffect": false,
     "IsHidden": false,
     "Rank": 430041,
+    "EffectGadgetID": 70590054,
     "MaterialType": "MATERIAL_CONSUME",
     "StackLimit": 99
   },
@@ -40488,6 +40901,7 @@
     "PlayGainEffect": false,
     "IsHidden": false,
     "Rank": 430041,
+    "EffectGadgetID": 70590054,
     "MaterialType": "MATERIAL_CONSUME",
     "StackLimit": 99
   },
@@ -40522,6 +40936,7 @@
     "PlayGainEffect": false,
     "IsHidden": false,
     "Rank": 430041,
+    "EffectGadgetID": 70590054,
     "MaterialType": "MATERIAL_CONSUME",
     "StackLimit": 99
   },
@@ -40556,6 +40971,7 @@
     "PlayGainEffect": false,
     "IsHidden": false,
     "Rank": 430041,
+    "EffectGadgetID": 70590054,
     "MaterialType": "MATERIAL_CONSUME",
     "StackLimit": 99
   },
@@ -42977,7 +43393,8 @@
     "Rank": 10,
     "MaterialType": "MATERIAL_QUEST",
     "StackLimit": 1,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1029
   },
   {
     "ItemUse": [
@@ -43014,7 +43431,8 @@
     "Rank": 10,
     "MaterialType": "MATERIAL_QUEST",
     "StackLimit": 1,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1029
   },
   {
     "ItemUse": [
@@ -43051,7 +43469,8 @@
     "Rank": 10,
     "MaterialType": "MATERIAL_QUEST",
     "StackLimit": 1,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1029
   },
   {
     "ItemUse": [
@@ -43088,7 +43507,8 @@
     "Rank": 10,
     "MaterialType": "MATERIAL_QUEST",
     "StackLimit": 1,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1029
   },
   {
     "ItemUse": [
@@ -43125,7 +43545,8 @@
     "Rank": 10,
     "MaterialType": "MATERIAL_QUEST",
     "StackLimit": 1,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1029
   },
   {
     "ItemUse": [
@@ -43162,7 +43583,8 @@
     "Rank": 10,
     "MaterialType": "MATERIAL_QUEST",
     "StackLimit": 1,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1029
   },
   {
     "ItemUse": [
@@ -43618,7 +44040,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700264,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1030
   },
   {
     "ItemUse": [
@@ -43656,7 +44079,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700265,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1030
   },
   {
     "ItemUse": [
@@ -43694,7 +44118,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700266,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1030
   },
   {
     "ItemUse": [
@@ -43732,7 +44157,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700267,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1030
   },
   {
     "ItemUse": [
@@ -43770,7 +44196,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700268,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1030
   },
   {
     "ItemUse": [
@@ -43845,7 +44272,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700270,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1031
   },
   {
     "ItemUse": [
@@ -43883,7 +44311,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700271,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1031
   },
   {
     "ItemUse": [
@@ -43921,7 +44350,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700272,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1031
   },
   {
     "ItemUse": [
@@ -43959,7 +44389,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700273,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1032
   },
   {
     "ItemUse": [
@@ -43997,7 +44428,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700274,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1032
   },
   {
     "ItemUse": [
@@ -44035,7 +44467,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700275,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1032
   },
   {
     "ItemUse": [
@@ -44073,7 +44506,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700276,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1032
   },
   {
     "ItemUse": [
@@ -44111,7 +44545,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700277,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1032
   },
   {
     "ItemUse": [
@@ -44186,7 +44621,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700281,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1006
   },
   {
     "ItemUse": [
@@ -44224,7 +44660,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700282,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1007
   },
   {
     "ItemUse": [
@@ -44472,7 +44909,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700301,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1033
   },
   {
     "ItemUse": [
@@ -44510,7 +44948,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700302,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1033
   },
   {
     "ItemUse": [
@@ -44548,7 +44987,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700303,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1033
   },
   {
     "ItemUse": [
@@ -44586,7 +45026,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700304,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1033
   },
   {
     "ItemUse": [
@@ -44624,7 +45065,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700305,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1033
   },
   {
     "ItemUse": [
@@ -44662,7 +45104,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700306,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1033
   },
   {
     "ItemUse": [
@@ -44700,7 +45143,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700307,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1034
   },
   {
     "ItemUse": [
@@ -44849,7 +45293,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700311,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1028
   },
   {
     "ItemUse": [
@@ -45617,7 +46062,8 @@
     "Rank": 10,
     "MaterialType": "MATERIAL_QUEST",
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1030
   },
   {
     "ItemUse": [
@@ -46004,7 +46450,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700327,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1035
   },
   {
     "ItemUse": [
@@ -46076,7 +46523,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700328,
     "StackLimit": 5,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1006
   },
   {
     "ItemUse": [
@@ -48724,7 +49172,8 @@
     "Rank": 10,
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700350,
-    "StackLimit": 5
+    "StackLimit": 5,
+    "SetID": 1036
   },
   {
     "ItemUse": [
@@ -48761,7 +49210,8 @@
     "Rank": 10,
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700351,
-    "StackLimit": 5
+    "StackLimit": 5,
+    "SetID": 1036
   },
   {
     "ItemUse": [
@@ -48798,7 +49248,8 @@
     "Rank": 10,
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700352,
-    "StackLimit": 5
+    "StackLimit": 5,
+    "SetID": 1036
   },
   {
     "ItemUse": [
@@ -48835,7 +49286,8 @@
     "Rank": 10,
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700353,
-    "StackLimit": 5
+    "StackLimit": 5,
+    "SetID": 1036
   },
   {
     "ItemUse": [
@@ -48872,7 +49324,8 @@
     "Rank": 10,
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700354,
-    "StackLimit": 5
+    "StackLimit": 5,
+    "SetID": 1036
   },
   {
     "ItemUse": [
@@ -51682,7 +52135,8 @@
     "Rank": 10,
     "MaterialType": "MATERIAL_QUEST",
     "StackLimit": 1,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1032
   },
   {
     "ItemUse": [
@@ -59730,41 +60184,6 @@
   {
     "ItemUse": [
       {
-        "UseParam": [
-          "",
-          "",
-          "",
-          "",
-          ""
-        ]
-      },
-      {
-        "UseParam": [
-          "",
-          ""
-        ]
-      }
-    ],
-    "SatiationParams": [],
-    "DestroyReturnMaterial": [],
-    "DestroyReturnMaterialCount": [],
-    "Id": 102000,
-    "ItemType": "ITEM_MATERIAL",
-    "NoFirstGetHint": false,
-    "IsForceGetHint": false,
-    "UseOnGain": false,
-    "IsSplitDrop": false,
-    "CloseBagAfterUsed": false,
-    "PlayGainEffect": false,
-    "IsHidden": false,
-    "Rank": 10,
-    "MaterialType": "MATERIAL_QUEST",
-    "StackLimit": 4,
-    "Weight": 1
-  },
-  {
-    "ItemUse": [
-      {
         "UseOp": "ITEM_USE_ADD_ELEM_ENERGY",
         "UseParam": [
           "1",
@@ -63568,6 +63987,7 @@
     "PlayGainEffect": true,
     "IsHidden": false,
     "Rank": 420001,
+    "EffectGadgetID": 70800003,
     "MaterialType": "MATERIAL_ELEM_CRYSTAL",
     "GadgetId": 70590004,
     "StackLimit": 2000
@@ -63640,6 +64060,7 @@
     "PlayGainEffect": true,
     "IsHidden": false,
     "Rank": 420001,
+    "EffectGadgetID": 70800015,
     "MaterialType": "MATERIAL_ELEM_CRYSTAL",
     "GadgetId": 70590021,
     "StackLimit": 2000
@@ -63888,6 +64309,7 @@
     "PlayGainEffect": true,
     "IsHidden": false,
     "Rank": 420021,
+    "EffectGadgetID": 70800031,
     "MaterialType": "MATERIAL_ELEM_CRYSTAL",
     "GadgetId": 70590031,
     "StackLimit": 2000
@@ -63923,6 +64345,7 @@
     "PlayGainEffect": true,
     "IsHidden": false,
     "Rank": 420021,
+    "EffectGadgetID": 70800031,
     "MaterialType": "MATERIAL_ELEM_CRYSTAL",
     "GadgetId": 70590034,
     "StackLimit": 2000
@@ -64030,6 +64453,7 @@
     "PlayGainEffect": true,
     "IsHidden": false,
     "Rank": 420001,
+    "EffectGadgetID": 70800035,
     "MaterialType": "MATERIAL_ELEM_CRYSTAL",
     "GadgetId": 70590041,
     "StackLimit": 2000
@@ -64065,6 +64489,7 @@
     "PlayGainEffect": true,
     "IsHidden": false,
     "Rank": 420021,
+    "EffectGadgetID": 70800041,
     "MaterialType": "MATERIAL_ELEM_CRYSTAL",
     "GadgetId": 70590042,
     "StackLimit": 2000
@@ -64100,6 +64525,7 @@
     "PlayGainEffect": true,
     "IsHidden": false,
     "Rank": 420021,
+    "EffectGadgetID": 70800112,
     "MaterialType": "MATERIAL_ELEM_CRYSTAL",
     "GadgetId": 70590057,
     "StackLimit": 2000
@@ -64135,6 +64561,7 @@
     "PlayGainEffect": true,
     "IsHidden": false,
     "Rank": 420001,
+    "EffectGadgetID": 70800207,
     "MaterialType": "MATERIAL_ELEM_CRYSTAL",
     "GadgetId": 70590063,
     "StackLimit": 2000
@@ -83118,6 +83545,219 @@
   {
     "ItemUse": [
       {
+        "UseOp": "ITEM_USE_ADD_SERVER_BUFF",
+        "UseParam": [
+          "100201",
+          "31",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [
+      19,
+      96000
+    ],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 108470,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 2,
+    "Rank": 231006,
+    "MaterialType": "MATERIAL_NOTICE_ADD_HP",
+    "StackLimit": 2000,
+    "MaxUseCount": 1,
+    "UseTarget": "ITEM_USE_TARGET_SPECIFY_ALIVE_AVATAR",
+    "FoodQuality": "FOOD_QUALITY_STRANGE",
+    "CdTime": 300,
+    "CdGroup": 98
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_ADD_SERVER_BUFF",
+        "UseParam": [
+          "100202",
+          "31",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [
+      20,
+      120000
+    ],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 108471,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 2,
+    "Rank": 231006,
+    "MaterialType": "MATERIAL_NOTICE_ADD_HP",
+    "StackLimit": 2000,
+    "MaxUseCount": 1,
+    "UseTarget": "ITEM_USE_TARGET_SPECIFY_ALIVE_AVATAR",
+    "FoodQuality": "FOOD_QUALITY_ORDINARY",
+    "CdTime": 300,
+    "CdGroup": 98
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_ADD_SERVER_BUFF",
+        "UseParam": [
+          "100203",
+          "31",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [
+      21,
+      147000
+    ],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 108472,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 2,
+    "Rank": 231006,
+    "MaterialType": "MATERIAL_NOTICE_ADD_HP",
+    "StackLimit": 2000,
+    "MaxUseCount": 1,
+    "UseTarget": "ITEM_USE_TARGET_SPECIFY_ALIVE_AVATAR",
+    "FoodQuality": "FOOD_QUALITY_DELICIOUS",
+    "CdTime": 300,
+    "CdGroup": 98
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_ADD_SERVER_BUFF",
+        "UseParam": [
+          "100204",
+          "31",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [
+      23,
+      177000
+    ],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 108473,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 2,
+    "Rank": 231006,
+    "MaterialType": "MATERIAL_NOTICE_ADD_HP",
+    "StackLimit": 2000,
+    "MaxUseCount": 1,
+    "UseTarget": "ITEM_USE_TARGET_SPECIFY_ALIVE_AVATAR",
+    "CdTime": 300,
+    "CdGroup": 98
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_ADD_SERVER_BUFF",
+        "UseParam": [
+          "120304",
+          "300",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 108474,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 620003,
+    "MaterialType": "MATERIAL_FOOD",
+    "StackLimit": 2000,
+    "MaxUseCount": 1,
+    "UseTarget": "ITEM_USE_TARGET_CUR_TEAM"
+  },
+  {
+    "ItemUse": [
+      {
         "UseParam": [
           "",
           "",
@@ -83183,6 +83823,7 @@
     "IsHidden": false,
     "RankLevel": 1,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -83222,6 +83863,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -83261,6 +83903,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -83300,6 +83943,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -83339,6 +83983,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -83378,6 +84023,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -83417,6 +84063,7 @@
     "IsHidden": false,
     "RankLevel": 1,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -83456,6 +84103,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -83495,6 +84143,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -83534,6 +84183,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -83573,6 +84223,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -83612,6 +84263,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -83651,6 +84303,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -83690,6 +84343,7 @@
     "IsHidden": false,
     "RankLevel": 1,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -83729,6 +84383,7 @@
     "IsHidden": false,
     "RankLevel": 1,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -83768,6 +84423,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -83807,6 +84463,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -83846,6 +84503,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -83885,6 +84543,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -83924,6 +84583,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -83963,6 +84623,7 @@
     "IsHidden": false,
     "RankLevel": 4,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -84002,6 +84663,7 @@
     "IsHidden": false,
     "RankLevel": 1,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -84041,6 +84703,7 @@
     "IsHidden": false,
     "RankLevel": 1,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -84080,6 +84743,7 @@
     "IsHidden": false,
     "RankLevel": 1,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -84119,6 +84783,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -84158,6 +84823,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -84197,6 +84863,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -84236,6 +84903,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -84275,6 +84943,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -84314,6 +84983,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -84353,6 +85023,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -84392,6 +85063,7 @@
     "IsHidden": false,
     "RankLevel": 4,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -84431,6 +85103,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -84470,6 +85143,7 @@
     "IsHidden": false,
     "RankLevel": 1,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -84509,6 +85183,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -84548,6 +85223,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -84587,6 +85263,7 @@
     "IsHidden": false,
     "RankLevel": 5,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -84626,6 +85303,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -84665,6 +85343,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -84704,6 +85383,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -84743,6 +85423,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -84782,6 +85463,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -84821,6 +85503,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -84860,6 +85543,7 @@
     "IsHidden": false,
     "RankLevel": 4,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -84899,6 +85583,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -84938,6 +85623,7 @@
     "IsHidden": false,
     "RankLevel": 4,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -84977,6 +85663,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -85016,6 +85703,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -85055,6 +85743,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -85094,6 +85783,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -85133,6 +85823,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -85172,6 +85863,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -85211,6 +85903,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -85250,6 +85943,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -85289,6 +85983,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -85328,6 +86023,7 @@
     "IsHidden": false,
     "RankLevel": 1,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -85367,6 +86063,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -85406,6 +86103,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -85445,6 +86143,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -85484,6 +86183,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -85523,6 +86223,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -85562,6 +86263,7 @@
     "IsHidden": false,
     "RankLevel": 1,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -85601,6 +86303,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -85640,6 +86343,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -85679,6 +86383,7 @@
     "IsHidden": false,
     "RankLevel": 4,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -85718,6 +86423,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -85757,6 +86463,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -85796,6 +86503,7 @@
     "IsHidden": false,
     "RankLevel": 4,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -85835,6 +86543,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -85874,6 +86583,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -85913,6 +86623,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -85952,6 +86663,7 @@
     "IsHidden": false,
     "RankLevel": 4,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -85991,6 +86703,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -86030,6 +86743,7 @@
     "IsHidden": false,
     "RankLevel": 1,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -86069,6 +86783,7 @@
     "IsHidden": false,
     "RankLevel": 1,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -86108,6 +86823,7 @@
     "IsHidden": false,
     "RankLevel": 4,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -86147,6 +86863,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -86186,6 +86903,7 @@
     "IsHidden": false,
     "RankLevel": 1,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -86225,6 +86943,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -86264,6 +86983,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -86303,6 +87023,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -86342,6 +87063,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -86381,6 +87103,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -86420,6 +87143,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -86459,6 +87183,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -86498,6 +87223,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -86537,6 +87263,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -86576,6 +87303,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -86615,6 +87343,7 @@
     "IsHidden": false,
     "RankLevel": 4,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -86654,6 +87383,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -86693,6 +87423,7 @@
     "IsHidden": false,
     "RankLevel": 1,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -86732,6 +87463,7 @@
     "IsHidden": false,
     "RankLevel": 1,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -86771,6 +87503,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -86810,6 +87543,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -86849,6 +87583,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -86888,6 +87623,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -86927,6 +87663,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -86966,6 +87703,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -87005,6 +87743,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -87044,6 +87783,7 @@
     "IsHidden": false,
     "RankLevel": 1,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -87083,6 +87823,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -87122,6 +87863,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -87161,6 +87903,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -87200,6 +87943,7 @@
     "IsHidden": false,
     "RankLevel": 4,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -87239,6 +87983,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -87278,6 +88023,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -87317,6 +88063,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -87356,6 +88103,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -87395,6 +88143,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -87434,6 +88183,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -87473,6 +88223,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -87512,6 +88263,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -87551,6 +88303,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -87590,6 +88343,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -87629,6 +88383,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -87668,6 +88423,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -87707,6 +88463,7 @@
     "IsHidden": false,
     "RankLevel": 1,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -87746,6 +88503,7 @@
     "IsHidden": false,
     "RankLevel": 4,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -87785,6 +88543,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -87824,6 +88583,7 @@
     "IsHidden": false,
     "RankLevel": 1,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -87863,6 +88623,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -87902,6 +88663,7 @@
     "IsHidden": false,
     "RankLevel": 4,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -87941,6 +88703,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -87980,6 +88743,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -88019,6 +88783,7 @@
     "IsHidden": false,
     "RankLevel": 4,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -88058,6 +88823,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -88097,6 +88863,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -88136,6 +88903,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -88175,6 +88943,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -88214,6 +88983,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -88253,6 +89023,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -88292,6 +89063,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -88331,6 +89103,47 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300501,
+    "EffectGadgetID": 70600021,
+    "MaterialType": "MATERIAL_CONSUME",
+    "GadgetId": 70600021,
+    "StackLimit": 2000,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_COOK_RECIPE",
+        "UseParam": [
+          "2309",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 109517,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 2,
+    "Rank": 300501,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -92326,7 +93139,7 @@
     "PlayGainEffect": false,
     "IsHidden": false,
     "RankLevel": 2,
-    "Rank": 10124,
+    "Rank": 10125,
     "MaterialType": "MATERIAL_AVATAR_MATERIAL",
     "GadgetId": 70600052,
     "StackLimit": 9999,
@@ -92364,7 +93177,7 @@
     "PlayGainEffect": false,
     "IsHidden": false,
     "RankLevel": 3,
-    "Rank": 10124,
+    "Rank": 10125,
     "MaterialType": "MATERIAL_AVATAR_MATERIAL",
     "GadgetId": 70600053,
     "StackLimit": 9999,
@@ -92401,7 +93214,7 @@
     "PlayGainEffect": false,
     "IsHidden": false,
     "RankLevel": 4,
-    "Rank": 10124,
+    "Rank": 10125,
     "MaterialType": "MATERIAL_AVATAR_MATERIAL",
     "GadgetId": 70600054,
     "StackLimit": 9999,
@@ -93847,6 +94660,154 @@
     "Rank": 11101,
     "MaterialType": "MATERIAL_AVATAR_MATERIAL",
     "GadgetId": 70600054,
+    "StackLimit": 2000,
+    "Weight": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 113040,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 11101,
+    "MaterialType": "MATERIAL_AVATAR_MATERIAL",
+    "GadgetId": 70600054,
+    "StackLimit": 2000,
+    "Weight": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 113041,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 5,
+    "Rank": 11101,
+    "MaterialType": "MATERIAL_AVATAR_MATERIAL",
+    "GadgetId": 70600055,
+    "StackLimit": 2000,
+    "Weight": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 113042,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 5,
+    "Rank": 11101,
+    "MaterialType": "MATERIAL_AVATAR_MATERIAL",
+    "GadgetId": 70600055,
+    "StackLimit": 2000,
+    "Weight": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 113043,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 5,
+    "Rank": 11101,
+    "MaterialType": "MATERIAL_AVATAR_MATERIAL",
+    "GadgetId": 70600055,
     "StackLimit": 2000,
     "Weight": 1
   },
@@ -98812,7 +99773,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700459,
     "StackLimit": 1,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1037
   },
   {
     "ItemUse": [
@@ -98850,7 +99812,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700460,
     "StackLimit": 1,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1037
   },
   {
     "ItemUse": [
@@ -98925,7 +99888,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700462,
     "StackLimit": 1,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1038
   },
   {
     "ItemUse": [
@@ -98963,7 +99927,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700463,
     "StackLimit": 1,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1038
   },
   {
     "ItemUse": [
@@ -99001,7 +99966,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700464,
     "StackLimit": 1,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1038
   },
   {
     "ItemUse": [
@@ -99039,7 +100005,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700465,
     "StackLimit": 1,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1039
   },
   {
     "ItemUse": [
@@ -99077,7 +100044,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700466,
     "StackLimit": 1,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1039
   },
   {
     "ItemUse": [
@@ -99115,7 +100083,8 @@
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700467,
     "StackLimit": 1,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1039
   },
   {
     "ItemUse": [
@@ -100747,7 +101716,8 @@
     "Rank": 10,
     "MaterialType": "MATERIAL_QUEST",
     "StackLimit": 1,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1040
   },
   {
     "ItemUse": [
@@ -100784,7 +101754,8 @@
     "Rank": 10,
     "MaterialType": "MATERIAL_QUEST",
     "StackLimit": 1,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1040
   },
   {
     "ItemUse": [
@@ -100821,7 +101792,8 @@
     "Rank": 10,
     "MaterialType": "MATERIAL_QUEST",
     "StackLimit": 1,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1040
   },
   {
     "ItemUse": [
@@ -100858,7 +101830,8 @@
     "Rank": 10,
     "MaterialType": "MATERIAL_QUEST",
     "StackLimit": 1,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1040
   },
   {
     "ItemUse": [
@@ -100895,7 +101868,8 @@
     "Rank": 10,
     "MaterialType": "MATERIAL_QUEST",
     "StackLimit": 1,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1040
   },
   {
     "ItemUse": [
@@ -100932,7 +101906,8 @@
     "Rank": 10,
     "MaterialType": "MATERIAL_QUEST",
     "StackLimit": 1,
-    "Weight": 1
+    "Weight": 1,
+    "SetID": 1040
   },
   {
     "ItemUse": [
@@ -101493,7 +102468,7 @@
     "IsHidden": false,
     "Rank": 10,
     "MaterialType": "MATERIAL_QUEST",
-    "StackLimit": 1,
+    "StackLimit": 10,
     "Weight": 1
   },
   {
@@ -101553,6 +102528,1001 @@
     "SatiationParams": [],
     "DestroyReturnMaterial": [],
     "DestroyReturnMaterialCount": [],
+    "Id": 120126,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_QUEST",
+    "StackLimit": 1,
+    "Weight": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 120127,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 5,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_QUEST",
+    "StackLimit": 1,
+    "Weight": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 120128,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_QUEST",
+    "GadgetId": 71700537,
+    "StackLimit": 1,
+    "Weight": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 120129,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_QUEST",
+    "GadgetId": 71700538,
+    "StackLimit": 1,
+    "Weight": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 120130,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_QUEST",
+    "GadgetId": 71700539,
+    "StackLimit": 1,
+    "Weight": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 120131,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_QUEST",
+    "GadgetId": 71700540,
+    "StackLimit": 1,
+    "Weight": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 120132,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_QUEST",
+    "GadgetId": 71700541,
+    "StackLimit": 1,
+    "Weight": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 120133,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_QUEST",
+    "GadgetId": 71700542,
+    "StackLimit": 1,
+    "Weight": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 120134,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_QUEST",
+    "GadgetId": 71700543,
+    "StackLimit": 1,
+    "Weight": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 120135,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_QUEST",
+    "GadgetId": 71700544,
+    "StackLimit": 1,
+    "Weight": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 120136,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_QUEST",
+    "GadgetId": 71700545,
+    "StackLimit": 1,
+    "Weight": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 120137,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_QUEST",
+    "GadgetId": 71700546,
+    "StackLimit": 1,
+    "Weight": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 120138,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_QUEST",
+    "GadgetId": 71700547,
+    "StackLimit": 1,
+    "Weight": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 120139,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_QUEST",
+    "GadgetId": 71700548,
+    "StackLimit": 1,
+    "Weight": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 120140,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_QUEST",
+    "GadgetId": 71700549,
+    "StackLimit": 1,
+    "Weight": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 120141,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_QUEST",
+    "GadgetId": 71700550,
+    "StackLimit": 1,
+    "Weight": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 120152,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_QUEST",
+    "StackLimit": 1,
+    "Weight": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 120153,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_QUEST",
+    "StackLimit": 1,
+    "Weight": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 120154,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_QUEST",
+    "StackLimit": 1,
+    "Weight": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 120155,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_QUEST",
+    "StackLimit": 1,
+    "Weight": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 120156,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_QUEST",
+    "StackLimit": 1,
+    "Weight": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 120157,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_QUEST",
+    "StackLimit": 1,
+    "Weight": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 120158,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_QUEST",
+    "StackLimit": 1,
+    "Weight": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 120159,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_QUEST",
+    "StackLimit": 1,
+    "Weight": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 120160,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_QUEST",
+    "StackLimit": 1,
+    "Weight": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 120161,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_QUEST",
+    "StackLimit": 1,
+    "Weight": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 120180,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_QUEST",
+    "StackLimit": 1,
+    "Weight": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 120181,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_QUEST",
+    "StackLimit": 1,
+    "Weight": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
     "Id": 130001,
     "ItemType": "ITEM_MATERIAL",
     "NoFirstGetHint": false,
@@ -101565,6 +103535,7 @@
     "Rank": 287,
     "MaterialType": "MATERIAL_HOME_SEED",
     "StackLimit": 20,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -101600,6 +103571,7 @@
     "Rank": 286,
     "MaterialType": "MATERIAL_HOME_SEED",
     "StackLimit": 20,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -101635,6 +103607,7 @@
     "Rank": 285,
     "MaterialType": "MATERIAL_HOME_SEED",
     "StackLimit": 20,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -101670,6 +103643,7 @@
     "Rank": 284,
     "MaterialType": "MATERIAL_HOME_SEED",
     "StackLimit": 20,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -101705,6 +103679,7 @@
     "Rank": 283,
     "MaterialType": "MATERIAL_HOME_SEED",
     "StackLimit": 20,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -101740,6 +103715,7 @@
     "Rank": 282,
     "MaterialType": "MATERIAL_HOME_SEED",
     "StackLimit": 20,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -101775,6 +103751,7 @@
     "Rank": 281,
     "MaterialType": "MATERIAL_HOME_SEED",
     "StackLimit": 20,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -101810,6 +103787,7 @@
     "Rank": 280,
     "MaterialType": "MATERIAL_HOME_SEED",
     "StackLimit": 20,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -101845,6 +103823,7 @@
     "Rank": 279,
     "MaterialType": "MATERIAL_HOME_SEED",
     "StackLimit": 20,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -101880,6 +103859,7 @@
     "Rank": 278,
     "MaterialType": "MATERIAL_HOME_SEED",
     "StackLimit": 20,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -101915,6 +103895,7 @@
     "Rank": 277,
     "MaterialType": "MATERIAL_HOME_SEED",
     "StackLimit": 20,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -101950,6 +103931,7 @@
     "Rank": 276,
     "MaterialType": "MATERIAL_HOME_SEED",
     "StackLimit": 20,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -101985,6 +103967,7 @@
     "Rank": 275,
     "MaterialType": "MATERIAL_HOME_SEED",
     "StackLimit": 20,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -102020,6 +104003,7 @@
     "Rank": 274,
     "MaterialType": "MATERIAL_HOME_SEED",
     "StackLimit": 20,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -102055,6 +104039,7 @@
     "Rank": 273,
     "MaterialType": "MATERIAL_HOME_SEED",
     "StackLimit": 20,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -102090,6 +104075,7 @@
     "Rank": 272,
     "MaterialType": "MATERIAL_HOME_SEED",
     "StackLimit": 20,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -102125,6 +104111,7 @@
     "Rank": 271,
     "MaterialType": "MATERIAL_HOME_SEED",
     "StackLimit": 20,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -102160,6 +104147,7 @@
     "Rank": 270,
     "MaterialType": "MATERIAL_HOME_SEED",
     "StackLimit": 20,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -102195,6 +104183,7 @@
     "Rank": 269,
     "MaterialType": "MATERIAL_HOME_SEED",
     "StackLimit": 20,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -102230,6 +104219,7 @@
     "Rank": 268,
     "MaterialType": "MATERIAL_HOME_SEED",
     "StackLimit": 20,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -102265,6 +104255,7 @@
     "Rank": 267,
     "MaterialType": "MATERIAL_HOME_SEED",
     "StackLimit": 20,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -102405,6 +104396,7 @@
     "Rank": 266,
     "MaterialType": "MATERIAL_HOME_SEED",
     "StackLimit": 20,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -102440,6 +104432,7 @@
     "Rank": 265,
     "MaterialType": "MATERIAL_HOME_SEED",
     "StackLimit": 20,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -102475,6 +104468,7 @@
     "Rank": 264,
     "MaterialType": "MATERIAL_HOME_SEED",
     "StackLimit": 20,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -102511,6 +104505,7 @@
     "Rank": 341,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -102547,6 +104542,7 @@
     "Rank": 341,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -102583,6 +104579,7 @@
     "Rank": 341,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -102619,6 +104616,7 @@
     "Rank": 341,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -102655,6 +104653,7 @@
     "Rank": 341,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -102691,6 +104690,7 @@
     "Rank": 341,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -102727,6 +104727,7 @@
     "Rank": 341,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -102763,6 +104764,7 @@
     "Rank": 341,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -102799,6 +104801,7 @@
     "Rank": 341,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -102835,6 +104838,7 @@
     "Rank": 341,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -102871,6 +104875,7 @@
     "Rank": 341,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -102907,6 +104912,7 @@
     "Rank": 341,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -102943,6 +104949,7 @@
     "Rank": 341,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -102979,6 +104986,7 @@
     "Rank": 341,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -103015,6 +105023,7 @@
     "Rank": 341,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -103051,6 +105060,7 @@
     "Rank": 341,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -103087,6 +105097,7 @@
     "Rank": 341,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -103123,6 +105134,7 @@
     "Rank": 341,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -103159,6 +105171,7 @@
     "Rank": 341,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -103195,6 +105208,7 @@
     "Rank": 341,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -103231,6 +105245,7 @@
     "Rank": 341,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -103267,6 +105282,7 @@
     "Rank": 341,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -103303,6 +105319,7 @@
     "Rank": 341,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -103339,6 +105356,7 @@
     "Rank": 341,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -103375,6 +105393,7 @@
     "Rank": 341,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -103411,6 +105430,7 @@
     "Rank": 341,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -103447,6 +105467,7 @@
     "Rank": 341,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -103483,6 +105504,7 @@
     "Rank": 341,
     "MaterialType": "MATERIAL_EXCHANGE",
     "StackLimit": 9999,
+    "DestroyRule": "DESTROY_RETURN_MATERIAL",
     "Weight": 1
   },
   {
@@ -114965,6 +116987,114 @@
   {
     "ItemUse": [
       {
+        "UseOp": "ITEM_USE_GAIN_NAME_CARD",
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 210140,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": true,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "MaterialType": "MATERIAL_NAMECARD",
+    "StackLimit": 1000,
+    "MaxUseCount": 99
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_NAME_CARD",
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 210141,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": true,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "MaterialType": "MATERIAL_NAMECARD",
+    "StackLimit": 1000,
+    "MaxUseCount": 99
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_NAME_CARD",
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 210142,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": true,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "MaterialType": "MATERIAL_NAMECARD",
+    "StackLimit": 1000,
+    "MaxUseCount": 99
+  },
+  {
+    "ItemUse": [
+      {
         "UseParam": [
           "",
           "",
@@ -117328,6 +119458,41 @@
     "SatiationParams": [],
     "DestroyReturnMaterial": [],
     "DestroyReturnMaterialCount": [],
+    "Id": 220073,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": true,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 15100,
+    "MaterialType": "MATERIAL_WIDGET",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
     "Id": 220074,
     "ItemType": "ITEM_MATERIAL",
     "NoFirstGetHint": false,
@@ -117375,6 +119540,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300201,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -117413,6 +119579,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300201,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -117451,6 +119618,7 @@
     "IsHidden": false,
     "RankLevel": 4,
     "Rank": 300201,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -117489,6 +119657,7 @@
     "IsHidden": false,
     "RankLevel": 4,
     "Rank": 300201,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -117527,6 +119696,7 @@
     "IsHidden": false,
     "RankLevel": 4,
     "Rank": 300201,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -117565,6 +119735,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300201,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -117603,6 +119774,7 @@
     "IsHidden": false,
     "RankLevel": 4,
     "Rank": 300201,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -117641,6 +119813,7 @@
     "IsHidden": false,
     "RankLevel": 4,
     "Rank": 300201,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -117679,6 +119852,7 @@
     "IsHidden": false,
     "RankLevel": 4,
     "Rank": 300201,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -117717,6 +119891,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300201,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -117755,6 +119930,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300201,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -117793,6 +119969,7 @@
     "IsHidden": false,
     "RankLevel": 4,
     "Rank": 300201,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -117831,6 +120008,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300201,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -117869,6 +120047,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300201,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -117907,6 +120086,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300201,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -117945,6 +120125,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300201,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -117983,6 +120164,7 @@
     "IsHidden": false,
     "RankLevel": 2,
     "Rank": 300201,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -118021,6 +120203,7 @@
     "IsHidden": false,
     "RankLevel": 3,
     "Rank": 300201,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -118059,6 +120242,7 @@
     "IsHidden": false,
     "RankLevel": 4,
     "Rank": 300201,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -118097,6 +120281,7 @@
     "IsHidden": false,
     "RankLevel": 4,
     "Rank": 300201,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -118136,6 +120321,7 @@
     "IsHidden": false,
     "RankLevel": 4,
     "Rank": 300201,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -118175,6 +120361,7 @@
     "IsHidden": false,
     "RankLevel": 4,
     "Rank": 300201,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -118214,6 +120401,7 @@
     "IsHidden": false,
     "RankLevel": 4,
     "Rank": 300201,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -118253,6 +120441,7 @@
     "IsHidden": false,
     "RankLevel": 4,
     "Rank": 300201,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -118292,6 +120481,7 @@
     "IsHidden": false,
     "RankLevel": 4,
     "Rank": 300201,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -118331,6 +120521,7 @@
     "IsHidden": false,
     "RankLevel": 4,
     "Rank": 300201,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -118370,6 +120561,7 @@
     "IsHidden": false,
     "RankLevel": 4,
     "Rank": 300201,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -118409,6 +120601,7 @@
     "IsHidden": false,
     "RankLevel": 4,
     "Rank": 300201,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -118448,6 +120641,7 @@
     "IsHidden": false,
     "RankLevel": 4,
     "Rank": 300201,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -118487,6 +120681,7 @@
     "IsHidden": false,
     "RankLevel": 4,
     "Rank": 300201,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -118526,6 +120721,7 @@
     "IsHidden": false,
     "RankLevel": 4,
     "Rank": 300201,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -118565,6 +120761,7 @@
     "IsHidden": false,
     "RankLevel": 4,
     "Rank": 300201,
+    "EffectGadgetID": 70600021,
     "MaterialType": "MATERIAL_CONSUME",
     "GadgetId": 70600021,
     "StackLimit": 2000,
@@ -118594,6 +120791,43 @@
     "DestroyReturnMaterial": [],
     "DestroyReturnMaterialCount": [],
     "Id": 222001,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 410011,
+    "MaterialType": "MATERIAL_CONSUME",
+    "StackLimit": 1,
+    "MaxUseCount": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_HOME_MODULE",
+        "UseParam": [
+          "5",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 222002,
     "ItemType": "ITEM_MATERIAL",
     "NoFirstGetHint": false,
     "IsForceGetHint": false,
@@ -121483,6 +123717,524 @@
     "DestroyReturnMaterial": [],
     "DestroyReturnMaterialCount": [],
     "Id": 350059,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300301,
+    "MaterialType": "MATERIAL_FURNITURE_SUITE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_SUITE",
+        "UseParam": [
+          "60",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 350060,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300301,
+    "MaterialType": "MATERIAL_FURNITURE_SUITE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_SUITE",
+        "UseParam": [
+          "61",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 350061,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300301,
+    "MaterialType": "MATERIAL_FURNITURE_SUITE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_SUITE",
+        "UseParam": [
+          "62",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 350062,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300301,
+    "MaterialType": "MATERIAL_FURNITURE_SUITE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_SUITE",
+        "UseParam": [
+          "63",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 350063,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300301,
+    "MaterialType": "MATERIAL_FURNITURE_SUITE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_SUITE",
+        "UseParam": [
+          "64",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 350064,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300301,
+    "MaterialType": "MATERIAL_FURNITURE_SUITE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_SUITE",
+        "UseParam": [
+          "65",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 350065,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300301,
+    "MaterialType": "MATERIAL_FURNITURE_SUITE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_SUITE",
+        "UseParam": [
+          "66",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 350066,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300301,
+    "MaterialType": "MATERIAL_FURNITURE_SUITE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_SUITE",
+        "UseParam": [
+          "67",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 350067,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300301,
+    "MaterialType": "MATERIAL_FURNITURE_SUITE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_SUITE",
+        "UseParam": [
+          "68",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 350068,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300301,
+    "MaterialType": "MATERIAL_FURNITURE_SUITE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_SUITE",
+        "UseParam": [
+          "69",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 350069,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300301,
+    "MaterialType": "MATERIAL_FURNITURE_SUITE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_SUITE",
+        "UseParam": [
+          "70",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 350070,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300301,
+    "MaterialType": "MATERIAL_FURNITURE_SUITE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_SUITE",
+        "UseParam": [
+          "71",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 350071,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300301,
+    "MaterialType": "MATERIAL_FURNITURE_SUITE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_SUITE",
+        "UseParam": [
+          "72",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 350072,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300301,
+    "MaterialType": "MATERIAL_FURNITURE_SUITE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_SUITE",
+        "UseParam": [
+          "73",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 350073,
     "ItemType": "ITEM_MATERIAL",
     "NoFirstGetHint": false,
     "IsForceGetHint": false,
@@ -137488,7 +140240,7 @@
     "CloseBagAfterUsed": false,
     "PlayGainEffect": false,
     "IsHidden": false,
-    "RankLevel": 3,
+    "RankLevel": 2,
     "Rank": 300401,
     "MaterialType": "MATERIAL_FURNITURE_FORMULA",
     "StackLimit": 1,
@@ -137526,7 +140278,7 @@
     "CloseBagAfterUsed": false,
     "PlayGainEffect": false,
     "IsHidden": false,
-    "RankLevel": 3,
+    "RankLevel": 2,
     "Rank": 300401,
     "MaterialType": "MATERIAL_FURNITURE_FORMULA",
     "StackLimit": 1,
@@ -137564,7 +140316,7 @@
     "CloseBagAfterUsed": false,
     "PlayGainEffect": false,
     "IsHidden": false,
-    "RankLevel": 3,
+    "RankLevel": 2,
     "Rank": 300401,
     "MaterialType": "MATERIAL_FURNITURE_FORMULA",
     "StackLimit": 1,
@@ -137602,7 +140354,7 @@
     "CloseBagAfterUsed": false,
     "PlayGainEffect": false,
     "IsHidden": false,
-    "RankLevel": 3,
+    "RankLevel": 2,
     "Rank": 300401,
     "MaterialType": "MATERIAL_FURNITURE_FORMULA",
     "StackLimit": 1,
@@ -138324,7 +141076,7 @@
     "CloseBagAfterUsed": false,
     "PlayGainEffect": false,
     "IsHidden": false,
-    "RankLevel": 3,
+    "RankLevel": 2,
     "Rank": 300401,
     "MaterialType": "MATERIAL_FURNITURE_FORMULA",
     "StackLimit": 1,
@@ -138362,7 +141114,7 @@
     "CloseBagAfterUsed": false,
     "PlayGainEffect": false,
     "IsHidden": false,
-    "RankLevel": 3,
+    "RankLevel": 2,
     "Rank": 300401,
     "MaterialType": "MATERIAL_FURNITURE_FORMULA",
     "StackLimit": 1,
@@ -138476,7 +141228,7 @@
     "CloseBagAfterUsed": false,
     "PlayGainEffect": false,
     "IsHidden": false,
-    "RankLevel": 3,
+    "RankLevel": 2,
     "Rank": 300401,
     "MaterialType": "MATERIAL_FURNITURE_FORMULA",
     "StackLimit": 1,
@@ -138514,7 +141266,7 @@
     "CloseBagAfterUsed": false,
     "PlayGainEffect": false,
     "IsHidden": false,
-    "RankLevel": 3,
+    "RankLevel": 2,
     "Rank": 300401,
     "MaterialType": "MATERIAL_FURNITURE_FORMULA",
     "StackLimit": 1,
@@ -139046,7 +141798,7 @@
     "CloseBagAfterUsed": false,
     "PlayGainEffect": false,
     "IsHidden": false,
-    "RankLevel": 3,
+    "RankLevel": 4,
     "Rank": 300401,
     "MaterialType": "MATERIAL_FURNITURE_FORMULA",
     "StackLimit": 1,
@@ -140225,6 +142977,1982 @@
     "PlayGainEffect": false,
     "IsHidden": false,
     "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "360104",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 380104,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "360204",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 380204,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "360304",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 380304,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "360504",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 380504,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "370711",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 390711,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "370712",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 390712,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "370713",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 390713,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "370714",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 390714,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "370715",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 390715,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "370716",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 390716,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "372606",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 392606,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "372607",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 392607,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "361319",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 381319,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "361320",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 381320,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "361321",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 381321,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "361506",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 381506,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "362233",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 382233,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "362234",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 382234,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "363335",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 383335,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "363336",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 383336,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "363337",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 383337,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "362109",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 382109,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "362110",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 382110,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "362111",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 382111,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "363108",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 383108,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "361404",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 381404,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "361405",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 381405,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "361109",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 381109,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "361110",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 381110,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "361213",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 381213,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "361214",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 381214,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "364216",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 384216,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "362235",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 382235,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "362236",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 382236,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "362237",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 382237,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "370718",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 390718,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "370719",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 390719,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "370720",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 390720,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "370721",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 390721,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "370722",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 390722,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "370723",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 390723,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "370724",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 390724,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "370726",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 390726,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "370727",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 390727,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "370728",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 390728,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "370729",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 390729,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "373361",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 393361,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "371126",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 391126,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "371127",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 391127,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "360422",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 380422,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "360423",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 380423,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "360424",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 380424,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
     "Rank": 300401,
     "MaterialType": "MATERIAL_FURNITURE_FORMULA",
     "StackLimit": 1,
