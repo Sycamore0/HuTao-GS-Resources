@@ -2910,6 +2910,17 @@
     "IsUseDefault": true
   },
   {
+    "AreaID": 10150,
+    "WeatherAreaId": 10150,
+    "MaxHeightStr": "",
+    "Templates": [],
+    "Priority": 2100,
+    "ProfileName": "Data/Environment/EnviroSystemProfile/Dungeon/ESP_FCDungeon_Delusion01",
+    "DefaultClimate": "CLIMATE_SUNNY",
+    "SceneID": 20169,
+    "IsUseDefault": true
+  },
+  {
     "AreaID": 10151,
     "WeatherAreaId": 10151,
     "MaxHeightStr": "",
@@ -2996,6 +3007,119 @@
     "ProfileName": "Data/Environment/EnviroSystemProfile/Dungeon/ESP_NahidaDungeon_01",
     "DefaultClimate": "CLIMATE_RAIN",
     "SceneID": 20165,
+    "IsUseDefault": true
+  },
+  {
+    "AreaID": 10166,
+    "WeatherAreaId": 10166,
+    "MaxHeightStr": "",
+    "Templates": [],
+    "Priority": 2000,
+    "ProfileName": "Data/Environment/EnviroSystemProfile/Dungeon/ESP_BrickBreaker01",
+    "DefaultClimate": "CLIMATE_SUNNY",
+    "SceneID": 35870,
+    "IsDefaultValid": true,
+    "IsUseDefault": true
+  },
+  {
+    "AreaID": 10167,
+    "WeatherAreaId": 10167,
+    "MaxHeightStr": "",
+    "Templates": [],
+    "Priority": 2100,
+    "ProfileName": "Data/Environment/EnviroSystemProfile/Dungeon/ESP_BrickBreaker01",
+    "DefaultClimate": "CLIMATE_CLOUDY",
+    "SceneID": 35870,
+    "IsUseDefault": true
+  },
+  {
+    "AreaID": 10168,
+    "WeatherAreaId": 10168,
+    "MaxHeightStr": "",
+    "Templates": [],
+    "Priority": 2200,
+    "ProfileName": "Data/Environment/EnviroSystemProfile/Dungeon/ESP_BrickBreaker01",
+    "DefaultClimate": "CLIMATE_RAIN",
+    "SceneID": 35870,
+    "IsUseDefault": true
+  },
+  {
+    "AreaID": 10169,
+    "WeatherAreaId": 10169,
+    "MaxHeightStr": "",
+    "Templates": [],
+    "Priority": 2000,
+    "ProfileName": "Data/Environment/EnviroSystemProfile/Dungeon/ESP_BrickBreaker01",
+    "DefaultClimate": "CLIMATE_SUNNY",
+    "SceneID": 35871,
+    "IsDefaultValid": true,
+    "IsUseDefault": true
+  },
+  {
+    "AreaID": 10170,
+    "WeatherAreaId": 10170,
+    "MaxHeightStr": "",
+    "Templates": [],
+    "Priority": 2100,
+    "ProfileName": "Data/Environment/EnviroSystemProfile/Dungeon/ESP_BrickBreaker01",
+    "DefaultClimate": "CLIMATE_CLOUDY",
+    "SceneID": 35871,
+    "IsUseDefault": true
+  },
+  {
+    "AreaID": 10171,
+    "WeatherAreaId": 10171,
+    "MaxHeightStr": "",
+    "Templates": [],
+    "Priority": 2200,
+    "ProfileName": "Data/Environment/EnviroSystemProfile/Dungeon/ESP_BrickBreaker01",
+    "DefaultClimate": "CLIMATE_RAIN",
+    "SceneID": 35871,
+    "IsUseDefault": true
+  },
+  {
+    "AreaID": 10172,
+    "WeatherAreaId": 10172,
+    "MaxHeightStr": "",
+    "Templates": [],
+    "Priority": 2000,
+    "ProfileName": "Data/Environment/EnviroSystemProfile/Dungeon/ESP_BrickBreaker01",
+    "DefaultClimate": "CLIMATE_SUNNY",
+    "SceneID": 35872,
+    "IsDefaultValid": true,
+    "IsUseDefault": true
+  },
+  {
+    "AreaID": 10173,
+    "WeatherAreaId": 10173,
+    "MaxHeightStr": "",
+    "Templates": [],
+    "Priority": 2100,
+    "ProfileName": "Data/Environment/EnviroSystemProfile/Dungeon/ESP_BrickBreaker01",
+    "DefaultClimate": "CLIMATE_CLOUDY",
+    "SceneID": 35872,
+    "IsUseDefault": true
+  },
+  {
+    "AreaID": 10174,
+    "WeatherAreaId": 10174,
+    "MaxHeightStr": "",
+    "Templates": [],
+    "Priority": 2200,
+    "ProfileName": "Data/Environment/EnviroSystemProfile/Dungeon/ESP_BrickBreaker01",
+    "DefaultClimate": "CLIMATE_RAIN",
+    "SceneID": 35872,
+    "IsUseDefault": true
+  },
+  {
+    "AreaID": 10175,
+    "WeatherAreaId": 10175,
+    "MaxHeightStr": "",
+    "Templates": [],
+    "Priority": 2100,
+    "ProfileName": "Data/Environment/EnviroSystemProfile/Dungeon/ESP_Xm33_Consciousness_Indoor",
+    "DefaultClimate": "CLIMATE_SUNNY",
+    "SceneID": 20167,
     "IsUseDefault": true
   },
   {
@@ -6007,6 +6131,16 @@
     "Templates": [],
     "Priority": 100,
     "ProfileName": "Data/Environment/EnviroSystemProfile/BigWorld/ESP_Dq_LiDao_General",
+    "DefaultClimate": "CLIMATE_SUNNY",
+    "SceneID": 3
+  },
+  {
+    "AreaID": 3501,
+    "WeatherAreaId": 3501,
+    "MaxHeightStr": "",
+    "Templates": [],
+    "Priority": 100,
+    "ProfileName": "Data/Environment/EnviroSystemProfile/BigWorld/ESP_Dq_General",
     "DefaultClimate": "CLIMATE_SUNNY",
     "SceneID": 3
   },

@@ -1356,8 +1356,8 @@
       "Config": [
         {
           "$type": "ModifySkillCD",
-          "Overtime": 10071,
-          "CdRatio": -0.15000000596046448
+          "SkillID": 10071,
+          "CdRatio": -0.15
         },
         {
           "$type": "UnlockTalentParam",
@@ -2188,13 +2188,14 @@
       "Config": [
         {
           "$type": "ModifySkillPoint",
-          "Overtime": 10032,
+          "SkillID": 10032,
           "PointDelta": 1
         },
         {
           "$type": "ModifySkillCD",
-          "Overtime": 10032,
-          "CdRatio": -0.20000000298023224
+          "SkillID": 10032,
+          "CdDelta": 0,
+          "CdRatio": -0.2
         }
       ],
       "PrevTalent": 213
@@ -3050,12 +3051,12 @@
       "Config": [
         {
           "$type": "ModifySkillPoint",
-          "Overtime": 10262,
+          "SkillID": 10262,
           "PointDelta": 1
         },
         {
           "$type": "ModifySkillPoint",
-          "Overtime": 10263,
+          "SkillID": 10263,
           "PointDelta": 1
         }
       ]
@@ -4165,8 +4166,8 @@
       "Config": [
         {
           "$type": "ModifySkillCD",
-          "Overtime": 10332,
-          "CdRatio": -0.20000000298023224
+          "SkillID": 10332,
+          "CdRatio": -0.2
         }
       ]
     },
@@ -4941,7 +4942,7 @@
       "Config": [
         {
           "$type": "ModifySkillPoint",
-          "Overtime": 10372,
+          "SkillID": 10372,
           "PointDelta": 1
         }
       ],
@@ -5914,7 +5915,7 @@
       "Config": [
         {
           "$type": "ModifySkillPoint",
-          "Overtime": 10432,
+          "SkillID": 10432,
           "PointDelta": 1
         }
       ]
@@ -6726,13 +6727,13 @@
         },
         {
           "$type": "ModifySkillCD",
-          "Overtime": 10472,
-          "CdRatio": -0.10000000149011612
+          "SkillID": 10472,
+          "CdRatio": -0.1
         },
         {
           "$type": "ModifySkillCD",
-          "Overtime": 10473,
-          "CdRatio": -0.10000000149011612
+          "SkillID": 10473,
+          "CdRatio": -0.1
         }
       ]
     },
@@ -9595,7 +9596,7 @@
       "Config": [
         {
           "$type": "ModifySkillPoint",
-          "Overtime": 10607,
+          "SkillID": 10607,
           "PointDelta": 1
         }
       ]
@@ -9960,7 +9961,7 @@
       "Config": [
         {
           "$type": "ModifySkillPoint",
-          "Overtime": 10632,
+          "SkillID": 10632,
           "PointDelta": 1
         }
       ]
@@ -10160,8 +10161,8 @@
       "Config": [
         {
           "$type": "ModifySkillCD",
-          "Overtime": 10642,
-          "CdRatio": -0.18000000715255737
+          "SkillID": 10642,
+          "CdRatio": -0.18
         }
       ]
     },
@@ -12127,8 +12128,8 @@
         },
         {
           "$type": "UnlockTalentParam",
-          "TalentParam": "Avatar_Nahida_ElementalBurst",
-          "Unk3000_PNCEHDELMMG": "Nahida_Constellation_1"
+          "AbilityName": "Avatar_Nahida_ElementalBurst",
+          "TalentParam": "Nahida_Constellation_1"
         }
       ]
     },
@@ -12153,8 +12154,8 @@
       "Config": [
         {
           "$type": "UnlockTalentParam",
-          "TalentParam": "Avatar_Nahida_ElementalArt",
-          "Unk3000_PNCEHDELMMG": "Nahida_Constellation_2"
+          "AbilityName": "Avatar_Nahida_ElementalArt",
+          "TalentParam": "Nahida_Constellation_2"
         },
         {
           "$type": "ModifyAbility",
@@ -12201,7 +12202,7 @@
       "Config": [
         {
           "$type": "AddTalentExtraLevel",
-          "TalentType": 3,
+          "TalentType": "AvatarSkill",
           "TalentIndex": 2,
           "ExtraLevel": 3
         }
@@ -12283,7 +12284,7 @@
       "Config": [
         {
           "$type": "AddTalentExtraLevel",
-          "TalentType": 3,
+          "TalentType": "AvatarSkill",
           "TalentIndex": 9,
           "ExtraLevel": 3
         }
@@ -12315,8 +12316,8 @@
         },
         {
           "$type": "UnlockTalentParam",
-          "TalentParam": "Avatar_Nahida_ElementalArt",
-          "Unk3000_PNCEHDELMMG": "Nahida_Constellation_6"
+          "AbilityName": "Avatar_Nahida_ElementalArt",
+          "TalentParam": "Nahida_Constellation_6"
         },
         {
           "$type": "ModifyAbility",
@@ -12370,8 +12371,8 @@
       "Config": [
         {
           "$type": "UnlockTalentParam",
-          "TalentParam": "Avatar_Layla_ElementalArt_Handler",
-          "Unk3000_PNCEHDELMMG": "Layla_Talent1_Param"
+          "AbilityName": "Avatar_Layla_ElementalArt_Handler",
+          "TalentParam": "Layla_Talent1_Param"
         },
         {
           "$type": "ModifyAbility",
@@ -12421,8 +12422,8 @@
         },
         {
           "$type": "UnlockTalentParam",
-          "TalentParam": "Avatar_Layla_ElementalArt_Bullet_Material",
-          "Unk3000_PNCEHDELMMG": "Layla_Talent2_Param"
+          "AbilityName": "Avatar_Layla_ElementalArt_Bullet_Material",
+          "TalentParam": "Layla_Talent2_Param"
         },
         {
           "$type": "ModifyAbility",
@@ -12455,7 +12456,7 @@
       "Config": [
         {
           "$type": "AddTalentExtraLevel",
-          "TalentType": 3,
+          "TalentType": "AvatarSkill",
           "TalentIndex": 2,
           "ExtraLevel": 3
         }
@@ -12487,8 +12488,8 @@
         },
         {
           "$type": "UnlockTalentParam",
-          "TalentParam": "Avatar_Layla_ElementalArt_Gadget",
-          "Unk3000_PNCEHDELMMG": "Layla_Talent4_Param"
+          "AbilityName": "Avatar_Layla_ElementalArt_Gadget",
+          "TalentParam": "Layla_Talent4_Param"
         },
         {
           "$type": "ModifyAbility",
@@ -12535,7 +12536,7 @@
       "Config": [
         {
           "$type": "AddTalentExtraLevel",
-          "TalentType": 3,
+          "TalentType": "AvatarSkill",
           "TalentIndex": 9,
           "ExtraLevel": 3
         }
@@ -12580,6 +12581,461 @@
         }
       ],
       "PrevTalent": 745
+    },
+    {
+      "Id": 751,
+      "Name": "Wanderer_Constellation_1",
+      "MainCostItemId": 1175,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.10000000149011612,
+        0.25,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "UnlockTalentParam",
+          "AbilityName": "Avatar_Wanderer_ElementalArt_HoverAir",
+          "TalentParam": "Wanderer_Constellation_1"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Wanderer_ElementalArt_HoverAir",
+          "ParamSpecial": "Constellation_2_AtkSpeed_Ratio",
+          "ParamDelta": "%1"
+        }
+      ]
+    },
+    {
+      "Id": 752,
+      "Name": "Wanderer_Constellation_2",
+      "MainCostItemId": 1175,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.03999999910593033,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "UnlockTalentParam",
+          "AbilityName": "Avatar_Wanderer_ElementalBurst",
+          "TalentParam": "Wanderer_Constellation_2"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Wanderer_ElementalBurst_Bullet",
+          "ParamSpecial": "Constellation_2_AddHurt_Ratio",
+          "ParamDelta": "%1"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Wanderer_ElementalBurst_Bullet",
+          "ParamSpecial": "Constellation_2_AddHurt_Ratio_Max",
+          "ParamDelta": "%2"
+        }
+      ],
+      "PrevTalent": 751
+    },
+    {
+      "Id": 753,
+      "Name": "Wanderer_Constellation_3",
+      "MainCostItemId": 1175,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddTalentExtraLevel",
+          "TalentType": "AvatarSkill",
+          "TalentIndex": 2,
+          "ExtraLevel": 3
+        }
+      ],
+      "PrevTalent": 752
+    },
+    {
+      "Id": 754,
+      "Name": "Wanderer_Constellation_4",
+      "MainCostItemId": 1175,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "UnlockTalentParam",
+          "AbilityName": "Avatar_Wanderer_PermanentSkill_1",
+          "TalentParam": "Wanderer_Constellation_4"
+        }
+      ],
+      "PrevTalent": 753
+    },
+    {
+      "Id": 755,
+      "Name": "Wanderer_Constellation_5",
+      "MainCostItemId": 1175,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddTalentExtraLevel",
+          "TalentType": "AvatarSkill",
+          "TalentIndex": 9,
+          "ExtraLevel": 3
+        }
+      ],
+      "PrevTalent": 754
+    },
+    {
+      "Id": 756,
+      "Name": "Wanderer_Constellation_6",
+      "MainCostItemId": 1175,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.4000000059604645,
+        4,
+        40,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "UnlockTalentParam",
+          "AbilityName": "Avatar_Wanderer_ElementalArt_Bullet_1",
+          "TalentParam": "Wanderer_Constellation_6"
+        },
+        {
+          "$type": "UnlockTalentParam",
+          "AbilityName": "Avatar_Wanderer_ElementalArt_Bullet_2",
+          "TalentParam": "Wanderer_Constellation_6"
+        },
+        {
+          "$type": "UnlockTalentParam",
+          "AbilityName": "Avatar_Wanderer_ElementalArt_Bullet_3",
+          "TalentParam": "Wanderer_Constellation_6"
+        },
+        {
+          "$type": "UnlockTalentParam",
+          "AbilityName": "Avatar_Wanderer_ElementalArt_Bullet_4",
+          "TalentParam": "Wanderer_Constellation_6"
+        },
+        {
+          "$type": "UnlockTalentParam",
+          "AbilityName": "Avatar_Wanderer_ElementalArt_HoverAir",
+          "TalentParam": "Wanderer_Constellation_6"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Wanderer_ElementalArt_Bullet_1_Extra",
+          "ParamSpecial": "NormalAttack_Constellation_6_Ratio",
+          "ParamDelta": "%1"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Wanderer_ElementalArt_Bullet_2_Extra",
+          "ParamSpecial": "NormalAttack_Constellation_6_Ratio",
+          "ParamDelta": "%1"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Wanderer_ElementalArt_Bullet_3_Extra",
+          "ParamSpecial": "NormalAttack_Constellation_6_Ratio",
+          "ParamDelta": "%1"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Wanderer_ElementalArt_Bullet_4_Extra",
+          "ParamSpecial": "NormalAttack_Constellation_6_Ratio",
+          "ParamDelta": "%1"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Wanderer_ElementalArt_HoverAir",
+          "ParamSpecial": "Constellation_6_Revive_Stamina",
+          "ParamDelta": "%2"
+        }
+      ],
+      "PrevTalent": 755
+    },
+    {
+      "Id": 761,
+      "Name": "Faruzan_Constellation_1",
+      "MainCostItemId": 1176,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Faruzan_Elemental_Art",
+          "ParamSpecial": "Faruzan_HurricaneArrow_MaxCount",
+          "ParamDelta": "%1"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Faruzan_ShootArrow_Aiming",
+          "ParamSpecial": "Faruzan_HurricaneArrow_MaxCount",
+          "ParamDelta": "%1"
+        }
+      ]
+    },
+    {
+      "Id": 762,
+      "Name": "Faruzan_Constellation_2",
+      "MainCostItemId": 1176,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Faruzan_ElementalBurst_Gadget",
+          "ParamSpecial": "Faruzan_ElementalBurst_Gadget_Duration",
+          "ParamDelta": "%1"
+        }
+      ],
+      "PrevTalent": 761
+    },
+    {
+      "Id": 763,
+      "Name": "Faruzan_Constellation_3",
+      "MainCostItemId": 1176,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddTalentExtraLevel",
+          "TalentType": "AvatarSkill",
+          "TalentIndex": 9,
+          "ExtraLevel": 3
+        }
+      ],
+      "PrevTalent": 762
+    },
+    {
+      "Id": 764,
+      "Name": "Faruzan_Constellation_4",
+      "MainCostItemId": 1176,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        2,
+        0.5,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "UnlockTalentParam",
+          "AbilityName": "Avatar_Faruzan_Aim_TrackBullet_Material",
+          "TalentParam": "Faruzan_Constellation_4"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Faruzan_Aim_TrackBullet_Material",
+          "ParamSpecial": "ReviveEnergyBaseValue",
+          "ParamDelta": "%1"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Faruzan_Aim_TrackBullet_Material",
+          "ParamSpecial": "ReviveEnergyExtraValue",
+          "ParamDelta": "%2"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Faruzan_Aim_TrackBullet_Material",
+          "ParamSpecial": "ReviveEnergyExtraMaxValue",
+          "ParamDelta": "%3"
+        },
+        {
+          "$type": "UnlockTalentParam",
+          "AbilityName": "Avatar_Faruzan_WindBlackHole_Gadget",
+          "TalentParam": "Faruzan_Constellation_4"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Faruzan_WindBlackHole_Gadget",
+          "ParamSpecial": "ReviveEnergyBaseValue",
+          "ParamDelta": "%4"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Faruzan_WindBlackHole_Gadget",
+          "ParamSpecial": "ReviveEnergyExtraValue",
+          "ParamDelta": "%5"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Faruzan_WindBlackHole_Gadget",
+          "ParamSpecial": "ReviveEnergyExtraMaxValue",
+          "ParamDelta": "%6"
+        }
+      ],
+      "PrevTalent": 763
+    },
+    {
+      "Id": 765,
+      "Name": "Faruzan_Constellation_5",
+      "MainCostItemId": 1176,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddTalentExtraLevel",
+          "TalentType": "AvatarSkill",
+          "TalentIndex": 2,
+          "ExtraLevel": 3
+        }
+      ],
+      "PrevTalent": 764
+    },
+    {
+      "Id": 766,
+      "Name": "Faruzan_Constellation_6",
+      "MainCostItemId": 1176,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.4000000059604645,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "UnlockTalentParam",
+          "AbilityName": "Faruzan_ElementalBurst_Gadget_Controller",
+          "TalentParam": "Faruzan_Constellation_6"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Faruzan_ElementalBurst_Gadget_Controller",
+          "ParamSpecial": "CriticalHurtUpRatio",
+          "ParamDelta": "%1"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Faruzan_Constellation6_AutoHurricaneArrow",
+          "ParamSpecial": "AutoHurricaneArrow_CD_Duration",
+          "ParamDelta": "%2"
+        }
+      ],
+      "PrevTalent": 765
     }
   ],
   "Equip": [
@@ -17853,6 +18309,255 @@
           "AbilityName": "Weapon_Sword_Pleroma",
           "ParamSpecial": "TeamInheritRatio",
           "ParamDelta": "%4",
+          "ParamRatio": 0
+        }
+      ],
+      "Level": 4
+    },
+    {
+      "AffixId": 1114220,
+      "Id": 111422,
+      "Name": "Weapon_Sword_Kasabouzu",
+      "NameTextMapHash": 3451100379,
+      "DescTextMapHash": 4144694345,
+      "AddProps": [
+        {},
+        {},
+        {}
+      ],
+      "ParamList": [
+        10,
+        0.1599999964237213,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddAbility",
+          "AbilityName": "Weapon_Sword_Kasabouzu"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Sword_Kasabouzu",
+          "ParamSpecial": "Dura",
+          "ParamDelta": "%1",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Sword_Kasabouzu",
+          "ParamSpecial": "Ratio",
+          "ParamDelta": "%2",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Sword_Kasabouzu",
+          "ParamSpecial": "CDTime",
+          "ParamDelta": "%3",
+          "ParamRatio": 0
+        }
+      ]
+    },
+    {
+      "AffixId": 1114221,
+      "Id": 111422,
+      "Name": "Weapon_Sword_Kasabouzu",
+      "NameTextMapHash": 1435365675,
+      "DescTextMapHash": 4192568969,
+      "AddProps": [
+        {},
+        {},
+        {}
+      ],
+      "ParamList": [
+        10,
+        0.20000000298023224,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddAbility",
+          "AbilityName": "Weapon_Sword_Kasabouzu"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Sword_Kasabouzu",
+          "ParamSpecial": "Dura",
+          "ParamDelta": "%1",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Sword_Kasabouzu",
+          "ParamSpecial": "Ratio",
+          "ParamDelta": "%2",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Sword_Kasabouzu",
+          "ParamSpecial": "CDTime",
+          "ParamDelta": "%3",
+          "ParamRatio": 0
+        }
+      ],
+      "Level": 1
+    },
+    {
+      "AffixId": 1114222,
+      "Id": 111422,
+      "Name": "Weapon_Sword_Kasabouzu",
+      "NameTextMapHash": 1769231171,
+      "DescTextMapHash": 3708899353,
+      "AddProps": [
+        {},
+        {},
+        {}
+      ],
+      "ParamList": [
+        10,
+        0.23999999463558197,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddAbility",
+          "AbilityName": "Weapon_Sword_Kasabouzu"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Sword_Kasabouzu",
+          "ParamSpecial": "Dura",
+          "ParamDelta": "%1",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Sword_Kasabouzu",
+          "ParamSpecial": "Ratio",
+          "ParamDelta": "%2",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Sword_Kasabouzu",
+          "ParamSpecial": "CDTime",
+          "ParamDelta": "%3",
+          "ParamRatio": 0
+        }
+      ],
+      "Level": 2
+    },
+    {
+      "AffixId": 1114223,
+      "Id": 111422,
+      "Name": "Weapon_Sword_Kasabouzu",
+      "NameTextMapHash": 2358176443,
+      "DescTextMapHash": 4047793905,
+      "AddProps": [
+        {},
+        {},
+        {}
+      ],
+      "ParamList": [
+        10,
+        0.2800000011920929,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddAbility",
+          "AbilityName": "Weapon_Sword_Kasabouzu"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Sword_Kasabouzu",
+          "ParamSpecial": "Dura",
+          "ParamDelta": "%1",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Sword_Kasabouzu",
+          "ParamSpecial": "Ratio",
+          "ParamDelta": "%2",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Sword_Kasabouzu",
+          "ParamSpecial": "CDTime",
+          "ParamDelta": "%3",
+          "ParamRatio": 0
+        }
+      ],
+      "Level": 3
+    },
+    {
+      "AffixId": 1114224,
+      "Id": 111422,
+      "Name": "Weapon_Sword_Kasabouzu",
+      "NameTextMapHash": 2029582603,
+      "DescTextMapHash": 3683552009,
+      "AddProps": [
+        {},
+        {},
+        {}
+      ],
+      "ParamList": [
+        10,
+        0.3199999928474426,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddAbility",
+          "AbilityName": "Weapon_Sword_Kasabouzu"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Sword_Kasabouzu",
+          "ParamSpecial": "Dura",
+          "ParamDelta": "%1",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Sword_Kasabouzu",
+          "ParamSpecial": "Ratio",
+          "ParamDelta": "%2",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Sword_Kasabouzu",
+          "ParamSpecial": "CDTime",
+          "ParamDelta": "%3",
           "ParamRatio": 0
         }
       ],
@@ -40380,6 +41085,395 @@
       "Level": 4
     },
     {
+      "AffixId": 1145120,
+      "Id": 114512,
+      "Name": "Weapon_Catalyst_Alaya",
+      "NameTextMapHash": 2327126659,
+      "DescTextMapHash": 214290361,
+      "AddProps": [
+        {},
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.10000000149011612,
+        0.04800000041723251,
+        14,
+        1,
+        2,
+        0.30000001192092896,
+        10,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddAbility",
+          "AbilityName": "Weapon_Catalyst_Alaya"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Catalyst_Alaya",
+          "ParamSpecial": "Speed_Rate",
+          "ParamDelta": "%1",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Catalyst_Alaya",
+          "ParamSpecial": "Ratio_Per_Stack",
+          "ParamDelta": "%2",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Catalyst_Alaya",
+          "ParamSpecial": "Dura",
+          "ParamDelta": "%3",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Catalyst_Alaya",
+          "ParamSpecial": "Interval",
+          "ParamDelta": "%4",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Catalyst_Alaya",
+          "ParamSpecial": "AttackStack",
+          "ParamDelta": "%5",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Catalyst_Alaya",
+          "ParamSpecial": "Trigger_CD",
+          "ParamDelta": "%6",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Catalyst_Alaya",
+          "ParamSpecial": "MaxStack",
+          "ParamDelta": "%7",
+          "ParamRatio": 0
+        }
+      ]
+    },
+    {
+      "AffixId": 1145121,
+      "Id": 114512,
+      "Name": "Weapon_Catalyst_Alaya",
+      "NameTextMapHash": 1263737019,
+      "DescTextMapHash": 4045676329,
+      "AddProps": [
+        {},
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.125,
+        0.05999999865889549,
+        14,
+        1,
+        2,
+        0.30000001192092896,
+        10,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddAbility",
+          "AbilityName": "Weapon_Catalyst_Alaya"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Catalyst_Alaya",
+          "ParamSpecial": "Speed_Rate",
+          "ParamDelta": "%1",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Catalyst_Alaya",
+          "ParamSpecial": "Ratio_Per_Stack",
+          "ParamDelta": "%2",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Catalyst_Alaya",
+          "ParamSpecial": "Dura",
+          "ParamDelta": "%3",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Catalyst_Alaya",
+          "ParamSpecial": "Interval",
+          "ParamDelta": "%4",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Catalyst_Alaya",
+          "ParamSpecial": "AttackStack",
+          "ParamDelta": "%5",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Catalyst_Alaya",
+          "ParamSpecial": "Trigger_CD",
+          "ParamDelta": "%6",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Catalyst_Alaya",
+          "ParamSpecial": "MaxStack",
+          "ParamDelta": "%7",
+          "ParamRatio": 0
+        }
+      ],
+      "Level": 1
+    },
+    {
+      "AffixId": 1145122,
+      "Id": 114512,
+      "Name": "Weapon_Catalyst_Alaya",
+      "NameTextMapHash": 1566273531,
+      "DescTextMapHash": 3361863785,
+      "AddProps": [
+        {},
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.15000000596046448,
+        0.07199999690055847,
+        14,
+        1,
+        2,
+        0.30000001192092896,
+        10,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddAbility",
+          "AbilityName": "Weapon_Catalyst_Alaya"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Catalyst_Alaya",
+          "ParamSpecial": "Speed_Rate",
+          "ParamDelta": "%1",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Catalyst_Alaya",
+          "ParamSpecial": "Ratio_Per_Stack",
+          "ParamDelta": "%2",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Catalyst_Alaya",
+          "ParamSpecial": "Dura",
+          "ParamDelta": "%3",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Catalyst_Alaya",
+          "ParamSpecial": "Interval",
+          "ParamDelta": "%4",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Catalyst_Alaya",
+          "ParamSpecial": "AttackStack",
+          "ParamDelta": "%5",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Catalyst_Alaya",
+          "ParamSpecial": "Trigger_CD",
+          "ParamDelta": "%6",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Catalyst_Alaya",
+          "ParamSpecial": "MaxStack",
+          "ParamDelta": "%7",
+          "ParamRatio": 0
+        }
+      ],
+      "Level": 2
+    },
+    {
+      "AffixId": 1145123,
+      "Id": 114512,
+      "Name": "Weapon_Catalyst_Alaya",
+      "NameTextMapHash": 1714786347,
+      "DescTextMapHash": 2360146377,
+      "AddProps": [
+        {},
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.17499999701976776,
+        0.08399999886751175,
+        14,
+        1,
+        2,
+        0.30000001192092896,
+        10,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddAbility",
+          "AbilityName": "Weapon_Catalyst_Alaya"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Catalyst_Alaya",
+          "ParamSpecial": "Speed_Rate",
+          "ParamDelta": "%1",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Catalyst_Alaya",
+          "ParamSpecial": "Ratio_Per_Stack",
+          "ParamDelta": "%2",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Catalyst_Alaya",
+          "ParamSpecial": "Dura",
+          "ParamDelta": "%3",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Catalyst_Alaya",
+          "ParamSpecial": "Interval",
+          "ParamDelta": "%4",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Catalyst_Alaya",
+          "ParamSpecial": "AttackStack",
+          "ParamDelta": "%5",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Catalyst_Alaya",
+          "ParamSpecial": "Trigger_CD",
+          "ParamDelta": "%6",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Catalyst_Alaya",
+          "ParamSpecial": "MaxStack",
+          "ParamDelta": "%7",
+          "ParamRatio": 0
+        }
+      ],
+      "Level": 3
+    },
+    {
+      "AffixId": 1145124,
+      "Id": 114512,
+      "Name": "Weapon_Catalyst_Alaya",
+      "NameTextMapHash": 2351445619,
+      "DescTextMapHash": 3801119057,
+      "AddProps": [
+        {},
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.20000000298023224,
+        0.09600000083446503,
+        14,
+        1,
+        2,
+        0.30000001192092896,
+        10,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddAbility",
+          "AbilityName": "Weapon_Catalyst_Alaya"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Catalyst_Alaya",
+          "ParamSpecial": "Speed_Rate",
+          "ParamDelta": "%1",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Catalyst_Alaya",
+          "ParamSpecial": "Ratio_Per_Stack",
+          "ParamDelta": "%2",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Catalyst_Alaya",
+          "ParamSpecial": "Dura",
+          "ParamDelta": "%3",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Catalyst_Alaya",
+          "ParamSpecial": "Interval",
+          "ParamDelta": "%4",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Catalyst_Alaya",
+          "ParamSpecial": "AttackStack",
+          "ParamDelta": "%5",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Catalyst_Alaya",
+          "ParamSpecial": "Trigger_CD",
+          "ParamDelta": "%6",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Catalyst_Alaya",
+          "ParamSpecial": "MaxStack",
+          "ParamDelta": "%7",
+          "ParamRatio": 0
+        }
+      ],
+      "Level": 4
+    },
+    {
       "AffixId": 1153010,
       "Id": 115301,
       "Name": "Weapon_Bow_DamageUpToEnemy",
@@ -51293,6 +52387,174 @@
           "AbilityName": "Relic_ElemMasteryGathering",
           "ParamSpecial": "Trigger_CD",
           "ParamDelta": "%4"
+        }
+      ],
+      "Level": 1
+    },
+    {
+      "AffixId": 2150270,
+      "Id": 215027,
+      "Name": "",
+      "NameTextMapHash": 1473084923,
+      "DescTextMapHash": 508888905,
+      "AddProps": [
+        {
+          "PropType": "FIGHT_PROP_WIND_ADD_HURT",
+          "Value": 0.15000000596046448
+        },
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.15000000596046448,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "AffixId": 2150271,
+      "Id": 215027,
+      "Name": "Relic_ExtraAttackCauseSpeedAndDamage",
+      "NameTextMapHash": 2538235187,
+      "DescTextMapHash": 394891321,
+      "AddProps": [
+        {},
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.10000000149011612,
+        0.4000000059604645,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddAbility",
+          "AbilityName": "Relic_ExtraAttackCauseSpeedAndDamage"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Relic_ExtraAttackCauseSpeedAndDamage",
+          "ParamSpecial": "Rate1",
+          "ParamDelta": "%1"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Relic_ExtraAttackCauseSpeedAndDamage",
+          "ParamSpecial": "Rate2",
+          "ParamDelta": "%2"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Relic_ExtraAttackCauseSpeedAndDamage",
+          "ParamSpecial": "Dura",
+          "ParamDelta": "%3"
+        }
+      ],
+      "Level": 1
+    },
+    {
+      "AffixId": 2150280,
+      "Id": 215028,
+      "Name": "",
+      "NameTextMapHash": 440290627,
+      "DescTextMapHash": 2339860337,
+      "AddProps": [
+        {
+          "PropType": "FIGHT_PROP_ELEMENT_MASTERY",
+          "Value": 80
+        },
+        {},
+        {}
+      ],
+      "ParamList": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "AffixId": 2150281,
+      "Id": 215028,
+      "Name": "Relic_OvergrowReactionEnhance",
+      "NameTextMapHash": 3094139291,
+      "DescTextMapHash": 2451397817,
+      "AddProps": [
+        {},
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.4000000059604645,
+        0.4000000059604645,
+        0.4000000059604645,
+        10,
+        4,
+        0.25,
+        1,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddAbility",
+          "AbilityName": "Relic_OvergrowReactionEnhance"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Relic_OvergrowReactionEnhance",
+          "ParamSpecial": "Overgrow_Up_Percentage",
+          "ParamDelta": "%1"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Relic_OvergrowReactionEnhance",
+          "ParamSpecial": "OvergrowFire_Up_Percentage",
+          "ParamDelta": "%2"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Relic_OvergrowReactionEnhance",
+          "ParamSpecial": "OvergrowElectric_Up_Percentage",
+          "ParamDelta": "%3"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Relic_OvergrowReactionEnhance",
+          "ParamSpecial": "Duration",
+          "ParamDelta": "%4"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Relic_OvergrowReactionEnhance",
+          "ParamSpecial": "Stack",
+          "ParamDelta": "%5"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Relic_OvergrowReactionEnhance",
+          "ParamSpecial": "TransRatio",
+          "ParamDelta": "%6"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Relic_OvergrowReactionEnhance",
+          "ParamSpecial": "Trigger_CD",
+          "ParamDelta": "%7"
         }
       ],
       "Level": 1

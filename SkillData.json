@@ -3390,36 +3390,101 @@
       "EnergySkill": 10745
     },
     {
-      "Id": 7601,
+      "Id": 7501,
       "Skills": [
-        0,
-        0,
+        10751,
+        10752,
         0,
         0
       ],
-      "SubSkills": [],
+      "SubSkills": [
+        10753,
+        10756,
+        10757,
+        10758,
+        10759,
+        10750,
+        10003,
+        5075010
+      ],
       "ExtraAbilities": [
         "",
         "",
         ""
       ],
       "Talents": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
+        751,
+        752,
+        753,
+        754,
+        755,
+        756
       ],
-      "TalentStarName": "",
+      "TalentStarName": "Talent_Wanderer",
       "InherentProudSkillOpens": [
-        {},
-        {},
-        {},
+        {
+          "ProudSkillGroupId": 7521,
+          "NeedAvatarPromoteLevel": 1
+        },
+        {
+          "ProudSkillGroupId": 7522,
+          "NeedAvatarPromoteLevel": 4
+        },
+        {
+          "ProudSkillGroupId": 7523
+        },
         {},
         {}
       ],
-      "SkillDepotAbilityGroup": ""
+      "SkillDepotAbilityGroup": "",
+      "EnergySkill": 10755
+    },
+    {
+      "Id": 7601,
+      "Skills": [
+        10761,
+        10762,
+        0,
+        0
+      ],
+      "SubSkills": [
+        10764,
+        10101,
+        10102,
+        5076010
+      ],
+      "ExtraAbilities": [
+        "",
+        "",
+        ""
+      ],
+      "Talents": [
+        761,
+        762,
+        763,
+        764,
+        765,
+        766
+      ],
+      "TalentStarName": "Talent_Faruzan",
+      "InherentProudSkillOpens": [
+        {
+          "ProudSkillGroupId": 7621,
+          "NeedAvatarPromoteLevel": 1
+        },
+        {
+          "ProudSkillGroupId": 7622,
+          "NeedAvatarPromoteLevel": 4
+        },
+        {
+          "ProudSkillGroupId": 7623
+        },
+        {},
+        {}
+      ],
+      "SkillDepotAbilityGroup": "",
+      "EnergySkill": 10765,
+      "AttackModeSkill": 20000
     },
     {
       "Id": 8011,
@@ -6442,6 +6507,115 @@
       "CostElemVal": 40
     },
     {
+      "Id": 10751,
+      "AbilityName": "Avatar_Wanderer_ExtraAttack",
+      "MaxChargeNum": 1,
+      "GlobalValueKey": "",
+      "ProudSkillGroupId": 7531
+    },
+    {
+      "Id": 10752,
+      "AbilityName": "",
+      "MaxChargeNum": 1,
+      "GlobalValueKey": "",
+      "CdTime": 6,
+      "TriggerID": 2,
+      "ProudSkillGroupId": 7532
+    },
+    {
+      "Id": 10753,
+      "AbilityName": "",
+      "MaxChargeNum": 1,
+      "GlobalValueKey": "",
+      "CdTime": 15,
+      "TriggerID": 3,
+      "CostElemType": "Wind",
+      "CostElemVal": 60
+    },
+    {
+      "Id": 10755,
+      "AbilityName": "",
+      "MaxChargeNum": 1,
+      "GlobalValueKey": "",
+      "CdTime": 15,
+      "TriggerID": 5,
+      "ProudSkillGroupId": 7539,
+      "CostElemType": "Wind",
+      "CostElemVal": 60
+    },
+    {
+      "Id": 10756,
+      "AbilityName": "",
+      "MaxChargeNum": 1,
+      "GlobalValueKey": "",
+      "TriggerID": 6,
+      "ForceCanDoSkill": true
+    },
+    {
+      "Id": 10757,
+      "AbilityName": "Avatar_Wanderer_WeaponVisible",
+      "MaxChargeNum": 1,
+      "GlobalValueKey": ""
+    },
+    {
+      "Id": 10758,
+      "AbilityName": "Avatar_Wanderer_ElementalArt_HoverAir_Shoot",
+      "MaxChargeNum": 1,
+      "GlobalValueKey": ""
+    },
+    {
+      "Id": 10759,
+      "AbilityName": "",
+      "MaxChargeNum": 1,
+      "GlobalValueKey": "",
+      "CostStamina": 1,
+      "TriggerID": 8,
+      "DragType": "DRAG_ROTATE_CAMERA"
+    },
+    {
+      "Id": 10750,
+      "AbilityName": "",
+      "MaxChargeNum": 1,
+      "GlobalValueKey": "",
+      "CostStamina": 1,
+      "TriggerID": 9
+    },
+    {
+      "Id": 10761,
+      "AbilityName": "Avatar_Faruzan_PressShoot",
+      "MaxChargeNum": 1,
+      "GlobalValueKey": "",
+      "ProudSkillGroupId": 7631,
+      "IsRanged": true
+    },
+    {
+      "Id": 10762,
+      "AbilityName": "",
+      "MaxChargeNum": 1,
+      "GlobalValueKey": "",
+      "CdTime": 6,
+      "TriggerID": 2,
+      "ProudSkillGroupId": 7632
+    },
+    {
+      "Id": 10764,
+      "AbilityName": "Avatar_Faruzan_AimPressShoot",
+      "MaxChargeNum": 1,
+      "GlobalValueKey": "",
+      "IsRanged": true
+    },
+    {
+      "Id": 10765,
+      "AbilityName": "",
+      "MaxChargeNum": 1,
+      "GlobalValueKey": "",
+      "CdTime": 20,
+      "TriggerID": 5,
+      "ProudSkillGroupId": 7639,
+      "CostElemType": "Wind",
+      "CostElemVal": 80
+    },
+    {
       "Id": 20001,
       "AbilityName": "Dvalin_S01_AirGun",
       "MaxChargeNum": 1,
@@ -6966,6 +7140,54 @@
       "EnergyMin": 50
     },
     {
+      "Id": 20521,
+      "AbilityName": "ActivityAbility_HideSeek_Seeker_Net_V3",
+      "MaxChargeNum": 2,
+      "GlobalValueKey": "",
+      "CdTime": 10,
+      "IgnoreCDMinusRatio": true
+    },
+    {
+      "Id": 20522,
+      "AbilityName": "ActivityAbility_HideSeek_Ghost_Bait_V3",
+      "MaxChargeNum": 2,
+      "GlobalValueKey": "",
+      "CdTime": 20,
+      "IgnoreCDMinusRatio": true
+    },
+    {
+      "Id": 20523,
+      "AbilityName": "ActivityAbility_HideSeek_Hider_InvisibleBait_V3",
+      "MaxChargeNum": 1,
+      "GlobalValueKey": "",
+      "CdTime": 60,
+      "IgnoreCDMinusRatio": true
+    },
+    {
+      "Id": 20524,
+      "AbilityName": "ActivityAbility_HideSeek_Seeker_Guide_V3",
+      "MaxChargeNum": 1,
+      "GlobalValueKey": "",
+      "CdTime": 40,
+      "IgnoreCDMinusRatio": true
+    },
+    {
+      "Id": 20525,
+      "AbilityName": "ActivityAbility_HideSeek_Hider_DisguiseHandler_V3",
+      "MaxChargeNum": 1,
+      "GlobalValueKey": "",
+      "CdTime": 0.5,
+      "IgnoreCDMinusRatio": true
+    },
+    {
+      "Id": 20526,
+      "AbilityName": "",
+      "MaxChargeNum": 1,
+      "GlobalValueKey": "",
+      "CdTime": 15,
+      "IgnoreCDMinusRatio": true
+    },
+    {
       "Id": 20310,
       "AbilityName": "",
       "MaxChargeNum": 1,
@@ -7019,7 +7241,7 @@
     },
     {
       "Id": 20320,
-      "AbilityName": "ActivityAbility_Avatar_Blocking",
+      "AbilityName": "ActivityAbility_Avatar_Blocking_V2",
       "MaxChargeNum": 1,
       "GlobalValueKey": "",
       "CdTime": 1,
@@ -7040,6 +7262,14 @@
       "GlobalValueKey": "",
       "CdTime": 1,
       "IgnoreCDMinusRatio": true
+    },
+    {
+      "Id": 20340,
+      "AbilityName": "ActivityAbility_Breakout_Ver1",
+      "MaxChargeNum": 1,
+      "GlobalValueKey": "AVATAR_BREAKOUT_ENERGY",
+      "IgnoreCDMinusRatio": true,
+      "EnergyMin": 100
     },
     {
       "Id": 10384,
@@ -7670,6 +7900,13 @@
     },
     {
       "Id": 5074010,
+      "AbilityName": "",
+      "MaxChargeNum": 1,
+      "GlobalValueKey": "",
+      "TriggerID": 30
+    },
+    {
+      "Id": 5075010,
       "AbilityName": "",
       "MaxChargeNum": 1,
       "GlobalValueKey": "",
@@ -20840,7 +21077,7 @@
         3072720191,
         1534337428,
         1102694211,
-        3384952375,
+        172415391,
         2074190659,
         399079078,
         4225114573
@@ -229759,6 +229996,7092 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 752101,
+      "GroupId": 7521,
+      "Level": 1,
+      "Type": 2,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3203769270,
+        565931310,
+        2962270127,
+        2348018015,
+        2994748534,
+        3396618754,
+        3106598335,
+        270506373,
+        3852688244,
+        2275213167,
+        4005418876,
+        403667923,
+        428259895,
+        2963338899,
+        655630166,
+        73446669
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_PermanentSkill_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.30000001192092896,
+        20,
+        0.20000000298023224,
+        0.800000011920929,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 1
+    },
+    {
+      "Id": 752201,
+      "GroupId": 7522,
+      "Level": 1,
+      "Type": 2,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        871386862,
+        2689970670,
+        2710733807,
+        186213711,
+        3295051974,
+        984722850,
+        3846935103,
+        913498445,
+        3780701340,
+        13551479,
+        3162995100,
+        3894200939,
+        3879952599,
+        647511955,
+        1870728414,
+        2539757213
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_PermanentSkill_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.1599999964237213,
+        0.11999999731779099,
+        0.3499999940395355,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 4
+    },
+    {
+      "Id": 752301,
+      "GroupId": 7523,
+      "Level": 1,
+      "Type": 2,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        720354126,
+        2449323678,
+        392955311,
+        3890679847,
+        471504862,
+        649821706,
+        3059395207,
+        3083469749,
+        2162555340,
+        3215316527,
+        2196926748,
+        3745359955,
+        4224217071,
+        3806245947,
+        1909402390,
+        2105204453
+      ],
+      "LifeEffectParams": [
+        "10,12",
+        "0.5",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "LifeEffectType": "PROUD_EFFECT_WEAPON_PROMOTE_REDUCE_SCOIN"
+    },
+    {
+      "Id": 753101,
+      "GroupId": 7531,
+      "Level": 1,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1393973022,
+        4041071694,
+        1339091215,
+        2501615799,
+        976289550,
+        676939138,
+        1121995599,
+        4098667397,
+        103287548,
+        1792056751,
+        116657340,
+        1896697211,
+        1346523215,
+        4096607771,
+        886572054,
+        2562994269
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.6871399879455566,
+        0.650160014629364,
+        0.4764400124549866,
+        0.4764400124549866,
+        1.3207999467849731,
+        50,
+        0.5682880282402039,
+        1.136335015296936,
+        1.4193439483642578,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "Id": 753102,
+      "GroupId": 7531,
+      "Level": 2,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104335,
+          "Count": 3
+        },
+        {
+          "Id": 112044,
+          "Count": 6
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1501626166,
+        3419631654,
+        3388364439,
+        3371129743,
+        404000246,
+        2612500394,
+        1123973999,
+        3374963669,
+        3774431628,
+        2105138887,
+        1154208972,
+        3498542947,
+        2254765983,
+        636919251,
+        3165418622,
+        707284461
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.7430700063705444,
+        0.7030799984931946,
+        0.5152199864387512,
+        0.5152199864387512,
+        1.4198600053787231,
+        50,
+        0.6145439743995667,
+        1.228827953338623,
+        1.534872055053711,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 2,
+      "CoinCost": 12500
+    },
+    {
+      "Id": 753103,
+      "GroupId": 7531,
+      "Level": 3,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104336,
+          "Count": 2
+        },
+        {
+          "Id": 112045,
+          "Count": 3
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        582486086,
+        628413374,
+        959653175,
+        4267344239,
+        3207560558,
+        1396229850,
+        2479850319,
+        190036053,
+        2868226412,
+        1772457303,
+        487529324,
+        1311267099,
+        2620927207,
+        1637193075,
+        3825976406,
+        562351893
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.7990000247955322,
+        0.7559999823570251,
+        0.5540000200271606,
+        0.5540000200271606,
+        1.5189199447631836,
+        50,
+        0.6607999801635742,
+        1.3213200569152832,
+        1.6504000425338745,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 3,
+      "CoinCost": 17500
+    },
+    {
+      "Id": 753104,
+      "GroupId": 7531,
+      "Level": 4,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104336,
+          "Count": 4
+        },
+        {
+          "Id": 112045,
+          "Count": 4
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2820014910,
+        2768676534,
+        1931166879,
+        2302873367,
+        2887986342,
+        3960089618,
+        4260406655,
+        3769150149,
+        2406031852,
+        521583247,
+        3458340748,
+        3018370891,
+        1684546559,
+        4083015995,
+        279795686,
+        2664641101
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.8788999915122986,
+        0.83160001039505,
+        0.6093999743461609,
+        0.6093999743461609,
+        1.6510000228881836,
+        50,
+        0.7268800139427185,
+        1.4534519910812378,
+        1.815440058708191,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 3,
+      "CoinCost": 25000
+    },
+    {
+      "Id": 753105,
+      "GroupId": 7531,
+      "Level": 5,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104336,
+          "Count": 6
+        },
+        {
+          "Id": 112045,
+          "Count": 6
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        27786302,
+        472600350,
+        2833363543,
+        943801063,
+        2980756462,
+        3548766258,
+        2595750447,
+        2698608749,
+        1605644812,
+        2683525823,
+        2858917604,
+        2144392771,
+        110103935,
+        1942262475,
+        1503951414,
+        1661668061
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.9348300099372864,
+        0.8845199942588806,
+        0.6481800079345703,
+        0.6481800079345703,
+        1.750059962272644,
+        50,
+        0.7731360197067261,
+        1.5459439754486084,
+        1.9309680461883545,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 4,
+      "CoinCost": 30000
+    },
+    {
+      "Id": 753106,
+      "GroupId": 7531,
+      "Level": 6,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104336,
+          "Count": 9
+        },
+        {
+          "Id": 112045,
+          "Count": 9
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2710325150,
+        3210651894,
+        3033427503,
+        1809033711,
+        305921998,
+        2351621154,
+        1589425343,
+        1057025957,
+        4237141588,
+        3838329439,
+        3918011372,
+        2153407027,
+        3263305367,
+        1017119043,
+        326438534,
+        3493810509
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.9987499713897705,
+        0.9449999928474426,
+        0.6924999952316284,
+        0.6924999952316284,
+        1.849120020866394,
+        50,
+        0.8259999752044678,
+        1.6516499519348145,
+        2.062999963760376,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 4,
+      "CoinCost": 37500
+    },
+    {
+      "Id": 753107,
+      "GroupId": 7531,
+      "Level": 7,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104337,
+          "Count": 4
+        },
+        {
+          "Id": 112046,
+          "Count": 4
+        },
+        {
+          "Id": 113043,
+          "Count": 1
+        },
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1636848830,
+        2239157382,
+        3189448087,
+        929956847,
+        3532698558,
+        1459323146,
+        3420158999,
+        2080289725,
+        4251762332,
+        4029795063,
+        2504652084,
+        1312002891,
+        1119655079,
+        2927228859,
+        799032078,
+        4798813
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.0866400003433228,
+        1.0281599760055542,
+        0.7534400224685669,
+        0.7534400224685669,
+        1.9811999797821045,
+        50,
+        0.898688018321991,
+        1.7969950437545776,
+        2.24454402923584,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 5,
+      "CoinCost": 120000
+    },
+    {
+      "Id": 753108,
+      "GroupId": 7531,
+      "Level": 8,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104337,
+          "Count": 6
+        },
+        {
+          "Id": 112046,
+          "Count": 6
+        },
+        {
+          "Id": 113043,
+          "Count": 1
+        },
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3898940830,
+        2880263270,
+        532975999,
+        2501353543,
+        3440222694,
+        3486657418,
+        935515823,
+        2133943093,
+        337315356,
+        3375673143,
+        4292048460,
+        4142929915,
+        2625928655,
+        1027282155,
+        3544175062,
+        2224641725
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.174530029296875,
+        1.1113200187683105,
+        0.8143799901008606,
+        0.8143799901008606,
+        2.1132800579071045,
+        50,
+        0.9713760018348694,
+        1.9423400163650513,
+        2.4260880947113037,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 5,
+      "CoinCost": 260000
+    },
+    {
+      "Id": 753109,
+      "GroupId": 7531,
+      "Level": 9,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104337,
+          "Count": 12
+        },
+        {
+          "Id": 112046,
+          "Count": 9
+        },
+        {
+          "Id": 113043,
+          "Count": 2
+        },
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        380454622,
+        3125737278,
+        1505313047,
+        497707295,
+        3373740054,
+        1216336778,
+        1839459871,
+        1408774565,
+        3347393300,
+        3230600935,
+        2306621396,
+        858422451,
+        3631452743,
+        1571679587,
+        333416206,
+        1816188381
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.2624200582504272,
+        1.1944799423217773,
+        0.8753200173377991,
+        0.8753200173377991,
+        2.2453598976135254,
+        50,
+        1.0440640449523926,
+        2.087686061859131,
+        2.6076319217681885,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6,
+      "CoinCost": 450000
+    },
+    {
+      "Id": 753110,
+      "GroupId": 7531,
+      "Level": 10,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104337,
+          "Count": 16
+        },
+        {
+          "Id": 112046,
+          "Count": 12
+        },
+        {
+          "Id": 113043,
+          "Count": 2
+        },
+        {
+          "Id": 104319,
+          "Count": 1
+        }
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        979037030,
+        1525053894,
+        2217829735,
+        317342695,
+        208843774,
+        1562511466,
+        1128536079,
+        21356981,
+        3791293084,
+        521488919,
+        513901284,
+        2373299779,
+        240261343,
+        884156035,
+        2360506582,
+        3555781365
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.358299970626831,
+        1.2851999998092651,
+        0.9417999982833862,
+        0.9417999982833862,
+        2.3774399757385254,
+        50,
+        1.12336003780365,
+        2.246243953704834,
+        2.8056800365448,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6,
+      "CoinCost": 700000
+    },
+    {
+      "Id": 753111,
+      "GroupId": 7531,
+      "Level": 11,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2143472750,
+        1104598086,
+        1036250135,
+        1880675679,
+        1769836950,
+        1668421922,
+        134495479,
+        731603645,
+        1051560708,
+        1184110311,
+        2084542964,
+        3092354827,
+        508255335,
+        1953013499,
+        3277875150,
+        2752529701
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.4541800022125244,
+        1.375920057296753,
+        1.0082800388336182,
+        1.0082800388336182,
+        2.5095200538635254,
+        50,
+        1.2026560306549072,
+        2.404802083969116,
+        3.003727912902832,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 753112,
+      "GroupId": 7531,
+      "Level": 12,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1211132934,
+        2689948974,
+        1024840127,
+        1930762023,
+        1326982158,
+        2128315042,
+        1015409559,
+        142908029,
+        2675036724,
+        3202388263,
+        2983097396,
+        286007523,
+        2022163463,
+        2041712675,
+        811512254,
+        3426009517
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.5500600337982178,
+        1.4666399955749512,
+        1.0747599601745605,
+        1.0747599601745605,
+        2.6415998935699463,
+        50,
+        1.2819520235061646,
+        2.5633609294891357,
+        3.2017760276794434,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 753113,
+      "GroupId": 7531,
+      "Level": 13,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        386816886,
+        3368508174,
+        3587920447,
+        792325199,
+        485358358,
+        966798642,
+        2571521991,
+        617669605,
+        4173231876,
+        3263332583,
+        1012863396,
+        2802991083,
+        320500415,
+        4238296811,
+        2839385614,
+        2218299389
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.6459399461746216,
+        1.557360053062439,
+        1.1412400007247925,
+        1.1412400007247925,
+        2.8066999912261963,
+        50,
+        1.3612480163574219,
+        2.721919059753418,
+        3.3998239040374756,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 753114,
+      "GroupId": 7531,
+      "Level": 14,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3263818526,
+        2023942438,
+        1787678647,
+        3387228447,
+        987546286,
+        2267058274,
+        2887762551,
+        45338765,
+        88427940,
+        1709999855,
+        1610860268,
+        575923051,
+        1602500623,
+        1171235627,
+        1475575854,
+        1263588933
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.741819977760315,
+        1.6480799913406372,
+        1.2077200412750244,
+        1.2077200412750244,
+        2.9718000888824463,
+        50,
+        1.4405440092086792,
+        2.8804779052734375,
+        3.597872018814087,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 753115,
+      "GroupId": 7531,
+      "Level": 15,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2751965030,
+        1265528838,
+        1712728143,
+        1451598231,
+        3208659510,
+        438411434,
+        2892831735,
+        805414669,
+        1119477972,
+        4002431199,
+        3290014092,
+        1955610507,
+        2861321927,
+        1576101299,
+        2022242230,
+        3347705597
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.8377000093460083,
+        1.738800048828125,
+        1.2741999626159668,
+        1.2741999626159668,
+        3.136899948120117,
+        50,
+        1.5198400020599365,
+        3.0390360355377197,
+        3.795919895172119,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 753201,
+      "GroupId": 7532,
+      "Level": 1,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2559285830,
+        3209630342,
+        4160699063,
+        4044518367,
+        2797357270,
+        3564216778,
+        3559978791,
+        2612613461,
+        466031964,
+        255878319,
+        682489460,
+        200472523,
+        4061564687,
+        2270680155,
+        2093252414,
+        1980835389
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.9520000219345093,
+        1.3298250436782837,
+        1.2638599872589111,
+        100,
+        6,
+        0,
+        0.3298250138759613,
+        0.26385998725891113,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "Id": 753202,
+      "GroupId": 7532,
+      "Level": 2,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104335,
+          "Count": 3
+        },
+        {
+          "Id": 112044,
+          "Count": 6
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3856903334,
+        2874379438,
+        1274410759,
+        3582438527,
+        3339418150,
+        3469834434,
+        3188548239,
+        3133227189,
+        1787969404,
+        3534460335,
+        1623150612,
+        3326306787,
+        617380167,
+        523473187,
+        2633459758,
+        638946181
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.0233999490737915,
+        1.3495750427246094,
+        1.2796599864959717,
+        100,
+        6,
+        0,
+        0.349575012922287,
+        0.2796599864959717,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 2,
+      "CoinCost": 12500
+    },
+    {
+      "Id": 753203,
+      "GroupId": 7532,
+      "Level": 3,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104336,
+          "Count": 2
+        },
+        {
+          "Id": 112045,
+          "Count": 3
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        4207603206,
+        2574205678,
+        3868408039,
+        2035561031,
+        3875346182,
+        2711774050,
+        4226126583,
+        2255517989,
+        291067364,
+        4256327791,
+        800427340,
+        1299034099,
+        2803132471,
+        3645694995,
+        1255632198,
+        2558193453
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.0947999954223633,
+        1.369325041770935,
+        1.2954599857330322,
+        100,
+        6,
+        0,
+        0.36932501196861267,
+        0.2954599857330322,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 3,
+      "CoinCost": 17500
+    },
+    {
+      "Id": 753204,
+      "GroupId": 7532,
+      "Level": 4,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104336,
+          "Count": 4
+        },
+        {
+          "Id": 112045,
+          "Count": 4
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2535451086,
+        3773102006,
+        3004396495,
+        4040337431,
+        2247933702,
+        1222479562,
+        3778638871,
+        1886301621,
+        549179260,
+        1884012527,
+        3505311660,
+        2946651539,
+        552491871,
+        380236643,
+        1866751182,
+        2711951557
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.190000057220459,
+        1.3949999809265137,
+        1.315999984741211,
+        100,
+        6,
+        0,
+        0.39500001072883606,
+        0.3160000145435333,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 3,
+      "CoinCost": 25000
+    },
+    {
+      "Id": 753205,
+      "GroupId": 7532,
+      "Level": 5,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104336,
+          "Count": 6
+        },
+        {
+          "Id": 112045,
+          "Count": 6
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1542768478,
+        2369081438,
+        2703602999,
+        625153303,
+        2177357694,
+        2748108234,
+        1557307519,
+        122613341,
+        2778275716,
+        1407007927,
+        2218370788,
+        2880487427,
+        2505813359,
+        4195624115,
+        857490798,
+        2564536205
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.2613999843597412,
+        1.4147499799728394,
+        1.3317999839782715,
+        100,
+        6,
+        0,
+        0.41475000977516174,
+        0.33180001378059387,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 4,
+      "CoinCost": 30000
+    },
+    {
+      "Id": 753206,
+      "GroupId": 7532,
+      "Level": 6,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104336,
+          "Count": 9
+        },
+        {
+          "Id": 112045,
+          "Count": 9
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1094831174,
+        2161590470,
+        3142209415,
+        3052999415,
+        2334659422,
+        118492602,
+        2992485607,
+        2666686277,
+        2189754820,
+        4125411223,
+        3868012036,
+        2084202171,
+        374158343,
+        1742824011,
+        4134844454,
+        143312869
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.332800030708313,
+        1.434499979019165,
+        1.347599983215332,
+        100,
+        6,
+        0,
+        0.4345000088214874,
+        0.3476000130176544,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 4,
+      "CoinCost": 37500
+    },
+    {
+      "Id": 753207,
+      "GroupId": 7532,
+      "Level": 7,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104337,
+          "Count": 4
+        },
+        {
+          "Id": 112046,
+          "Count": 4
+        },
+        {
+          "Id": 113043,
+          "Count": 1
+        },
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1490130694,
+        875347774,
+        3658619823,
+        4267930423,
+        2420001902,
+        2548088682,
+        2028653303,
+        1976400237,
+        3454332356,
+        2641624815,
+        2237768180,
+        1413149139,
+        2481775231,
+        3648628971,
+        1621095510,
+        2429730645
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.4279999732971191,
+        1.4601750373840332,
+        1.3681399822235107,
+        100,
+        6,
+        0,
+        0.4601750075817108,
+        0.36814001202583313,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 5,
+      "CoinCost": 120000
+    },
+    {
+      "Id": 753208,
+      "GroupId": 7532,
+      "Level": 8,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104337,
+          "Count": 6
+        },
+        {
+          "Id": 112046,
+          "Count": 6
+        },
+        {
+          "Id": 113043,
+          "Count": 1
+        },
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1489962790,
+        3266408462,
+        1082339927,
+        433351503,
+        4170012374,
+        646946426,
+        1249515895,
+        951237133,
+        432608716,
+        1413202383,
+        4195276356,
+        2567149939,
+        2735288727,
+        1232049475,
+        1256645022,
+        2826993165
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.5232000350952148,
+        1.4858499765396118,
+        1.3886799812316895,
+        100,
+        6,
+        0,
+        0.4858500063419342,
+        0.38868001103401184,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 5,
+      "CoinCost": 260000
+    },
+    {
+      "Id": 753209,
+      "GroupId": 7532,
+      "Level": 9,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104337,
+          "Count": 12
+        },
+        {
+          "Id": 112046,
+          "Count": 9
+        },
+        {
+          "Id": 113043,
+          "Count": 2
+        },
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1931932246,
+        4043387686,
+        2982292431,
+        902054519,
+        3209476254,
+        3768258458,
+        1535096831,
+        1262238029,
+        334672988,
+        29964735,
+        3744203780,
+        3601058811,
+        479842823,
+        245456427,
+        1578444822,
+        2556845813
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.618399977684021,
+        1.51152503490448,
+        1.4092199802398682,
+        100,
+        6,
+        0,
+        0.5115249752998352,
+        0.40922001004219055,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6,
+      "CoinCost": 450000
+    },
+    {
+      "Id": 753210,
+      "GroupId": 7532,
+      "Level": 10,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104337,
+          "Count": 16
+        },
+        {
+          "Id": 112046,
+          "Count": 12
+        },
+        {
+          "Id": 113043,
+          "Count": 2
+        },
+        {
+          "Id": 104319,
+          "Count": 1
+        }
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2594525782,
+        2400365246,
+        1046530191,
+        2940163679,
+        3695773238,
+        4182240066,
+        54272591,
+        2274663085,
+        1708922316,
+        2281777335,
+        3276302508,
+        2818303251,
+        939998151,
+        2552627155,
+        1758511878,
+        3831537493
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.7136000394821167,
+        1.5371999740600586,
+        1.4297599792480469,
+        100,
+        6,
+        0,
+        0.5371999740600586,
+        0.42976000905036926,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6,
+      "CoinCost": 700000
+    },
+    {
+      "Id": 753211,
+      "GroupId": 7532,
+      "Level": 11,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2038639358,
+        2599060150,
+        2730502423,
+        4154834831,
+        3033459830,
+        2639586042,
+        299256759,
+        1293959629,
+        705001356,
+        1644650335,
+        2643524068,
+        3177257843,
+        285050295,
+        367787531,
+        3979194478,
+        1098069525
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.8087999820709229,
+        1.5628750324249268,
+        1.4502999782562256,
+        100,
+        6,
+        0,
+        0.562874972820282,
+        0.450300008058548,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 753212,
+      "GroupId": 7532,
+      "Level": 12,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3905097534,
+        3820206942,
+        999147831,
+        3986956503,
+        2157396014,
+        4195459106,
+        4191764183,
+        3803493373,
+        2151825972,
+        2649017407,
+        1051251780,
+        3386485507,
+        2011569015,
+        910896739,
+        3024764326,
+        1932342469
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.9040000438690186,
+        1.5885499715805054,
+        1.4708399772644043,
+        100,
+        6,
+        0,
+        0.5885499715805054,
+        0.4708400070667267,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 753213,
+      "GroupId": 7532,
+      "Level": 13,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        965477934,
+        544896190,
+        2614981335,
+        3740615079,
+        970526270,
+        1859103450,
+        1386594183,
+        76040397,
+        2210127020,
+        4271441679,
+        1868210828,
+        817338027,
+        107806351,
+        1922281883,
+        3350454894,
+        4030179885
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        2.0230000019073486,
+        1.6142250299453735,
+        1.491379976272583,
+        100,
+        6,
+        0,
+        0.6142249703407288,
+        0.4913800060749054,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 753214,
+      "GroupId": 7532,
+      "Level": 14,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        19350790,
+        3556283294,
+        1026359895,
+        3946859623,
+        2547722830,
+        3518792570,
+        1107678351,
+        4050037589,
+        2447676212,
+        253638319,
+        1028657372,
+        3847960923,
+        715268367,
+        3400730563,
+        2334695862,
+        1140680405
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        2.1419999599456787,
+        1.6398999691009521,
+        1.5119199752807617,
+        100,
+        6,
+        0,
+        0.6399000287055969,
+        0.5119199752807617,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 753215,
+      "GroupId": 7532,
+      "Level": 15,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        967714774,
+        1930780374,
+        4054766719,
+        3793265079,
+        779054726,
+        4049239338,
+        3687148167,
+        3635595621,
+        3665024156,
+        676686279,
+        321176292,
+        987561491,
+        2831014007,
+        2384708963,
+        2877500574,
+        476950965
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        2.260999917984009,
+        1.6655750274658203,
+        1.5324599742889404,
+        100,
+        6,
+        0,
+        0.6655750274658203,
+        0.5324599742889404,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 753901,
+      "GroupId": 7539,
+      "Level": 1,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        114295182,
+        2287230286,
+        907260095,
+        2284945863,
+        1320681958,
+        834938330,
+        2394282095,
+        1361177957,
+        4092396852,
+        317644871,
+        2223865380,
+        2761384403,
+        4137954391,
+        281659651,
+        5488966,
+        65543485
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.472000002861023,
+        15,
+        60,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "Id": 753902,
+      "GroupId": 7539,
+      "Level": 2,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104335,
+          "Count": 3
+        },
+        {
+          "Id": 112044,
+          "Count": 6
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3417394614,
+        2375788822,
+        3234517527,
+        836163735,
+        860768526,
+        830193202,
+        4125280207,
+        102709941,
+        695732220,
+        1599226623,
+        4281932420,
+        2852460843,
+        1645909983,
+        1809504435,
+        2392892486,
+        2604103813
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.5823999643325806,
+        15,
+        60,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 2,
+      "CoinCost": 12500
+    },
+    {
+      "Id": 753903,
+      "GroupId": 7539,
+      "Level": 3,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104336,
+          "Count": 2
+        },
+        {
+          "Id": 112045,
+          "Count": 3
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        756765462,
+        2735075518,
+        460771919,
+        794457191,
+        3553881534,
+        2639247106,
+        4048652983,
+        1909766197,
+        3093106332,
+        1991441463,
+        3051608204,
+        270981787,
+        3620637479,
+        2544238459,
+        1736531598,
+        1131617301
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.6928000450134277,
+        15,
+        60,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 3,
+      "CoinCost": 17500
+    },
+    {
+      "Id": 753904,
+      "GroupId": 7539,
+      "Level": 4,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104336,
+          "Count": 4
+        },
+        {
+          "Id": 112045,
+          "Count": 4
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1439700534,
+        3240287158,
+        1130299207,
+        207043047,
+        1194688318,
+        2575835794,
+        986356127,
+        4112371197,
+        588989796,
+        2639499391,
+        3456288932,
+        4034429043,
+        2867818527,
+        3564823715,
+        530696502,
+        1581644989
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.840000033378601,
+        15,
+        60,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 3,
+      "CoinCost": 25000
+    },
+    {
+      "Id": 753905,
+      "GroupId": 7539,
+      "Level": 5,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104336,
+          "Count": 6
+        },
+        {
+          "Id": 112045,
+          "Count": 6
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1916740358,
+        2432004510,
+        2740723063,
+        188192439,
+        49056646,
+        3216857458,
+        2947215591,
+        3538368893,
+        3165071492,
+        2194405455,
+        1870822852,
+        4045101275,
+        3360116463,
+        2891413739,
+        84655374,
+        4011974109
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.9503999948501587,
+        15,
+        60,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 4,
+      "CoinCost": 30000
+    },
+    {
+      "Id": 753906,
+      "GroupId": 7539,
+      "Level": 6,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104336,
+          "Count": 9
+        },
+        {
+          "Id": 112045,
+          "Count": 9
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        982869070,
+        1160111774,
+        3797267255,
+        1328286039,
+        4246550790,
+        858967634,
+        2429971047,
+        3800097773,
+        2559324092,
+        1770114999,
+        1014111300,
+        4239692003,
+        2832765767,
+        3406066603,
+        4120191174,
+        418063405
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        2.060800075531006,
+        15,
+        60,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 4,
+      "CoinCost": 37500
+    },
+    {
+      "Id": 753907,
+      "GroupId": 7539,
+      "Level": 7,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104337,
+          "Count": 4
+        },
+        {
+          "Id": 112046,
+          "Count": 4
+        },
+        {
+          "Id": 113043,
+          "Count": 1
+        },
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        999159534,
+        2603636190,
+        1919000551,
+        3847046815,
+        2483477150,
+        1868398170,
+        193135631,
+        207383493,
+        686016748,
+        201532575,
+        3526303348,
+        3927576699,
+        2352332207,
+        3534733107,
+        332799006,
+        4110007221
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        2.2079999446868896,
+        15,
+        60,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 5,
+      "CoinCost": 120000
+    },
+    {
+      "Id": 753908,
+      "GroupId": 7539,
+      "Level": 8,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104337,
+          "Count": 6
+        },
+        {
+          "Id": 112046,
+          "Count": 6
+        },
+        {
+          "Id": 113043,
+          "Count": 1
+        },
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        4153750158,
+        1619217198,
+        41965191,
+        1333485759,
+        3520393870,
+        2400880746,
+        1138515695,
+        2591188613,
+        685345436,
+        422479663,
+        245394556,
+        724389403,
+        430666943,
+        332405315,
+        2918162238,
+        2327550669
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        2.3552000522613525,
+        15,
+        60,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 5,
+      "CoinCost": 260000
+    },
+    {
+      "Id": 753909,
+      "GroupId": 7539,
+      "Level": 9,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104337,
+          "Count": 12
+        },
+        {
+          "Id": 112046,
+          "Count": 9
+        },
+        {
+          "Id": 113043,
+          "Count": 2
+        },
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2729395926,
+        3183147558,
+        4004729023,
+        1772168567,
+        2052154974,
+        1341742922,
+        2026749143,
+        1429479637,
+        484647628,
+        1909010607,
+        1752411348,
+        1045592235,
+        2837472735,
+        3982318179,
+        4171075086,
+        740582093
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        2.5023999214172363,
+        15,
+        60,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6,
+      "CoinCost": 450000
+    },
+    {
+      "Id": 753910,
+      "GroupId": 7539,
+      "Level": 10,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104337,
+          "Count": 16
+        },
+        {
+          "Id": 112046,
+          "Count": 12
+        },
+        {
+          "Id": 113043,
+          "Count": 2
+        },
+        {
+          "Id": 104319,
+          "Count": 1
+        }
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3251382278,
+        509154974,
+        1059228031,
+        1651610319,
+        51342726,
+        3824828378,
+        2357888287,
+        883394149,
+        742776260,
+        1782501191,
+        1550529156,
+        3985346539,
+        1555904191,
+        1610602091,
+        3434116886,
+        2036967333
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        2.649600028991699,
+        15,
+        60,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6,
+      "CoinCost": 700000
+    },
+    {
+      "Id": 753911,
+      "GroupId": 7539,
+      "Level": 11,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2582493238,
+        3416231854,
+        2644425111,
+        2973676575,
+        1216025310,
+        2913907714,
+        2327606111,
+        43664629,
+        2371110292,
+        1442144631,
+        3389663908,
+        115509859,
+        2675686839,
+        4053610683,
+        966618974,
+        375142429
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        2.796799898147583,
+        15,
+        60,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 753912,
+      "GroupId": 7539,
+      "Level": 12,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2425601326,
+        3502555454,
+        1979427455,
+        3810036007,
+        2353533990,
+        2870430498,
+        2307169647,
+        1139046605,
+        982792980,
+        4142731311,
+        2888248132,
+        2210009347,
+        3584288015,
+        174312611,
+        812005142,
+        229654237
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        2.944000005722046,
+        15,
+        60,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 753913,
+      "GroupId": 7539,
+      "Level": 13,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3218074006,
+        4072730790,
+        2290719311,
+        3815526727,
+        3239573838,
+        2238713146,
+        592432031,
+        838881237,
+        16978940,
+        3780124463,
+        1574654148,
+        783071995,
+        3949233751,
+        3258371275,
+        1643166742,
+        331329837
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        3.128000020980835,
+        15,
+        60,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 753914,
+      "GroupId": 7539,
+      "Level": 14,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1163012750,
+        1097006070,
+        3568088991,
+        2697166751,
+        3430540022,
+        2824707162,
+        4222143519,
+        4049395821,
+        2724847156,
+        1560265479,
+        247389284,
+        2041996443,
+        2184267615,
+        3203325619,
+        3523295854,
+        2230497629
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        3.312000036239624,
+        15,
+        60,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 753915,
+      "GroupId": 7539,
+      "Level": 15,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1488724230,
+        1581170670,
+        3399422543,
+        1317421943,
+        2217238214,
+        3011267098,
+        3367772511,
+        3162973341,
+        841588844,
+        3157452039,
+        3927186260,
+        3450233667,
+        1600769775,
+        712250499,
+        2032573838,
+        3502371037
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Wanderer_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        3.496000051498413,
+        15,
+        60,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 762101,
+      "GroupId": 7621,
+      "Level": 1,
+      "Type": 2,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1302965974,
+        920056950,
+        1121810559,
+        3728984767,
+        3840406182,
+        2358076274,
+        212108447,
+        1408471381,
+        3588263156,
+        441826479,
+        3748605204,
+        890374611,
+        457692119,
+        3329583075,
+        1225860590,
+        4036708941
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_PermanentSkill_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.6000000238418579,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 1
+    },
+    {
+      "Id": 762201,
+      "GroupId": 7622,
+      "Level": 1,
+      "Type": 2,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1464242702,
+        2248410470,
+        3690088591,
+        2192894759,
+        2431593798,
+        1640091618,
+        943947815,
+        1565064461,
+        2186971300,
+        2834542007,
+        2734047276,
+        2145231163,
+        3490162855,
+        3879671579,
+        871182190,
+        977463253
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_PermanentSkill_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.3199999928474426,
+        0.800000011920929,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 4
+    },
+    {
+      "Id": 762301,
+      "GroupId": 7623,
+      "Level": 1,
+      "Type": 2,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1466384406,
+        1026005566,
+        1777761383,
+        2522892023,
+        3968380958,
+        1751910378,
+        1172761383,
+        1662405933,
+        1418522292,
+        1730396303,
+        2404245660,
+        3510367491,
+        3615980991,
+        3488206723,
+        2638452070,
+        1552371837
+      ],
+      "LifeEffectParams": [
+        "4",
+        "20",
+        "10000",
+        "0.25",
+        ""
+      ],
+      "OpenConfig": "",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "LifeEffectType": "PROUD_EFFECT_EXPEDITION_EXTRA_OUTPUT"
+    },
+    {
+      "Id": 763101,
+      "GroupId": 7631,
+      "Level": 1,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2811387734,
+        854924566,
+        174408087,
+        3437501095,
+        3236822358,
+        3579350938,
+        4078276159,
+        2337542957,
+        3906916236,
+        1132340719,
+        1361399716,
+        895284627,
+        2648716943,
+        558167971,
+        2265124878,
+        3392203197
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.44729501008987427,
+        0.42186400294303894,
+        0.5316349864006042,
+        0.7062060236930847,
+        0.43860000371932983,
+        1.2400000095367432,
+        0.5682880282402039,
+        1.136335015296936,
+        1.4193439483642578,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "Id": 763102,
+      "GroupId": 7631,
+      "Level": 2,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104329,
+          "Count": 3
+        },
+        {
+          "Id": 112065,
+          "Count": 6
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2129908486,
+        1465544518,
+        2290164311,
+        2556160703,
+        2537287022,
+        1642030338,
+        373673271,
+        2357392357,
+        2626573924,
+        3873279447,
+        2410102676,
+        3159691227,
+        4117347959,
+        1845065531,
+        282005830,
+        3869474173
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.48370200395584106,
+        0.4562020003795624,
+        0.5749070048332214,
+        0.7636880278587341,
+        0.47429999709129333,
+        1.3329999446868896,
+        0.6145439743995667,
+        1.228827953338623,
+        1.534872055053711,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 2,
+      "CoinCost": 12500
+    },
+    {
+      "Id": 763103,
+      "GroupId": 7631,
+      "Level": 3,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104330,
+          "Count": 2
+        },
+        {
+          "Id": 112066,
+          "Count": 3
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        185133246,
+        1913105542,
+        2977201999,
+        168575439,
+        812266198,
+        1847396914,
+        461250671,
+        1669880117,
+        1492157300,
+        2497937823,
+        3335627828,
+        1824606107,
+        2416073655,
+        298846643,
+        1053014326,
+        1269791397
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.520110011100769,
+        0.4905399978160858,
+        0.618179976940155,
+        0.8211699724197388,
+        0.5099999904632568,
+        1.4259999990463257,
+        0.6607999801635742,
+        1.3213200569152832,
+        1.6504000425338745,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 3,
+      "CoinCost": 17500
+    },
+    {
+      "Id": 763104,
+      "GroupId": 7631,
+      "Level": 4,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104330,
+          "Count": 4
+        },
+        {
+          "Id": 112066,
+          "Count": 4
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3923646934,
+        1119493910,
+        962331295,
+        3531840535,
+        365676822,
+        2638217354,
+        1639361855,
+        4038979493,
+        2323005084,
+        4109841047,
+        2874175236,
+        2140792547,
+        4104524223,
+        3472588019,
+        151445174,
+        2382267437
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.5721210241317749,
+        0.5395939946174622,
+        0.679997980594635,
+        0.9032869935035706,
+        0.5609999895095825,
+        1.5499999523162842,
+        0.7268800139427185,
+        1.4534519910812378,
+        1.815440058708191,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 3,
+      "CoinCost": 25000
+    },
+    {
+      "Id": 763105,
+      "GroupId": 7631,
+      "Level": 5,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104330,
+          "Count": 6
+        },
+        {
+          "Id": 112066,
+          "Count": 6
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1284007030,
+        2473006966,
+        2943888687,
+        2603935151,
+        3665778566,
+        3529147090,
+        1290127175,
+        3648646485,
+        224369292,
+        1465694119,
+        3934057004,
+        2642990867,
+        4119115631,
+        3970063283,
+        1698418230,
+        3010625573
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.6085289716720581,
+        0.5739319920539856,
+        0.7232710123062134,
+        0.96076899766922,
+        0.5967000126838684,
+        1.6430000066757202,
+        0.7731360197067261,
+        1.5459439754486084,
+        1.9309680461883545,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 4,
+      "CoinCost": 30000
+    },
+    {
+      "Id": 763106,
+      "GroupId": 7631,
+      "Level": 6,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104330,
+          "Count": 9
+        },
+        {
+          "Id": 112066,
+          "Count": 9
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        899067254,
+        3815398174,
+        3246564071,
+        1812786415,
+        3497082174,
+        1536896546,
+        3040500439,
+        2326727677,
+        3103968220,
+        1121627255,
+        1315794332,
+        3992716387,
+        89782663,
+        1932127427,
+        846442558,
+        4216380877
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.6501370072364807,
+        0.6131749749183655,
+        0.772724986076355,
+        1.0264630317687988,
+        0.637499988079071,
+        1.7359999418258667,
+        0.8259999752044678,
+        1.6516499519348145,
+        2.062999963760376,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 4,
+      "CoinCost": 37500
+    },
+    {
+      "Id": 763107,
+      "GroupId": 7631,
+      "Level": 7,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104331,
+          "Count": 4
+        },
+        {
+          "Id": 112067,
+          "Count": 4
+        },
+        {
+          "Id": 113041,
+          "Count": 1
+        },
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3034375894,
+        358965918,
+        4005372183,
+        1643853215,
+        1186536694,
+        465871074,
+        3801706095,
+        1532971741,
+        1542570636,
+        1373973383,
+        3786883460,
+        1078955091,
+        2715544327,
+        827062251,
+        2115018326,
+        3572011517
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.7073500156402588,
+        0.6671339869499207,
+        0.8407250046730042,
+        1.116791009902954,
+        0.6935999989509583,
+        1.8600000143051147,
+        0.898688018321991,
+        1.7969950437545776,
+        2.24454402923584,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 5,
+      "CoinCost": 120000
+    },
+    {
+      "Id": 763108,
+      "GroupId": 7631,
+      "Level": 8,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104331,
+          "Count": 6
+        },
+        {
+          "Id": 112067,
+          "Count": 6
+        },
+        {
+          "Id": 113041,
+          "Count": 1
+        },
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3953309622,
+        3292062806,
+        2978859455,
+        1152357607,
+        1939430302,
+        600283570,
+        3808337847,
+        3963898493,
+        3129325804,
+        54148815,
+        2343666996,
+        3648674739,
+        2273741951,
+        709939227,
+        3297875022,
+        694336357
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.7645620107650757,
+        0.721094012260437,
+        0.9087250232696533,
+        1.2071199417114258,
+        0.7497000098228455,
+        1.9839999675750732,
+        0.9713760018348694,
+        1.9423400163650513,
+        2.4260880947113037,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 5,
+      "CoinCost": 260000
+    },
+    {
+      "Id": 763109,
+      "GroupId": 7631,
+      "Level": 9,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104331,
+          "Count": 12
+        },
+        {
+          "Id": 112067,
+          "Count": 9
+        },
+        {
+          "Id": 113041,
+          "Count": 2
+        },
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3355194966,
+        3756571430,
+        1790862559,
+        2548943199,
+        822312406,
+        326196090,
+        2451842855,
+        1732151477,
+        783327740,
+        1474169463,
+        2210610292,
+        2205072299,
+        2728079967,
+        3431876219,
+        1725779030,
+        1721739013
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.8217740058898926,
+        0.7750530242919922,
+        0.9767240285873413,
+        1.297448992729187,
+        0.8058000206947327,
+        2.1080000400543213,
+        1.0440640449523926,
+        2.087686061859131,
+        2.6076319217681885,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6,
+      "CoinCost": 450000
+    },
+    {
+      "Id": 763110,
+      "GroupId": 7631,
+      "Level": 10,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104331,
+          "Count": 16
+        },
+        {
+          "Id": 112067,
+          "Count": 12
+        },
+        {
+          "Id": 113041,
+          "Count": 2
+        },
+        {
+          "Id": 104319,
+          "Count": 1
+        }
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        741450342,
+        554999022,
+        97470591,
+        3135231071,
+        2604618446,
+        2451479858,
+        3162317087,
+        2029316261,
+        969822980,
+        1169604103,
+        1024304036,
+        760193995,
+        1096279039,
+        378031435,
+        4166844134,
+        35282061
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.8841869831085205,
+        0.8339179754257202,
+        1.0509059429168701,
+        1.395988941192627,
+        0.8669999837875366,
+        2.2320001125335693,
+        1.12336003780365,
+        2.246243953704834,
+        2.8056800365448,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6,
+      "CoinCost": 700000
+    },
+    {
+      "Id": 763111,
+      "GroupId": 7631,
+      "Level": 11,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1724833486,
+        4283308846,
+        2606982743,
+        2517665815,
+        901270590,
+        3735785130,
+        3002783,
+        2658693357,
+        1295056964,
+        3077895767,
+        2274810420,
+        2923766147,
+        1101417695,
+        2536800139,
+        745984302,
+        2429902021
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.9466000199317932,
+        0.892782986164093,
+        1.1250879764556885,
+        1.4945290088653564,
+        0.9282000064849854,
+        2.3559999465942383,
+        1.2026560306549072,
+        2.404802083969116,
+        3.003727912902832,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 763112,
+      "GroupId": 7631,
+      "Level": 12,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3520184054,
+        825604678,
+        1989774639,
+        3593618959,
+        2524506342,
+        2782213602,
+        2716511527,
+        16289381,
+        2079148524,
+        511872151,
+        3405917356,
+        3044422275,
+        3814496047,
+        1580043419,
+        1452292822,
+        3624413373
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.009013056755066,
+        0.9516479969024658,
+        1.1992690563201904,
+        1.5930700302124023,
+        0.9894000291824341,
+        2.4800000190734863,
+        1.2819520235061646,
+        2.5633609294891357,
+        3.2017760276794434,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 763113,
+      "GroupId": 7631,
+      "Level": 13,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1947267214,
+        1498663638,
+        2763601095,
+        377654519,
+        1750847006,
+        2131337258,
+        849812759,
+        2102188085,
+        4291879052,
+        391493095,
+        1508134692,
+        1747103115,
+        94072487,
+        283580211,
+        3381607142,
+        3076716629
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.0714269876480103,
+        1.0105119943618774,
+        1.2734509706497192,
+        1.6916099786758423,
+        1.0506000518798828,
+        2.634999990463257,
+        1.3612480163574219,
+        2.721919059753418,
+        3.3998239040374756,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 763114,
+      "GroupId": 7631,
+      "Level": 14,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1306711054,
+        2009339766,
+        657485151,
+        3549264135,
+        1820542086,
+        381475298,
+        2771248551,
+        3541737229,
+        1615764492,
+        1710883207,
+        3000227396,
+        1774849363,
+        1609937799,
+        2744229611,
+        777892894,
+        3537514749
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.1338399648666382,
+        1.0693769454956055,
+        1.3476320505142212,
+        1.7901510000228882,
+        1.111799955368042,
+        2.7899999618530273,
+        1.4405440092086792,
+        2.8804779052734375,
+        3.597872018814087,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 763115,
+      "GroupId": 7631,
+      "Level": 15,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3859183990,
+        2732938494,
+        2579335639,
+        3081798519,
+        2670245958,
+        762521114,
+        1029548975,
+        566974365,
+        2231244572,
+        2712624311,
+        2142418812,
+        4166864507,
+        939409039,
+        3401915203,
+        2485734374,
+        2265935717
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.1962529420852661,
+        1.128242015838623,
+        1.42181396484375,
+        1.8886909484863281,
+        1.1729999780654907,
+        2.944999933242798,
+        1.5198400020599365,
+        3.0390360355377197,
+        3.795919895172119,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 763201,
+      "GroupId": 7632,
+      "Level": 1,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        212724046,
+        840578486,
+        3566362335,
+        2578042831,
+        1692900422,
+        1774850866,
+        4119837079,
+        893869653,
+        3848932180,
+        2296434463,
+        3424353188,
+        1796556651,
+        2650797487,
+        1871020299,
+        226696502,
+        1459442693
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.4880000352859497,
+        1.0800000429153442,
+        0,
+        18,
+        6,
+        5.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "Id": 763202,
+      "GroupId": 7632,
+      "Level": 2,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104329,
+          "Count": 3
+        },
+        {
+          "Id": 112065,
+          "Count": 6
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3635390782,
+        723648262,
+        2868555687,
+        3172771359,
+        3342431214,
+        265112234,
+        3531158111,
+        1459229261,
+        1193603756,
+        339678199,
+        3000151860,
+        3715285195,
+        726307535,
+        1978046163,
+        4166683134,
+        1703099701
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.5995999574661255,
+        1.1610000133514404,
+        0,
+        18,
+        6,
+        5.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 2,
+      "CoinCost": 12500
+    },
+    {
+      "Id": 763203,
+      "GroupId": 7632,
+      "Level": 3,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104330,
+          "Count": 2
+        },
+        {
+          "Id": 112066,
+          "Count": 3
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        815616062,
+        3804599230,
+        1280223071,
+        2282233999,
+        3788889638,
+        3241104722,
+        3474990455,
+        3960019989,
+        586383356,
+        2622812167,
+        2554445788,
+        715565795,
+        4195240951,
+        1931641483,
+        2663793270,
+        1078371837
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.7111999988555908,
+        1.2419999837875366,
+        0,
+        18,
+        6,
+        5.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 3,
+      "CoinCost": 17500
+    },
+    {
+      "Id": 763204,
+      "GroupId": 7632,
+      "Level": 4,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104330,
+          "Count": 4
+        },
+        {
+          "Id": 112066,
+          "Count": 4
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3710512086,
+        791684950,
+        531957303,
+        348248343,
+        997722398,
+        3390602794,
+        1612004959,
+        3367055085,
+        3342121868,
+        1834056711,
+        1516410804,
+        3324970555,
+        2834715671,
+        3006132099,
+        692479926,
+        1921127229
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.8600000143051147,
+        1.350000023841858,
+        0,
+        18,
+        6,
+        5.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 3,
+      "CoinCost": 25000
+    },
+    {
+      "Id": 763205,
+      "GroupId": 7632,
+      "Level": 5,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104330,
+          "Count": 6
+        },
+        {
+          "Id": 112066,
+          "Count": 6
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1153717270,
+        4080585230,
+        2779953143,
+        1058411855,
+        845261982,
+        1563772778,
+        870047999,
+        1185145397,
+        1640752620,
+        2287472823,
+        4038105436,
+        3857922011,
+        3201141447,
+        1254285435,
+        954277606,
+        1330865933
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.97160005569458,
+        1.430999994277954,
+        0,
+        18,
+        6,
+        5.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 4,
+      "CoinCost": 30000
+    },
+    {
+      "Id": 763206,
+      "GroupId": 7632,
+      "Level": 6,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104330,
+          "Count": 9
+        },
+        {
+          "Id": 112066,
+          "Count": 9
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1146552270,
+        47907118,
+        3639022655,
+        1040009335,
+        1282109950,
+        2219400026,
+        4173333703,
+        4282311893,
+        2832608292,
+        64198935,
+        1816737524,
+        1621367211,
+        866671839,
+        2098964499,
+        1322394814,
+        3198552525
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        2.083199977874756,
+        1.5119999647140503,
+        0,
+        18,
+        6,
+        5.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 4,
+      "CoinCost": 37500
+    },
+    {
+      "Id": 763207,
+      "GroupId": 7632,
+      "Level": 7,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104331,
+          "Count": 4
+        },
+        {
+          "Id": 112067,
+          "Count": 4
+        },
+        {
+          "Id": 113041,
+          "Count": 1
+        },
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2474846878,
+        4007973278,
+        4063052135,
+        722477951,
+        2041926750,
+        3000064034,
+        1755521071,
+        1836638165,
+        2346370276,
+        499351871,
+        3919517092,
+        1223652323,
+        3047779551,
+        1960379411,
+        3745678222,
+        2127577805
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        2.2320001125335693,
+        1.6200000047683716,
+        0,
+        18,
+        6,
+        5.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 5,
+      "CoinCost": 120000
+    },
+    {
+      "Id": 763208,
+      "GroupId": 7632,
+      "Level": 8,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104331,
+          "Count": 6
+        },
+        {
+          "Id": 112067,
+          "Count": 6
+        },
+        {
+          "Id": 113041,
+          "Count": 1
+        },
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1620734174,
+        4218551342,
+        4211221447,
+        2353495727,
+        2279689814,
+        2178017434,
+        3943390943,
+        2925263877,
+        3162393660,
+        2566861935,
+        2746481540,
+        784503883,
+        145373607,
+        4198958027,
+        1297837374,
+        2959331277
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        2.3808000087738037,
+        1.7280000448226929,
+        0,
+        18,
+        6,
+        5.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 5,
+      "CoinCost": 260000
+    },
+    {
+      "Id": 763209,
+      "GroupId": 7632,
+      "Level": 9,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104331,
+          "Count": 12
+        },
+        {
+          "Id": 112067,
+          "Count": 9
+        },
+        {
+          "Id": 113041,
+          "Count": 2
+        },
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3361596174,
+        3882383662,
+        3927575047,
+        3814933455,
+        2352802510,
+        821953202,
+        2764940575,
+        3414572765,
+        2416003900,
+        2806962527,
+        2418459108,
+        2454943811,
+        3142156623,
+        3724345475,
+        910698254,
+        1154659581
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        2.529599905014038,
+        1.8359999656677246,
+        0,
+        18,
+        6,
+        5.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6,
+      "CoinCost": 450000
+    },
+    {
+      "Id": 763210,
+      "GroupId": 7632,
+      "Level": 10,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104331,
+          "Count": 16
+        },
+        {
+          "Id": 112067,
+          "Count": 12
+        },
+        {
+          "Id": 113041,
+          "Count": 2
+        },
+        {
+          "Id": 104319,
+          "Count": 1
+        }
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1625200006,
+        2279273862,
+        1242883207,
+        1721274383,
+        3653753574,
+        4088523370,
+        2189135679,
+        1107342429,
+        518203084,
+        2349119967,
+        95385076,
+        848895507,
+        1963363879,
+        132498931,
+        1735785582,
+        3897342477
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        2.6784000396728516,
+        1.944000005722046,
+        0,
+        18,
+        6,
+        5.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6,
+      "CoinCost": 700000
+    },
+    {
+      "Id": 763211,
+      "GroupId": 7632,
+      "Level": 11,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2880679038,
+        3870033302,
+        1633567311,
+        2805543919,
+        3933837462,
+        4162613890,
+        1471822071,
+        220007821,
+        4232957196,
+        2073033951,
+        780458652,
+        2311376731,
+        3566588695,
+        2339612883,
+        1477235974,
+        1650922453
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        2.827199935913086,
+        2.052000045776367,
+        0,
+        18,
+        6,
+        5.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 763212,
+      "GroupId": 7632,
+      "Level": 12,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2582747110,
+        3521349606,
+        3339935815,
+        852443695,
+        2052237726,
+        2321980562,
+        1195952135,
+        3732618485,
+        3716855452,
+        439388775,
+        154854076,
+        3922199467,
+        2288571991,
+        2418635803,
+        1843123166,
+        1285060333
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        2.9760000705718994,
+        2.1600000858306885,
+        0,
+        18,
+        6,
+        5.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 763213,
+      "GroupId": 7632,
+      "Level": 13,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1392459302,
+        2630054838,
+        930350719,
+        394041815,
+        513415374,
+        566037258,
+        122106807,
+        356793133,
+        984338356,
+        1900407,
+        3470823004,
+        1169936459,
+        1875515567,
+        2439275835,
+        3575219462,
+        3734353901
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        3.1619999408721924,
+        2.2950000762939453,
+        0,
+        18,
+        6,
+        5.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 763214,
+      "GroupId": 7632,
+      "Level": 14,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3840011062,
+        3666279086,
+        3077926351,
+        1452652519,
+        4232529486,
+        1745328266,
+        2935964855,
+        2897196269,
+        2496189900,
+        4216980847,
+        3041021668,
+        1252547691,
+        2482277759,
+        2476308939,
+        1521355094,
+        3075056245
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        3.3480000495910645,
+        2.430000066757202,
+        0,
+        18,
+        6,
+        5.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 763215,
+      "GroupId": 7632,
+      "Level": 15,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2255737486,
+        2974496414,
+        1820047911,
+        3350688751,
+        302748038,
+        391407050,
+        543366543,
+        3359257701,
+        4144883380,
+        129780415,
+        1643706924,
+        3148402571,
+        2914892487,
+        3860243171,
+        2603163150,
+        1754749629
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        3.5339999198913574,
+        2.565000057220459,
+        0,
+        18,
+        6,
+        5.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 763301,
+      "GroupId": 7639,
+      "Level": 1,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3080749022,
+        1432504430,
+        1039700375,
+        1222887239,
+        326109750,
+        3585247978,
+        2042089039,
+        1515752717,
+        576280092,
+        1551497583,
+        1400522924,
+        1943705235,
+        3088642231,
+        2373044907,
+        1455762710,
+        1167400733
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        3.7760000228881836,
+        0.18000000715255737,
+        4,
+        0.30000001192092896,
+        4,
+        12,
+        20,
+        80,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "Id": 763302,
+      "GroupId": 7639,
+      "Level": 2,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104329,
+          "Count": 3
+        },
+        {
+          "Id": 112065,
+          "Count": 6
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1894476606,
+        165124326,
+        1959246255,
+        232785503,
+        1408465406,
+        3920487090,
+        3103123063,
+        3377411197,
+        3783997876,
+        3938586111,
+        2807600636,
+        3037554915,
+        3199433967,
+        1454735115,
+        1515916342,
+        1032804357
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        4.059199810028076,
+        0.19349999725818634,
+        4,
+        0.30000001192092896,
+        4,
+        12,
+        20,
+        80,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 2,
+      "CoinCost": 12500
+    },
+    {
+      "Id": 763303,
+      "GroupId": 7639,
+      "Level": 3,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104330,
+          "Count": 2
+        },
+        {
+          "Id": 112066,
+          "Count": 3
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        460866398,
+        2719630766,
+        1060044775,
+        4213184455,
+        3099213846,
+        3741451202,
+        4091014791,
+        2954379829,
+        3027944596,
+        293758383,
+        357793964,
+        2724198923,
+        2314045135,
+        838643067,
+        3269615630,
+        1988390733
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        4.342400074005127,
+        0.2070000022649765,
+        4,
+        0.30000001192092896,
+        4,
+        12,
+        20,
+        80,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 3,
+      "CoinCost": 17500
+    },
+    {
+      "Id": 763304,
+      "GroupId": 7639,
+      "Level": 4,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104330,
+          "Count": 4
+        },
+        {
+          "Id": 112066,
+          "Count": 4
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3305465710,
+        4235494422,
+        2190231935,
+        437490391,
+        2936354246,
+        2225464610,
+        3331978815,
+        505165293,
+        2265704740,
+        744916687,
+        1655249292,
+        2854952123,
+        2169340383,
+        2908843699,
+        385860870,
+        1412695381
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        4.71999979019165,
+        0.22499999403953552,
+        4,
+        0.30000001192092896,
+        4,
+        12,
+        20,
+        80,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 3,
+      "CoinCost": 25000
+    },
+    {
+      "Id": 763305,
+      "GroupId": 7639,
+      "Level": 5,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104330,
+          "Count": 6
+        },
+        {
+          "Id": 112066,
+          "Count": 6
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3700393702,
+        595020902,
+        3764584991,
+        2019088543,
+        1491009654,
+        2892015954,
+        2552447207,
+        749776413,
+        1186730812,
+        3281158943,
+        3846030596,
+        713569347,
+        3217560935,
+        4133869979,
+        3363682806,
+        1299046117
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        5.003200054168701,
+        0.23849999904632568,
+        4,
+        0.30000001192092896,
+        4,
+        12,
+        20,
+        80,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 4,
+      "CoinCost": 30000
+    },
+    {
+      "Id": 763306,
+      "GroupId": 7639,
+      "Level": 6,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104330,
+          "Count": 9
+        },
+        {
+          "Id": 112066,
+          "Count": 9
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2829795422,
+        681912238,
+        1146296103,
+        3743939391,
+        96903126,
+        1498416202,
+        453061919,
+        238344621,
+        1720019548,
+        15357263,
+        1710304940,
+        244724611,
+        3940178023,
+        3021830371,
+        3674120422,
+        3745334709
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        5.286399841308594,
+        0.25200000405311584,
+        4,
+        0.30000001192092896,
+        4,
+        12,
+        20,
+        80,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 4,
+      "CoinCost": 37500
+    },
+    {
+      "Id": 763307,
+      "GroupId": 7639,
+      "Level": 7,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104331,
+          "Count": 4
+        },
+        {
+          "Id": 112067,
+          "Count": 4
+        },
+        {
+          "Id": 113041,
+          "Count": 1
+        },
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3849915254,
+        1458324870,
+        3461056575,
+        2981905111,
+        895029990,
+        2838575618,
+        3737547727,
+        3572253957,
+        220328044,
+        1574751759,
+        320662228,
+        2350788731,
+        4185535967,
+        3868074731,
+        2701353254,
+        2324453389
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        5.664000034332275,
+        0.27000001072883606,
+        4,
+        0.30000001192092896,
+        4,
+        12,
+        20,
+        80,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 5,
+      "CoinCost": 120000
+    },
+    {
+      "Id": 763308,
+      "GroupId": 7639,
+      "Level": 8,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104331,
+          "Count": 6
+        },
+        {
+          "Id": 112067,
+          "Count": 6
+        },
+        {
+          "Id": 113041,
+          "Count": 1
+        },
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2346627630,
+        3796029774,
+        4190728271,
+        821968887,
+        632676462,
+        2964181882,
+        758470759,
+        4012261877,
+        2090060348,
+        253658487,
+        2087180244,
+        216569507,
+        1852530575,
+        573688979,
+        1174996550,
+        164751853
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        6.041600227355957,
+        0.2879999876022339,
+        4,
+        0.30000001192092896,
+        4,
+        12,
+        20,
+        80,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 5,
+      "CoinCost": 260000
+    },
+    {
+      "Id": 763309,
+      "GroupId": 7639,
+      "Level": 9,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104331,
+          "Count": 12
+        },
+        {
+          "Id": 112067,
+          "Count": 9
+        },
+        {
+          "Id": 113041,
+          "Count": 2
+        },
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1128970782,
+        2330434110,
+        1119333415,
+        4279522839,
+        4277104118,
+        373316314,
+        2565796263,
+        2495914333,
+        1829881388,
+        2390743615,
+        3682447132,
+        1114388723,
+        2457704887,
+        2501804755,
+        450255478,
+        2298709269
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        6.4191999435424805,
+        0.3059999942779541,
+        4,
+        0.30000001192092896,
+        4,
+        12,
+        20,
+        80,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6,
+      "CoinCost": 450000
+    },
+    {
+      "Id": 763310,
+      "GroupId": 7639,
+      "Level": 10,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104331,
+          "Count": 16
+        },
+        {
+          "Id": 112067,
+          "Count": 12
+        },
+        {
+          "Id": 113041,
+          "Count": 2
+        },
+        {
+          "Id": 104319,
+          "Count": 1
+        }
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3714070310,
+        3863695726,
+        4125517079,
+        2915508351,
+        122092054,
+        3022124338,
+        4029419207,
+        3353251949,
+        2013229836,
+        1591407335,
+        1792197964,
+        1961165387,
+        2331611455,
+        2765870755,
+        1032986550,
+        474607821
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        6.796800136566162,
+        0.3240000009536743,
+        4,
+        0.30000001192092896,
+        4,
+        12,
+        20,
+        80,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6,
+      "CoinCost": 700000
+    },
+    {
+      "Id": 763311,
+      "GroupId": 7639,
+      "Level": 11,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3306743790,
+        558682934,
+        4289415447,
+        1866543855,
+        800788006,
+        2386417762,
+        4010194695,
+        31785797,
+        2265418060,
+        4243604647,
+        1117401148,
+        2279795603,
+        732266095,
+        2660420979,
+        1289752886,
+        543317309
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        7.1743998527526855,
+        0.34200000762939453,
+        4,
+        0.30000001192092896,
+        4,
+        12,
+        20,
+        80,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 763312,
+      "GroupId": 7639,
+      "Level": 12,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        350146718,
+        1206674702,
+        1506771167,
+        4204808911,
+        3999707814,
+        3805292906,
+        4257202335,
+        2210395997,
+        2465775292,
+        4267251823,
+        34646900,
+        1595704827,
+        1952889407,
+        347444771,
+        1595454470,
+        2700671869
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        7.552000045776367,
+        0.36000001430511475,
+        4,
+        0.30000001192092896,
+        4,
+        12,
+        20,
+        80,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 763313,
+      "GroupId": 7639,
+      "Level": 13,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        4229856630,
+        3993677710,
+        107874191,
+        3210736303,
+        1473364270,
+        648425698,
+        3141192607,
+        2770909637,
+        2467321348,
+        1989222935,
+        3685303228,
+        2361885555,
+        2159813415,
+        2913309979,
+        1327420614,
+        4178491501
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        8.02400016784668,
+        0.3824999928474426,
+        4,
+        0.30000001192092896,
+        4,
+        12,
+        20,
+        80,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 763314,
+      "GroupId": 7639,
+      "Level": 14,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3497633622,
+        1344322030,
+        2434615367,
+        2895886647,
+        1016033070,
+        3451456322,
+        1642449095,
+        3541523925,
+        2562737108,
+        3259533527,
+        1781864940,
+        2171163771,
+        1828077287,
+        368731507,
+        249195366,
+        2212159341
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        8.496000289916992,
+        0.4050000011920929,
+        4,
+        0.30000001192092896,
+        4,
+        12,
+        20,
+        80,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 763315,
+      "GroupId": 7639,
+      "Level": 15,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2178111654,
+        775919838,
+        839812983,
+        782873295,
+        1177133878,
+        3595490962,
+        234965951,
+        2594727373,
+        3703389260,
+        1608825695,
+        949635420,
+        3238698835,
+        2169791655,
+        3900108227,
+        1367171150,
+        730733021
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Faruzan_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        8.968000411987305,
+        0.42750000953674316,
+        4,
+        0.30000001192092896,
+        4,
+        12,
+        20,
+        80,
         0,
         0,
         0,
