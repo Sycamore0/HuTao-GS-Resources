@@ -1357,7 +1357,7 @@
         {
           "$type": "ModifySkillCD",
           "SkillID": 10071,
-          "CdRatio": -0.15
+          "CdRatio": -0.15000000596046448
         },
         {
           "$type": "UnlockTalentParam",
@@ -2194,8 +2194,7 @@
         {
           "$type": "ModifySkillCD",
           "SkillID": 10032,
-          "CdDelta": 0,
-          "CdRatio": -0.2
+          "CdRatio": -0.20000000298023224
         }
       ],
       "PrevTalent": 213
@@ -4167,7 +4166,7 @@
         {
           "$type": "ModifySkillCD",
           "SkillID": 10332,
-          "CdRatio": -0.2
+          "CdRatio": -0.20000000298023224
         }
       ]
     },
@@ -6728,12 +6727,12 @@
         {
           "$type": "ModifySkillCD",
           "SkillID": 10472,
-          "CdRatio": -0.1
+          "CdRatio": -0.10000000149011612
         },
         {
           "$type": "ModifySkillCD",
           "SkillID": 10473,
-          "CdRatio": -0.1
+          "CdRatio": -0.10000000149011612
         }
       ]
     },
@@ -10162,7 +10161,7 @@
         {
           "$type": "ModifySkillCD",
           "SkillID": 10642,
-          "CdRatio": -0.18
+          "CdRatio": -0.18000000715255737
         }
       ]
     },
@@ -12609,8 +12608,14 @@
         {
           "$type": "ModifyAbility",
           "AbilityName": "Avatar_Wanderer_ElementalArt_HoverAir",
-          "ParamSpecial": "Constellation_2_AtkSpeed_Ratio",
+          "ParamSpecial": "Constellation_1_AtkSpeed_Ratio",
           "ParamDelta": "%1"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Wanderer_ElementalArt_Bullet_HoverDash",
+          "ParamSpecial": "Constellation_1_ExtraDamagePercentage",
+          "ParamDelta": "%2"
         }
       ]
     },
@@ -12675,7 +12680,7 @@
         {
           "$type": "AddTalentExtraLevel",
           "TalentType": "AvatarSkill",
-          "TalentIndex": 2,
+          "TalentIndex": 9,
           "ExtraLevel": 3
         }
       ],
@@ -12730,7 +12735,7 @@
         {
           "$type": "AddTalentExtraLevel",
           "TalentType": "AvatarSkill",
-          "TalentIndex": 9,
+          "TalentIndex": 2,
           "ExtraLevel": 3
         }
       ],
@@ -12809,6 +12814,12 @@
           "AbilityName": "Avatar_Wanderer_ElementalArt_HoverAir",
           "ParamSpecial": "Constellation_6_Revive_Stamina",
           "ParamDelta": "%2"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Wanderer_ElementalArt_HoverAir",
+          "ParamSpecial": "Constellation_6_Revive_Stamina_Threshold",
+          "ParamDelta": "%3"
         }
       ],
       "PrevTalent": 755
@@ -12896,7 +12907,7 @@
         {
           "$type": "AddTalentExtraLevel",
           "TalentType": "AvatarSkill",
-          "TalentIndex": 9,
+          "TalentIndex": 2,
           "ExtraLevel": 3
         }
       ],
@@ -12922,50 +12933,31 @@
       ],
       "Config": [
         {
+          "$type": "AddAbility",
+          "AbilityName": "Avatar_Faruzan_Constellation4_ReviveEnergy"
+        },
+        {
           "$type": "UnlockTalentParam",
-          "AbilityName": "Avatar_Faruzan_Aim_TrackBullet_Material",
+          "AbilityName": "Avatar_Faruzan_Constellation4_ReviveEnergy",
           "TalentParam": "Faruzan_Constellation_4"
         },
         {
           "$type": "ModifyAbility",
-          "AbilityName": "Avatar_Faruzan_Aim_TrackBullet_Material",
+          "AbilityName": "Avatar_Faruzan_Constellation4_ReviveEnergy",
           "ParamSpecial": "ReviveEnergyBaseValue",
           "ParamDelta": "%1"
         },
         {
           "$type": "ModifyAbility",
-          "AbilityName": "Avatar_Faruzan_Aim_TrackBullet_Material",
+          "AbilityName": "Avatar_Faruzan_Constellation4_ReviveEnergy",
           "ParamSpecial": "ReviveEnergyExtraValue",
           "ParamDelta": "%2"
         },
         {
           "$type": "ModifyAbility",
-          "AbilityName": "Avatar_Faruzan_Aim_TrackBullet_Material",
+          "AbilityName": "Avatar_Faruzan_Constellation4_ReviveEnergy",
           "ParamSpecial": "ReviveEnergyExtraMaxValue",
           "ParamDelta": "%3"
-        },
-        {
-          "$type": "UnlockTalentParam",
-          "AbilityName": "Avatar_Faruzan_WindBlackHole_Gadget",
-          "TalentParam": "Faruzan_Constellation_4"
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Avatar_Faruzan_WindBlackHole_Gadget",
-          "ParamSpecial": "ReviveEnergyBaseValue",
-          "ParamDelta": "%4"
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Avatar_Faruzan_WindBlackHole_Gadget",
-          "ParamSpecial": "ReviveEnergyExtraValue",
-          "ParamDelta": "%5"
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Avatar_Faruzan_WindBlackHole_Gadget",
-          "ParamSpecial": "ReviveEnergyExtraMaxValue",
-          "ParamDelta": "%6"
         }
       ],
       "PrevTalent": 763
@@ -12992,7 +12984,7 @@
         {
           "$type": "AddTalentExtraLevel",
           "TalentType": "AvatarSkill",
-          "TalentIndex": 2,
+          "TalentIndex": 9,
           "ExtraLevel": 3
         }
       ],
@@ -13023,19 +13015,555 @@
           "TalentParam": "Faruzan_Constellation_6"
         },
         {
+          "$type": "UnlockTalentParam",
+          "AbilityName": "Avatar_Faruzan_PermanentSkill2_WindDamageExtraUp",
+          "TalentParam": "Faruzan_Constellation_6"
+        },
+        {
           "$type": "ModifyAbility",
-          "AbilityName": "Faruzan_ElementalBurst_Gadget_Controller",
+          "AbilityName": "Avatar_Faruzan_PermanentSkill2_WindDamageExtraUp",
           "ParamSpecial": "CriticalHurtUpRatio",
           "ParamDelta": "%1"
         },
         {
           "$type": "ModifyAbility",
-          "AbilityName": "Avatar_Faruzan_Constellation6_AutoHurricaneArrow",
+          "AbilityName": "Avatar_Faruzan_PermanentSkill2_WindDamageExtraUp",
           "ParamSpecial": "AutoHurricaneArrow_CD_Duration",
           "ParamDelta": "%2"
         }
       ],
       "PrevTalent": 765
+    },
+    {
+      "Id": 771,
+      "Name": "Yaoyao_Constellation_1",
+      "MainCostItemId": 1177,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        8,
+        0.15000000596046448,
+        15,
+        5,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "UnlockTalentParam",
+          "AbilityName": "Avatar_Yaoyao_Turnip_Bullet",
+          "TalentParam": "Yaoyao_Constellation_1"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Yaoyao_Turnip_Bullet",
+          "ParamSpecial": "Yaoyao_Constellation_1_Duration",
+          "ParamDelta": "%1"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Yaoyao_Turnip_Bullet",
+          "ParamSpecial": "Yaoyao_Constellation_1_AddHurtDelta",
+          "ParamDelta": "%2"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Yaoyao_Turnip_Bullet",
+          "ParamSpecial": "Yaoyao_Constellation_1_ReviveStamina",
+          "ParamDelta": "%3"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Yaoyao_Turnip_Bullet",
+          "ParamSpecial": "Yaoyao_Constellation_1_ReviveStamina_CD",
+          "ParamDelta": "%4"
+        },
+        {
+          "$type": "UnlockTalentParam",
+          "AbilityName": "Avatar_Yaoyao_Turnip",
+          "TalentParam": "Yaoyao_Constellation_1"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Yaoyao_Turnip",
+          "ParamSpecial": "Yaoyao_Constellation_1_Duration",
+          "ParamDelta": "%1"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Yaoyao_Turnip",
+          "ParamSpecial": "Yaoyao_Constellation_1_AddHurtDelta",
+          "ParamDelta": "%2"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Yaoyao_Turnip",
+          "ParamSpecial": "Yaoyao_Constellation_1_ReviveStamina",
+          "ParamDelta": "%3"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Yaoyao_Turnip",
+          "ParamSpecial": "Yaoyao_Constellation_1_ReviveStamina_CD",
+          "ParamDelta": "%4"
+        }
+      ]
+    },
+    {
+      "Id": 772,
+      "Name": "Yaoyao_Constellation_2",
+      "MainCostItemId": 1177,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        3,
+        0.800000011920929,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "UnlockTalentParam",
+          "AbilityName": "Avatar_Yaoyao_ElementalBurst",
+          "TalentParam": "Yaoyao_Constellation_2"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Yaoyao_ElementalBurst",
+          "ParamSpecial": "Yaoyao_Constellation_2_ReviveEnergy_Ratio",
+          "ParamDelta": "%1"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Yaoyao_ElementalBurst",
+          "ParamSpecial": "Yaoyao_Constellation_2_CD",
+          "ParamDelta": "%2"
+        }
+      ],
+      "PrevTalent": 771
+    },
+    {
+      "Id": 773,
+      "Name": "Yaoyao_Constellation_3",
+      "MainCostItemId": 1177,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddTalentExtraLevel",
+          "TalentType": "AvatarSkill",
+          "TalentIndex": 2,
+          "ExtraLevel": 3
+        }
+      ],
+      "PrevTalent": 772
+    },
+    {
+      "Id": 774,
+      "Name": "Yaoyao_Constellation_4",
+      "MainCostItemId": 1177,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.003000000026077032,
+        8,
+        120,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddAbility",
+          "AbilityName": "Avatar_Yaoyao_Constellation_4"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Yaoyao_Constellation_4",
+          "ParamSpecial": "Yaoyao_Constellation_4_Ratio",
+          "ParamDelta": "%1"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Yaoyao_Constellation_4",
+          "ParamSpecial": "Duration",
+          "ParamDelta": "%2"
+        }
+      ],
+      "PrevTalent": 773
+    },
+    {
+      "Id": 775,
+      "Name": "Yaoyao_Constellation_5",
+      "MainCostItemId": 1177,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddTalentExtraLevel",
+          "TalentType": "AvatarSkill",
+          "TalentIndex": 9,
+          "ExtraLevel": 3
+        }
+      ],
+      "PrevTalent": 774
+    },
+    {
+      "Id": 776,
+      "Name": "Yaoyao_Constellation_6",
+      "MainCostItemId": 1177,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0,
+        0.75,
+        0.07500000298023224,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "UnlockTalentParam",
+          "AbilityName": "Avatar_Yaoyao_ElementalArt_Rabbit",
+          "TalentParam": "Yaoyao_Constellation_6"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Yaoyao_ElementalArt_Rabbit",
+          "ParamSpecial": "Golden_Turnip_Chance",
+          "ParamDelta": "%1"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Yaoyao_Golden_Turnip_Bullet",
+          "ParamSpecial": "Yaoyao_Constellation_6_Damage",
+          "ParamDelta": "%2"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Yaoyao_Golden_Turnip_Bullet",
+          "ParamSpecial": "Yaoyao_Constellation_6_HealHp_Ratio",
+          "ParamDelta": "%3"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Yaoyao_Golden_Turnip",
+          "ParamSpecial": "Yaoyao_Constellation_6_Damage",
+          "ParamDelta": "%2"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Yaoyao_Golden_Turnip",
+          "ParamSpecial": "Yaoyao_Constellation_6_HealHp_Ratio",
+          "ParamDelta": "%3"
+        }
+      ],
+      "PrevTalent": 775
+    },
+    {
+      "Id": 781,
+      "Name": "Alhatham_Constellation_1",
+      "MainCostItemId": 1178,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.2000000476837158,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddAbility",
+          "AbilityName": "Avatar_Alhatham_Constellation_1"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Alhatham_Constellation_1",
+          "ParamSpecial": "Constellation_1_CD_Delta",
+          "ParamDelta": "%1"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Alhatham_Constellation_1",
+          "ParamSpecial": "Constellation_1_CD",
+          "ParamDelta": "%2"
+        }
+      ]
+    },
+    {
+      "Id": 782,
+      "Name": "Alhatham_Constellation_2",
+      "MainCostItemId": 1178,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        50,
+        8,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddAbility",
+          "AbilityName": "Avatar_Alhatham_Constellation_2"
+        },
+        {
+          "$type": "UnlockTalentParam",
+          "AbilityName": "Avatar_Alhatham_ElementalArt_SkillStart",
+          "TalentParam": "Talent_Alhatham_Constellation_2"
+        },
+        {
+          "$type": "UnlockTalentParam",
+          "AbilityName": "Avatar_Alhatham_ElementalBurst",
+          "TalentParam": "Talent_Alhatham_Constellation_2"
+        },
+        {
+          "$type": "UnlockTalentParam",
+          "AbilityName": "Avatar_Alhatham_PermanentSkill_1",
+          "TalentParam": "Talent_Alhatham_Constellation_2"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Alhatham_Constellation_2",
+          "ParamSpecial": "Constellation_2_ElemMasteryDelta",
+          "ParamDelta": "%1"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Alhatham_Constellation_2",
+          "ParamSpecial": "Constellation_2_BuffDuration",
+          "ParamDelta": "%2"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Alhatham_Constellation_2",
+          "ParamSpecial": "Constellation_2_MaxStack",
+          "ParamDelta": "%3"
+        }
+      ],
+      "PrevTalent": 781
+    },
+    {
+      "Id": 783,
+      "Name": "Alhatham_Constellation_3",
+      "MainCostItemId": 1178,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddTalentExtraLevel",
+          "TalentType": "AvatarSkill",
+          "TalentIndex": 2,
+          "ExtraLevel": 3
+        }
+      ],
+      "PrevTalent": 782
+    },
+    {
+      "Id": 784,
+      "Name": "Alhatham_Constellation_4",
+      "MainCostItemId": 1178,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        30,
+        15,
+        0.10000000149011612,
+        15,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "UnlockTalentParam",
+          "AbilityName": "Avatar_Alhatham_ElementalBurst",
+          "TalentParam": "Talent_Alhatham_Constellation_4"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Alhatham_ElementalBurst",
+          "ParamSpecial": "Constellation_4_CostBuff_Mastery",
+          "ParamDelta": "%1"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Alhatham_ElementalBurst",
+          "ParamSpecial": "Constellation_4_CostBuff_Duration",
+          "ParamDelta": "%2"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Alhatham_ElementalBurst",
+          "ParamSpecial": "Constellation_4_GainBuff_GrassAddHurtDelta",
+          "ParamDelta": "%3"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Alhatham_ElementalBurst",
+          "ParamSpecial": "Constellation_4_GainBuff_Duration",
+          "ParamDelta": "%4"
+        }
+      ],
+      "PrevTalent": 783
+    },
+    {
+      "Id": 785,
+      "Name": "Alhatham_Constellation_5",
+      "MainCostItemId": 1178,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddTalentExtraLevel",
+          "TalentType": "AvatarSkill",
+          "TalentIndex": 9,
+          "ExtraLevel": 3
+        }
+      ],
+      "PrevTalent": 784
+    },
+    {
+      "Id": 786,
+      "Name": "Alhatham_Constellation_6",
+      "MainCostItemId": 1178,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.10000000149011612,
+        0.699999988079071,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddAbility",
+          "AbilityName": "Avatar_Alhatham_Constellation_6"
+        },
+        {
+          "$type": "UnlockTalentParam",
+          "AbilityName": "Avatar_Alhatham_ElementalArt_SkillStart",
+          "TalentParam": "Talent_Alhatham_Constellation_6"
+        },
+        {
+          "$type": "UnlockTalentParam",
+          "AbilityName": "Avatar_Alhatham_ElementalBurst",
+          "TalentParam": "Talent_Alhatham_Constellation_6"
+        },
+        {
+          "$type": "UnlockTalentParam",
+          "AbilityName": "Avatar_Alhatham_PermanentSkill_1",
+          "TalentParam": "Talent_Alhatham_Constellation_6"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Alhatham_Constellation_6",
+          "ParamSpecial": "Constellation_6_CriticalDelta",
+          "ParamDelta": "%1"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Alhatham_Constellation_6",
+          "ParamSpecial": "Constellation_6_CriticalHurtDelta",
+          "ParamDelta": "%2"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Alhatham_Constellation_6",
+          "ParamSpecial": "Constellation_6_Duration",
+          "ParamDelta": "%3"
+        }
+      ],
+      "PrevTalent": 785
     }
   ],
   "Equip": [
@@ -21025,6 +21553,305 @@
           "AbilityName": "Weapon_Sword_Deshret",
           "ParamSpecial": "DurationForTeam",
           "ParamDelta": "%6",
+          "ParamRatio": 0
+        }
+      ],
+      "Level": 4
+    },
+    {
+      "AffixId": 1115120,
+      "Id": 111512,
+      "Name": "Weapon_Sword_Ayus",
+      "NameTextMapHash": 2646627715,
+      "DescTextMapHash": 2525753369,
+      "AddProps": [
+        {
+          "PropType": "FIGHT_PROP_CRITICAL",
+          "Value": 0.03999999910593033
+        },
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.03999999910593033,
+        1.2000000476837158,
+        28,
+        12,
+        12,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddAbility",
+          "AbilityName": "Weapon_Sword_Ayus"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Sword_Ayus",
+          "ParamSpecial": "Ratio",
+          "ParamDelta": "%2",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Sword_Ayus",
+          "ParamSpecial": "MaxCount",
+          "ParamDelta": "%3",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Sword_Ayus",
+          "ParamSpecial": "Dura",
+          "ParamDelta": "%4",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Sword_Ayus",
+          "ParamSpecial": "CDTime",
+          "ParamDelta": "%5",
+          "ParamRatio": 0
+        }
+      ]
+    },
+    {
+      "AffixId": 1115121,
+      "Id": 111512,
+      "Name": "Weapon_Sword_Ayus",
+      "NameTextMapHash": 3227901515,
+      "DescTextMapHash": 1965581625,
+      "AddProps": [
+        {
+          "PropType": "FIGHT_PROP_CRITICAL",
+          "Value": 0.05000000074505806
+        },
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.05000000074505806,
+        1.5,
+        28,
+        12,
+        12,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddAbility",
+          "AbilityName": "Weapon_Sword_Ayus"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Sword_Ayus",
+          "ParamSpecial": "Ratio",
+          "ParamDelta": "%2",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Sword_Ayus",
+          "ParamSpecial": "MaxCount",
+          "ParamDelta": "%3",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Sword_Ayus",
+          "ParamSpecial": "Dura",
+          "ParamDelta": "%4",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Sword_Ayus",
+          "ParamSpecial": "CDTime",
+          "ParamDelta": "%5",
+          "ParamRatio": 0
+        }
+      ],
+      "Level": 1
+    },
+    {
+      "AffixId": 1115122,
+      "Id": 111512,
+      "Name": "Weapon_Sword_Ayus",
+      "NameTextMapHash": 1287376467,
+      "DescTextMapHash": 3431131633,
+      "AddProps": [
+        {
+          "PropType": "FIGHT_PROP_CRITICAL",
+          "Value": 0.05999999865889549
+        },
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.05999999865889549,
+        1.7999999523162842,
+        28,
+        12,
+        12,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddAbility",
+          "AbilityName": "Weapon_Sword_Ayus"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Sword_Ayus",
+          "ParamSpecial": "Ratio",
+          "ParamDelta": "%2",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Sword_Ayus",
+          "ParamSpecial": "MaxCount",
+          "ParamDelta": "%3",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Sword_Ayus",
+          "ParamSpecial": "Dura",
+          "ParamDelta": "%4",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Sword_Ayus",
+          "ParamSpecial": "CDTime",
+          "ParamDelta": "%5",
+          "ParamRatio": 0
+        }
+      ],
+      "Level": 2
+    },
+    {
+      "AffixId": 1115123,
+      "Id": 111512,
+      "Name": "Weapon_Sword_Ayus",
+      "NameTextMapHash": 1555379819,
+      "DescTextMapHash": 425981449,
+      "AddProps": [
+        {
+          "PropType": "FIGHT_PROP_CRITICAL",
+          "Value": 0.07000000029802322
+        },
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.07000000029802322,
+        2.0999999046325684,
+        28,
+        12,
+        12,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddAbility",
+          "AbilityName": "Weapon_Sword_Ayus"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Sword_Ayus",
+          "ParamSpecial": "Ratio",
+          "ParamDelta": "%2",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Sword_Ayus",
+          "ParamSpecial": "MaxCount",
+          "ParamDelta": "%3",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Sword_Ayus",
+          "ParamSpecial": "Dura",
+          "ParamDelta": "%4",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Sword_Ayus",
+          "ParamSpecial": "CDTime",
+          "ParamDelta": "%5",
+          "ParamRatio": 0
+        }
+      ],
+      "Level": 3
+    },
+    {
+      "AffixId": 1115124,
+      "Id": 111512,
+      "Name": "Weapon_Sword_Ayus",
+      "NameTextMapHash": 1383427723,
+      "DescTextMapHash": 2624565033,
+      "AddProps": [
+        {
+          "PropType": "FIGHT_PROP_CRITICAL",
+          "Value": 0.07999999821186066
+        },
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.07999999821186066,
+        2.4000000953674316,
+        28,
+        12,
+        12,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddAbility",
+          "AbilityName": "Weapon_Sword_Ayus"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Sword_Ayus",
+          "ParamSpecial": "Ratio",
+          "ParamDelta": "%2",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Sword_Ayus",
+          "ParamSpecial": "MaxCount",
+          "ParamDelta": "%3",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Sword_Ayus",
+          "ParamSpecial": "Dura",
+          "ParamDelta": "%4",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Sword_Ayus",
+          "ParamSpecial": "CDTime",
+          "ParamDelta": "%5",
           "ParamRatio": 0
         }
       ],

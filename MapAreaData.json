@@ -140,6 +140,16 @@
     "Name": "海岛LevelTag切换区域 - 危危岛"
   },
   {
+    "Id": 34,
+    "SceneId": 3,
+    "Name": "沙尘暴启动"
+  },
+  {
+    "Id": 35,
+    "SceneId": 3,
+    "Name": "沙尘暴常驻关闭"
+  },
+  {
     "Id": 36,
     "SceneId": 3,
     "Name": "流沙坑区域切换"
@@ -158,5 +168,30 @@
     "Id": 39,
     "SceneId": 3,
     "Name": "赤王陵后方地洞区域切换"
+  },
+  {
+    "Id": 40,
+    "SceneId": 3,
+    "Name": "机器人A点"
+  },
+  {
+    "Id": 41,
+    "SceneId": 3,
+    "Name": "机器人B点"
+  },
+  {
+    "Id": 42,
+    "SceneId": 3,
+    "Name": "机器人C点"
+  },
+  {
+    "Id": 43,
+    "SceneId": 3,
+    "Name": "机器人D点"
+  },
+  {
+    "Id": 44,
+    "SceneId": 3,
+    "Name": "神之棋盘"
   }
 ]

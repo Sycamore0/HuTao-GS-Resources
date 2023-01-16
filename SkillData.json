@@ -3487,6 +3487,96 @@
       "AttackModeSkill": 20000
     },
     {
+      "Id": 7701,
+      "Skills": [
+        10771,
+        10772,
+        0,
+        0
+      ],
+      "SubSkills": [
+        10101,
+        10102,
+        10002,
+        5077010
+      ],
+      "ExtraAbilities": [
+        "",
+        "",
+        ""
+      ],
+      "Talents": [
+        771,
+        772,
+        773,
+        774,
+        775,
+        776
+      ],
+      "TalentStarName": "Talent_Yaoyao",
+      "InherentProudSkillOpens": [
+        {
+          "ProudSkillGroupId": 7721,
+          "NeedAvatarPromoteLevel": 1
+        },
+        {
+          "ProudSkillGroupId": 7722,
+          "NeedAvatarPromoteLevel": 4
+        },
+        {
+          "ProudSkillGroupId": 7723
+        },
+        {},
+        {}
+      ],
+      "SkillDepotAbilityGroup": "",
+      "EnergySkill": 10775
+    },
+    {
+      "Id": 7801,
+      "Skills": [
+        10781,
+        10782,
+        0,
+        0
+      ],
+      "SubSkills": [
+        10001,
+        5078010
+      ],
+      "ExtraAbilities": [
+        "",
+        "",
+        ""
+      ],
+      "Talents": [
+        781,
+        782,
+        783,
+        784,
+        785,
+        786
+      ],
+      "TalentStarName": "Talent_Alhatham",
+      "InherentProudSkillOpens": [
+        {
+          "ProudSkillGroupId": 7821,
+          "NeedAvatarPromoteLevel": 1
+        },
+        {
+          "ProudSkillGroupId": 7822,
+          "NeedAvatarPromoteLevel": 4
+        },
+        {
+          "ProudSkillGroupId": 7823
+        },
+        {},
+        {}
+      ],
+      "SkillDepotAbilityGroup": "",
+      "EnergySkill": 10785
+    },
+    {
       "Id": 8011,
       "Skills": [
         0,
@@ -6568,17 +6658,17 @@
       "AbilityName": "",
       "MaxChargeNum": 1,
       "GlobalValueKey": "",
-      "CostStamina": 1,
       "TriggerID": 8,
-      "DragType": "DRAG_ROTATE_CAMERA"
+      "DragType": "DRAG_ROTATE_CAMERA",
+      "ForceCanDoSkill": true
     },
     {
       "Id": 10750,
       "AbilityName": "",
       "MaxChargeNum": 1,
       "GlobalValueKey": "",
-      "CostStamina": 1,
-      "TriggerID": 9
+      "TriggerID": 9,
+      "ForceCanDoSkill": true
     },
     {
       "Id": 10761,
@@ -6614,6 +6704,60 @@
       "ProudSkillGroupId": 7639,
       "CostElemType": "Wind",
       "CostElemVal": 80
+    },
+    {
+      "Id": 10771,
+      "AbilityName": "Avatar_Yaoyao_ExtraAttack",
+      "MaxChargeNum": 1,
+      "GlobalValueKey": "",
+      "ProudSkillGroupId": 7731
+    },
+    {
+      "Id": 10772,
+      "AbilityName": "",
+      "MaxChargeNum": 1,
+      "GlobalValueKey": "",
+      "CdTime": 15,
+      "TriggerID": 2,
+      "ProudSkillGroupId": 7732
+    },
+    {
+      "Id": 10775,
+      "AbilityName": "",
+      "MaxChargeNum": 1,
+      "GlobalValueKey": "",
+      "CdTime": 20,
+      "TriggerID": 5,
+      "ProudSkillGroupId": 7739,
+      "CostElemType": "Grass",
+      "CostElemVal": 80
+    },
+    {
+      "Id": 10781,
+      "AbilityName": "Avatar_Alhatham_ExtraAttack",
+      "MaxChargeNum": 1,
+      "GlobalValueKey": "",
+      "ProudSkillGroupId": 7831
+    },
+    {
+      "Id": 10782,
+      "AbilityName": "",
+      "MaxChargeNum": 1,
+      "GlobalValueKey": "",
+      "CdTime": 18,
+      "TriggerID": 2,
+      "ProudSkillGroupId": 7832
+    },
+    {
+      "Id": 10785,
+      "AbilityName": "",
+      "MaxChargeNum": 1,
+      "GlobalValueKey": "",
+      "CdTime": 18,
+      "TriggerID": 5,
+      "ProudSkillGroupId": 7839,
+      "CostElemType": "Grass",
+      "CostElemVal": 70
     },
     {
       "Id": 20001,
@@ -6873,6 +7017,22 @@
       "MaxChargeNum": 1,
       "GlobalValueKey": "",
       "CostStamina": 999999,
+      "IgnoreCDMinusRatio": true
+    },
+    {
+      "Id": 20057,
+      "AbilityName": "",
+      "MaxChargeNum": 1,
+      "GlobalValueKey": "",
+      "TriggerID": 213,
+      "IgnoreCDMinusRatio": true
+    },
+    {
+      "Id": 20058,
+      "AbilityName": "",
+      "MaxChargeNum": 1,
+      "GlobalValueKey": "",
+      "TriggerID": 213,
       "IgnoreCDMinusRatio": true
     },
     {
@@ -7248,6 +7408,33 @@
       "IgnoreCDMinusRatio": true
     },
     {
+      "Id": 20321,
+      "AbilityName": "ActivityAbility_Avatar_Blocking_Burst_01",
+      "MaxChargeNum": 1,
+      "GlobalValueKey": "AVATAR_BLOCKING_ENERGY",
+      "CdTime": 1,
+      "IgnoreCDMinusRatio": true,
+      "EnergyMin": 100
+    },
+    {
+      "Id": 20322,
+      "AbilityName": "ActivityAbility_Avatar_Blocking_Burst_02",
+      "MaxChargeNum": 1,
+      "GlobalValueKey": "AVATAR_BLOCKING_ENERGY",
+      "CdTime": 1,
+      "IgnoreCDMinusRatio": true,
+      "EnergyMin": 100
+    },
+    {
+      "Id": 20323,
+      "AbilityName": "ActivityAbility_Avatar_Blocking_Burst_03",
+      "MaxChargeNum": 1,
+      "GlobalValueKey": "AVATAR_BLOCKING_ENERGY",
+      "CdTime": 1,
+      "IgnoreCDMinusRatio": true,
+      "EnergyMin": 100
+    },
+    {
       "Id": 20330,
       "AbilityName": "ActivityAbility_Lannaluo_Shoot",
       "MaxChargeNum": 1,
@@ -7269,6 +7456,25 @@
       "MaxChargeNum": 1,
       "GlobalValueKey": "AVATAR_BREAKOUT_ENERGY",
       "IgnoreCDMinusRatio": true,
+      "EnergyMin": 100
+    },
+    {
+      "Id": 20341,
+      "AbilityName": "ActivityAbility_LanV3Race_Rush",
+      "MaxChargeNum": 1,
+      "GlobalValueKey": "AVATAR_LANV3RACE_ENERGY",
+      "CdTime": 1,
+      "IgnoreCDMinusRatio": true,
+      "EnergyMin": 100
+    },
+    {
+      "Id": 20342,
+      "AbilityName": "ActivityAbility_LanV3Race_Rush",
+      "MaxChargeNum": 1,
+      "GlobalValueKey": "AVATAR_LANV3RACE_ENERGY",
+      "CdTime": 1,
+      "IgnoreCDMinusRatio": true,
+      "CdSlot": 2,
       "EnergyMin": 100
     },
     {
@@ -7914,6 +8120,20 @@
     },
     {
       "Id": 5076010,
+      "AbilityName": "",
+      "MaxChargeNum": 1,
+      "GlobalValueKey": "",
+      "TriggerID": 30
+    },
+    {
+      "Id": 5077010,
+      "AbilityName": "",
+      "MaxChargeNum": 1,
+      "GlobalValueKey": "",
+      "TriggerID": 30
+    },
+    {
+      "Id": 5078010,
       "AbilityName": "",
       "MaxChargeNum": 1,
       "GlobalValueKey": "",
@@ -197194,7 +197414,7 @@
         3854414860,
         103628563,
         3233196695,
-        612012731,
+        1396646819,
         4139138030,
         3361465525
       ],
@@ -237082,6 +237302,7091 @@
         12,
         20,
         80,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 772101,
+      "GroupId": 7721,
+      "Level": 1,
+      "Type": 2,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1567672342,
+        4242995102,
+        453404591,
+        1920680591,
+        2135191382,
+        4206602546,
+        2574238743,
+        2492273293,
+        605198884,
+        3161470711,
+        1284598604,
+        2189612643,
+        3909765503,
+        2410020211,
+        2457740654,
+        3761201813
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_PermanentSkill_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.6000000238418579,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 1
+    },
+    {
+      "Id": 772201,
+      "GroupId": 7722,
+      "Level": 1,
+      "Type": 2,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2834629142,
+        3218779654,
+        965250791,
+        2987408799,
+        511595166,
+        2594527114,
+        1528567807,
+        3395361637,
+        576071980,
+        5671103,
+        1186852900,
+        3189969115,
+        558265455,
+        1450009891,
+        1450787526,
+        1362209581
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_PermanentSkill_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1,
+        0.00800000037997961,
+        5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 4
+    },
+    {
+      "Id": 772301,
+      "GroupId": 7723,
+      "Level": 1,
+      "Type": 2,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3533912646,
+        4069173654,
+        3519034519,
+        3375793247,
+        363668598,
+        3555464930,
+        1887263407,
+        2698001765,
+        3432686316,
+        2156069735,
+        3164237980,
+        1318382547,
+        3609301575,
+        3298781027,
+        2534971902,
+        1896132141
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_ProudSkill_NonCombat_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "Id": 773101,
+      "GroupId": 7731,
+      "Level": 1,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3335190990,
+        3081840774,
+        3930681943,
+        3503245775,
+        859734814,
+        3014018034,
+        688319071,
+        2538471405,
+        2207738692,
+        3041331807,
+        4075701804,
+        2251988091,
+        4268651767,
+        73226707,
+        3245511102,
+        2243881109
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.510013997554779,
+        0.4744279980659485,
+        0.31377100944519043,
+        0.32945701479911804,
+        0.7793149948120117,
+        1.1266000270843506,
+        25,
+        0.6393240094184875,
+        1.2783770561218262,
+        1.59676194190979,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "Id": 773102,
+      "GroupId": 7731,
+      "Level": 2,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104313,
+          "Count": 3
+        },
+        {
+          "Id": 112002,
+          "Count": 6
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1899535286,
+        1656492838,
+        1735524695,
+        950599039,
+        2018136686,
+        2507962802,
+        591935279,
+        1500859493,
+        3538401316,
+        2236244359,
+        96300180,
+        988576067,
+        3273305775,
+        4003245211,
+        1910503174,
+        2930925925
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.5515270233154297,
+        0.513043999671936,
+        0.33931100368499756,
+        0.3562740087509155,
+        0.8427469730377197,
+        1.2182999849319458,
+        25,
+        0.6913620233535767,
+        1.3824310302734375,
+        1.7267309427261353,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 2,
+      "CoinCost": 12500
+    },
+    {
+      "Id": 773103,
+      "GroupId": 7731,
+      "Level": 3,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104314,
+          "Count": 2
+        },
+        {
+          "Id": 112003,
+          "Count": 3
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2327716438,
+        2234798534,
+        3231996255,
+        439468199,
+        1011770846,
+        3440581570,
+        3396538703,
+        3122616701,
+        2217354372,
+        1073796735,
+        1635831980,
+        41980707,
+        1595466119,
+        1488976435,
+        2444228430,
+        2991924341
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.5930399894714355,
+        0.5516600012779236,
+        0.3648500144481659,
+        0.38308998942375183,
+        0.9061800241470337,
+        1.309999942779541,
+        25,
+        0.743399977684021,
+        1.4864850044250488,
+        1.8566999435424805,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 3,
+      "CoinCost": 17500
+    },
+    {
+      "Id": 773104,
+      "GroupId": 7731,
+      "Level": 4,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104314,
+          "Count": 4
+        },
+        {
+          "Id": 112003,
+          "Count": 4
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1919521286,
+        1174318286,
+        1704450039,
+        2906313863,
+        2593563918,
+        1955630162,
+        2222806015,
+        3254226509,
+        838171284,
+        2714635319,
+        1019673020,
+        3138515323,
+        1855281383,
+        1302821035,
+        4078311542,
+        978815853
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.6523439884185791,
+        0.6068260073661804,
+        0.4013350009918213,
+        0.42139899730682373,
+        0.9967979788780212,
+        1.440999984741211,
+        25,
+        0.8177400231361389,
+        1.635133981704712,
+        2.042370080947876,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 3,
+      "CoinCost": 25000
+    },
+    {
+      "Id": 773105,
+      "GroupId": 7731,
+      "Level": 5,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104314,
+          "Count": 6
+        },
+        {
+          "Id": 112003,
+          "Count": 6
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2552096558,
+        150498982,
+        3909047871,
+        3664104367,
+        1536078342,
+        2825227626,
+        1823680239,
+        1758098701,
+        659079108,
+        4066476447,
+        4020798372,
+        2733073515,
+        1971008527,
+        820942019,
+        878903638,
+        1295777189
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.6938570141792297,
+        0.645442008972168,
+        0.4268740117549896,
+        0.4482150077819824,
+        1.0602309703826904,
+        1.5326999425888062,
+        25,
+        0.8697779774665833,
+        1.7391870021820068,
+        2.1723389625549316,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 4,
+      "CoinCost": 30000
+    },
+    {
+      "Id": 773106,
+      "GroupId": 7731,
+      "Level": 6,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104314,
+          "Count": 9
+        },
+        {
+          "Id": 112003,
+          "Count": 9
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2405896678,
+        3103019710,
+        2915423663,
+        692528135,
+        3937928590,
+        2839722218,
+        3164621255,
+        298229293,
+        70434900,
+        1820458471,
+        2532679220,
+        1025739227,
+        1505610095,
+        4060580683,
+        2196852894,
+        427544925
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.7412999868392944,
+        0.6895750164985657,
+        0.45606300234794617,
+        0.4788619875907898,
+        1.1327250003814697,
+        1.6375000476837158,
+        25,
+        0.9292500019073486,
+        1.858106017112732,
+        2.3208749294281006,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 4,
+      "CoinCost": 37500
+    },
+    {
+      "Id": 773107,
+      "GroupId": 7731,
+      "Level": 7,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104315,
+          "Count": 4
+        },
+        {
+          "Id": 112004,
+          "Count": 4
+        },
+        {
+          "Id": 113043,
+          "Count": 1
+        },
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3229066118,
+        3216888878,
+        419941663,
+        3174556223,
+        1022199774,
+        1744062946,
+        3226224847,
+        3265074197,
+        2526681404,
+        1929311535,
+        4130521308,
+        1791357307,
+        4082737071,
+        1123837563,
+        3854730238,
+        3279354093
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.8065339922904968,
+        0.7502580285072327,
+        0.4961960017681122,
+        0.5210019946098328,
+        1.2324049472808838,
+        1.781599998474121,
+        25,
+        1.011023998260498,
+        2.021620035171509,
+        2.5251119136810303,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 5,
+      "CoinCost": 120000
+    },
+    {
+      "Id": 773108,
+      "GroupId": 7731,
+      "Level": 8,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104315,
+          "Count": 6
+        },
+        {
+          "Id": 112004,
+          "Count": 6
+        },
+        {
+          "Id": 113043,
+          "Count": 1
+        },
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        583544030,
+        2754340550,
+        3453770495,
+        744501167,
+        2527257142,
+        4001045634,
+        3655265983,
+        2713657181,
+        3197300708,
+        3207997135,
+        3484824580,
+        2623739763,
+        611606919,
+        4077287907,
+        934210974,
+        3327348413
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.8717690110206604,
+        0.8109400272369385,
+        0.536329984664917,
+        0.5631420016288757,
+        1.3320850133895874,
+        1.9256999492645264,
+        25,
+        1.0927979946136475,
+        2.1851329803466797,
+        2.72934889793396,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 5,
+      "CoinCost": 260000
+    },
+    {
+      "Id": 773109,
+      "GroupId": 7731,
+      "Level": 9,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104315,
+          "Count": 12
+        },
+        {
+          "Id": 112004,
+          "Count": 9
+        },
+        {
+          "Id": 113043,
+          "Count": 2
+        },
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        288546110,
+        1377428534,
+        3828981895,
+        3230171511,
+        293716014,
+        26224874,
+        3769538191,
+        1716880581,
+        570728228,
+        4088400423,
+        3908297636,
+        80183763,
+        2323649199,
+        1944617227,
+        3928002662,
+        592552261
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.9370030164718628,
+        0.8716229796409607,
+        0.576462984085083,
+        0.6052820086479187,
+        1.431764006614685,
+        2.0697999000549316,
+        25,
+        1.1745719909667969,
+        2.3486459255218506,
+        2.9335858821868896,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6,
+      "CoinCost": 450000
+    },
+    {
+      "Id": 773110,
+      "GroupId": 7731,
+      "Level": 10,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104315,
+          "Count": 16
+        },
+        {
+          "Id": 112004,
+          "Count": 12
+        },
+        {
+          "Id": 113043,
+          "Count": 2
+        },
+        {
+          "Id": 104319,
+          "Count": 1
+        }
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        670272118,
+        4147242094,
+        785999831,
+        1765953711,
+        1183621902,
+        2374701218,
+        2908326119,
+        2946996453,
+        3781597300,
+        449825303,
+        1083454652,
+        2917448835,
+        883766399,
+        3085040683,
+        1921577334,
+        782494773
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.0081679821014404,
+        0.9378219842910767,
+        0.6202449798583984,
+        0.6512529850006104,
+        1.5405060052871704,
+        2.2269999980926514,
+        25,
+        1.2637799978256226,
+        2.527024984359741,
+        3.1563899517059326,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6,
+      "CoinCost": 700000
+    },
+    {
+      "Id": 773111,
+      "GroupId": 7731,
+      "Level": 11,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        678265406,
+        2619237174,
+        827788055,
+        1453219327,
+        3433827590,
+        1951347698,
+        2215533391,
+        583861397,
+        4018043292,
+        555083455,
+        1256713652,
+        1392631219,
+        783119671,
+        3839581075,
+        2372896974,
+        3291881853
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.079332947731018,
+        1.0040210485458374,
+        0.6640269756317139,
+        0.6972240209579468,
+        1.6492480039596558,
+        2.384200096130371,
+        25,
+        1.3529880046844482,
+        2.7054030895233154,
+        3.3791940212249756,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 773112,
+      "GroupId": 7731,
+      "Level": 12,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        989127318,
+        2516860438,
+        149608023,
+        4102087143,
+        2638936678,
+        367049138,
+        1908436303,
+        476318757,
+        2695290700,
+        1371941031,
+        2939422108,
+        3702153427,
+        989253231,
+        2046314603,
+        3432956062,
+        3876257133
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.1504980325698853,
+        1.0702199935913086,
+        0.7078089714050293,
+        0.7431949973106384,
+        1.7579890489578247,
+        2.5413999557495117,
+        25,
+        1.442196011543274,
+        2.8837809562683105,
+        3.6019980907440186,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 773113,
+      "GroupId": 7731,
+      "Level": 13,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3993078182,
+        1208127166,
+        3259574007,
+        1509443991,
+        2232434654,
+        1009181466,
+        717719535,
+        2754858757,
+        3452557044,
+        2966238887,
+        2089947924,
+        3094160779,
+        48215855,
+        2684938875,
+        534298374,
+        1300359837
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.2216620445251465,
+        1.1364200115203857,
+        0.7515910267829895,
+        0.7891650199890137,
+        1.86673104763031,
+        2.6986000537872314,
+        25,
+        1.5314040184020996,
+        3.0621590614318848,
+        3.8248019218444824,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 773114,
+      "GroupId": 7731,
+      "Level": 14,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1547000734,
+        1699788862,
+        620832143,
+        907281751,
+        3650092046,
+        4209334322,
+        1462193127,
+        3665358205,
+        3170062860,
+        3508484935,
+        3712438636,
+        3816814531,
+        268188599,
+        1777954747,
+        1524230486,
+        1404794261
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.2928270101547241,
+        1.202618956565857,
+        0.7953730225563049,
+        0.8351359963417053,
+        1.9754719734191895,
+        2.855799913406372,
+        25,
+        1.6206120252609253,
+        3.24053692817688,
+        4.047605991363525,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 773115,
+      "GroupId": 7731,
+      "Level": 15,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        4264388094,
+        3047948742,
+        40541887,
+        275759167,
+        840011318,
+        4056346834,
+        1447196327,
+        846754613,
+        2166114028,
+        826222439,
+        332852164,
+        4101882299,
+        45400799,
+        3338020475,
+        1166814830,
+        928117621
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.3639919757843018,
+        1.2688180208206177,
+        0.8391550183296204,
+        0.881106972694397,
+        2.084213972091675,
+        3.013000011444092,
+        25,
+        1.709820032119751,
+        3.418915033340454,
+        4.270410060882568,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 773201,
+      "GroupId": 7732,
+      "Level": 1,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        436187310,
+        1884197006,
+        3538385423,
+        4045134335,
+        2784888678,
+        1816417898,
+        1284757391,
+        2958944061,
+        2181094092,
+        854186191,
+        1132754700,
+        1862427203,
+        2440604671,
+        787740835,
+        2168235638,
+        3698749605
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.29919999837875366,
+        0.017142999917268753,
+        165.0799102783203,
+        10,
+        5,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "Id": 773202,
+      "GroupId": 7732,
+      "Level": 2,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104313,
+          "Count": 3
+        },
+        {
+          "Id": 112002,
+          "Count": 6
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        167543742,
+        2388565942,
+        4258786663,
+        3111309239,
+        3011520966,
+        3049018450,
+        1104561247,
+        4126570389,
+        2734802260,
+        4254338423,
+        1945890172,
+        2892522083,
+        3510156855,
+        4177678795,
+        3450357334,
+        4265713541
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.3216400146484375,
+        0.018428999930620193,
+        181.59019470214844,
+        10,
+        5,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 2,
+      "CoinCost": 12500
+    },
+    {
+      "Id": 773203,
+      "GroupId": 7732,
+      "Level": 3,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104314,
+          "Count": 2
+        },
+        {
+          "Id": 112003,
+          "Count": 3
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1374890614,
+        663038182,
+        2482539887,
+        2681771511,
+        2766950142,
+        449133898,
+        2845013927,
+        2657499949,
+        1193590652,
+        1664739687,
+        1483212548,
+        3150373251,
+        1623188847,
+        726200875,
+        3011329926,
+        2759206525
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.34408000111579895,
+        0.019713999703526497,
+        199.47634887695312,
+        10,
+        5,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 3,
+      "CoinCost": 17500
+    },
+    {
+      "Id": 773204,
+      "GroupId": 7732,
+      "Level": 4,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104314,
+          "Count": 4
+        },
+        {
+          "Id": 112003,
+          "Count": 4
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3799825678,
+        3327625998,
+        2193322487,
+        2938468719,
+        3476761742,
+        4224853930,
+        2505332631,
+        3236705573,
+        2996738004,
+        3556972607,
+        1114534116,
+        2234801147,
+        1890366271,
+        960840691,
+        528551094,
+        1627276317
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.37400001287460327,
+        0.021428000181913376,
+        218.73834228515625,
+        10,
+        5,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 3,
+      "CoinCost": 25000
+    },
+    {
+      "Id": 773205,
+      "GroupId": 7732,
+      "Level": 5,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104314,
+          "Count": 6
+        },
+        {
+          "Id": 112003,
+          "Count": 6
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3376526862,
+        738979782,
+        1128646287,
+        4064952895,
+        4186565790,
+        3941503114,
+        1517714663,
+        3555689381,
+        1236594436,
+        1510008623,
+        339195284,
+        353396459,
+        2282441895,
+        198974555,
+        1617866702,
+        2012809829
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.3964399993419647,
+        0.022714000195264816,
+        239.37620544433594,
+        10,
+        5,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 4,
+      "CoinCost": 30000
+    },
+    {
+      "Id": 773206,
+      "GroupId": 7732,
+      "Level": 6,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104314,
+          "Count": 9
+        },
+        {
+          "Id": 112003,
+          "Count": 9
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1961255982,
+        3602664438,
+        885536391,
+        2245574855,
+        3688192030,
+        3967988538,
+        1838810399,
+        1714083101,
+        907946260,
+        2279394063,
+        2027297660,
+        2148244387,
+        3136450151,
+        151589235,
+        1086402670,
+        4119341
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.41887998580932617,
+        0.024000000208616257,
+        261.3899230957031,
+        10,
+        5,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 4,
+      "CoinCost": 37500
+    },
+    {
+      "Id": 773207,
+      "GroupId": 7732,
+      "Level": 7,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104315,
+          "Count": 4
+        },
+        {
+          "Id": 112004,
+          "Count": 4
+        },
+        {
+          "Id": 113043,
+          "Count": 1
+        },
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1819641854,
+        72091638,
+        1100168279,
+        1210862031,
+        747057350,
+        2378073754,
+        4095443087,
+        1587403733,
+        1656421668,
+        2196521039,
+        4238533964,
+        1305315843,
+        4071392263,
+        1913844547,
+        3851390382,
+        1215342925
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.4487999975681305,
+        0.025714000687003136,
+        284.77947998046875,
+        10,
+        5,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 5,
+      "CoinCost": 120000
+    },
+    {
+      "Id": 773208,
+      "GroupId": 7732,
+      "Level": 8,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104315,
+          "Count": 6
+        },
+        {
+          "Id": 112004,
+          "Count": 6
+        },
+        {
+          "Id": 113043,
+          "Count": 1
+        },
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1996360654,
+        3633047038,
+        1563983359,
+        2032954375,
+        1839232158,
+        2648553090,
+        1717922647,
+        3069433829,
+        3397828028,
+        2604822063,
+        1340941300,
+        3385785419,
+        2928577687,
+        3431223755,
+        2620318750,
+        21847989
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.4787200093269348,
+        0.027427999302744865,
+        309.544921875,
+        10,
+        5,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 5,
+      "CoinCost": 260000
+    },
+    {
+      "Id": 773209,
+      "GroupId": 7732,
+      "Level": 9,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104315,
+          "Count": 12
+        },
+        {
+          "Id": 112004,
+          "Count": 9
+        },
+        {
+          "Id": 113043,
+          "Count": 2
+        },
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2161946782,
+        1639732278,
+        3491246759,
+        1840034687,
+        300619798,
+        2234526578,
+        443748703,
+        3055212629,
+        2811472028,
+        1666220207,
+        2226556316,
+        665535075,
+        1386360207,
+        2004194659,
+        89615830,
+        967003861
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.5086399912834167,
+        0.02914300002157688,
+        335.6861877441406,
+        10,
+        5,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6,
+      "CoinCost": 450000
+    },
+    {
+      "Id": 773210,
+      "GroupId": 7732,
+      "Level": 10,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104315,
+          "Count": 16
+        },
+        {
+          "Id": 112004,
+          "Count": 12
+        },
+        {
+          "Id": 113043,
+          "Count": 2
+        },
+        {
+          "Id": 104319,
+          "Count": 1
+        }
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2773921262,
+        2078735014,
+        3427446983,
+        2666645823,
+        1805463582,
+        605623666,
+        4263078599,
+        4104673933,
+        387686300,
+        81551639,
+        3673587700,
+        1775023315,
+        698619503,
+        1113353011,
+        2034198526,
+        3058291461
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.5385599732398987,
+        0.03085700049996376,
+        363.2033386230469,
+        10,
+        5,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6,
+      "CoinCost": 700000
+    },
+    {
+      "Id": 773211,
+      "GroupId": 7732,
+      "Level": 11,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1871294062,
+        4126212030,
+        736189359,
+        993458335,
+        3381836542,
+        348886250,
+        2577160103,
+        260460917,
+        890554852,
+        3837574247,
+        3517409044,
+        1079623811,
+        3364734503,
+        770356907,
+        1228589790,
+        3071282197
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.5684800148010254,
+        0.03257099911570549,
+        392.0963439941406,
+        10,
+        5,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 773212,
+      "GroupId": 7732,
+      "Level": 12,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1865233766,
+        436276166,
+        117198039,
+        107310063,
+        3773634590,
+        3127324114,
+        3525347503,
+        786926029,
+        883989548,
+        3167417567,
+        1019979756,
+        2987903619,
+        4225053463,
+        2076991955,
+        15541206,
+        196677517
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.5983999967575073,
+        0.034285999834537506,
+        422.3652038574219,
+        10,
+        5,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 773213,
+      "GroupId": 7732,
+      "Level": 13,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1397243790,
+        2699472070,
+        3088997983,
+        4036249407,
+        2191648702,
+        2454603026,
+        2839640511,
+        2292607037,
+        2345200972,
+        521969951,
+        2898161156,
+        3310690355,
+        2537938279,
+        1124789835,
+        1976735678,
+        2564985013
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.6358000040054321,
+        0.036428000777959824,
+        454.0099182128906,
+        10,
+        5,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 773214,
+      "GroupId": 7732,
+      "Level": 14,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2619022326,
+        2622532750,
+        3255593863,
+        1222082495,
+        2587968006,
+        1371010402,
+        3012004223,
+        2547223669,
+        3703584260,
+        2812405031,
+        495961620,
+        1261172195,
+        1336993607,
+        3691027147,
+        3202162926,
+        2092174981
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.6732000112533569,
+        0.03857100009918213,
+        487.0304870605469,
+        10,
+        5,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 773215,
+      "GroupId": 7732,
+      "Level": 15,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3861958502,
+        2008929878,
+        4144368807,
+        4131265143,
+        797368046,
+        3701442274,
+        1481617999,
+        3703452669,
+        2986161300,
+        229859599,
+        3663987884,
+        1238287963,
+        968077863,
+        729614179,
+        1936899966,
+        3536003749
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.7106000185012817,
+        0.040713999420404434,
+        521.4269409179688,
+        10,
+        5,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 773901,
+      "GroupId": 7739,
+      "Level": 1,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1064692622,
+        1357787958,
+        2361662927,
+        3847583991,
+        30325606,
+        712994258,
+        2706611655,
+        1509204853,
+        389839052,
+        2486864295,
+        42890564,
+        3433786587,
+        3532588783,
+        88492107,
+        3393087062,
+        3840889621
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.7215999960899353,
+        0.02016800083220005,
+        194.21231079101562,
+        1.1455999612808228,
+        0.5,
+        5,
+        20,
+        80,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "Id": 773902,
+      "GroupId": 7739,
+      "Level": 2,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104313,
+          "Count": 3
+        },
+        {
+          "Id": 112002,
+          "Count": 6
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3495182870,
+        386651230,
+        1001374071,
+        1019465495,
+        3540049302,
+        642164466,
+        2492633887,
+        1338939173,
+        3911586020,
+        1288881727,
+        147336212,
+        1025632531,
+        864973479,
+        1588471963,
+        3876186438,
+        1574759237
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.7757200002670288,
+        0.02168099954724312,
+        213.63624572753906,
+        1.2315200567245483,
+        0.5,
+        5,
+        20,
+        80,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 2,
+      "CoinCost": 12500
+    },
+    {
+      "Id": 773903,
+      "GroupId": 7739,
+      "Level": 3,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104314,
+          "Count": 2
+        },
+        {
+          "Id": 112003,
+          "Count": 3
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2392470358,
+        3333635478,
+        739300791,
+        2284335967,
+        2025168774,
+        3855577370,
+        2824132151,
+        18170677,
+        4277740372,
+        4177367543,
+        3934797748,
+        1658620923,
+        2471194351,
+        2440070747,
+        1942598470,
+        371648429
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.8298400044441223,
+        0.0231929998844862,
+        234.6788330078125,
+        1.3174400329589844,
+        0.5,
+        5,
+        20,
+        80,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 3,
+      "CoinCost": 17500
+    },
+    {
+      "Id": 773904,
+      "GroupId": 7739,
+      "Level": 4,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104314,
+          "Count": 4
+        },
+        {
+          "Id": 112003,
+          "Count": 4
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2952827862,
+        2039785790,
+        3872380487,
+        1625865271,
+        925973854,
+        1855368770,
+        2251243503,
+        1326483677,
+        3514117764,
+        1723668919,
+        4251959444,
+        3727584699,
+        2375999991,
+        247262371,
+        3214912278,
+        1405939549
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.9020000100135803,
+        0.025210000574588776,
+        257.340087890625,
+        1.4320000410079956,
+        0.5,
+        5,
+        20,
+        80,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 3,
+      "CoinCost": 25000
+    },
+    {
+      "Id": 773905,
+      "GroupId": 7739,
+      "Level": 5,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104314,
+          "Count": 6
+        },
+        {
+          "Id": 112003,
+          "Count": 6
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        391796606,
+        2828862806,
+        3871073783,
+        1449045503,
+        228154182,
+        208586306,
+        2914562455,
+        2176378237,
+        2839391908,
+        1398566295,
+        1887187692,
+        149015443,
+        631867303,
+        1815670299,
+        1923646182,
+        3223436653
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.9561200141906738,
+        0.026722999289631844,
+        281.6199951171875,
+        1.5179200172424316,
+        0.5,
+        5,
+        20,
+        80,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 4,
+      "CoinCost": 30000
+    },
+    {
+      "Id": 773906,
+      "GroupId": 7739,
+      "Level": 6,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104314,
+          "Count": 9
+        },
+        {
+          "Id": 112003,
+          "Count": 9
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3045842590,
+        3023058910,
+        1777675439,
+        1763938567,
+        4264184830,
+        962322914,
+        3233957047,
+        3727978093,
+        643920780,
+        2072104455,
+        3685826980,
+        1456720619,
+        3309917687,
+        2263872995,
+        1035691774,
+        3354907669
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.0102399587631226,
+        0.028234999626874924,
+        307.5185852050781,
+        1.6038399934768677,
+        0.5,
+        5,
+        20,
+        80,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 4,
+      "CoinCost": 37500
+    },
+    {
+      "Id": 773907,
+      "GroupId": 7739,
+      "Level": 7,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104315,
+          "Count": 4
+        },
+        {
+          "Id": 112004,
+          "Count": 4
+        },
+        {
+          "Id": 113043,
+          "Count": 1
+        },
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2138255494,
+        664514358,
+        3323912079,
+        2102457375,
+        3745265102,
+        3792925562,
+        214088447,
+        1028644421,
+        795015196,
+        1459600255,
+        3955899740,
+        4079747243,
+        4077813807,
+        3151054387,
+        3377613342,
+        2965484581
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.0823999643325806,
+        0.0302520003169775,
+        335.0357971191406,
+        1.718400001525879,
+        0.5,
+        5,
+        20,
+        80,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 5,
+      "CoinCost": 120000
+    },
+    {
+      "Id": 773908,
+      "GroupId": 7739,
+      "Level": 8,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104315,
+          "Count": 6
+        },
+        {
+          "Id": 112004,
+          "Count": 6
+        },
+        {
+          "Id": 113043,
+          "Count": 1
+        },
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1944075870,
+        4208681262,
+        3508890983,
+        247109223,
+        459233958,
+        1333656682,
+        712328383,
+        1061638405,
+        3962560996,
+        4166080615,
+        995685844,
+        398973939,
+        256100863,
+        454401011,
+        1198993750,
+        2074520213
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.1545599699020386,
+        0.03226900100708008,
+        364.17169189453125,
+        1.8329600095748901,
+        0.5,
+        5,
+        20,
+        80,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 5,
+      "CoinCost": 260000
+    },
+    {
+      "Id": 773909,
+      "GroupId": 7739,
+      "Level": 9,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104315,
+          "Count": 12
+        },
+        {
+          "Id": 112004,
+          "Count": 9
+        },
+        {
+          "Id": 113043,
+          "Count": 2
+        },
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1902481478,
+        2054185694,
+        495258663,
+        3450926031,
+        251871342,
+        3193517258,
+        1678395703,
+        2723794333,
+        1099294932,
+        4116005831,
+        1432932844,
+        1300498867,
+        4135051943,
+        1343268803,
+        1920934382,
+        568129133
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.2267199754714966,
+        0.034285999834537506,
+        394.92626953125,
+        1.9475200176239014,
+        0.5,
+        5,
+        20,
+        80,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6,
+      "CoinCost": 450000
+    },
+    {
+      "Id": 773910,
+      "GroupId": 7739,
+      "Level": 10,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104315,
+          "Count": 16
+        },
+        {
+          "Id": 112004,
+          "Count": 12
+        },
+        {
+          "Id": 113043,
+          "Count": 2
+        },
+        {
+          "Id": 104319,
+          "Count": 1
+        }
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1275348014,
+        2225497926,
+        1498270047,
+        884487071,
+        4081621254,
+        2620807898,
+        3040068735,
+        4096812701,
+        1084413596,
+        368689287,
+        3505857444,
+        558279603,
+        1757466383,
+        953686259,
+        2868504886,
+        1964966365
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.2988799810409546,
+        0.036302998661994934,
+        427.2994689941406,
+        2.062079906463623,
+        0.5,
+        5,
+        20,
+        80,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6,
+      "CoinCost": 700000
+    },
+    {
+      "Id": 773911,
+      "GroupId": 7739,
+      "Level": 11,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2864181854,
+        4124900494,
+        1165965231,
+        3041977223,
+        4121731598,
+        527136578,
+        2652913575,
+        2419667613,
+        3416131316,
+        1254442007,
+        2185716564,
+        1383019699,
+        39217863,
+        102851051,
+        1819960630,
+        2164727093
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.3710399866104126,
+        0.038318999111652374,
+        461.2913513183594,
+        2.176640033721924,
+        0.5,
+        5,
+        20,
+        80,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 773912,
+      "GroupId": 7739,
+      "Level": 12,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        26573918,
+        447913734,
+        1530522895,
+        3442565367,
+        36056198,
+        3870279002,
+        3015133695,
+        2554336797,
+        1481237860,
+        2482835391,
+        3581007452,
+        3118575691,
+        3029176951,
+        3628682947,
+        2955479326,
+        1493135813
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.4431999921798706,
+        0.0403360016644001,
+        496.9018859863281,
+        2.2911999225616455,
+        0.5,
+        5,
+        20,
+        80,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 773913,
+      "GroupId": 7739,
+      "Level": 13,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3935818038,
+        1127596174,
+        165627367,
+        1962270591,
+        1052729046,
+        1433136122,
+        4277346423,
+        2040355421,
+        1864496364,
+        334421047,
+        1938318580,
+        2821335875,
+        3498888127,
+        1173153091,
+        3380653166,
+        1962563997
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.533400058746338,
+        0.04285699874162674,
+        534.131103515625,
+        2.4344000816345215,
+        0.5,
+        5,
+        20,
+        80,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 773914,
+      "GroupId": 7739,
+      "Level": 14,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1246232606,
+        3016836534,
+        2623940791,
+        1026588887,
+        2606484006,
+        1588684818,
+        4258546319,
+        1306213621,
+        661663036,
+        3377360383,
+        2449980036,
+        4284570235,
+        1196717679,
+        3129422019,
+        428066558,
+        1567094413
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.6236000061035156,
+        0.04537799954414368,
+        572.9789428710938,
+        2.5776000022888184,
+        0.5,
+        5,
+        20,
+        80,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 773915,
+      "GroupId": 7739,
+      "Level": 15,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        479638574,
+        2745349910,
+        2758827087,
+        3494004215,
+        2439263998,
+        3976145698,
+        824756919,
+        953308069,
+        1915931476,
+        3654313991,
+        1529948100,
+        3949112811,
+        2220108455,
+        562478971,
+        4051219830,
+        1594112909
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Yaoyao_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.7137999534606934,
+        0.047899000346660614,
+        613.4454956054688,
+        2.7207999229431152,
+        0.5,
+        5,
+        20,
+        80,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 782101,
+      "GroupId": 7821,
+      "Level": 1,
+      "Type": 2,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2415147582,
+        2608409726,
+        1640509423,
+        1548573159,
+        1784989766,
+        2901190794,
+        3086916071,
+        2890034389,
+        3790907084,
+        4291859183,
+        1389864836,
+        689321675,
+        1622765719,
+        3315649131,
+        1787227206,
+        2683562597
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_PermanentSkill_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        12,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 1
+    },
+    {
+      "Id": 782201,
+      "GroupId": 7822,
+      "Level": 1,
+      "Type": 2,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1704466094,
+        4125968870,
+        244112439,
+        3048900735,
+        402293366,
+        2904177562,
+        2865428519,
+        584726613,
+        3832490492,
+        2339824879,
+        2118333540,
+        3486982675,
+        3719191695,
+        4041867923,
+        286063478,
+        2677447637
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_PermanentSkill_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.0010000000474974513,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 4
+    },
+    {
+      "Id": 782301,
+      "GroupId": 7823,
+      "Level": 1,
+      "Type": 2,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2407996174,
+        1662477830,
+        1253360527,
+        1919682223,
+        486326990,
+        3796418386,
+        157869887,
+        3213881461,
+        2589917340,
+        1874900839,
+        1328257972,
+        3884418315,
+        1590901031,
+        2068885243,
+        1979690766,
+        2334915053
+      ],
+      "LifeEffectParams": [
+        "1000",
+        "2",
+        "1",
+        "",
+        ""
+      ],
+      "OpenConfig": "",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "LifeEffectType": "PROUD_EFFECT_COMBINE_MULTIPLY_OUTPUT"
+    },
+    {
+      "Id": 783101,
+      "GroupId": 7831,
+      "Level": 1,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2867866422,
+        3599752550,
+        3335157543,
+        3649163967,
+        2050015526,
+        254277346,
+        3718691279,
+        2407662813,
+        98313268,
+        174496543,
+        838955492,
+        1399526203,
+        1838516327,
+        1371815795,
+        2312289534,
+        3775772533
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.4952569901943207,
+        0.5074949860572815,
+        0.3417850136756897,
+        0.3417850136756897,
+        0.6676779985427856,
+        0.8385090231895447,
+        0.5525500178337097,
+        0.5525500178337097,
+        20,
+        0.6393240094184875,
+        1.2783770561218262,
+        1.59676194190979,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "Id": 783102,
+      "GroupId": 7831,
+      "Level": 2,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104332,
+          "Count": 3
+        },
+        {
+          "Id": 112065,
+          "Count": 6
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        4160065822,
+        399704702,
+        195321967,
+        4053490119,
+        1649074334,
+        2664758266,
+        132124791,
+        3512971005,
+        3488775012,
+        2013676999,
+        441789132,
+        2352061131,
+        1297382655,
+        1665494659,
+        1922641438,
+        760557309
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.5355679988861084,
+        0.5488020181655884,
+        0.36960500478744507,
+        0.36960500478744507,
+        0.7220240235328674,
+        0.9067590236663818,
+        0.5975250005722046,
+        0.5975250005722046,
+        20,
+        0.6913620233535767,
+        1.3824310302734375,
+        1.7267309427261353,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 2,
+      "CoinCost": 12500
+    },
+    {
+      "Id": 783103,
+      "GroupId": 7831,
+      "Level": 3,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104333,
+          "Count": 2
+        },
+        {
+          "Id": 112066,
+          "Count": 3
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        4115319838,
+        1257788446,
+        3992403879,
+        1806459919,
+        979317318,
+        2714047018,
+        1374392463,
+        3826445853,
+        3710711852,
+        1277315183,
+        3236734868,
+        2745110267,
+        3241691903,
+        314820211,
+        1924579838,
+        39986613
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.5758799910545349,
+        0.5901100039482117,
+        0.39742499589920044,
+        0.39742499589920044,
+        0.7763699889183044,
+        0.9750099778175354,
+        0.6424999833106995,
+        0.6424999833106995,
+        20,
+        0.743399977684021,
+        1.4864850044250488,
+        1.8566999435424805,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 3,
+      "CoinCost": 17500
+    },
+    {
+      "Id": 783104,
+      "GroupId": 7831,
+      "Level": 4,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104333,
+          "Count": 4
+        },
+        {
+          "Id": 112066,
+          "Count": 4
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        273707758,
+        1023536846,
+        3494664791,
+        1661298015,
+        424446094,
+        2818262314,
+        925231487,
+        3342242181,
+        2339063724,
+        3968238983,
+        8965188,
+        4107287603,
+        3461429423,
+        781117843,
+        3062761302,
+        1435757709
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.633467972278595,
+        0.6491209864616394,
+        0.4371669888496399,
+        0.4371669888496399,
+        0.8540070056915283,
+        1.0725109577178955,
+        0.7067499756813049,
+        0.7067499756813049,
+        20,
+        0.8177400231361389,
+        1.635133981704712,
+        2.042370080947876,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 3,
+      "CoinCost": 25000
+    },
+    {
+      "Id": 783105,
+      "GroupId": 7831,
+      "Level": 5,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104333,
+          "Count": 6
+        },
+        {
+          "Id": 112066,
+          "Count": 6
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3042283878,
+        811290798,
+        1144631439,
+        1195134367,
+        2491968686,
+        1303682034,
+        848662647,
+        699491813,
+        645341700,
+        3184972695,
+        1428908860,
+        816752947,
+        159175871,
+        3953039299,
+        3945651342,
+        4012722853
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.6737800240516663,
+        0.6904289722442627,
+        0.46498700976371765,
+        0.46498700976371765,
+        0.9083529710769653,
+        1.1407619714736938,
+        0.7517250180244446,
+        0.7517250180244446,
+        20,
+        0.8697779774665833,
+        1.7391870021820068,
+        2.1723389625549316,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 4,
+      "CoinCost": 30000
+    },
+    {
+      "Id": 783106,
+      "GroupId": 7831,
+      "Level": 6,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104333,
+          "Count": 9
+        },
+        {
+          "Id": 112066,
+          "Count": 9
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2917240222,
+        3039077918,
+        760850351,
+        756235215,
+        151810742,
+        299072130,
+        3347983823,
+        2888915389,
+        143005780,
+        1985969367,
+        1748192652,
+        3115085315,
+        791319543,
+        4270168971,
+        379875798,
+        3212906125
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.7198500037193298,
+        0.737637996673584,
+        0.49678099155426025,
+        0.49678099155426025,
+        0.9704629778862,
+        1.2187620401382446,
+        0.8031250238418579,
+        0.8031250238418579,
+        20,
+        0.9292500019073486,
+        1.858106017112732,
+        2.3208749294281006,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 4,
+      "CoinCost": 37500
+    },
+    {
+      "Id": 783107,
+      "GroupId": 7831,
+      "Level": 7,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104334,
+          "Count": 4
+        },
+        {
+          "Id": 112067,
+          "Count": 4
+        },
+        {
+          "Id": 113042,
+          "Count": 1
+        },
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        634300454,
+        4151699702,
+        1945194271,
+        353818671,
+        700273974,
+        1070790466,
+        3685932223,
+        236011277,
+        3347116948,
+        3919001695,
+        766978100,
+        280210203,
+        1700692383,
+        2365581115,
+        829571078,
+        697177845
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.7831969857215881,
+        0.8025500178337097,
+        0.5404980182647705,
+        0.5404980182647705,
+        1.0558630228042603,
+        1.3260140419006348,
+        0.8737999796867371,
+        0.8737999796867371,
+        20,
+        1.011023998260498,
+        2.021620035171509,
+        2.5251119136810303,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 5,
+      "CoinCost": 120000
+    },
+    {
+      "Id": 783108,
+      "GroupId": 7831,
+      "Level": 8,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104334,
+          "Count": 6
+        },
+        {
+          "Id": 112067,
+          "Count": 6
+        },
+        {
+          "Id": 113042,
+          "Count": 1
+        },
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1093799374,
+        970109846,
+        1832442943,
+        3887482047,
+        1424494782,
+        2488739314,
+        3702254063,
+        336302157,
+        2281878228,
+        1993970343,
+        898632220,
+        3553778291,
+        1267495023,
+        71656451,
+        3532883030,
+        1434883509
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.8465440273284912,
+        0.8674619793891907,
+        0.584214985370636,
+        0.584214985370636,
+        1.1412639617919922,
+        1.433264970779419,
+        0.944474995136261,
+        0.944474995136261,
+        20,
+        1.0927979946136475,
+        2.1851329803466797,
+        2.72934889793396,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 5,
+      "CoinCost": 260000
+    },
+    {
+      "Id": 783109,
+      "GroupId": 7831,
+      "Level": 9,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104334,
+          "Count": 12
+        },
+        {
+          "Id": 112067,
+          "Count": 9
+        },
+        {
+          "Id": 113042,
+          "Count": 2
+        },
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3507565022,
+        2233157206,
+        4057926775,
+        95738911,
+        787707558,
+        909234050,
+        983638383,
+        3484010453,
+        1086276228,
+        1450780143,
+        3846990948,
+        4140679619,
+        1340280743,
+        3462768755,
+        886478630,
+        2148739453
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.9098899960517883,
+        0.9323740005493164,
+        0.6279309988021851,
+        0.6279309988021851,
+        1.2266650199890137,
+        1.5405160188674927,
+        1.0151499509811401,
+        1.0151499509811401,
+        20,
+        1.1745719909667969,
+        2.3486459255218506,
+        2.9335858821868896,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6,
+      "CoinCost": 450000
+    },
+    {
+      "Id": 783110,
+      "GroupId": 7831,
+      "Level": 10,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104334,
+          "Count": 16
+        },
+        {
+          "Id": 112067,
+          "Count": 12
+        },
+        {
+          "Id": 113042,
+          "Count": 2
+        },
+        {
+          "Id": 104319,
+          "Count": 1
+        }
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2175924894,
+        38172750,
+        3273275239,
+        358157975,
+        1335904238,
+        584558986,
+        1748572455,
+        2906777981,
+        2397244364,
+        2018133135,
+        1568178900,
+        2145748987,
+        1828438039,
+        3694929723,
+        1987510854,
+        3813361181
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.9789959788322449,
+        1.0031869411468506,
+        0.6756219863891602,
+        0.6756219863891602,
+        1.319828987121582,
+        1.6575169563293457,
+        1.0922499895095825,
+        1.0922499895095825,
+        20,
+        1.2637799978256226,
+        2.527024984359741,
+        3.1563899517059326,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6,
+      "CoinCost": 700000
+    },
+    {
+      "Id": 783111,
+      "GroupId": 7831,
+      "Level": 11,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3494528174,
+        3797185190,
+        2520963295,
+        699114295,
+        1134407094,
+        3984324154,
+        2426137399,
+        1607507973,
+        2067310692,
+        2778676495,
+        189821484,
+        2093144171,
+        4211715623,
+        1168379763,
+        244095878,
+        1349510469
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.0481020212173462,
+        1.0740000009536743,
+        0.7233129739761353,
+        0.7233129739761353,
+        1.4129929542541504,
+        1.7745180130004883,
+        1.169350028038025,
+        1.169350028038025,
+        20,
+        1.3529880046844482,
+        2.7054030895233154,
+        3.3791940212249756,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 783112,
+      "GroupId": 7831,
+      "Level": 12,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2552819790,
+        3831952598,
+        4152802263,
+        1519469031,
+        2915955574,
+        3113626690,
+        3557498055,
+        2009388677,
+        2639299956,
+        2512513767,
+        2082407580,
+        1326503787,
+        455945759,
+        475598971,
+        570213878,
+        1223247869
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.1172070503234863,
+        1.1448129415512085,
+        0.7710040211677551,
+        0.7710040211677551,
+        1.5061579942703247,
+        1.8915189504623413,
+        1.2464499473571777,
+        1.2464499473571777,
+        20,
+        1.442196011543274,
+        2.8837809562683105,
+        3.6019980907440186,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 783113,
+      "GroupId": 7831,
+      "Level": 13,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3256736614,
+        4183165190,
+        2922370767,
+        3934535391,
+        4275478614,
+        36285778,
+        1630700191,
+        675853269,
+        2732320844,
+        3882437727,
+        501906740,
+        2254158715,
+        1159473327,
+        3497731747,
+        123667182,
+        2329805325
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.1863130331039429,
+        1.2156269550323486,
+        0.8186960220336914,
+        0.8186960220336914,
+        1.599321961402893,
+        2.00852108001709,
+        1.3235499858856201,
+        1.3235499858856201,
+        20,
+        1.5314040184020996,
+        3.0621590614318848,
+        3.8248019218444824,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 783114,
+      "GroupId": 7831,
+      "Level": 14,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        4125521070,
+        1159523246,
+        3100577063,
+        974029503,
+        3122596078,
+        2402748826,
+        502633631,
+        2584942485,
+        3961322540,
+        2579564279,
+        3146120924,
+        228600579,
+        3555456911,
+        865714595,
+        1906873846,
+        2723605901
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.2554179430007935,
+        1.2864400148391724,
+        0.8663870096206665,
+        0.8663870096206665,
+        1.6924870014190674,
+        2.1255218982696533,
+        1.4006500244140625,
+        1.4006500244140625,
+        20,
+        1.6206120252609253,
+        3.24053692817688,
+        4.047605991363525,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 783115,
+      "GroupId": 7831,
+      "Level": 15,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1850235854,
+        4014420942,
+        1512200263,
+        1952896447,
+        1673011278,
+        2476605170,
+        1014589391,
+        2979099997,
+        140220356,
+        224705351,
+        3895875324,
+        94443883,
+        1714165127,
+        1477649083,
+        84803118,
+        844792965
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_1",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.3245240449905396,
+        1.3572529554367065,
+        0.9140769839286804,
+        0.9140769839286804,
+        1.7856509685516357,
+        2.242522954940796,
+        1.4777499437332153,
+        1.4777499437332153,
+        20,
+        1.709820032119751,
+        3.418915033340454,
+        4.270410060882568,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 783201,
+      "GroupId": 7832,
+      "Level": 1,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1796347886,
+        3576913798,
+        2476991935,
+        2480298695,
+        1357984406,
+        1105551426,
+        1906567679,
+        2648001413,
+        2180196852,
+        2928867631,
+        2923259412,
+        3008273435,
+        1858871239,
+        1352531227,
+        2789880918,
+        1541288125
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.9359999895095825,
+        1.548799991607666,
+        1.600000023841858,
+        0.671999990940094,
+        1.343999981880188,
+        0.671999990940094,
+        1.343999981880188,
+        0.671999990940094,
+        1.343999981880188,
+        4,
+        18,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "Id": 783202,
+      "GroupId": 7832,
+      "Level": 2,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104332,
+          "Count": 3
+        },
+        {
+          "Id": 112065,
+          "Count": 6
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        380495222,
+        1162492214,
+        3994306751,
+        2758744783,
+        231651878,
+        2895268178,
+        599220983,
+        2511801517,
+        3130863924,
+        4139408175,
+        2452151044,
+        1731232979,
+        3675407031,
+        1768745723,
+        4288228342,
+        858341069
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        2.081199884414673,
+        1.6649600267410278,
+        1.600000023841858,
+        0.7224000096321106,
+        1.4448000192642212,
+        0.7224000096321106,
+        1.4448000192642212,
+        0.7224000096321106,
+        1.4448000192642212,
+        4,
+        18,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 2,
+      "CoinCost": 12500
+    },
+    {
+      "Id": 783203,
+      "GroupId": 7832,
+      "Level": 3,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104333,
+          "Count": 2
+        },
+        {
+          "Id": 112066,
+          "Count": 3
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2617054990,
+        1085652302,
+        2368704487,
+        2081215231,
+        612283070,
+        3954450554,
+        307321767,
+        3406770445,
+        968124164,
+        2157704295,
+        2232195860,
+        3927134979,
+        1560592791,
+        3278150675,
+        4033931822,
+        2055936813
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        2.2263998985290527,
+        1.7811199426651,
+        1.600000023841858,
+        0.7728000283241272,
+        1.5456000566482544,
+        0.7728000283241272,
+        1.5456000566482544,
+        0.7728000283241272,
+        1.5456000566482544,
+        4,
+        18,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 3,
+      "CoinCost": 17500
+    },
+    {
+      "Id": 783204,
+      "GroupId": 7832,
+      "Level": 4,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104333,
+          "Count": 4
+        },
+        {
+          "Id": 112066,
+          "Count": 4
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2313955222,
+        2765536230,
+        2387648991,
+        1181375399,
+        316161318,
+        1997711970,
+        1085119471,
+        1543887821,
+        3728818812,
+        2991939135,
+        4160904732,
+        2070821307,
+        3298708047,
+        2083842859,
+        817183998,
+        2635165229
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        2.4200000762939453,
+        1.9359999895095825,
+        1.600000023841858,
+        0.8399999737739563,
+        1.6799999475479126,
+        0.8399999737739563,
+        1.6799999475479126,
+        0.8399999737739563,
+        1.6799999475479126,
+        4,
+        18,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 3,
+      "CoinCost": 25000
+    },
+    {
+      "Id": 783205,
+      "GroupId": 7832,
+      "Level": 5,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104333,
+          "Count": 6
+        },
+        {
+          "Id": 112066,
+          "Count": 6
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3569208766,
+        3941720678,
+        2163805519,
+        3529977015,
+        1322525302,
+        1284373018,
+        1628076927,
+        2385658589,
+        2511548,
+        601726567,
+        1937991284,
+        2195654667,
+        2883859567,
+        1900122331,
+        3845794822,
+        2402043237
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        2.565200090408325,
+        2.0521600246429443,
+        1.600000023841858,
+        0.8903999924659729,
+        1.7807999849319458,
+        0.8903999924659729,
+        1.7807999849319458,
+        0.8903999924659729,
+        1.7807999849319458,
+        4,
+        18,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 4,
+      "CoinCost": 30000
+    },
+    {
+      "Id": 783206,
+      "GroupId": 7832,
+      "Level": 6,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104333,
+          "Count": 9
+        },
+        {
+          "Id": 112066,
+          "Count": 9
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3783447142,
+        2964136174,
+        3896973551,
+        3508507471,
+        2814812534,
+        2009740938,
+        53432247,
+        2332203853,
+        3217485324,
+        3953438119,
+        3112958684,
+        471355435,
+        1573304751,
+        3341916011,
+        1172790390,
+        3917466709
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        2.710400104522705,
+        2.1683199405670166,
+        1.600000023841858,
+        0.9408000111579895,
+        1.881600022315979,
+        0.9408000111579895,
+        1.881600022315979,
+        0.9408000111579895,
+        1.881600022315979,
+        4,
+        18,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 4,
+      "CoinCost": 37500
+    },
+    {
+      "Id": 783207,
+      "GroupId": 7832,
+      "Level": 7,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104334,
+          "Count": 4
+        },
+        {
+          "Id": 112067,
+          "Count": 4
+        },
+        {
+          "Id": 113042,
+          "Count": 1
+        },
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3587669582,
+        3169810150,
+        2790243295,
+        3265177079,
+        943019158,
+        1762973658,
+        1603942191,
+        882322901,
+        2011301156,
+        218291831,
+        1659707340,
+        3889386123,
+        733130391,
+        3397910723,
+        2082803878,
+        3175043461
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        2.9040000438690186,
+        2.323199987411499,
+        1.600000023841858,
+        1.0080000162124634,
+        2.0160000324249268,
+        1.0080000162124634,
+        2.0160000324249268,
+        1.0080000162124634,
+        2.0160000324249268,
+        4,
+        18,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 5,
+      "CoinCost": 120000
+    },
+    {
+      "Id": 783208,
+      "GroupId": 7832,
+      "Level": 8,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104334,
+          "Count": 6
+        },
+        {
+          "Id": 112067,
+          "Count": 6
+        },
+        {
+          "Id": 113042,
+          "Count": 1
+        },
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3370897334,
+        1167629270,
+        615030807,
+        2214737423,
+        3347319478,
+        2192607130,
+        3764683367,
+        194882101,
+        729769212,
+        2269206903,
+        3223712492,
+        3838904987,
+        1611321775,
+        3498152923,
+        1997769254,
+        2567286925
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        3.097599983215332,
+        2.4780800342559814,
+        1.600000023841858,
+        1.0751999616622925,
+        2.150399923324585,
+        1.0751999616622925,
+        2.150399923324585,
+        1.0751999616622925,
+        2.150399923324585,
+        4,
+        18,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 5,
+      "CoinCost": 260000
+    },
+    {
+      "Id": 783209,
+      "GroupId": 7832,
+      "Level": 9,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104334,
+          "Count": 12
+        },
+        {
+          "Id": 112067,
+          "Count": 9
+        },
+        {
+          "Id": 113042,
+          "Count": 2
+        },
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1777283942,
+        3294728222,
+        3231346887,
+        1089457943,
+        3001317158,
+        2127435690,
+        1194512863,
+        668017309,
+        1681753492,
+        1714252087,
+        1222885604,
+        1533718939,
+        3837256175,
+        534285355,
+        481503998,
+        3960473381
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        3.2911999225616455,
+        2.632960081100464,
+        1.600000023841858,
+        1.1424000263214111,
+        2.2848000526428223,
+        1.1424000263214111,
+        2.2848000526428223,
+        1.1424000263214111,
+        2.2848000526428223,
+        4,
+        18,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6,
+      "CoinCost": 450000
+    },
+    {
+      "Id": 783210,
+      "GroupId": 7832,
+      "Level": 10,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104334,
+          "Count": 16
+        },
+        {
+          "Id": 112067,
+          "Count": 12
+        },
+        {
+          "Id": 113042,
+          "Count": 2
+        },
+        {
+          "Id": 104319,
+          "Count": 1
+        }
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        4020908158,
+        434668838,
+        2366659927,
+        681825367,
+        2465195094,
+        4181967754,
+        912357919,
+        3497501125,
+        1619403492,
+        1589474815,
+        2451735860,
+        947406211,
+        2856597895,
+        41861003,
+        3373158886,
+        3501732413
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        3.484800100326538,
+        2.787839889526367,
+        1.600000023841858,
+        1.2095999717712402,
+        2.4191999435424805,
+        1.2095999717712402,
+        2.4191999435424805,
+        1.2095999717712402,
+        2.4191999435424805,
+        4,
+        18,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6,
+      "CoinCost": 700000
+    },
+    {
+      "Id": 783211,
+      "GroupId": 7832,
+      "Level": 11,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1416264246,
+        1329017526,
+        2700731727,
+        4119876871,
+        1079120398,
+        388520962,
+        796057663,
+        4164475789,
+        1716436356,
+        2984834271,
+        40637004,
+        1239235019,
+        1194790567,
+        75543395,
+        681541662,
+        1703215293
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        3.6784000396728516,
+        2.9427199363708496,
+        1.600000023841858,
+        1.2768000364303589,
+        2.5536000728607178,
+        1.2768000364303589,
+        2.5536000728607178,
+        1.2768000364303589,
+        2.5536000728607178,
+        4,
+        18,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 783212,
+      "GroupId": 7832,
+      "Level": 12,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2616639134,
+        905493630,
+        3513323047,
+        8875687,
+        2098204886,
+        3610482482,
+        709756943,
+        1247132525,
+        2356536388,
+        3195724559,
+        2444856684,
+        2635397915,
+        1244701487,
+        2463410027,
+        2987911206,
+        381148981
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        3.871999979019165,
+        3.097599983215332,
+        1.600000023841858,
+        1.343999981880188,
+        2.687999963760376,
+        1.343999981880188,
+        2.687999963760376,
+        1.343999981880188,
+        2.687999963760376,
+        4,
+        18,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 783213,
+      "GroupId": 7832,
+      "Level": 13,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2052758438,
+        1811083998,
+        3346276903,
+        3637131559,
+        1564194710,
+        2990149802,
+        427752639,
+        1845269541,
+        210940940,
+        947314287,
+        2037223692,
+        3944104435,
+        3117354879,
+        3640620523,
+        1017326550,
+        1163162357
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        4.113999843597412,
+        3.2911999225616455,
+        1.600000023841858,
+        1.4279999732971191,
+        2.8559999465942383,
+        1.4279999732971191,
+        2.8559999465942383,
+        1.4279999732971191,
+        2.8559999465942383,
+        4,
+        18,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 783214,
+      "GroupId": 7832,
+      "Level": 14,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        175237862,
+        3312176926,
+        3052936295,
+        4249407847,
+        3929786950,
+        2285075938,
+        1500288991,
+        648474493,
+        395525788,
+        2860942375,
+        1787459228,
+        1420662451,
+        3630659535,
+        2411417339,
+        2613421710,
+        3422559421
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        4.355999946594238,
+        3.484800100326538,
+        1.600000023841858,
+        1.5119999647140503,
+        3.0239999294281006,
+        1.5119999647140503,
+        3.0239999294281006,
+        1.5119999647140503,
+        3.0239999294281006,
+        4,
+        18,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 783215,
+      "GroupId": 7832,
+      "Level": 15,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1335781886,
+        2048391190,
+        2218433535,
+        2110806895,
+        2374143462,
+        525374618,
+        2562166431,
+        1826057789,
+        1812067276,
+        3646421431,
+        1456558996,
+        990757883,
+        3085063599,
+        3735210987,
+        4113908622,
+        4160825341
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_2",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        4.5980000495910645,
+        3.6784000396728516,
+        1.600000023841858,
+        1.5959999561309814,
+        3.191999912261963,
+        1.5959999561309814,
+        3.191999912261963,
+        1.5959999561309814,
+        3.191999912261963,
+        4,
+        18,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 783901,
+      "GroupId": 7839,
+      "Level": 1,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1119661118,
+        1174523046,
+        898757311,
+        336149247,
+        1973504222,
+        3795041554,
+        1871990439,
+        635103325,
+        621068748,
+        3187496679,
+        3962342612,
+        730046155,
+        1732050815,
+        138977315,
+        3461522262,
+        110665085
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.215999960899353,
+        0.9728000164031982,
+        4,
+        6,
+        8,
+        10,
+        18,
+        70,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "Id": 783902,
+      "GroupId": 7839,
+      "Level": 2,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104332,
+          "Count": 3
+        },
+        {
+          "Id": 112065,
+          "Count": 6
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1956807662,
+        2176776974,
+        4095735071,
+        1986230999,
+        1274688838,
+        1157862306,
+        2030123959,
+        2579553325,
+        2783133700,
+        1483925375,
+        172266516,
+        265615435,
+        3202485567,
+        1748316931,
+        2552912238,
+        3360947117
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.3071999549865723,
+        1.0457600355148315,
+        4,
+        6,
+        8,
+        10,
+        18,
+        70,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 2,
+      "CoinCost": 12500
+    },
+    {
+      "Id": 783903,
+      "GroupId": 7839,
+      "Level": 3,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104333,
+          "Count": 2
+        },
+        {
+          "Id": 112066,
+          "Count": 3
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3960039262,
+        1441976150,
+        3055836015,
+        292098535,
+        804706510,
+        878229474,
+        2943146471,
+        360215917,
+        606763084,
+        2111396319,
+        3727909572,
+        1893207675,
+        3949116047,
+        2809421315,
+        3268919662,
+        476355645
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.3983999490737915,
+        1.1187200546264648,
+        4,
+        6,
+        8,
+        10,
+        18,
+        70,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 3,
+      "CoinCost": 17500
+    },
+    {
+      "Id": 783904,
+      "GroupId": 7839,
+      "Level": 4,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104333,
+          "Count": 4
+        },
+        {
+          "Id": 112066,
+          "Count": 4
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2553378158,
+        1268769854,
+        44977383,
+        2863724591,
+        962409030,
+        2111712802,
+        49255503,
+        3391228853,
+        2392400404,
+        4150850599,
+        3442247940,
+        4266092291,
+        988032055,
+        3232170803,
+        3681986750,
+        3394244221
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.5199999809265137,
+        1.215999960899353,
+        4,
+        6,
+        8,
+        10,
+        18,
+        70,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 3,
+      "CoinCost": 25000
+    },
+    {
+      "Id": 783905,
+      "GroupId": 7839,
+      "Level": 5,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104333,
+          "Count": 6
+        },
+        {
+          "Id": 112066,
+          "Count": 6
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1894243486,
+        1728000022,
+        1557504759,
+        1476509023,
+        2879303070,
+        4182201050,
+        185499703,
+        688313333,
+        1379989548,
+        286591519,
+        2975064308,
+        3355679147,
+        1245326575,
+        2306424147,
+        2679196606,
+        4098987461
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.611199975013733,
+        1.2889599800109863,
+        4,
+        6,
+        8,
+        10,
+        18,
+        70,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 4,
+      "CoinCost": 30000
+    },
+    {
+      "Id": 783906,
+      "GroupId": 7839,
+      "Level": 6,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104333,
+          "Count": 9
+        },
+        {
+          "Id": 112066,
+          "Count": 9
+        },
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        3828076614,
+        403753198,
+        2951248183,
+        2038173639,
+        2560223622,
+        2491239066,
+        3896518983,
+        1403508349,
+        3102195724,
+        3154406439,
+        4154952796,
+        3038065611,
+        1835024935,
+        3228717891,
+        1908213614,
+        3143059509
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.7023999691009521,
+        1.3619199991226196,
+        4,
+        6,
+        8,
+        10,
+        18,
+        70,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 4,
+      "CoinCost": 37500
+    },
+    {
+      "Id": 783907,
+      "GroupId": 7839,
+      "Level": 7,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104334,
+          "Count": 4
+        },
+        {
+          "Id": 112067,
+          "Count": 4
+        },
+        {
+          "Id": 113042,
+          "Count": 1
+        },
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        4002696118,
+        3910202958,
+        2635272799,
+        461868719,
+        2427997910,
+        1949959234,
+        1621635735,
+        1220444653,
+        4005274996,
+        1324587719,
+        1250032236,
+        522618195,
+        4203908287,
+        1893133899,
+        138433174,
+        12931741
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.8240000009536743,
+        1.4592000246047974,
+        4,
+        6,
+        8,
+        10,
+        18,
+        70,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 5,
+      "CoinCost": 120000
+    },
+    {
+      "Id": 783908,
+      "GroupId": 7839,
+      "Level": 8,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104334,
+          "Count": 6
+        },
+        {
+          "Id": 112067,
+          "Count": 6
+        },
+        {
+          "Id": 113042,
+          "Count": 1
+        },
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2635255198,
+        2500873854,
+        1427639087,
+        1921597199,
+        1046502174,
+        4245830690,
+        4084600111,
+        2040395717,
+        1693997324,
+        1601180623,
+        1041947356,
+        2424033995,
+        429858383,
+        1180658219,
+        2946646382,
+        369988525
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.9456000328063965,
+        1.556480050086975,
+        4,
+        6,
+        8,
+        10,
+        18,
+        70,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 5,
+      "CoinCost": 260000
+    },
+    {
+      "Id": 783909,
+      "GroupId": 7839,
+      "Level": 9,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104334,
+          "Count": 12
+        },
+        {
+          "Id": 112067,
+          "Count": 9
+        },
+        {
+          "Id": 113042,
+          "Count": 2
+        },
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2983722766,
+        281150670,
+        284370967,
+        1519302087,
+        4143408318,
+        1067120626,
+        3607429239,
+        1984351333,
+        2796530484,
+        1716276559,
+        4159961316,
+        2430909507,
+        935088775,
+        1865059011,
+        2380745430,
+        3237026629
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        2.067199945449829,
+        1.6537599563598633,
+        4,
+        6,
+        8,
+        10,
+        18,
+        70,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6,
+      "CoinCost": 450000
+    },
+    {
+      "Id": 783910,
+      "GroupId": 7839,
+      "Level": 10,
+      "Type": 3,
+      "CostItems": [
+        {
+          "Id": 104334,
+          "Count": 16
+        },
+        {
+          "Id": 112067,
+          "Count": 12
+        },
+        {
+          "Id": 113042,
+          "Count": 2
+        },
+        {
+          "Id": 104319,
+          "Count": 1
+        }
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        992594302,
+        1409177270,
+        2185631727,
+        805642407,
+        64902598,
+        1205307866,
+        2631556167,
+        389509637,
+        2948963468,
+        2954620439,
+        1319039148,
+        4249197547,
+        3887516103,
+        3230252355,
+        1966355958,
+        1468255661
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        2.188800096511841,
+        1.751039981842041,
+        4,
+        6,
+        8,
+        10,
+        18,
+        70,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6,
+      "CoinCost": 700000
+    },
+    {
+      "Id": 783911,
+      "GroupId": 7839,
+      "Level": 11,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2238935990,
+        1055385142,
+        678265287,
+        613142743,
+        2605275310,
+        2089406050,
+        4268471527,
+        1748036981,
+        2037391004,
+        2344109775,
+        2415470996,
+        397676747,
+        3870634311,
+        2475295499,
+        3548358,
+        3877063949
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        2.3104000091552734,
+        1.8483200073242188,
+        4,
+        6,
+        8,
+        10,
+        18,
+        70,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 783912,
+      "GroupId": 7839,
+      "Level": 12,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        91093438,
+        763742174,
+        4261179199,
+        907790551,
+        697520830,
+        270315762,
+        381743679,
+        1160935941,
+        3377202788,
+        770799415,
+        3269222132,
+        72182075,
+        3493995391,
+        429654875,
+        1451705542,
+        82872621
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        2.431999921798706,
+        1.9456000328063965,
+        4,
+        6,
+        8,
+        10,
+        18,
+        70,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 783913,
+      "GroupId": 7839,
+      "Level": 13,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2421412142,
+        3731655118,
+        3154834743,
+        284840471,
+        939554350,
+        430779330,
+        4134036463,
+        1353828213,
+        1355697868,
+        3310343743,
+        3618434996,
+        2816282883,
+        1753551271,
+        3070358803,
+        2545875238,
+        648347381
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        2.5840001106262207,
+        2.067199945449829,
+        4,
+        6,
+        8,
+        10,
+        18,
+        70,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 783914,
+      "GroupId": 7839,
+      "Level": 14,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        1447349158,
+        1589334478,
+        3883928783,
+        1045880639,
+        3008250342,
+        212585906,
+        2020968575,
+        2309925221,
+        1181579020,
+        3395908383,
+        3828830084,
+        626327059,
+        21208215,
+        3446103835,
+        3978257414,
+        1482954997
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        2.7360000610351562,
+        2.188800096511841,
+        4,
+        6,
+        8,
+        10,
+        18,
+        70,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BreakLevel": 6
+    },
+    {
+      "Id": 783915,
+      "GroupId": 7839,
+      "Level": 15,
+      "Type": 3,
+      "CostItems": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "FilterConds": [
+        "TALENT_FILTER_NONE",
+        "TALENT_FILTER_NONE"
+      ],
+      "ParamDescList": [
+        2008651846,
+        249904838,
+        2983431663,
+        3600002791,
+        3268940086,
+        3923606474,
+        777631543,
+        75204093,
+        2011346396,
+        1777717423,
+        1926446476,
+        775348723,
+        92846047,
+        858318723,
+        2064875094,
+        132617269
+      ],
+      "LifeEffectParams": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "OpenConfig": "Alhatham_SkillUpgrade_3",
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        2.888000011444092,
+        2.3104000091552734,
+        4,
+        6,
+        8,
+        10,
+        18,
+        70,
         0,
         0,
         0,

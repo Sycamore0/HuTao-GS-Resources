@@ -7616,6 +7616,40 @@
     "RefreshParam": 1
   },
   {
+    "Id": 503020,
+    "ShopType": 1073,
+    "ItemCount": 1,
+    "CostItems": [],
+    "BeginTime": 1575129600,
+    "EndTime": 2051193600,
+    "PreconditionParamList": [],
+    "MinShowLevel": 1,
+    "MinPlayerLevel": 1,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 13,
+    "IsBuyOnce": false,
+    "ItemId": 109519,
+    "BuyLimit": 1,
+    "CostScoin": 5000
+  },
+  {
+    "Id": 503021,
+    "ShopType": 1073,
+    "ItemCount": 1,
+    "CostItems": [],
+    "BeginTime": 1575129600,
+    "EndTime": 2051193600,
+    "PreconditionParamList": [],
+    "MinShowLevel": 1,
+    "MinPlayerLevel": 1,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 13,
+    "IsBuyOnce": false,
+    "ItemId": 109520,
+    "BuyLimit": 1,
+    "CostScoin": 5000
+  },
+  {
     "Id": 504001,
     "ShopType": 1074,
     "ItemCount": 1,
@@ -9611,7 +9645,242 @@
     "IsBuyOnce": false,
     "ItemId": 220044,
     "BuyLimit": 1,
-    "CostScoin": 150000
+    "CostScoin": 150000,
+    "SecondarySheetId": 1
+  },
+  {
+    "Id": 1047002,
+    "ShopType": 1047,
+    "ItemCount": 1,
+    "CostItems": [],
+    "BeginTime": 1577030400,
+    "EndTime": 2056204800,
+    "PreconditionParamList": [],
+    "MinShowLevel": 1,
+    "MinPlayerLevel": 1,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 1,
+    "IsBuyOnce": false,
+    "ItemId": 220047,
+    "BuyLimit": 1,
+    "CostScoin": 30000,
+    "SecondarySheetId": 2
+  },
+  {
+    "Id": 1047003,
+    "ShopType": 1047,
+    "ItemCount": 1,
+    "CostItems": [],
+    "BeginTime": 1577030400,
+    "EndTime": 2056204800,
+    "PreconditionParamList": [],
+    "MinShowLevel": 1,
+    "MinPlayerLevel": 1,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 1,
+    "IsBuyOnce": false,
+    "ItemId": 223001,
+    "BuyLimit": 1,
+    "CostScoin": 10000,
+    "SecondarySheetId": 2
+  },
+  {
+    "Id": 1047004,
+    "ShopType": 1047,
+    "ItemCount": 1,
+    "CostItems": [],
+    "BeginTime": 1577030400,
+    "EndTime": 2056204800,
+    "PreconditionParamList": [],
+    "MinShowLevel": 1,
+    "MinPlayerLevel": 1,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 1,
+    "IsBuyOnce": false,
+    "ItemId": 223002,
+    "BuyLimit": 1,
+    "CostScoin": 10000,
+    "SecondarySheetId": 2
+  },
+  {
+    "Id": 1047005,
+    "ShopType": 1047,
+    "ItemCount": 1,
+    "CostItems": [],
+    "BeginTime": 1577030400,
+    "EndTime": 2056204800,
+    "PreconditionParamList": [],
+    "MinShowLevel": 1,
+    "MinPlayerLevel": 1,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 1,
+    "IsBuyOnce": false,
+    "ItemId": 223003,
+    "BuyLimit": 1,
+    "CostScoin": 10000,
+    "SecondarySheetId": 2
+  },
+  {
+    "Id": 1047006,
+    "ShopType": 1047,
+    "ItemCount": 1,
+    "CostItems": [],
+    "BeginTime": 1577030400,
+    "EndTime": 2056204800,
+    "PreconditionParamList": [],
+    "MinShowLevel": 1,
+    "MinPlayerLevel": 1,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 1,
+    "IsBuyOnce": false,
+    "ItemId": 223004,
+    "BuyLimit": 1,
+    "CostScoin": 10000,
+    "SecondarySheetId": 2
+  },
+  {
+    "Id": 1047007,
+    "ShopType": 1047,
+    "ItemCount": 1,
+    "CostItems": [],
+    "BeginTime": 1577030400,
+    "EndTime": 2056204800,
+    "PreconditionParamList": [],
+    "MinShowLevel": 1,
+    "MinPlayerLevel": 1,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 1,
+    "IsBuyOnce": false,
+    "ItemId": 223005,
+    "BuyLimit": 1,
+    "CostScoin": 10000,
+    "SecondarySheetId": 2
+  },
+  {
+    "Id": 1047008,
+    "ShopType": 1047,
+    "ItemCount": 1,
+    "CostItems": [],
+    "BeginTime": 1577030400,
+    "EndTime": 2056204800,
+    "PreconditionParamList": [],
+    "MinShowLevel": 1,
+    "MinPlayerLevel": 1,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 1,
+    "IsBuyOnce": false,
+    "ItemId": 223006,
+    "BuyLimit": 1,
+    "CostScoin": 10000,
+    "SecondarySheetId": 2
+  },
+  {
+    "Id": 1047009,
+    "ShopType": 1047,
+    "ItemCount": 1,
+    "CostItems": [],
+    "BeginTime": 1577030400,
+    "EndTime": 2056204800,
+    "PreconditionParamList": [],
+    "MinShowLevel": 1,
+    "MinPlayerLevel": 1,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 1,
+    "IsBuyOnce": false,
+    "ItemId": 223007,
+    "BuyLimit": 1,
+    "CostScoin": 10000,
+    "SecondarySheetId": 2
+  },
+  {
+    "Id": 1047010,
+    "ShopType": 1047,
+    "ItemCount": 1,
+    "CostItems": [],
+    "BeginTime": 1577030400,
+    "EndTime": 2056204800,
+    "PreconditionParamList": [],
+    "MinShowLevel": 1,
+    "MinPlayerLevel": 1,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 1,
+    "IsBuyOnce": false,
+    "ItemId": 223008,
+    "BuyLimit": 1,
+    "CostScoin": 10000,
+    "SecondarySheetId": 2
+  },
+  {
+    "Id": 1047011,
+    "ShopType": 1047,
+    "ItemCount": 1,
+    "CostItems": [],
+    "BeginTime": 1577030400,
+    "EndTime": 2056204800,
+    "PreconditionParamList": [],
+    "MinShowLevel": 1,
+    "MinPlayerLevel": 1,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 1,
+    "IsBuyOnce": false,
+    "ItemId": 223009,
+    "BuyLimit": 1,
+    "CostScoin": 10000,
+    "SecondarySheetId": 2
+  },
+  {
+    "Id": 1047012,
+    "ShopType": 1047,
+    "ItemCount": 1,
+    "CostItems": [],
+    "BeginTime": 1577030400,
+    "EndTime": 2056204800,
+    "PreconditionParamList": [],
+    "MinShowLevel": 1,
+    "MinPlayerLevel": 1,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 1,
+    "IsBuyOnce": false,
+    "ItemId": 223010,
+    "BuyLimit": 1,
+    "CostScoin": 10000,
+    "SecondarySheetId": 2
+  },
+  {
+    "Id": 1047013,
+    "ShopType": 1047,
+    "ItemCount": 1,
+    "CostItems": [],
+    "BeginTime": 1577030400,
+    "EndTime": 2056204800,
+    "PreconditionParamList": [],
+    "MinShowLevel": 1,
+    "MinPlayerLevel": 1,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 1,
+    "IsBuyOnce": false,
+    "ItemId": 223011,
+    "BuyLimit": 1,
+    "CostScoin": 10000,
+    "SecondarySheetId": 2
+  },
+  {
+    "Id": 1047014,
+    "ShopType": 1047,
+    "ItemCount": 1,
+    "CostItems": [],
+    "BeginTime": 1577030400,
+    "EndTime": 2056204800,
+    "PreconditionParamList": [],
+    "MinShowLevel": 1,
+    "MinPlayerLevel": 1,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 1,
+    "IsBuyOnce": false,
+    "ItemId": 223012,
+    "BuyLimit": 1,
+    "CostScoin": 10000,
+    "SecondarySheetId": 2
   },
   {
     "Id": 1050001,
@@ -10767,6 +11036,30 @@
     "SortLevel": 5,
     "IsBuyOnce": false,
     "ItemId": 112073,
+    "BuyLimit": 8,
+    "RefreshType": "SHOP_REFRESH_MONTHLY",
+    "RefreshParam": 1,
+    "SubTabId": 2
+  },
+  {
+    "Id": 102044,
+    "ShopType": 1001,
+    "ItemCount": 1,
+    "CostItems": [
+      {
+        "Id": 221,
+        "Count": 2
+      }
+    ],
+    "BeginTime": 1575129600,
+    "EndTime": 2051193600,
+    "PreconditionParamList": [],
+    "MinShowLevel": 1,
+    "MinPlayerLevel": 35,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 5,
+    "IsBuyOnce": false,
+    "ItemId": 112076,
     "BuyLimit": 8,
     "RefreshType": "SHOP_REFRESH_MONTHLY",
     "RefreshParam": 1,
@@ -12100,6 +12393,54 @@
     "SubTabId": 3
   },
   {
+    "Id": 102557,
+    "ShopType": 1001,
+    "ItemCount": 1,
+    "CostItems": [
+      {
+        "Id": 222,
+        "Count": 5
+      }
+    ],
+    "BeginTime": 1575129600,
+    "EndTime": 2051193600,
+    "PreconditionParamList": [],
+    "MinShowLevel": 1,
+    "MinPlayerLevel": 10,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 2,
+    "IsBuyOnce": false,
+    "ItemId": 112074,
+    "BuyLimit": 16,
+    "RefreshType": "SHOP_REFRESH_MONTHLY",
+    "RefreshParam": 1,
+    "SubTabId": 3
+  },
+  {
+    "Id": 102558,
+    "ShopType": 1001,
+    "ItemCount": 1,
+    "CostItems": [
+      {
+        "Id": 222,
+        "Count": 15
+      }
+    ],
+    "BeginTime": 1575129600,
+    "EndTime": 2051193600,
+    "PreconditionParamList": [],
+    "MinShowLevel": 1,
+    "MinPlayerLevel": 10,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 7,
+    "IsBuyOnce": false,
+    "ItemId": 112075,
+    "BuyLimit": 12,
+    "RefreshType": "SHOP_REFRESH_MONTHLY",
+    "RefreshParam": 1,
+    "SubTabId": 3
+  },
+  {
     "Id": 103009,
     "ShopType": 902,
     "ItemCount": 1,
@@ -13200,6 +13541,66 @@
     "CostMcoin": 150
   },
   {
+    "Id": 103068,
+    "ShopType": 902,
+    "ItemCount": 1,
+    "CostItems": [],
+    "BeginTime": 1673884800,
+    "EndTime": 1675267199,
+    "PreconditionParamList": [],
+    "MinShowLevel": 25,
+    "MinPlayerLevel": 25,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 11,
+    "IsBuyOnce": false,
+    "ItemId": 115022,
+    "BuyLimit": 3,
+    "DiscountRate": 0.8999999761581421,
+    "OriginalPrice": 760,
+    "ShowId": 40014,
+    "CostMcoin": 680
+  },
+  {
+    "Id": 103069,
+    "ShopType": 902,
+    "ItemCount": 1,
+    "CostItems": [],
+    "BeginTime": 1673884800,
+    "EndTime": 1675267199,
+    "PreconditionParamList": [],
+    "MinShowLevel": 25,
+    "MinPlayerLevel": 25,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 11,
+    "IsBuyOnce": false,
+    "ItemId": 115029,
+    "BuyLimit": 5,
+    "DiscountRate": 0.8999999761581421,
+    "OriginalPrice": 760,
+    "ShowId": 40016,
+    "CostMcoin": 680
+  },
+  {
+    "Id": 103070,
+    "ShopType": 902,
+    "ItemCount": 1,
+    "CostItems": [],
+    "BeginTime": 1673884800,
+    "EndTime": 1675267199,
+    "PreconditionParamList": [],
+    "MinShowLevel": 1,
+    "MinPlayerLevel": 1,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 11,
+    "IsBuyOnce": false,
+    "ItemId": 115030,
+    "BuyLimit": 5,
+    "DiscountRate": 0.5,
+    "OriginalPrice": 160,
+    "ShowId": 40017,
+    "CostMcoin": 80
+  },
+  {
     "Id": 106001,
     "ShopType": 1052,
     "ItemCount": 1,
@@ -13298,6 +13699,23 @@
     "SortLevel": 443,
     "IsBuyOnce": false,
     "ItemId": 340005,
+    "BuyLimit": 1,
+    "CostMcoin": 1680
+  },
+  {
+    "Id": 106007,
+    "ShopType": 1052,
+    "ItemCount": 1,
+    "CostItems": [],
+    "BeginTime": 1575129600,
+    "EndTime": 2051193600,
+    "PreconditionParamList": [],
+    "MinShowLevel": 1,
+    "MinPlayerLevel": 1,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 454,
+    "IsBuyOnce": false,
+    "ItemId": 340010,
     "BuyLimit": 1,
     "CostMcoin": 1680
   },
@@ -26124,6 +26542,214 @@
     "PreconditionParam": 1
   },
   {
+    "Id": 213364,
+    "ShopType": 1048,
+    "ItemCount": 1,
+    "CostItems": [
+      {
+        "Id": 204,
+        "Count": 80
+      }
+    ],
+    "BeginTime": 1575129600,
+    "EndTime": 2051193600,
+    "PreconditionParamList": [],
+    "MinShowLevel": 1,
+    "MinPlayerLevel": 1,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 1,
+    "IsBuyOnce": false,
+    "ItemId": 372475,
+    "BuyLimit": 3,
+    "Precondition": "SHOP_PRECONDITION_HOME_LEVEL",
+    "RefreshType": "SHOP_REFRESH_DAILY",
+    "RefreshParam": 1,
+    "SubTabId": 2,
+    "PreconditionParam": 1
+  },
+  {
+    "Id": 213365,
+    "ShopType": 1048,
+    "ItemCount": 1,
+    "CostItems": [
+      {
+        "Id": 204,
+        "Count": 80
+      }
+    ],
+    "BeginTime": 1575129600,
+    "EndTime": 2051193600,
+    "PreconditionParamList": [],
+    "MinShowLevel": 1,
+    "MinPlayerLevel": 1,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 1,
+    "IsBuyOnce": false,
+    "ItemId": 372342,
+    "BuyLimit": 3,
+    "Precondition": "SHOP_PRECONDITION_HOME_LEVEL",
+    "RefreshType": "SHOP_REFRESH_DAILY",
+    "RefreshParam": 1,
+    "SubTabId": 2,
+    "PreconditionParam": 1
+  },
+  {
+    "Id": 213366,
+    "ShopType": 1048,
+    "ItemCount": 1,
+    "CostItems": [
+      {
+        "Id": 204,
+        "Count": 80
+      }
+    ],
+    "BeginTime": 1575129600,
+    "EndTime": 2051193600,
+    "PreconditionParamList": [],
+    "MinShowLevel": 1,
+    "MinPlayerLevel": 1,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 1,
+    "IsBuyOnce": false,
+    "ItemId": 372476,
+    "BuyLimit": 3,
+    "Precondition": "SHOP_PRECONDITION_HOME_LEVEL",
+    "RefreshType": "SHOP_REFRESH_DAILY",
+    "RefreshParam": 1,
+    "SubTabId": 2,
+    "PreconditionParam": 1
+  },
+  {
+    "Id": 213367,
+    "ShopType": 1048,
+    "ItemCount": 1,
+    "CostItems": [
+      {
+        "Id": 204,
+        "Count": 80
+      }
+    ],
+    "BeginTime": 1575129600,
+    "EndTime": 2051193600,
+    "PreconditionParamList": [],
+    "MinShowLevel": 1,
+    "MinPlayerLevel": 1,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 1,
+    "IsBuyOnce": false,
+    "ItemId": 372477,
+    "BuyLimit": 3,
+    "Precondition": "SHOP_PRECONDITION_HOME_LEVEL",
+    "RefreshType": "SHOP_REFRESH_DAILY",
+    "RefreshParam": 1,
+    "SubTabId": 2,
+    "PreconditionParam": 1
+  },
+  {
+    "Id": 213368,
+    "ShopType": 1048,
+    "ItemCount": 1,
+    "CostItems": [
+      {
+        "Id": 204,
+        "Count": 40
+      }
+    ],
+    "BeginTime": 1575129600,
+    "EndTime": 2051193600,
+    "PreconditionParamList": [],
+    "MinShowLevel": 1,
+    "MinPlayerLevel": 1,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 1,
+    "IsBuyOnce": false,
+    "ItemId": 372478,
+    "BuyLimit": 3,
+    "Precondition": "SHOP_PRECONDITION_HOME_LEVEL",
+    "RefreshType": "SHOP_REFRESH_DAILY",
+    "RefreshParam": 1,
+    "SubTabId": 2,
+    "PreconditionParam": 1
+  },
+  {
+    "Id": 213369,
+    "ShopType": 1048,
+    "ItemCount": 1,
+    "CostItems": [
+      {
+        "Id": 204,
+        "Count": 40
+      }
+    ],
+    "BeginTime": 1575129600,
+    "EndTime": 2051193600,
+    "PreconditionParamList": [],
+    "MinShowLevel": 1,
+    "MinPlayerLevel": 1,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 1,
+    "IsBuyOnce": false,
+    "ItemId": 372479,
+    "BuyLimit": 3,
+    "Precondition": "SHOP_PRECONDITION_HOME_LEVEL",
+    "RefreshType": "SHOP_REFRESH_DAILY",
+    "RefreshParam": 1,
+    "SubTabId": 2,
+    "PreconditionParam": 1
+  },
+  {
+    "Id": 213370,
+    "ShopType": 1048,
+    "ItemCount": 1,
+    "CostItems": [
+      {
+        "Id": 204,
+        "Count": 40
+      }
+    ],
+    "BeginTime": 1575129600,
+    "EndTime": 2051193600,
+    "PreconditionParamList": [],
+    "MinShowLevel": 1,
+    "MinPlayerLevel": 1,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 1,
+    "IsBuyOnce": false,
+    "ItemId": 372480,
+    "BuyLimit": 3,
+    "Precondition": "SHOP_PRECONDITION_HOME_LEVEL",
+    "RefreshType": "SHOP_REFRESH_DAILY",
+    "RefreshParam": 1,
+    "SubTabId": 2,
+    "PreconditionParam": 1
+  },
+  {
+    "Id": 213371,
+    "ShopType": 1048,
+    "ItemCount": 1,
+    "CostItems": [
+      {
+        "Id": 204,
+        "Count": 40
+      }
+    ],
+    "BeginTime": 1575129600,
+    "EndTime": 2051193600,
+    "PreconditionParamList": [],
+    "MinShowLevel": 1,
+    "MinPlayerLevel": 1,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 1,
+    "IsBuyOnce": false,
+    "ItemId": 372481,
+    "BuyLimit": 3,
+    "Precondition": "SHOP_PRECONDITION_HOME_LEVEL",
+    "RefreshType": "SHOP_REFRESH_DAILY",
+    "RefreshParam": 1,
+    "SubTabId": 2,
+    "PreconditionParam": 1
+  },
+  {
     "Id": 213601,
     "ShopType": 1048,
     "ItemCount": 1,
@@ -34932,6 +35558,102 @@
     "PreconditionParam": 1
   },
   {
+    "Id": 213972,
+    "ShopType": 1048,
+    "ItemCount": 1,
+    "CostItems": [
+      {
+        "Id": 204,
+        "Count": 240
+      }
+    ],
+    "BeginTime": 1575129600,
+    "EndTime": 2051193600,
+    "PreconditionParamList": [],
+    "MinShowLevel": 1,
+    "MinPlayerLevel": 1,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 1,
+    "IsBuyOnce": false,
+    "ItemId": 393366,
+    "BuyLimit": 1,
+    "Precondition": "SHOP_PRECONDITION_HOME_LEVEL",
+    "SubTabId": 3,
+    "PreconditionParam": 1
+  },
+  {
+    "Id": 213973,
+    "ShopType": 1048,
+    "ItemCount": 1,
+    "CostItems": [
+      {
+        "Id": 204,
+        "Count": 240
+      }
+    ],
+    "BeginTime": 1575129600,
+    "EndTime": 2051193600,
+    "PreconditionParamList": [],
+    "MinShowLevel": 1,
+    "MinPlayerLevel": 1,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 1,
+    "IsBuyOnce": false,
+    "ItemId": 393367,
+    "BuyLimit": 1,
+    "Precondition": "SHOP_PRECONDITION_HOME_LEVEL",
+    "SubTabId": 3,
+    "PreconditionParam": 1
+  },
+  {
+    "Id": 213974,
+    "ShopType": 1048,
+    "ItemCount": 1,
+    "CostItems": [
+      {
+        "Id": 204,
+        "Count": 240
+      }
+    ],
+    "BeginTime": 1575129600,
+    "EndTime": 2051193600,
+    "PreconditionParamList": [],
+    "MinShowLevel": 1,
+    "MinPlayerLevel": 1,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 1,
+    "IsBuyOnce": false,
+    "ItemId": 393369,
+    "BuyLimit": 1,
+    "Precondition": "SHOP_PRECONDITION_HOME_LEVEL",
+    "SubTabId": 3,
+    "PreconditionParam": 1
+  },
+  {
+    "Id": 213975,
+    "ShopType": 1048,
+    "ItemCount": 1,
+    "CostItems": [
+      {
+        "Id": 204,
+        "Count": 240
+      }
+    ],
+    "BeginTime": 1575129600,
+    "EndTime": 2051193600,
+    "PreconditionParamList": [],
+    "MinShowLevel": 1,
+    "MinPlayerLevel": 1,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 1,
+    "IsBuyOnce": false,
+    "ItemId": 393370,
+    "BuyLimit": 1,
+    "Precondition": "SHOP_PRECONDITION_HOME_LEVEL",
+    "SubTabId": 3,
+    "PreconditionParam": 1
+  },
+  {
     "Id": 213001,
     "ShopType": 1048,
     "ItemCount": 1,
@@ -35407,6 +36129,54 @@
     "SortLevel": 1,
     "IsBuyOnce": false,
     "ItemId": 370725,
+    "BuyLimit": 1,
+    "Precondition": "SHOP_PRECONDITION_HOME_LEVEL",
+    "SubTabId": 4,
+    "PreconditionParam": 1
+  },
+  {
+    "Id": 213021,
+    "ShopType": 1048,
+    "ItemCount": 1,
+    "CostItems": [
+      {
+        "Id": 204,
+        "Count": 300
+      }
+    ],
+    "BeginTime": 1575129600,
+    "EndTime": 2051193600,
+    "PreconditionParamList": [],
+    "MinShowLevel": 1,
+    "MinPlayerLevel": 1,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 1,
+    "IsBuyOnce": false,
+    "ItemId": 373373,
+    "BuyLimit": 1,
+    "Precondition": "SHOP_PRECONDITION_HOME_LEVEL",
+    "SubTabId": 4,
+    "PreconditionParam": 1
+  },
+  {
+    "Id": 213022,
+    "ShopType": 1048,
+    "ItemCount": 1,
+    "CostItems": [
+      {
+        "Id": 204,
+        "Count": 300
+      }
+    ],
+    "BeginTime": 1575129600,
+    "EndTime": 2051193600,
+    "PreconditionParamList": [],
+    "MinShowLevel": 1,
+    "MinPlayerLevel": 1,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 1,
+    "IsBuyOnce": false,
+    "ItemId": 371133,
     "BuyLimit": 1,
     "Precondition": "SHOP_PRECONDITION_HOME_LEVEL",
     "SubTabId": 4,
@@ -38954,7 +39724,7 @@
     "CostItems": [
       {
         "Id": 107021,
-        "Count": 600
+        "Count": 1000
       }
     ],
     "BeginTime": 1575129600,
@@ -38979,7 +39749,7 @@
     "CostItems": [
       {
         "Id": 107021,
-        "Count": 600
+        "Count": 1000
       }
     ],
     "BeginTime": 1575129600,
@@ -39004,7 +39774,7 @@
     "CostItems": [
       {
         "Id": 107021,
-        "Count": 600
+        "Count": 1000
       }
     ],
     "BeginTime": 1575129600,
@@ -40948,6 +41718,56 @@
     "SubTabId": 4
   },
   {
+    "Id": 218148,
+    "ShopType": 2001,
+    "ItemCount": 1,
+    "CostItems": [
+      {
+        "Id": 107021,
+        "Count": 4000
+      }
+    ],
+    "BeginTime": 1575129600,
+    "EndTime": 2051193600,
+    "PreconditionParamList": [
+      "5"
+    ],
+    "MinShowLevel": 1,
+    "MinPlayerLevel": 1,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 998595,
+    "IsBuyOnce": false,
+    "ItemId": 334028,
+    "BuyLimit": 1,
+    "Precondition": "SHOP_PRECONDITION_GCG_LEVEL",
+    "SubTabId": 4
+  },
+  {
+    "Id": 218149,
+    "ShopType": 2001,
+    "ItemCount": 1,
+    "CostItems": [
+      {
+        "Id": 107021,
+        "Count": 4000
+      }
+    ],
+    "BeginTime": 1575129600,
+    "EndTime": 2051193600,
+    "PreconditionParamList": [
+      "5"
+    ],
+    "MinShowLevel": 1,
+    "MinPlayerLevel": 1,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 998694,
+    "IsBuyOnce": false,
+    "ItemId": 334029,
+    "BuyLimit": 1,
+    "Precondition": "SHOP_PRECONDITION_GCG_LEVEL",
+    "SubTabId": 4
+  },
+  {
     "Id": 219001,
     "ShopType": 2002,
     "ItemCount": 1,
@@ -41264,6 +42084,30 @@
     "IsBuyOnce": false,
     "ItemId": 107020,
     "BuyLimit": 1,
+    "Precondition": "SHOP_PRECONDITION_GCG_LEVEL",
+    "SubTabId": 11
+  },
+  {
+    "Id": 219015,
+    "ShopType": 2002,
+    "ItemCount": 1,
+    "CostItems": [
+      {
+        "Id": 107021,
+        "Count": 1000
+      }
+    ],
+    "BeginTime": 1575129600,
+    "EndTime": 2051193600,
+    "PreconditionParamList": [
+      "10"
+    ],
+    "MinShowLevel": 1,
+    "MinPlayerLevel": 1,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 5,
+    "IsBuyOnce": false,
+    "ItemId": 107020,
     "Precondition": "SHOP_PRECONDITION_GCG_LEVEL",
     "SubTabId": 11
   },
@@ -41858,6 +42702,50 @@
     "SortLevel": 997299,
     "IsBuyOnce": false,
     "ItemId": 334027,
+    "BuyLimit": 1,
+    "SubTabId": 10
+  },
+  {
+    "Id": 220029,
+    "ShopType": 2003,
+    "ItemCount": 1,
+    "CostItems": [
+      {
+        "Id": 107019,
+        "Count": 1
+      }
+    ],
+    "BeginTime": 1575129600,
+    "EndTime": 2051193600,
+    "PreconditionParamList": [],
+    "MinShowLevel": 1,
+    "MinPlayerLevel": 1,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 998595,
+    "IsBuyOnce": false,
+    "ItemId": 334028,
+    "BuyLimit": 1,
+    "SubTabId": 10
+  },
+  {
+    "Id": 220030,
+    "ShopType": 2003,
+    "ItemCount": 1,
+    "CostItems": [
+      {
+        "Id": 107019,
+        "Count": 1
+      }
+    ],
+    "BeginTime": 1575129600,
+    "EndTime": 2051193600,
+    "PreconditionParamList": [],
+    "MinShowLevel": 1,
+    "MinPlayerLevel": 1,
+    "MaxPlayerLevel": 99,
+    "SortLevel": 998694,
+    "IsBuyOnce": false,
+    "ItemId": 334029,
     "BuyLimit": 1,
     "SubTabId": 10
   }
