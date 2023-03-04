@@ -107880,6 +107880,76 @@
       "GroupId": 22,
       "PropType": "FIGHT_PROP_CRITICAL_HURT",
       "PropValue": 0.12430000305175781
+    },
+    {
+      "Id": 947001,
+      "DepotId": 947,
+      "GroupId": 3,
+      "PropType": "FIGHT_PROP_HP_PERCENT",
+      "PropValue": 0.03959999978542328
+    },
+    {
+      "Id": 947002,
+      "DepotId": 947,
+      "GroupId": 6,
+      "PropType": "FIGHT_PROP_ATTACK_PERCENT",
+      "PropValue": 0.03959999978542328
+    },
+    {
+      "Id": 947003,
+      "DepotId": 947,
+      "GroupId": 9,
+      "PropType": "FIGHT_PROP_DEFENSE_PERCENT",
+      "PropValue": 0.0494999997317791
+    },
+    {
+      "Id": 947004,
+      "DepotId": 947,
+      "GroupId": 20,
+      "PropType": "FIGHT_PROP_CRITICAL",
+      "PropValue": 0.026399999856948853
+    },
+    {
+      "Id": 947005,
+      "DepotId": 947,
+      "GroupId": 23,
+      "PropType": "FIGHT_PROP_CHARGE_EFFICIENCY",
+      "PropValue": 0.04399999976158142
+    },
+    {
+      "Id": 947006,
+      "DepotId": 947,
+      "GroupId": 25,
+      "PropType": "FIGHT_PROP_ELEMENT_MASTERY",
+      "PropValue": 15.850000381469727
+    },
+    {
+      "Id": 947007,
+      "DepotId": 947,
+      "GroupId": 22,
+      "PropType": "FIGHT_PROP_CRITICAL_HURT",
+      "PropValue": 0.052799999713897705
+    },
+    {
+      "Id": 947008,
+      "DepotId": 996,
+      "GroupId": 22,
+      "PropType": "FIGHT_PROP_HP",
+      "PropValue": 203.14999389648438
+    },
+    {
+      "Id": 947009,
+      "DepotId": 996,
+      "GroupId": 22,
+      "PropType": "FIGHT_PROP_ATTACK",
+      "PropValue": 13.229999542236328
+    },
+    {
+      "Id": 947010,
+      "DepotId": 996,
+      "GroupId": 22,
+      "PropType": "FIGHT_PROP_DEFENSE",
+      "PropValue": 15.739999771118164
     }
   ],
   "Level": [

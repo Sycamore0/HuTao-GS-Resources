@@ -13564,6 +13564,461 @@
         }
       ],
       "PrevTalent": 785
+    },
+    {
+      "Id": 791,
+      "Name": "Dehya_Constellation_1",
+      "MainCostItemId": 1179,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.20000000298023224,
+        0.035999998450279236,
+        0.05999999865889549,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddAbility",
+          "AbilityName": "Avatar_Dehya_Constellation_1"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Dehya_Constellation_1",
+          "ParamSpecial": "Hp_Ratio",
+          "ParamDelta": "%1",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Dehya_Constellation_1",
+          "ParamSpecial": "HpToDamage_Art",
+          "ParamDelta": "%2",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Dehya_Constellation_1",
+          "ParamSpecial": "HpToDamage_Burst",
+          "ParamDelta": "%3",
+          "ParamRatio": 0
+        }
+      ]
+    },
+    {
+      "Id": 792,
+      "Name": "Dehya_Constellation_2",
+      "MainCostItemId": 1179,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        6,
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "UnlockTalentParam",
+          "AbilityName": "Gadget_Dehya_ElementalArt_Grave",
+          "TalentParam": "Dehya_Constellation_2"
+        },
+        {
+          "$type": "UnlockTalentParam",
+          "AbilityName": "Avatar_Dehya_ElementalArt_Recycle",
+          "TalentParam": "Dehya_Constellation_2"
+        },
+        {
+          "$type": "AddAbility",
+          "AbilityName": "Avatar_Dehya_Constellation_2"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Dehya_ElementalArt_Recycle",
+          "ParamSpecial": "Constellation_2_Prolong",
+          "ParamDelta": "%1",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Dehya_Constellation_2",
+          "ParamSpecial": "DamageUp_Ratio",
+          "ParamDelta": "%2",
+          "ParamRatio": 0
+        }
+      ],
+      "PrevTalent": 791
+    },
+    {
+      "Id": 793,
+      "Name": "Dehya_Constellation_3",
+      "MainCostItemId": 1179,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddTalentExtraLevel",
+          "TalentType": "AvatarSkill",
+          "TalentIndex": 9,
+          "ExtraLevel": 3
+        }
+      ],
+      "PrevTalent": 792
+    },
+    {
+      "Id": 794,
+      "Name": "Dehya_Constellation_4",
+      "MainCostItemId": 1179,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1.5,
+        0.02500000037252903,
+        0.20000000298023224,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddAbility",
+          "AbilityName": "Avatar_Dehya_Constellation_4"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Dehya_Constellation_4",
+          "ParamSpecial": "Revive_Energy",
+          "ParamDelta": "%1",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Dehya_Constellation_4",
+          "ParamSpecial": "Heal_Ratio",
+          "ParamDelta": "%2",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Dehya_Constellation_4",
+          "ParamSpecial": "CD_Time",
+          "ParamDelta": "%3",
+          "ParamRatio": 0
+        }
+      ],
+      "PrevTalent": 793
+    },
+    {
+      "Id": 795,
+      "Name": "Dehya_Constellation_5",
+      "MainCostItemId": 1179,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddTalentExtraLevel",
+          "TalentType": "AvatarSkill",
+          "TalentIndex": 2,
+          "ExtraLevel": 3
+        }
+      ],
+      "PrevTalent": 794
+    },
+    {
+      "Id": 796,
+      "Name": "Dehya_Constellation_6",
+      "MainCostItemId": 1179,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.10000000149011612,
+        0.15000000596046448,
+        0.5,
+        4,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddAbility",
+          "AbilityName": "Avatar_Dehya_Constellation_6"
+        },
+        {
+          "$type": "UnlockTalentParam",
+          "AbilityName": "Avatar_Dehya_ElementalBurst",
+          "TalentParam": "Dehya_Constellation_6"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Dehya_Constellation_6",
+          "ParamSpecial": "Crit_Up",
+          "ParamDelta": "%1",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Dehya_Constellation_6",
+          "ParamSpecial": "CritHurt_Up",
+          "ParamDelta": "%2",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Dehya_Constellation_6",
+          "ParamSpecial": "Timer_Prolong",
+          "ParamDelta": "%3",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Dehya_Constellation_6",
+          "ParamSpecial": "Max_Level",
+          "ParamDelta": "%4",
+          "ParamRatio": 0
+        }
+      ],
+      "PrevTalent": 795
+    },
+    {
+      "Id": 801,
+      "Name": "Mika_Constellation_1",
+      "MainCostItemId": 1180,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "UnlockTalentParam",
+          "AbilityName": "Avatar_Mika_ElementBurst",
+          "TalentParam": "Mika_Talent_1"
+        },
+        {
+          "$type": "UnlockTalentParam",
+          "AbilityName": "Avatar_Mika_ElementalArt_Buff_Controller",
+          "TalentParam": "Mika_Talent_1"
+        }
+      ]
+    },
+    {
+      "Id": 802,
+      "Name": "Mika_Constellation_2",
+      "MainCostItemId": 1180,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "UnlockTalentParam",
+          "AbilityName": "Avatar_Mika_ElementalArt_NoChargeShoot",
+          "TalentParam": "Mika_Talent_2"
+        },
+        {
+          "$type": "UnlockTalentParam",
+          "AbilityName": "Mika_ElementalArt_Charge_Bullet_Main",
+          "TalentParam": "Mika_Talent_2"
+        }
+      ],
+      "PrevTalent": 801
+    },
+    {
+      "Id": 803,
+      "Name": "Mika_Constellation_3",
+      "MainCostItemId": 1180,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddTalentExtraLevel",
+          "TalentType": "AvatarSkill",
+          "TalentIndex": 9,
+          "ExtraLevel": 3
+        }
+      ],
+      "PrevTalent": 802
+    },
+    {
+      "Id": 804,
+      "Name": "Mika_Constellation_4",
+      "MainCostItemId": 1180,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        3,
+        5,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "UnlockTalentParam",
+          "AbilityName": "Avatar_Mika_ElementBurst",
+          "TalentParam": "Mika_Talent_4"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Mika_ElementBurst",
+          "ParamSpecial": "C4_Revive_Energy",
+          "ParamDelta": "%1"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Mika_ElementBurst",
+          "ParamSpecial": "C4_MaxStack",
+          "ParamDelta": "%2"
+        }
+      ],
+      "PrevTalent": 803
+    },
+    {
+      "Id": 805,
+      "Name": "Mika_Constellation_5",
+      "MainCostItemId": 1180,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddTalentExtraLevel",
+          "TalentType": "AvatarSkill",
+          "TalentIndex": 2,
+          "ExtraLevel": 3
+        }
+      ],
+      "PrevTalent": 804
+    },
+    {
+      "Id": 806,
+      "Name": "Mika_Constellation_6",
+      "MainCostItemId": 1180,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.6000000238418579,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "UnlockTalentParam",
+          "AbilityName": "Avatar_Mika_ElementalArt_Buff_Controller",
+          "TalentParam": "Mika_Talent_6"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Mika_ElementalArt_Buff_Controller",
+          "ParamSpecial": "C6_DamageRatio",
+          "ParamDelta": "%1"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Avatar_Mika_Sub_Buff_GV_AddOne",
+          "ParamSpecial": "MaxBuffStack",
+          "ParamDelta": "%2"
+        }
+      ],
+      "PrevTalent": 805
     }
   ],
   "Equip": [
@@ -26856,6 +27311,255 @@
       "Level": 4
     },
     {
+      "AffixId": 1124180,
+      "Id": 112418,
+      "Name": "Weapon_Claymore_Fleurfair",
+      "NameTextMapHash": 3332024747,
+      "DescTextMapHash": 1871681561,
+      "AddProps": [
+        {},
+        {},
+        {}
+      ],
+      "ParamList": [
+        8,
+        0.11999999731779099,
+        48,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddAbility",
+          "AbilityName": "Weapon_Claymore_Fleurfair"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Claymore_Fleurfair",
+          "ParamSpecial": "Dura",
+          "ParamDelta": "%1",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Claymore_Fleurfair",
+          "ParamSpecial": "AttackRate",
+          "ParamDelta": "%2",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Claymore_Fleurfair",
+          "ParamSpecial": "ElemMastery",
+          "ParamDelta": "%3",
+          "ParamRatio": 0
+        }
+      ]
+    },
+    {
+      "AffixId": 1124181,
+      "Id": 112418,
+      "Name": "Weapon_Claymore_Fleurfair",
+      "NameTextMapHash": 2330732555,
+      "DescTextMapHash": 1564752681,
+      "AddProps": [
+        {},
+        {},
+        {}
+      ],
+      "ParamList": [
+        8,
+        0.15000000596046448,
+        60,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddAbility",
+          "AbilityName": "Weapon_Claymore_Fleurfair"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Claymore_Fleurfair",
+          "ParamSpecial": "Dura",
+          "ParamDelta": "%1",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Claymore_Fleurfair",
+          "ParamSpecial": "AttackRate",
+          "ParamDelta": "%2",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Claymore_Fleurfair",
+          "ParamSpecial": "ElemMastery",
+          "ParamDelta": "%3",
+          "ParamRatio": 0
+        }
+      ],
+      "Level": 1
+    },
+    {
+      "AffixId": 1124182,
+      "Id": 112418,
+      "Name": "Weapon_Claymore_Fleurfair",
+      "NameTextMapHash": 2577799971,
+      "DescTextMapHash": 4014670841,
+      "AddProps": [
+        {},
+        {},
+        {}
+      ],
+      "ParamList": [
+        8,
+        0.18000000715255737,
+        72,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddAbility",
+          "AbilityName": "Weapon_Claymore_Fleurfair"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Claymore_Fleurfair",
+          "ParamSpecial": "Dura",
+          "ParamDelta": "%1",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Claymore_Fleurfair",
+          "ParamSpecial": "AttackRate",
+          "ParamDelta": "%2",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Claymore_Fleurfair",
+          "ParamSpecial": "ElemMastery",
+          "ParamDelta": "%3",
+          "ParamRatio": 0
+        }
+      ],
+      "Level": 2
+    },
+    {
+      "AffixId": 1124183,
+      "Id": 112418,
+      "Name": "Weapon_Claymore_Fleurfair",
+      "NameTextMapHash": 1265062867,
+      "DescTextMapHash": 1210736121,
+      "AddProps": [
+        {},
+        {},
+        {}
+      ],
+      "ParamList": [
+        8,
+        0.20999999344348907,
+        84,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddAbility",
+          "AbilityName": "Weapon_Claymore_Fleurfair"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Claymore_Fleurfair",
+          "ParamSpecial": "Dura",
+          "ParamDelta": "%1",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Claymore_Fleurfair",
+          "ParamSpecial": "AttackRate",
+          "ParamDelta": "%2",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Claymore_Fleurfair",
+          "ParamSpecial": "ElemMastery",
+          "ParamDelta": "%3",
+          "ParamRatio": 0
+        }
+      ],
+      "Level": 3
+    },
+    {
+      "AffixId": 1124184,
+      "Id": 112418,
+      "Name": "Weapon_Claymore_Fleurfair",
+      "NameTextMapHash": 141119323,
+      "DescTextMapHash": 3281999001,
+      "AddProps": [
+        {},
+        {},
+        {}
+      ],
+      "ParamList": [
+        8,
+        0.23999999463558197,
+        96,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddAbility",
+          "AbilityName": "Weapon_Claymore_Fleurfair"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Claymore_Fleurfair",
+          "ParamSpecial": "Dura",
+          "ParamDelta": "%1",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Claymore_Fleurfair",
+          "ParamSpecial": "AttackRate",
+          "ParamDelta": "%2",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Claymore_Fleurfair",
+          "ParamSpecial": "ElemMastery",
+          "ParamDelta": "%3",
+          "ParamRatio": 0
+        }
+      ],
+      "Level": 4
+    },
+    {
       "AffixId": 1125010,
       "Id": 112501,
       "Name": "Weapon_Claymore_Legend_Dvalin",
@@ -28464,6 +29168,325 @@
           "AbilityName": "Weapon_Claymore_Itadorimaru",
           "ParamSpecial": "MaxExtraDamage",
           "ParamDelta": "%3",
+          "ParamRatio": 0
+        }
+      ],
+      "Level": 4
+    },
+    {
+      "AffixId": 1125110,
+      "Id": 112511,
+      "Name": "Weapon_Claymore_Deshret",
+      "NameTextMapHash": 4248300875,
+      "DescTextMapHash": 3001876049,
+      "AddProps": [
+        {},
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.20000000298023224,
+        8,
+        0.20000000298023224,
+        8,
+        0.3199999928474426,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddAbility",
+          "AbilityName": "Weapon_Claymore_Deshret"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Claymore_Deshret",
+          "ParamSpecial": "AttackRate1",
+          "ParamDelta": "%1",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Claymore_Deshret",
+          "ParamSpecial": "Timer1",
+          "ParamDelta": "%2",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Claymore_Deshret",
+          "ParamSpecial": "AttackRate2",
+          "ParamDelta": "%3",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Claymore_Deshret",
+          "ParamSpecial": "Timer2",
+          "ParamDelta": "%4",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Claymore_Deshret",
+          "ParamSpecial": "HPRate",
+          "ParamDelta": "%5",
+          "ParamRatio": 0
+        }
+      ]
+    },
+    {
+      "AffixId": 1125111,
+      "Id": 112511,
+      "Name": "Weapon_Claymore_Deshret",
+      "NameTextMapHash": 276874291,
+      "DescTextMapHash": 539746465,
+      "AddProps": [
+        {},
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.25,
+        8,
+        0.25,
+        8,
+        0.4000000059604645,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddAbility",
+          "AbilityName": "Weapon_Claymore_Deshret"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Claymore_Deshret",
+          "ParamSpecial": "AttackRate1",
+          "ParamDelta": "%1",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Claymore_Deshret",
+          "ParamSpecial": "Timer1",
+          "ParamDelta": "%2",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Claymore_Deshret",
+          "ParamSpecial": "AttackRate2",
+          "ParamDelta": "%3",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Claymore_Deshret",
+          "ParamSpecial": "Timer2",
+          "ParamDelta": "%4",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Claymore_Deshret",
+          "ParamSpecial": "HPRate",
+          "ParamDelta": "%5",
+          "ParamRatio": 0
+        }
+      ],
+      "Level": 1
+    },
+    {
+      "AffixId": 1125112,
+      "Id": 112511,
+      "Name": "Weapon_Claymore_Deshret",
+      "NameTextMapHash": 1101321627,
+      "DescTextMapHash": 825321633,
+      "AddProps": [
+        {},
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.30000001192092896,
+        8,
+        0.30000001192092896,
+        8,
+        0.47999998927116394,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddAbility",
+          "AbilityName": "Weapon_Claymore_Deshret"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Claymore_Deshret",
+          "ParamSpecial": "AttackRate1",
+          "ParamDelta": "%1",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Claymore_Deshret",
+          "ParamSpecial": "Timer1",
+          "ParamDelta": "%2",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Claymore_Deshret",
+          "ParamSpecial": "AttackRate2",
+          "ParamDelta": "%3",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Claymore_Deshret",
+          "ParamSpecial": "Timer2",
+          "ParamDelta": "%4",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Claymore_Deshret",
+          "ParamSpecial": "HPRate",
+          "ParamDelta": "%5",
+          "ParamRatio": 0
+        }
+      ],
+      "Level": 2
+    },
+    {
+      "AffixId": 1125113,
+      "Id": 112511,
+      "Name": "Weapon_Claymore_Deshret",
+      "NameTextMapHash": 660114051,
+      "DescTextMapHash": 707325593,
+      "AddProps": [
+        {},
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.3499999940395355,
+        8,
+        0.3499999940395355,
+        8,
+        0.5600000023841858,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddAbility",
+          "AbilityName": "Weapon_Claymore_Deshret"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Claymore_Deshret",
+          "ParamSpecial": "AttackRate1",
+          "ParamDelta": "%1",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Claymore_Deshret",
+          "ParamSpecial": "Timer1",
+          "ParamDelta": "%2",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Claymore_Deshret",
+          "ParamSpecial": "AttackRate2",
+          "ParamDelta": "%3",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Claymore_Deshret",
+          "ParamSpecial": "Timer2",
+          "ParamDelta": "%4",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Claymore_Deshret",
+          "ParamSpecial": "HPRate",
+          "ParamDelta": "%5",
+          "ParamRatio": 0
+        }
+      ],
+      "Level": 3
+    },
+    {
+      "AffixId": 1125114,
+      "Id": 112511,
+      "Name": "Weapon_Claymore_Deshret",
+      "NameTextMapHash": 1927643091,
+      "DescTextMapHash": 2866134609,
+      "AddProps": [
+        {},
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.4000000059604645,
+        8,
+        0.4000000059604645,
+        8,
+        0.6399999856948853,
+        0,
+        0,
+        0
+      ],
+      "Config": [
+        {
+          "$type": "AddAbility",
+          "AbilityName": "Weapon_Claymore_Deshret"
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Claymore_Deshret",
+          "ParamSpecial": "AttackRate1",
+          "ParamDelta": "%1",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Claymore_Deshret",
+          "ParamSpecial": "Timer1",
+          "ParamDelta": "%2",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Claymore_Deshret",
+          "ParamSpecial": "AttackRate2",
+          "ParamDelta": "%3",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Claymore_Deshret",
+          "ParamSpecial": "Timer2",
+          "ParamDelta": "%4",
+          "ParamRatio": 0
+        },
+        {
+          "$type": "ModifyAbility",
+          "AbilityName": "Weapon_Claymore_Deshret",
+          "ParamSpecial": "HPRate",
+          "ParamDelta": "%5",
           "ParamRatio": 0
         }
       ],
