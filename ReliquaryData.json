@@ -89761,6 +89761,1106 @@
     },
     {
       "EquipType": "EQUIP_RING",
+      "RankLevel": 4,
+      "MainPropDepotId": 5000,
+      "AppendPropDepotId": 401,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 2520,
+      "MaxLevel": 17,
+      "DestroyReturnMaterial": [
+        202
+      ],
+      "DestroyReturnMaterialCount": [
+        2520
+      ],
+      "Id": 29412,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600044,
+      "AppendPropNum": 2,
+      "SetId": 15029,
+      "StoryId": 185291,
+      "DestroyRule": "DESTROY_RETURN_MATERIAL"
+    },
+    {
+      "EquipType": "EQUIP_RING",
+      "RankLevel": 4,
+      "MainPropDepotId": 5000,
+      "AppendPropDepotId": 401,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 2520,
+      "MaxLevel": 17,
+      "DestroyReturnMaterial": [
+        202
+      ],
+      "DestroyReturnMaterialCount": [
+        2520
+      ],
+      "Id": 29413,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600044,
+      "AppendPropNum": 3,
+      "SetId": 15029,
+      "StoryId": 185291,
+      "DestroyRule": "DESTROY_RETURN_MATERIAL"
+    },
+    {
+      "EquipType": "EQUIP_NECKLACE",
+      "RankLevel": 4,
+      "MainPropDepotId": 2000,
+      "AppendPropDepotId": 401,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 2520,
+      "MaxLevel": 17,
+      "DestroyReturnMaterial": [
+        202
+      ],
+      "DestroyReturnMaterialCount": [
+        2520
+      ],
+      "Id": 29422,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600044,
+      "AppendPropNum": 2,
+      "SetId": 15029,
+      "StoryId": 185292,
+      "DestroyRule": "DESTROY_RETURN_MATERIAL"
+    },
+    {
+      "EquipType": "EQUIP_NECKLACE",
+      "RankLevel": 4,
+      "MainPropDepotId": 2000,
+      "AppendPropDepotId": 401,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 2520,
+      "MaxLevel": 17,
+      "DestroyReturnMaterial": [
+        202
+      ],
+      "DestroyReturnMaterialCount": [
+        2520
+      ],
+      "Id": 29423,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600044,
+      "AppendPropNum": 3,
+      "SetId": 15029,
+      "StoryId": 185292,
+      "DestroyRule": "DESTROY_RETURN_MATERIAL"
+    },
+    {
+      "EquipType": "EQUIP_DRESS",
+      "RankLevel": 4,
+      "MainPropDepotId": 3000,
+      "AppendPropDepotId": 401,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 2520,
+      "MaxLevel": 17,
+      "DestroyReturnMaterial": [
+        202
+      ],
+      "DestroyReturnMaterialCount": [
+        2520
+      ],
+      "Id": 29432,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600044,
+      "AppendPropNum": 2,
+      "SetId": 15029,
+      "StoryId": 185293,
+      "DestroyRule": "DESTROY_RETURN_MATERIAL"
+    },
+    {
+      "EquipType": "EQUIP_DRESS",
+      "RankLevel": 4,
+      "MainPropDepotId": 3000,
+      "AppendPropDepotId": 401,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 2520,
+      "MaxLevel": 17,
+      "DestroyReturnMaterial": [
+        202
+      ],
+      "DestroyReturnMaterialCount": [
+        2520
+      ],
+      "Id": 29433,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600044,
+      "AppendPropNum": 3,
+      "SetId": 15029,
+      "StoryId": 185293,
+      "DestroyRule": "DESTROY_RETURN_MATERIAL"
+    },
+    {
+      "EquipType": "EQUIP_BRACER",
+      "RankLevel": 4,
+      "MainPropDepotId": 4000,
+      "AppendPropDepotId": 401,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 2520,
+      "MaxLevel": 17,
+      "DestroyReturnMaterial": [
+        202
+      ],
+      "DestroyReturnMaterialCount": [
+        2520
+      ],
+      "Id": 29442,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600044,
+      "AppendPropNum": 2,
+      "SetId": 15029,
+      "StoryId": 185294,
+      "DestroyRule": "DESTROY_RETURN_MATERIAL"
+    },
+    {
+      "EquipType": "EQUIP_BRACER",
+      "RankLevel": 4,
+      "MainPropDepotId": 4000,
+      "AppendPropDepotId": 401,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 2520,
+      "MaxLevel": 17,
+      "DestroyReturnMaterial": [
+        202
+      ],
+      "DestroyReturnMaterialCount": [
+        2520
+      ],
+      "Id": 29443,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600044,
+      "AppendPropNum": 3,
+      "SetId": 15029,
+      "StoryId": 185294,
+      "DestroyRule": "DESTROY_RETURN_MATERIAL"
+    },
+    {
+      "EquipType": "EQUIP_SHOES",
+      "RankLevel": 4,
+      "MainPropDepotId": 1000,
+      "AppendPropDepotId": 401,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 2520,
+      "MaxLevel": 17,
+      "DestroyReturnMaterial": [
+        202
+      ],
+      "DestroyReturnMaterialCount": [
+        2520
+      ],
+      "Id": 29452,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600044,
+      "AppendPropNum": 2,
+      "SetId": 15029,
+      "StoryId": 185295,
+      "DestroyRule": "DESTROY_RETURN_MATERIAL"
+    },
+    {
+      "EquipType": "EQUIP_SHOES",
+      "RankLevel": 4,
+      "MainPropDepotId": 1000,
+      "AppendPropDepotId": 401,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 2520,
+      "MaxLevel": 17,
+      "DestroyReturnMaterial": [
+        202
+      ],
+      "DestroyReturnMaterialCount": [
+        2520
+      ],
+      "Id": 29453,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600044,
+      "AppendPropNum": 3,
+      "SetId": 15029,
+      "StoryId": 185295,
+      "DestroyRule": "DESTROY_RETURN_MATERIAL"
+    },
+    {
+      "EquipType": "EQUIP_RING",
+      "RankLevel": 5,
+      "MainPropDepotId": 5000,
+      "AppendPropDepotId": 501,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 3780,
+      "MaxLevel": 21,
+      "DestroyReturnMaterial": [],
+      "DestroyReturnMaterialCount": [],
+      "Id": 29513,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600045,
+      "AppendPropNum": 3,
+      "SetId": 15029,
+      "StoryId": 185291
+    },
+    {
+      "EquipType": "EQUIP_RING",
+      "RankLevel": 5,
+      "MainPropDepotId": 5000,
+      "AppendPropDepotId": 501,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 3780,
+      "MaxLevel": 21,
+      "DestroyReturnMaterial": [],
+      "DestroyReturnMaterialCount": [],
+      "Id": 29514,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600045,
+      "AppendPropNum": 4,
+      "SetId": 15029,
+      "StoryId": 185291
+    },
+    {
+      "EquipType": "EQUIP_NECKLACE",
+      "RankLevel": 5,
+      "MainPropDepotId": 2000,
+      "AppendPropDepotId": 501,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 3780,
+      "MaxLevel": 21,
+      "DestroyReturnMaterial": [],
+      "DestroyReturnMaterialCount": [],
+      "Id": 29523,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600045,
+      "AppendPropNum": 3,
+      "SetId": 15029,
+      "StoryId": 185292
+    },
+    {
+      "EquipType": "EQUIP_NECKLACE",
+      "RankLevel": 5,
+      "MainPropDepotId": 2000,
+      "AppendPropDepotId": 501,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 3780,
+      "MaxLevel": 21,
+      "DestroyReturnMaterial": [],
+      "DestroyReturnMaterialCount": [],
+      "Id": 29524,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600045,
+      "AppendPropNum": 4,
+      "SetId": 15029,
+      "StoryId": 185292
+    },
+    {
+      "EquipType": "EQUIP_DRESS",
+      "RankLevel": 5,
+      "MainPropDepotId": 3000,
+      "AppendPropDepotId": 501,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 3780,
+      "MaxLevel": 21,
+      "DestroyReturnMaterial": [],
+      "DestroyReturnMaterialCount": [],
+      "Id": 29533,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600045,
+      "AppendPropNum": 3,
+      "SetId": 15029,
+      "StoryId": 185293
+    },
+    {
+      "EquipType": "EQUIP_DRESS",
+      "RankLevel": 5,
+      "MainPropDepotId": 3000,
+      "AppendPropDepotId": 501,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 3780,
+      "MaxLevel": 21,
+      "DestroyReturnMaterial": [],
+      "DestroyReturnMaterialCount": [],
+      "Id": 29534,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600045,
+      "AppendPropNum": 4,
+      "SetId": 15029,
+      "StoryId": 185293
+    },
+    {
+      "EquipType": "EQUIP_BRACER",
+      "RankLevel": 5,
+      "MainPropDepotId": 4000,
+      "AppendPropDepotId": 501,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 3780,
+      "MaxLevel": 21,
+      "DestroyReturnMaterial": [],
+      "DestroyReturnMaterialCount": [],
+      "Id": 29543,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600045,
+      "AppendPropNum": 3,
+      "SetId": 15029,
+      "StoryId": 185294
+    },
+    {
+      "EquipType": "EQUIP_BRACER",
+      "RankLevel": 5,
+      "MainPropDepotId": 4000,
+      "AppendPropDepotId": 501,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 3780,
+      "MaxLevel": 21,
+      "DestroyReturnMaterial": [],
+      "DestroyReturnMaterialCount": [],
+      "Id": 29544,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600045,
+      "AppendPropNum": 4,
+      "SetId": 15029,
+      "StoryId": 185294
+    },
+    {
+      "EquipType": "EQUIP_SHOES",
+      "RankLevel": 5,
+      "MainPropDepotId": 1000,
+      "AppendPropDepotId": 501,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 3780,
+      "MaxLevel": 21,
+      "DestroyReturnMaterial": [],
+      "DestroyReturnMaterialCount": [],
+      "Id": 29553,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600045,
+      "AppendPropNum": 3,
+      "SetId": 15029,
+      "StoryId": 185295
+    },
+    {
+      "EquipType": "EQUIP_SHOES",
+      "RankLevel": 5,
+      "MainPropDepotId": 1000,
+      "AppendPropDepotId": 501,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 3780,
+      "MaxLevel": 21,
+      "DestroyReturnMaterial": [],
+      "DestroyReturnMaterialCount": [],
+      "Id": 29554,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600045,
+      "AppendPropNum": 4,
+      "SetId": 15029,
+      "StoryId": 185295
+    },
+    {
+      "EquipType": "EQUIP_RING",
+      "RankLevel": 4,
+      "MainPropDepotId": 5000,
+      "AppendPropDepotId": 401,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 2520,
+      "MaxLevel": 17,
+      "DestroyReturnMaterial": [
+        202
+      ],
+      "DestroyReturnMaterialCount": [
+        2520
+      ],
+      "Id": 30412,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600044,
+      "AppendPropNum": 2,
+      "SetId": 15030,
+      "StoryId": 185301,
+      "DestroyRule": "DESTROY_RETURN_MATERIAL"
+    },
+    {
+      "EquipType": "EQUIP_RING",
+      "RankLevel": 4,
+      "MainPropDepotId": 5000,
+      "AppendPropDepotId": 401,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 2520,
+      "MaxLevel": 17,
+      "DestroyReturnMaterial": [
+        202
+      ],
+      "DestroyReturnMaterialCount": [
+        2520
+      ],
+      "Id": 30413,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600044,
+      "AppendPropNum": 3,
+      "SetId": 15030,
+      "StoryId": 185301,
+      "DestroyRule": "DESTROY_RETURN_MATERIAL"
+    },
+    {
+      "EquipType": "EQUIP_NECKLACE",
+      "RankLevel": 4,
+      "MainPropDepotId": 2000,
+      "AppendPropDepotId": 401,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 2520,
+      "MaxLevel": 17,
+      "DestroyReturnMaterial": [
+        202
+      ],
+      "DestroyReturnMaterialCount": [
+        2520
+      ],
+      "Id": 30422,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600044,
+      "AppendPropNum": 2,
+      "SetId": 15030,
+      "StoryId": 185302,
+      "DestroyRule": "DESTROY_RETURN_MATERIAL"
+    },
+    {
+      "EquipType": "EQUIP_NECKLACE",
+      "RankLevel": 4,
+      "MainPropDepotId": 2000,
+      "AppendPropDepotId": 401,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 2520,
+      "MaxLevel": 17,
+      "DestroyReturnMaterial": [
+        202
+      ],
+      "DestroyReturnMaterialCount": [
+        2520
+      ],
+      "Id": 30423,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600044,
+      "AppendPropNum": 3,
+      "SetId": 15030,
+      "StoryId": 185302,
+      "DestroyRule": "DESTROY_RETURN_MATERIAL"
+    },
+    {
+      "EquipType": "EQUIP_DRESS",
+      "RankLevel": 4,
+      "MainPropDepotId": 3000,
+      "AppendPropDepotId": 401,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 2520,
+      "MaxLevel": 17,
+      "DestroyReturnMaterial": [
+        202
+      ],
+      "DestroyReturnMaterialCount": [
+        2520
+      ],
+      "Id": 30432,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600044,
+      "AppendPropNum": 2,
+      "SetId": 15030,
+      "StoryId": 185303,
+      "DestroyRule": "DESTROY_RETURN_MATERIAL"
+    },
+    {
+      "EquipType": "EQUIP_DRESS",
+      "RankLevel": 4,
+      "MainPropDepotId": 3000,
+      "AppendPropDepotId": 401,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 2520,
+      "MaxLevel": 17,
+      "DestroyReturnMaterial": [
+        202
+      ],
+      "DestroyReturnMaterialCount": [
+        2520
+      ],
+      "Id": 30433,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600044,
+      "AppendPropNum": 3,
+      "SetId": 15030,
+      "StoryId": 185303,
+      "DestroyRule": "DESTROY_RETURN_MATERIAL"
+    },
+    {
+      "EquipType": "EQUIP_BRACER",
+      "RankLevel": 4,
+      "MainPropDepotId": 4000,
+      "AppendPropDepotId": 401,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 2520,
+      "MaxLevel": 17,
+      "DestroyReturnMaterial": [
+        202
+      ],
+      "DestroyReturnMaterialCount": [
+        2520
+      ],
+      "Id": 30442,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600044,
+      "AppendPropNum": 2,
+      "SetId": 15030,
+      "StoryId": 185304,
+      "DestroyRule": "DESTROY_RETURN_MATERIAL"
+    },
+    {
+      "EquipType": "EQUIP_BRACER",
+      "RankLevel": 4,
+      "MainPropDepotId": 4000,
+      "AppendPropDepotId": 401,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 2520,
+      "MaxLevel": 17,
+      "DestroyReturnMaterial": [
+        202
+      ],
+      "DestroyReturnMaterialCount": [
+        2520
+      ],
+      "Id": 30443,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600044,
+      "AppendPropNum": 3,
+      "SetId": 15030,
+      "StoryId": 185304,
+      "DestroyRule": "DESTROY_RETURN_MATERIAL"
+    },
+    {
+      "EquipType": "EQUIP_SHOES",
+      "RankLevel": 4,
+      "MainPropDepotId": 1000,
+      "AppendPropDepotId": 401,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 2520,
+      "MaxLevel": 17,
+      "DestroyReturnMaterial": [
+        202
+      ],
+      "DestroyReturnMaterialCount": [
+        2520
+      ],
+      "Id": 30452,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600044,
+      "AppendPropNum": 2,
+      "SetId": 15030,
+      "StoryId": 185305,
+      "DestroyRule": "DESTROY_RETURN_MATERIAL"
+    },
+    {
+      "EquipType": "EQUIP_SHOES",
+      "RankLevel": 4,
+      "MainPropDepotId": 1000,
+      "AppendPropDepotId": 401,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 2520,
+      "MaxLevel": 17,
+      "DestroyReturnMaterial": [
+        202
+      ],
+      "DestroyReturnMaterialCount": [
+        2520
+      ],
+      "Id": 30453,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600044,
+      "AppendPropNum": 3,
+      "SetId": 15030,
+      "StoryId": 185305,
+      "DestroyRule": "DESTROY_RETURN_MATERIAL"
+    },
+    {
+      "EquipType": "EQUIP_RING",
+      "RankLevel": 5,
+      "MainPropDepotId": 5000,
+      "AppendPropDepotId": 501,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 3780,
+      "MaxLevel": 21,
+      "DestroyReturnMaterial": [],
+      "DestroyReturnMaterialCount": [],
+      "Id": 30513,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600045,
+      "AppendPropNum": 3,
+      "SetId": 15030,
+      "StoryId": 185301
+    },
+    {
+      "EquipType": "EQUIP_RING",
+      "RankLevel": 5,
+      "MainPropDepotId": 5000,
+      "AppendPropDepotId": 501,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 3780,
+      "MaxLevel": 21,
+      "DestroyReturnMaterial": [],
+      "DestroyReturnMaterialCount": [],
+      "Id": 30514,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600045,
+      "AppendPropNum": 4,
+      "SetId": 15030,
+      "StoryId": 185301
+    },
+    {
+      "EquipType": "EQUIP_NECKLACE",
+      "RankLevel": 5,
+      "MainPropDepotId": 2000,
+      "AppendPropDepotId": 501,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 3780,
+      "MaxLevel": 21,
+      "DestroyReturnMaterial": [],
+      "DestroyReturnMaterialCount": [],
+      "Id": 30523,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600045,
+      "AppendPropNum": 3,
+      "SetId": 15030,
+      "StoryId": 185302
+    },
+    {
+      "EquipType": "EQUIP_NECKLACE",
+      "RankLevel": 5,
+      "MainPropDepotId": 2000,
+      "AppendPropDepotId": 501,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 3780,
+      "MaxLevel": 21,
+      "DestroyReturnMaterial": [],
+      "DestroyReturnMaterialCount": [],
+      "Id": 30524,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600045,
+      "AppendPropNum": 4,
+      "SetId": 15030,
+      "StoryId": 185302
+    },
+    {
+      "EquipType": "EQUIP_DRESS",
+      "RankLevel": 5,
+      "MainPropDepotId": 3000,
+      "AppendPropDepotId": 501,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 3780,
+      "MaxLevel": 21,
+      "DestroyReturnMaterial": [],
+      "DestroyReturnMaterialCount": [],
+      "Id": 30533,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600045,
+      "AppendPropNum": 3,
+      "SetId": 15030,
+      "StoryId": 185303
+    },
+    {
+      "EquipType": "EQUIP_DRESS",
+      "RankLevel": 5,
+      "MainPropDepotId": 3000,
+      "AppendPropDepotId": 501,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 3780,
+      "MaxLevel": 21,
+      "DestroyReturnMaterial": [],
+      "DestroyReturnMaterialCount": [],
+      "Id": 30534,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600045,
+      "AppendPropNum": 4,
+      "SetId": 15030,
+      "StoryId": 185303
+    },
+    {
+      "EquipType": "EQUIP_BRACER",
+      "RankLevel": 5,
+      "MainPropDepotId": 4000,
+      "AppendPropDepotId": 501,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 3780,
+      "MaxLevel": 21,
+      "DestroyReturnMaterial": [],
+      "DestroyReturnMaterialCount": [],
+      "Id": 30543,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600045,
+      "AppendPropNum": 3,
+      "SetId": 15030,
+      "StoryId": 185304
+    },
+    {
+      "EquipType": "EQUIP_BRACER",
+      "RankLevel": 5,
+      "MainPropDepotId": 4000,
+      "AppendPropDepotId": 501,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 3780,
+      "MaxLevel": 21,
+      "DestroyReturnMaterial": [],
+      "DestroyReturnMaterialCount": [],
+      "Id": 30544,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600045,
+      "AppendPropNum": 4,
+      "SetId": 15030,
+      "StoryId": 185304
+    },
+    {
+      "EquipType": "EQUIP_SHOES",
+      "RankLevel": 5,
+      "MainPropDepotId": 1000,
+      "AppendPropDepotId": 501,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 3780,
+      "MaxLevel": 21,
+      "DestroyReturnMaterial": [],
+      "DestroyReturnMaterialCount": [],
+      "Id": 30553,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600045,
+      "AppendPropNum": 3,
+      "SetId": 15030,
+      "StoryId": 185305
+    },
+    {
+      "EquipType": "EQUIP_SHOES",
+      "RankLevel": 5,
+      "MainPropDepotId": 1000,
+      "AppendPropDepotId": 501,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 3780,
+      "MaxLevel": 21,
+      "DestroyReturnMaterial": [],
+      "DestroyReturnMaterialCount": [],
+      "Id": 30554,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600045,
+      "AppendPropNum": 4,
+      "SetId": 15030,
+      "StoryId": 185305
+    },
+    {
+      "EquipType": "EQUIP_RING",
       "RankLevel": 1,
       "MainPropDepotId": 4000,
       "AppendPropDepotId": 988,
@@ -98599,6 +99699,526 @@
       "AppendPropNum": 4,
       "SetId": 15028,
       "StoryId": 185285,
+      "Dropable": true
+    },
+    {
+      "EquipType": "EQUIP_RING",
+      "RankLevel": 5,
+      "MainPropDepotId": 5093,
+      "AppendPropDepotId": 964,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 3780,
+      "MaxLevel": 21,
+      "DestroyReturnMaterial": [],
+      "DestroyReturnMaterialCount": [],
+      "Id": 23661,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600045,
+      "AppendPropNum": 4,
+      "SetId": 15029,
+      "StoryId": 185291,
+      "Dropable": true
+    },
+    {
+      "EquipType": "EQUIP_NECKLACE",
+      "RankLevel": 5,
+      "MainPropDepotId": 2000,
+      "AppendPropDepotId": 961,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 3780,
+      "MaxLevel": 21,
+      "DestroyReturnMaterial": [],
+      "DestroyReturnMaterialCount": [],
+      "Id": 23662,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600045,
+      "AppendPropNum": 4,
+      "SetId": 15029,
+      "StoryId": 185292,
+      "Dropable": true
+    },
+    {
+      "EquipType": "EQUIP_DRESS",
+      "RankLevel": 5,
+      "MainPropDepotId": 3095,
+      "AppendPropDepotId": 965,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 3780,
+      "MaxLevel": 21,
+      "DestroyReturnMaterial": [],
+      "DestroyReturnMaterialCount": [],
+      "Id": 23663,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600045,
+      "AppendPropNum": 4,
+      "SetId": 15029,
+      "StoryId": 185293,
+      "Dropable": true
+    },
+    {
+      "EquipType": "EQUIP_BRACER",
+      "RankLevel": 5,
+      "MainPropDepotId": 4000,
+      "AppendPropDepotId": 962,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 3780,
+      "MaxLevel": 21,
+      "DestroyReturnMaterial": [],
+      "DestroyReturnMaterialCount": [],
+      "Id": 23664,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600045,
+      "AppendPropNum": 4,
+      "SetId": 15029,
+      "StoryId": 185294,
+      "Dropable": true
+    },
+    {
+      "EquipType": "EQUIP_SHOES",
+      "RankLevel": 5,
+      "MainPropDepotId": 1099,
+      "AppendPropDepotId": 963,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 3780,
+      "MaxLevel": 21,
+      "DestroyReturnMaterial": [],
+      "DestroyReturnMaterialCount": [],
+      "Id": 23665,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600045,
+      "AppendPropNum": 4,
+      "SetId": 15029,
+      "StoryId": 185295,
+      "Dropable": true
+    },
+    {
+      "EquipType": "EQUIP_RING",
+      "RankLevel": 4,
+      "MainPropDepotId": 5093,
+      "AppendPropDepotId": 964,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 2520,
+      "MaxLevel": 17,
+      "DestroyReturnMaterial": [],
+      "DestroyReturnMaterialCount": [],
+      "Id": 23666,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600044,
+      "AppendPropNum": 4,
+      "SetId": 15029,
+      "StoryId": 185291,
+      "Dropable": true
+    },
+    {
+      "EquipType": "EQUIP_NECKLACE",
+      "RankLevel": 4,
+      "MainPropDepotId": 2000,
+      "AppendPropDepotId": 961,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 2520,
+      "MaxLevel": 17,
+      "DestroyReturnMaterial": [],
+      "DestroyReturnMaterialCount": [],
+      "Id": 23667,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600044,
+      "AppendPropNum": 4,
+      "SetId": 15029,
+      "StoryId": 185292,
+      "Dropable": true
+    },
+    {
+      "EquipType": "EQUIP_DRESS",
+      "RankLevel": 5,
+      "MainPropDepotId": 3096,
+      "AppendPropDepotId": 965,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 3780,
+      "MaxLevel": 21,
+      "DestroyReturnMaterial": [],
+      "DestroyReturnMaterialCount": [],
+      "Id": 23668,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600045,
+      "AppendPropNum": 4,
+      "SetId": 15029,
+      "StoryId": 185293,
+      "Dropable": true
+    },
+    {
+      "EquipType": "EQUIP_BRACER",
+      "RankLevel": 4,
+      "MainPropDepotId": 4000,
+      "AppendPropDepotId": 962,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 2520,
+      "MaxLevel": 17,
+      "DestroyReturnMaterial": [],
+      "DestroyReturnMaterialCount": [],
+      "Id": 23669,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600044,
+      "AppendPropNum": 4,
+      "SetId": 15029,
+      "StoryId": 185294,
+      "Dropable": true
+    },
+    {
+      "EquipType": "EQUIP_SHOES",
+      "RankLevel": 5,
+      "MainPropDepotId": 1098,
+      "AppendPropDepotId": 963,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 3780,
+      "MaxLevel": 21,
+      "DestroyReturnMaterial": [],
+      "DestroyReturnMaterialCount": [],
+      "Id": 23670,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600045,
+      "AppendPropNum": 4,
+      "SetId": 15029,
+      "StoryId": 185295,
+      "Dropable": true
+    },
+    {
+      "EquipType": "EQUIP_RING",
+      "RankLevel": 5,
+      "MainPropDepotId": 5096,
+      "AppendPropDepotId": 964,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 3780,
+      "MaxLevel": 21,
+      "DestroyReturnMaterial": [],
+      "DestroyReturnMaterialCount": [],
+      "Id": 23671,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600045,
+      "AppendPropNum": 4,
+      "SetId": 15030,
+      "StoryId": 185301,
+      "Dropable": true
+    },
+    {
+      "EquipType": "EQUIP_NECKLACE",
+      "RankLevel": 5,
+      "MainPropDepotId": 2000,
+      "AppendPropDepotId": 961,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 3780,
+      "MaxLevel": 21,
+      "DestroyReturnMaterial": [],
+      "DestroyReturnMaterialCount": [],
+      "Id": 23672,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600045,
+      "AppendPropNum": 4,
+      "SetId": 15030,
+      "StoryId": 185302,
+      "Dropable": true
+    },
+    {
+      "EquipType": "EQUIP_DRESS",
+      "RankLevel": 5,
+      "MainPropDepotId": 3095,
+      "AppendPropDepotId": 965,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 3780,
+      "MaxLevel": 21,
+      "DestroyReturnMaterial": [],
+      "DestroyReturnMaterialCount": [],
+      "Id": 23673,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600045,
+      "AppendPropNum": 4,
+      "SetId": 15030,
+      "StoryId": 185303,
+      "Dropable": true
+    },
+    {
+      "EquipType": "EQUIP_BRACER",
+      "RankLevel": 5,
+      "MainPropDepotId": 4000,
+      "AppendPropDepotId": 962,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 3780,
+      "MaxLevel": 21,
+      "DestroyReturnMaterial": [],
+      "DestroyReturnMaterialCount": [],
+      "Id": 23674,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600045,
+      "AppendPropNum": 4,
+      "SetId": 15030,
+      "StoryId": 185304,
+      "Dropable": true
+    },
+    {
+      "EquipType": "EQUIP_SHOES",
+      "RankLevel": 5,
+      "MainPropDepotId": 1098,
+      "AppendPropDepotId": 963,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 3780,
+      "MaxLevel": 21,
+      "DestroyReturnMaterial": [],
+      "DestroyReturnMaterialCount": [],
+      "Id": 23675,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600045,
+      "AppendPropNum": 4,
+      "SetId": 15030,
+      "StoryId": 185305,
+      "Dropable": true
+    },
+    {
+      "EquipType": "EQUIP_RING",
+      "RankLevel": 4,
+      "MainPropDepotId": 5096,
+      "AppendPropDepotId": 964,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 2520,
+      "MaxLevel": 17,
+      "DestroyReturnMaterial": [],
+      "DestroyReturnMaterialCount": [],
+      "Id": 23676,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600044,
+      "AppendPropNum": 4,
+      "SetId": 15030,
+      "StoryId": 185301,
+      "Dropable": true
+    },
+    {
+      "EquipType": "EQUIP_NECKLACE",
+      "RankLevel": 4,
+      "MainPropDepotId": 2000,
+      "AppendPropDepotId": 961,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 2520,
+      "MaxLevel": 17,
+      "DestroyReturnMaterial": [],
+      "DestroyReturnMaterialCount": [],
+      "Id": 23677,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600044,
+      "AppendPropNum": 4,
+      "SetId": 15030,
+      "StoryId": 185302,
+      "Dropable": true
+    },
+    {
+      "EquipType": "EQUIP_DRESS",
+      "RankLevel": 5,
+      "MainPropDepotId": 3096,
+      "AppendPropDepotId": 965,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 3780,
+      "MaxLevel": 21,
+      "DestroyReturnMaterial": [],
+      "DestroyReturnMaterialCount": [],
+      "Id": 23678,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600045,
+      "AppendPropNum": 4,
+      "SetId": 15030,
+      "StoryId": 185303,
+      "Dropable": true
+    },
+    {
+      "EquipType": "EQUIP_BRACER",
+      "RankLevel": 4,
+      "MainPropDepotId": 4000,
+      "AppendPropDepotId": 962,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 2520,
+      "MaxLevel": 17,
+      "DestroyReturnMaterial": [],
+      "DestroyReturnMaterialCount": [],
+      "Id": 23679,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600044,
+      "AppendPropNum": 4,
+      "SetId": 15030,
+      "StoryId": 185304,
+      "Dropable": true
+    },
+    {
+      "EquipType": "EQUIP_SHOES",
+      "RankLevel": 5,
+      "MainPropDepotId": 1099,
+      "AppendPropDepotId": 963,
+      "AddPropLevels": [
+        5,
+        9,
+        13,
+        17,
+        21
+      ],
+      "BaseConvExp": 3780,
+      "MaxLevel": 21,
+      "DestroyReturnMaterial": [],
+      "DestroyReturnMaterialCount": [],
+      "Id": 23680,
+      "ItemType": "ITEM_RELIQUARY",
+      "Weight": 1,
+      "Rank": 10,
+      "GadgetId": 70600045,
+      "AppendPropNum": 4,
+      "SetId": 15030,
+      "StoryId": 185305,
       "Dropable": true
     },
     {
@@ -107932,21 +109552,21 @@
     },
     {
       "Id": 947008,
-      "DepotId": 996,
+      "DepotId": 947,
       "GroupId": 22,
       "PropType": "FIGHT_PROP_HP",
       "PropValue": 203.14999389648438
     },
     {
       "Id": 947009,
-      "DepotId": 996,
+      "DepotId": 947,
       "GroupId": 22,
       "PropType": "FIGHT_PROP_ATTACK",
       "PropValue": 13.229999542236328
     },
     {
       "Id": 947010,
-      "DepotId": 996,
+      "DepotId": 947,
       "GroupId": 22,
       "PropType": "FIGHT_PROP_DEFENSE",
       "PropValue": 15.739999771118164
@@ -117391,6 +119011,36 @@
         28432
       ],
       "EquipAffixId": 215028
+    },
+    {
+      "Id": 15029,
+      "SetNeedNum": [
+        2,
+        4
+      ],
+      "ContainsList": [
+        29442,
+        29422,
+        29452,
+        29412,
+        29432
+      ],
+      "EquipAffixId": 215029
+    },
+    {
+      "Id": 15030,
+      "SetNeedNum": [
+        2,
+        4
+      ],
+      "ContainsList": [
+        30442,
+        30422,
+        30452,
+        30412,
+        30432
+      ],
+      "EquipAffixId": 215030
     },
     {
       "Id": 15000,

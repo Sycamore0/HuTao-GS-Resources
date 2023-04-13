@@ -3420,7 +3420,7 @@
         "Wind"
       ],
       "LevelConfigMap": {
-        "1788": 100
+        "1798": 100
       },
       "EnterCostItems": [],
       "CityID": 1,
@@ -3500,7 +3500,7 @@
         "Wind"
       ],
       "LevelConfigMap": {
-        "1789": 100
+        "1799": 100
       },
       "EnterCostItems": [],
       "CityID": 1,
@@ -3528,6 +3528,84 @@
             "CondType": "DUNGEON_COND_KILL_GROUP_MONSTER",
             "Param": [
               220029005,
+              0,
+              0
+            ]
+          },
+          {
+            "Param": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "Param": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "Param": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      "Serial": null
+    },
+    {
+      "Id": 49,
+      "Type": "DUNGEON_FIGHT",
+      "SceneId": 50017,
+      "InvolveType": "INVOLVE_ONLY_SINGLE",
+      "SettleCountdownTime": 120,
+      "FailSettleCountdownTime": 30,
+      "QuitSettleCountdownTime": 3,
+      "SettleShows": [
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "Fire",
+        "Electric",
+        "Ice",
+        "Wind"
+      ],
+      "LevelConfigMap": {
+        "1800": 100
+      },
+      "EnterCostItems": [],
+      "CityID": 1,
+      "ShowLevel": 90,
+      "LimitLevel": 1,
+      "LevelRevise": 89,
+      "PassCond": 21,
+      "ReviveMaxCount": 10,
+      "DayEnterCount": 99,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_TEST",
+      "AvatarLimitType": 81,
+      "IsDynamicLevel": false,
+      "DontShowPushTips": false,
+      "Challenge": null,
+      "ElementChallenge": null,
+      "LevelEntity": {
+        "ClientId": 10048,
+        "LevelConfigName": "LevelEntity_Avatar_CriticalUp",
+        "Show": true
+      },
+      "Pass": {
+        "Conds": [
+          {
+            "CondType": "DUNGEON_COND_KILL_GROUP_MONSTER",
+            "Param": [
+              220030005,
               0,
               0
             ]
@@ -5178,7 +5256,7 @@
         "1701": 100
       },
       "EnterCostItems": [
-        26130101
+        22100101
       ],
       "CityID": 1,
       "ShowLevel": 100,
@@ -5258,8 +5336,7 @@
         "1701": 100
       },
       "EnterCostItems": [
-        25410301,
-        25410401
+        22100201
       ],
       "CityID": 1,
       "ShowLevel": 100,
@@ -5339,8 +5416,7 @@
         "1701": 100
       },
       "EnterCostItems": [
-        26100301,
-        26100401
+        22100301
       ],
       "CityID": 1,
       "ShowLevel": 100,
@@ -5421,8 +5497,7 @@
         "1701": 100
       },
       "EnterCostItems": [
-        26100301,
-        26100501
+        22100401
       ],
       "CityID": 1,
       "ShowLevel": 100,
@@ -5479,9 +5554,9 @@
       "Serial": null
     },
     {
-      "Id": 81,
+      "Id": 79,
       "Type": "DUNGEON_FIGHT",
-      "SceneId": 51000,
+      "SceneId": 50098,
       "InvolveType": "INVOLVE_ONLY_SINGLE",
       "SettleCountdownTime": 5,
       "FailSettleCountdownTime": 30,
@@ -5502,10 +5577,9 @@
         "1701": 100
       },
       "EnterCostItems": [
-        22080201,
-        22070101,
-        22070201,
-        22070301
+        22030202,
+        22020102,
+        22020201
       ],
       "CityID": 1,
       "ShowLevel": 100,
@@ -5518,7 +5592,7 @@
       "IsDynamicLevel": false,
       "DontShowPushTips": false,
       "Challenge": {
-        "ChallengeType": "CHALLENGE_KILL_COUNT_GUARD_HP",
+        "ChallengeType": "CHALLENGE_KILL_COUNT_IN_TIME",
         "NoSuccessHint": true,
         "NoFailHint": false,
         "IsBlockTopTimer": false,
@@ -5531,7 +5605,7 @@
           {
             "CondType": "DUNGEON_COND_FINISH_QUEST",
             "Param": [
-              1101208,
+              1120111,
               0,
               0
             ]
@@ -5562,9 +5636,9 @@
       "Serial": null
     },
     {
-      "Id": 82,
+      "Id": 80,
       "Type": "DUNGEON_FIGHT",
-      "SceneId": 51001,
+      "SceneId": 50099,
       "InvolveType": "INVOLVE_ONLY_SINGLE",
       "SettleCountdownTime": 5,
       "FailSettleCountdownTime": 30,
@@ -5585,8 +5659,9 @@
         "1701": 100
       },
       "EnterCostItems": [
-        22080101,
-        22080201
+        22030202,
+        22020102,
+        22030102
       ],
       "CityID": 1,
       "ShowLevel": 100,
@@ -5599,12 +5674,11 @@
       "IsDynamicLevel": false,
       "DontShowPushTips": false,
       "Challenge": {
-        "ChallengeType": "CHALLENGE_TRIGGER_IN_TIME",
+        "ChallengeType": "CHALLENGE_KILL_COUNT_GUARD_HP",
         "NoSuccessHint": true,
         "NoFailHint": false,
         "IsBlockTopTimer": false,
-        "IsSuccessWhenNotSettled": false,
-        "InterruptButtonType": "INTERRUPT_BUTTON_TYPE_HOST"
+        "IsSuccessWhenNotSettled": false
       },
       "ElementChallenge": null,
       "LevelEntity": null,
@@ -5613,7 +5687,88 @@
           {
             "CondType": "DUNGEON_COND_FINISH_QUEST",
             "Param": [
-              102405,
+              7180206,
+              0,
+              0
+            ]
+          },
+          {
+            "Param": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "Param": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "Param": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      "Serial": null
+    },
+    {
+      "Id": 81,
+      "Type": "DUNGEON_FIGHT",
+      "SceneId": 51000,
+      "InvolveType": "INVOLVE_ONLY_SINGLE",
+      "SettleCountdownTime": 5,
+      "FailSettleCountdownTime": 30,
+      "QuitSettleCountdownTime": 3,
+      "SettleShows": [
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "None",
+        "None",
+        "None",
+        "None"
+      ],
+      "LevelConfigMap": {
+        "1701": 100
+      },
+      "EnterCostItems": [
+        22020102,
+        22020201
+      ],
+      "CityID": 1,
+      "ShowLevel": 100,
+      "LimitLevel": 1,
+      "LevelRevise": 99,
+      "PassCond": 229,
+      "DayEnterCount": 10,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_TEST",
+      "IsDynamicLevel": false,
+      "DontShowPushTips": false,
+      "Challenge": {
+        "ChallengeType": "CHALLENGE_KILL_COUNT_GUARD_HP",
+        "NoSuccessHint": true,
+        "NoFailHint": false,
+        "IsBlockTopTimer": false,
+        "IsSuccessWhenNotSettled": false
+      },
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": {
+        "Conds": [
+          {
+            "CondType": "DUNGEON_COND_FINISH_QUEST",
+            "Param": [
+              1101208,
               0,
               0
             ]
@@ -5906,6 +6061,76 @@
             "CondType": "DUNGEON_COND_FINISH_CHALLENGE",
             "Param": [
               110113,
+              0,
+              0
+            ]
+          },
+          {
+            "Param": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "Param": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "Param": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      "Serial": null
+    },
+    {
+      "Id": 92,
+      "Type": "DUNGEON_FIGHT",
+      "SceneId": 20153,
+      "InvolveType": "INVOLVE_ONLY_SINGLE",
+      "SettleCountdownTime": 999,
+      "FailSettleCountdownTime": 30,
+      "QuitSettleCountdownTime": 30,
+      "SettleShows": [
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "Fire",
+        "Electric",
+        "Ice",
+        "Wind"
+      ],
+      "LevelConfigMap": {},
+      "EnterCostItems": [],
+      "CityID": 4,
+      "ShowLevel": 90,
+      "LimitLevel": 1,
+      "LevelRevise": 89,
+      "PassCond": 173,
+      "DayEnterCount": 10,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_TEST",
+      "IsDynamicLevel": false,
+      "DontShowPushTips": false,
+      "Challenge": null,
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": {
+        "Conds": [
+          {
+            "CondType": "DUNGEON_COND_FINISH_CHALLENGE",
+            "Param": [
+              110116,
               0,
               0
             ]
@@ -8728,6 +8953,330 @@
       "IsDynamicLevel": false,
       "SubType": "DUNGEON_SUB_BOSS",
       "SerialId": 1007,
+      "DontShowPushTips": false,
+      "Challenge": {
+        "ChallengeType": "CHALLENGE_KILL_COUNT_IN_TIME",
+        "NoFailHint": false,
+        "IsBlockTopTimer": false,
+        "IsSuccessWhenNotSettled": false
+      },
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": {
+        "Conds": [
+          {
+            "CondType": "DUNGEON_COND_FINISH_CHALLENGE",
+            "Param": [
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "Param": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "Param": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "Param": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      "Serial": null
+    },
+    {
+      "Id": 139,
+      "Type": "DUNGEON_BOSS",
+      "SceneId": 20179,
+      "InvolveType": "INVOLVE_SINGLE_MULTIPLE",
+      "SettleCountdownTime": 999,
+      "FailSettleCountdownTime": 30,
+      "QuitSettleCountdownTime": 30,
+      "SettleShows": [
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "None",
+        "None",
+        "None",
+        "None"
+      ],
+      "LevelConfigMap": {
+        "1795": 100
+      },
+      "EnterCostItems": [
+        29080104
+      ],
+      "CityID": 4,
+      "ShowLevel": 60,
+      "LimitLevel": 35,
+      "LevelRevise": 59,
+      "PassCond": 287,
+      "PassRewardPreviewID": 15043,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_RELEASE",
+      "IsDynamicLevel": false,
+      "SubType": "DUNGEON_SUB_BOSS",
+      "SerialId": 1008,
+      "DontShowPushTips": false,
+      "Challenge": {
+        "ChallengeType": "CHALLENGE_TRIGGER_IN_TIME",
+        "NoFailHint": false,
+        "IsBlockTopTimer": false,
+        "IsSuccessWhenNotSettled": false
+      },
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": {
+        "Conds": [
+          {
+            "CondType": "DUNGEON_COND_FINISH_CHALLENGE",
+            "Param": [
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "Param": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "Param": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "Param": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      "Serial": null
+    },
+    {
+      "Id": 140,
+      "Type": "DUNGEON_BOSS",
+      "SceneId": 20179,
+      "InvolveType": "INVOLVE_SINGLE_MULTIPLE",
+      "SettleCountdownTime": 999,
+      "FailSettleCountdownTime": 30,
+      "QuitSettleCountdownTime": 30,
+      "SettleShows": [
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "None",
+        "None",
+        "None",
+        "None"
+      ],
+      "LevelConfigMap": {
+        "1795": 100
+      },
+      "EnterCostItems": [
+        29080104
+      ],
+      "CityID": 4,
+      "ShowLevel": 70,
+      "LimitLevel": 40,
+      "LevelRevise": 69,
+      "PassCond": 287,
+      "PassRewardPreviewID": 15044,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_RELEASE",
+      "IsDynamicLevel": false,
+      "SubType": "DUNGEON_SUB_BOSS",
+      "SerialId": 1008,
+      "DontShowPushTips": false,
+      "Challenge": {
+        "ChallengeType": "CHALLENGE_KILL_COUNT_IN_TIME",
+        "NoFailHint": false,
+        "IsBlockTopTimer": false,
+        "IsSuccessWhenNotSettled": false
+      },
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": {
+        "Conds": [
+          {
+            "CondType": "DUNGEON_COND_FINISH_CHALLENGE",
+            "Param": [
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "Param": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "Param": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "Param": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      "Serial": null
+    },
+    {
+      "Id": 141,
+      "Type": "DUNGEON_BOSS",
+      "SceneId": 20179,
+      "InvolveType": "INVOLVE_SINGLE_MULTIPLE",
+      "SettleCountdownTime": 999,
+      "FailSettleCountdownTime": 30,
+      "QuitSettleCountdownTime": 30,
+      "SettleShows": [
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "None",
+        "None",
+        "None",
+        "None"
+      ],
+      "LevelConfigMap": {
+        "1795": 100
+      },
+      "EnterCostItems": [
+        29080104
+      ],
+      "CityID": 4,
+      "ShowLevel": 80,
+      "LimitLevel": 45,
+      "LevelRevise": 79,
+      "PassCond": 287,
+      "PassRewardPreviewID": 15045,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_RELEASE",
+      "IsDynamicLevel": false,
+      "SubType": "DUNGEON_SUB_BOSS",
+      "SerialId": 1008,
+      "DontShowPushTips": false,
+      "Challenge": {
+        "ChallengeType": "CHALLENGE_TRIGGER_IN_TIME",
+        "NoFailHint": false,
+        "IsBlockTopTimer": false,
+        "IsSuccessWhenNotSettled": false
+      },
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": {
+        "Conds": [
+          {
+            "CondType": "DUNGEON_COND_FINISH_CHALLENGE",
+            "Param": [
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "Param": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "Param": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "Param": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      "Serial": null
+    },
+    {
+      "Id": 142,
+      "Type": "DUNGEON_BOSS",
+      "SceneId": 20179,
+      "InvolveType": "INVOLVE_SINGLE_MULTIPLE",
+      "SettleCountdownTime": 999,
+      "FailSettleCountdownTime": 30,
+      "QuitSettleCountdownTime": 30,
+      "SettleShows": [
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "None",
+        "None",
+        "None",
+        "None"
+      ],
+      "LevelConfigMap": {
+        "1795": 100
+      },
+      "EnterCostItems": [
+        29080104
+      ],
+      "CityID": 4,
+      "ShowLevel": 90,
+      "LimitLevel": 50,
+      "LevelRevise": 89,
+      "PassCond": 287,
+      "PassRewardPreviewID": 15046,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_RELEASE",
+      "IsDynamicLevel": false,
+      "SubType": "DUNGEON_SUB_BOSS",
+      "SerialId": 1008,
       "DontShowPushTips": false,
       "Challenge": {
         "ChallengeType": "CHALLENGE_KILL_COUNT_IN_TIME",
@@ -13025,6 +13574,93 @@
       "Serial": null
     },
     {
+      "Id": 1179,
+      "Type": "DUNGEON_PLOT",
+      "SceneId": 20182,
+      "InvolveType": "INVOLVE_ONLY_SINGLE",
+      "SettleCountdownTime": 999,
+      "FailSettleCountdownTime": 30,
+      "QuitSettleCountdownTime": 1,
+      "SettleShows": [
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "Grass",
+        "Rock",
+        "None",
+        "None"
+      ],
+      "LevelConfigMap": {},
+      "EnterCostItems": [
+        21010101,
+        21010201,
+        21010401,
+        21020201,
+        26030101,
+        26040102
+      ],
+      "CityID": 2,
+      "ShowLevel": 35,
+      "LimitLevel": 1,
+      "LevelRevise": 34,
+      "PassCond": 271,
+      "ReviveMaxCount": 10,
+      "DayEnterCount": 10,
+      "ForbiddenRestart": true,
+      "SettleUIType": "SETTLE_UI_NEVER_SHOW",
+      "StateType": "DUNGEON_STATE_RELEASE",
+      "IsDynamicLevel": true,
+      "DontShowPushTips": false,
+      "Challenge": null,
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": null,
+      "Serial": null
+    },
+    {
+      "Id": 1180,
+      "Type": "DUNGEON_PLOT",
+      "SceneId": 20185,
+      "InvolveType": "INVOLVE_ONLY_SINGLE",
+      "SettleCountdownTime": 999,
+      "FailSettleCountdownTime": 30,
+      "QuitSettleCountdownTime": 3,
+      "SettleShows": [
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "None",
+        "None",
+        "None",
+        "None"
+      ],
+      "LevelConfigMap": {
+        "1864": 100
+      },
+      "EnterCostItems": [],
+      "CityID": 4,
+      "ShowLevel": 35,
+      "LimitLevel": 1,
+      "LevelRevise": 34,
+      "PassCond": 288,
+      "DayEnterCount": 99,
+      "ForbiddenRestart": true,
+      "StateType": "DUNGEON_STATE_RELEASE",
+      "IsDynamicLevel": true,
+      "DontShowPushTips": false,
+      "Challenge": null,
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": null,
+      "Serial": null
+    },
+    {
       "Id": 2000,
       "Type": "DUNGEON_PLOT",
       "SceneId": 20016,
@@ -15881,6 +16517,44 @@
       "Serial": null
     },
     {
+      "Id": 2163,
+      "Type": "DUNGEON_GCG_REPLAY",
+      "SceneId": 79999,
+      "InvolveType": "INVOLVE_SINGLE_MULTIPLE",
+      "SettleCountdownTime": 999,
+      "FailSettleCountdownTime": 30,
+      "QuitSettleCountdownTime": 3,
+      "SettleShows": [
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "None",
+        "None",
+        "None",
+        "None"
+      ],
+      "LevelConfigMap": {},
+      "EnterCostItems": [],
+      "CityID": 1,
+      "ShowLevel": 85,
+      "LimitLevel": 1,
+      "LevelRevise": 84,
+      "PassCond": 195,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_TEST",
+      "AvatarLimitType": 1,
+      "IsDynamicLevel": false,
+      "DontShowPushTips": false,
+      "Challenge": null,
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": null,
+      "Serial": null
+    },
+    {
       "Id": 2169,
       "Type": "DUNGEON_DREAMLAND",
       "SceneId": 50078,
@@ -16494,6 +17168,125 @@
       "ForbiddenRestart": false,
       "StateType": "DUNGEON_STATE_TEST",
       "IsDynamicLevel": false,
+      "DontShowPushTips": false,
+      "Challenge": null,
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": null,
+      "Serial": null
+    },
+    {
+      "Id": 2188,
+      "Type": "DUNGEON_SORUSH_PLOT",
+      "SceneId": 20174,
+      "InvolveType": "INVOLVE_ONLY_SINGLE",
+      "SettleCountdownTime": 120,
+      "FailSettleCountdownTime": 30,
+      "QuitSettleCountdownTime": 30,
+      "SettleShows": [
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "None",
+        "None",
+        "None",
+        "None"
+      ],
+      "LevelConfigMap": {},
+      "EnterCostItems": [],
+      "CityID": 4,
+      "ShowLevel": 36,
+      "LimitLevel": 1,
+      "LevelRevise": 35,
+      "PassCond": 283,
+      "ReviveMaxCount": 10,
+      "DayEnterCount": 99,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_RELEASE",
+      "AvatarLimitType": 27,
+      "IsDynamicLevel": true,
+      "DontShowPushTips": false,
+      "Challenge": null,
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": null,
+      "Serial": null
+    },
+    {
+      "Id": 2189,
+      "Type": "DUNGEON_SORUSH_PLOT",
+      "SceneId": 20175,
+      "InvolveType": "INVOLVE_ONLY_SINGLE",
+      "SettleCountdownTime": 120,
+      "FailSettleCountdownTime": 30,
+      "QuitSettleCountdownTime": 30,
+      "SettleShows": [
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "None",
+        "None",
+        "None",
+        "None"
+      ],
+      "LevelConfigMap": {},
+      "EnterCostItems": [],
+      "CityID": 4,
+      "ShowLevel": 36,
+      "LimitLevel": 1,
+      "LevelRevise": 35,
+      "PassCond": 282,
+      "ReviveMaxCount": 10,
+      "DayEnterCount": 99,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_RELEASE",
+      "AvatarLimitType": 27,
+      "IsDynamicLevel": true,
+      "DontShowPushTips": false,
+      "Challenge": null,
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": null,
+      "Serial": null
+    },
+    {
+      "Id": 2190,
+      "Type": "DUNGEON_SORUSH_PLOT",
+      "SceneId": 20176,
+      "InvolveType": "INVOLVE_ONLY_SINGLE",
+      "SettleCountdownTime": 120,
+      "FailSettleCountdownTime": 30,
+      "QuitSettleCountdownTime": 30,
+      "SettleShows": [
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "None",
+        "None",
+        "None",
+        "None"
+      ],
+      "LevelConfigMap": {},
+      "EnterCostItems": [],
+      "CityID": 4,
+      "ShowLevel": 36,
+      "LimitLevel": 1,
+      "LevelRevise": 35,
+      "PassCond": 281,
+      "DayEnterCount": 99,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_RELEASE",
+      "AvatarLimitType": 27,
+      "IsDynamicLevel": true,
       "DontShowPushTips": false,
       "Challenge": null,
       "ElementChallenge": null,
@@ -18607,6 +19400,120 @@
       "Serial": null
     },
     {
+      "Id": 3060,
+      "Type": "DUNGEON_AKA_FES_RHYTHM_PIG",
+      "SceneId": 35896,
+      "InvolveType": "INVOLVE_ONLY_SINGLE",
+      "SettleCountdownTime": 999,
+      "FailSettleCountdownTime": 30,
+      "QuitSettleCountdownTime": 30,
+      "SettleShows": [
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "None",
+        "None",
+        "None",
+        "None"
+      ],
+      "LevelConfigMap": {},
+      "EnterCostItems": [],
+      "CityID": 4,
+      "ShowLevel": 1,
+      "LimitLevel": 1,
+      "PassCond": 75,
+      "DayEnterCount": 99,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_RELEASE",
+      "AvatarLimitType": 1,
+      "IsDynamicLevel": false,
+      "DontShowPushTips": false,
+      "Challenge": null,
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": null,
+      "Serial": null
+    },
+    {
+      "Id": 3061,
+      "Type": "DUNGEON_AKA_FES_RHYTHM_WEASEL",
+      "SceneId": 35897,
+      "InvolveType": "INVOLVE_ONLY_SINGLE",
+      "SettleCountdownTime": 999,
+      "FailSettleCountdownTime": 30,
+      "QuitSettleCountdownTime": 30,
+      "SettleShows": [
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "None",
+        "None",
+        "None",
+        "None"
+      ],
+      "LevelConfigMap": {},
+      "EnterCostItems": [],
+      "CityID": 4,
+      "ShowLevel": 1,
+      "LimitLevel": 1,
+      "PassCond": 75,
+      "DayEnterCount": 99,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_RELEASE",
+      "AvatarLimitType": 1,
+      "IsDynamicLevel": false,
+      "DontShowPushTips": false,
+      "Challenge": null,
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": null,
+      "Serial": null
+    },
+    {
+      "Id": 3062,
+      "Type": "DUNGEON_AKA_FES_RHYTHM_FISH",
+      "SceneId": 35898,
+      "InvolveType": "INVOLVE_ONLY_SINGLE",
+      "SettleCountdownTime": 999,
+      "FailSettleCountdownTime": 30,
+      "QuitSettleCountdownTime": 30,
+      "SettleShows": [
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "None",
+        "None",
+        "None",
+        "None"
+      ],
+      "LevelConfigMap": {},
+      "EnterCostItems": [],
+      "CityID": 4,
+      "ShowLevel": 1,
+      "LimitLevel": 1,
+      "PassCond": 75,
+      "DayEnterCount": 99,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_RELEASE",
+      "AvatarLimitType": 1,
+      "IsDynamicLevel": false,
+      "DontShowPushTips": false,
+      "Challenge": null,
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": null,
+      "Serial": null
+    },
+    {
       "Id": 3063,
       "Type": "DUNGEON_FUNGUS_FIGHTER_V2",
       "SceneId": 35899,
@@ -18634,6 +19541,234 @@
       "ShowLevel": 50,
       "LimitLevel": 1,
       "LevelRevise": 49,
+      "PassCond": 75,
+      "DayEnterCount": 99,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_RELEASE",
+      "AvatarLimitType": 1,
+      "IsDynamicLevel": false,
+      "DontShowPushTips": false,
+      "Challenge": null,
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": null,
+      "Serial": null
+    },
+    {
+      "Id": 3064,
+      "Type": "DUNGEON_AKA_FES_POTION",
+      "SceneId": 35903,
+      "InvolveType": "INVOLVE_ONLY_SINGLE",
+      "SettleCountdownTime": 30,
+      "FailSettleCountdownTime": 30,
+      "QuitSettleCountdownTime": 30,
+      "SettleShows": [
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "None",
+        "None",
+        "None",
+        "None"
+      ],
+      "LevelConfigMap": {},
+      "EnterCostItems": [],
+      "CityID": 4,
+      "ShowLevel": 1,
+      "LimitLevel": 1,
+      "PassCond": 75,
+      "DayEnterCount": 99,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_RELEASE",
+      "AvatarLimitType": 1,
+      "IsDynamicLevel": false,
+      "DontShowPushTips": false,
+      "Challenge": null,
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": null,
+      "Serial": null
+    },
+    {
+      "Id": 3065,
+      "Type": "DUNGEON_AKA_FES_POTION",
+      "SceneId": 35904,
+      "InvolveType": "INVOLVE_ONLY_SINGLE",
+      "SettleCountdownTime": 30,
+      "FailSettleCountdownTime": 30,
+      "QuitSettleCountdownTime": 30,
+      "SettleShows": [
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "None",
+        "None",
+        "None",
+        "None"
+      ],
+      "LevelConfigMap": {},
+      "EnterCostItems": [],
+      "CityID": 4,
+      "ShowLevel": 1,
+      "LimitLevel": 1,
+      "PassCond": 75,
+      "DayEnterCount": 99,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_RELEASE",
+      "AvatarLimitType": 1,
+      "IsDynamicLevel": false,
+      "DontShowPushTips": false,
+      "Challenge": null,
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": null,
+      "Serial": null
+    },
+    {
+      "Id": 3066,
+      "Type": "DUNGEON_AKA_FES_POTION",
+      "SceneId": 35905,
+      "InvolveType": "INVOLVE_ONLY_SINGLE",
+      "SettleCountdownTime": 30,
+      "FailSettleCountdownTime": 30,
+      "QuitSettleCountdownTime": 30,
+      "SettleShows": [
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "None",
+        "None",
+        "None",
+        "None"
+      ],
+      "LevelConfigMap": {},
+      "EnterCostItems": [],
+      "CityID": 4,
+      "ShowLevel": 1,
+      "LimitLevel": 1,
+      "PassCond": 75,
+      "DayEnterCount": 99,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_RELEASE",
+      "AvatarLimitType": 1,
+      "IsDynamicLevel": false,
+      "DontShowPushTips": false,
+      "Challenge": null,
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": null,
+      "Serial": null
+    },
+    {
+      "Id": 3067,
+      "Type": "DUNGEON_AKA_FES_RHYTHM_PIG_ADJUST",
+      "SceneId": 35896,
+      "InvolveType": "INVOLVE_ONLY_SINGLE",
+      "SettleCountdownTime": 999,
+      "FailSettleCountdownTime": 30,
+      "QuitSettleCountdownTime": 30,
+      "SettleShows": [
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "None",
+        "None",
+        "None",
+        "None"
+      ],
+      "LevelConfigMap": {},
+      "EnterCostItems": [],
+      "CityID": 4,
+      "ShowLevel": 1,
+      "LimitLevel": 1,
+      "PassCond": 75,
+      "DayEnterCount": 99,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_RELEASE",
+      "AvatarLimitType": 1,
+      "IsDynamicLevel": false,
+      "DontShowPushTips": false,
+      "Challenge": null,
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": null,
+      "Serial": null
+    },
+    {
+      "Id": 3068,
+      "Type": "DUNGEON_AKA_FES_RHYTHM_WEASEL_ADJUST",
+      "SceneId": 35897,
+      "InvolveType": "INVOLVE_ONLY_SINGLE",
+      "SettleCountdownTime": 999,
+      "FailSettleCountdownTime": 30,
+      "QuitSettleCountdownTime": 30,
+      "SettleShows": [
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "None",
+        "None",
+        "None",
+        "None"
+      ],
+      "LevelConfigMap": {},
+      "EnterCostItems": [],
+      "CityID": 4,
+      "ShowLevel": 1,
+      "LimitLevel": 1,
+      "PassCond": 75,
+      "DayEnterCount": 99,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_RELEASE",
+      "AvatarLimitType": 1,
+      "IsDynamicLevel": false,
+      "DontShowPushTips": false,
+      "Challenge": null,
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": null,
+      "Serial": null
+    },
+    {
+      "Id": 3069,
+      "Type": "DUNGEON_AKA_FES_RHYTHM_FISH_ADJUST",
+      "SceneId": 35898,
+      "InvolveType": "INVOLVE_ONLY_SINGLE",
+      "SettleCountdownTime": 999,
+      "FailSettleCountdownTime": 30,
+      "QuitSettleCountdownTime": 30,
+      "SettleShows": [
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "None",
+        "None",
+        "None",
+        "None"
+      ],
+      "LevelConfigMap": {},
+      "EnterCostItems": [],
+      "CityID": 4,
+      "ShowLevel": 1,
+      "LimitLevel": 1,
       "PassCond": 75,
       "DayEnterCount": 99,
       "ForbiddenRestart": false,
@@ -21767,6 +22902,82 @@
       "Serial": null
     },
     {
+      "Id": 3111,
+      "Type": "DUNGEON_TOWER",
+      "SceneId": 33751,
+      "InvolveType": "INVOLVE_ONLY_SINGLE",
+      "SettleCountdownTime": 999,
+      "FailSettleCountdownTime": 30,
+      "QuitSettleCountdownTime": 3,
+      "SettleShows": [
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "Fire",
+        "Water",
+        "Electric",
+        "Ice"
+      ],
+      "LevelConfigMap": {},
+      "EnterCostItems": [],
+      "CityID": 1,
+      "ShowLevel": 90,
+      "LimitLevel": 1,
+      "LevelRevise": 89,
+      "PassCond": 50,
+      "ReviveMaxCount": 10,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_RELEASE",
+      "IsDynamicLevel": false,
+      "DontShowPushTips": false,
+      "Challenge": null,
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": null,
+      "Serial": null
+    },
+    {
+      "Id": 3112,
+      "Type": "DUNGEON_TOWER",
+      "SceneId": 33752,
+      "InvolveType": "INVOLVE_ONLY_SINGLE",
+      "SettleCountdownTime": 999,
+      "FailSettleCountdownTime": 30,
+      "QuitSettleCountdownTime": 3,
+      "SettleShows": [
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "Fire",
+        "Water",
+        "Electric",
+        "Ice"
+      ],
+      "LevelConfigMap": {},
+      "EnterCostItems": [],
+      "CityID": 1,
+      "ShowLevel": 90,
+      "LimitLevel": 1,
+      "LevelRevise": 89,
+      "PassCond": 50,
+      "ReviveMaxCount": 10,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_RELEASE",
+      "IsDynamicLevel": false,
+      "DontShowPushTips": false,
+      "Challenge": null,
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": null,
+      "Serial": null
+    },
+    {
       "Id": 3470,
       "Type": "DUNGEON_TOWER",
       "SceneId": 34700,
@@ -23851,6 +25062,82 @@
       "Serial": null
     },
     {
+      "Id": 3211,
+      "Type": "DUNGEON_TOWER",
+      "SceneId": 34751,
+      "InvolveType": "INVOLVE_ONLY_SINGLE",
+      "SettleCountdownTime": 999,
+      "FailSettleCountdownTime": 30,
+      "QuitSettleCountdownTime": 3,
+      "SettleShows": [
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "Fire",
+        "Water",
+        "Electric",
+        "Ice"
+      ],
+      "LevelConfigMap": {},
+      "EnterCostItems": [],
+      "CityID": 1,
+      "ShowLevel": 90,
+      "LimitLevel": 1,
+      "LevelRevise": 89,
+      "PassCond": 50,
+      "ReviveMaxCount": 10,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_RELEASE",
+      "IsDynamicLevel": false,
+      "DontShowPushTips": false,
+      "Challenge": null,
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": null,
+      "Serial": null
+    },
+    {
+      "Id": 3212,
+      "Type": "DUNGEON_TOWER",
+      "SceneId": 34752,
+      "InvolveType": "INVOLVE_ONLY_SINGLE",
+      "SettleCountdownTime": 999,
+      "FailSettleCountdownTime": 30,
+      "QuitSettleCountdownTime": 3,
+      "SettleShows": [
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "Fire",
+        "Water",
+        "Electric",
+        "Ice"
+      ],
+      "LevelConfigMap": {},
+      "EnterCostItems": [],
+      "CityID": 1,
+      "ShowLevel": 90,
+      "LimitLevel": 1,
+      "LevelRevise": 89,
+      "PassCond": 50,
+      "ReviveMaxCount": 10,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_RELEASE",
+      "IsDynamicLevel": false,
+      "DontShowPushTips": false,
+      "Challenge": null,
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": null,
+      "Serial": null
+    },
+    {
       "Id": 3570,
       "Type": "DUNGEON_TOWER",
       "SceneId": 35700,
@@ -25846,6 +27133,82 @@
       "Id": 3610,
       "Type": "DUNGEON_TOWER",
       "SceneId": 35750,
+      "InvolveType": "INVOLVE_ONLY_SINGLE",
+      "SettleCountdownTime": 999,
+      "FailSettleCountdownTime": 30,
+      "QuitSettleCountdownTime": 3,
+      "SettleShows": [
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "Fire",
+        "Water",
+        "Electric",
+        "Ice"
+      ],
+      "LevelConfigMap": {},
+      "EnterCostItems": [],
+      "CityID": 1,
+      "ShowLevel": 90,
+      "LimitLevel": 1,
+      "LevelRevise": 89,
+      "PassCond": 50,
+      "ReviveMaxCount": 10,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_RELEASE",
+      "IsDynamicLevel": false,
+      "DontShowPushTips": false,
+      "Challenge": null,
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": null,
+      "Serial": null
+    },
+    {
+      "Id": 3611,
+      "Type": "DUNGEON_TOWER",
+      "SceneId": 35751,
+      "InvolveType": "INVOLVE_ONLY_SINGLE",
+      "SettleCountdownTime": 999,
+      "FailSettleCountdownTime": 30,
+      "QuitSettleCountdownTime": 3,
+      "SettleShows": [
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "Fire",
+        "Water",
+        "Electric",
+        "Ice"
+      ],
+      "LevelConfigMap": {},
+      "EnterCostItems": [],
+      "CityID": 1,
+      "ShowLevel": 90,
+      "LimitLevel": 1,
+      "LevelRevise": 89,
+      "PassCond": 50,
+      "ReviveMaxCount": 10,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_RELEASE",
+      "IsDynamicLevel": false,
+      "DontShowPushTips": false,
+      "Challenge": null,
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": null,
+      "Serial": null
+    },
+    {
+      "Id": 3612,
+      "Type": "DUNGEON_TOWER",
+      "SceneId": 35752,
       "InvolveType": "INVOLVE_ONLY_SINGLE",
       "SettleCountdownTime": 999,
       "FailSettleCountdownTime": 30,
@@ -28449,6 +29812,98 @@
       "IsDynamicLevel": true,
       "DontShowPushTips": false,
       "FirstPassRewardPreviewID": 10318,
+      "Challenge": null,
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": null,
+      "Serial": null
+    },
+    {
+      "Id": 4063,
+      "Type": "DUNGEON_FIGHT",
+      "SceneId": 40065,
+      "InvolveType": "INVOLVE_ONLY_SINGLE",
+      "SettleCountdownTime": 120,
+      "FailSettleCountdownTime": 30,
+      "QuitSettleCountdownTime": 3,
+      "SettleShows": [
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "Water",
+        "None",
+        "None",
+        "None"
+      ],
+      "LevelConfigMap": {},
+      "EnterCostItems": [
+        26090201,
+        26091001,
+        26090301,
+        26120101,
+        26120401,
+        26100101
+      ],
+      "CityID": 4,
+      "ShowLevel": 36,
+      "LimitLevel": 40,
+      "LevelRevise": 35,
+      "PassCond": 289,
+      "ReviveMaxCount": 10,
+      "DayEnterCount": 99,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_RELEASE",
+      "AvatarLimitType": 27,
+      "IsDynamicLevel": true,
+      "DontShowPushTips": false,
+      "FirstPassRewardPreviewID": 10319,
+      "Challenge": null,
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": null,
+      "Serial": null
+    },
+    {
+      "Id": 4064,
+      "Type": "DUNGEON_FIGHT",
+      "SceneId": 40066,
+      "InvolveType": "INVOLVE_ONLY_SINGLE",
+      "SettleCountdownTime": 120,
+      "FailSettleCountdownTime": 30,
+      "QuitSettleCountdownTime": 3,
+      "SettleShows": [
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "Grass",
+        "Water",
+        "None",
+        "None"
+      ],
+      "LevelConfigMap": {},
+      "EnterCostItems": [
+        26100201,
+        26100101
+      ],
+      "CityID": 4,
+      "ShowLevel": 36,
+      "LimitLevel": 40,
+      "LevelRevise": 35,
+      "PassCond": 289,
+      "ReviveMaxCount": 10,
+      "DayEnterCount": 99,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_RELEASE",
+      "AvatarLimitType": 27,
+      "IsDynamicLevel": true,
+      "DontShowPushTips": false,
+      "FirstPassRewardPreviewID": 10320,
       "Challenge": null,
       "ElementChallenge": null,
       "LevelEntity": null,
@@ -33920,6 +35375,209 @@
       "StatueCostID": 106,
       "StatueCostCount": 20,
       "StatueDrop": 85245500,
+      "Challenge": null,
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": null,
+      "Serial": null
+    },
+    {
+      "Id": 5064,
+      "Type": "DUNGEON_DAILY_FIGHT",
+      "SceneId": 40664,
+      "InvolveType": "INVOLVE_SINGLE_MULTIPLE",
+      "SettleCountdownTime": 999,
+      "FailSettleCountdownTime": 30,
+      "QuitSettleCountdownTime": 30,
+      "SettleShows": [
+        "SETTLE_SHOW_TIME_COST",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "Grass",
+        "None",
+        "None",
+        "None"
+      ],
+      "LevelConfigMap": {
+        "1794": 100
+      },
+      "EnterCostItems": [
+        21010101,
+        21010201,
+        21030101,
+        21020201
+      ],
+      "CityID": 4,
+      "ShowLevel": 59,
+      "LimitLevel": 30,
+      "LevelRevise": 58,
+      "PassCond": 51,
+      "DayEnterCount": 3,
+      "PassRewardPreviewID": 23443,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_RELEASE",
+      "AvatarLimitType": 50,
+      "IsDynamicLevel": false,
+      "SubType": "DUNGEON_SUB_RELIQUARY",
+      "DontShowPushTips": false,
+      "StatueCostID": 106,
+      "StatueCostCount": 20,
+      "StatueDrop": 85343500,
+      "Challenge": null,
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": null,
+      "Serial": null
+    },
+    {
+      "Id": 5065,
+      "Type": "DUNGEON_DAILY_FIGHT",
+      "SceneId": 40665,
+      "InvolveType": "INVOLVE_SINGLE_MULTIPLE",
+      "SettleCountdownTime": 999,
+      "FailSettleCountdownTime": 30,
+      "QuitSettleCountdownTime": 30,
+      "SettleShows": [
+        "SETTLE_SHOW_TIME_COST",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "Grass",
+        "None",
+        "None",
+        "None"
+      ],
+      "LevelConfigMap": {
+        "1794": 100
+      },
+      "EnterCostItems": [
+        21010101,
+        21010201,
+        21010601,
+        21030101,
+        21040101
+      ],
+      "CityID": 4,
+      "ShowLevel": 69,
+      "LimitLevel": 35,
+      "LevelRevise": 68,
+      "PassCond": 51,
+      "DayEnterCount": 3,
+      "PassRewardPreviewID": 23444,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_RELEASE",
+      "AvatarLimitType": 60,
+      "IsDynamicLevel": false,
+      "SubType": "DUNGEON_SUB_RELIQUARY",
+      "DontShowPushTips": false,
+      "StatueCostID": 106,
+      "StatueCostCount": 20,
+      "StatueDrop": 85344000,
+      "Challenge": null,
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": null,
+      "Serial": null
+    },
+    {
+      "Id": 5066,
+      "Type": "DUNGEON_DAILY_FIGHT",
+      "SceneId": 40666,
+      "InvolveType": "INVOLVE_SINGLE_MULTIPLE",
+      "SettleCountdownTime": 999,
+      "FailSettleCountdownTime": 30,
+      "QuitSettleCountdownTime": 30,
+      "SettleShows": [
+        "SETTLE_SHOW_TIME_COST",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "Grass",
+        "None",
+        "None",
+        "None"
+      ],
+      "LevelConfigMap": {
+        "1794": 100
+      },
+      "EnterCostItems": [
+        21010201,
+        21020201,
+        21040201
+      ],
+      "CityID": 4,
+      "ShowLevel": 80,
+      "LimitLevel": 40,
+      "LevelRevise": 79,
+      "PassCond": 51,
+      "DayEnterCount": 3,
+      "PassRewardPreviewID": 23445,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_RELEASE",
+      "AvatarLimitType": 71,
+      "IsDynamicLevel": false,
+      "SubType": "DUNGEON_SUB_RELIQUARY",
+      "DontShowPushTips": false,
+      "StatueCostID": 106,
+      "StatueCostCount": 20,
+      "StatueDrop": 85344500,
+      "Challenge": null,
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": null,
+      "Serial": null
+    },
+    {
+      "Id": 5067,
+      "Type": "DUNGEON_DAILY_FIGHT",
+      "SceneId": 40667,
+      "InvolveType": "INVOLVE_SINGLE_MULTIPLE",
+      "SettleCountdownTime": 999,
+      "FailSettleCountdownTime": 30,
+      "QuitSettleCountdownTime": 30,
+      "SettleShows": [
+        "SETTLE_SHOW_TIME_COST",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "Grass",
+        "None",
+        "None",
+        "None"
+      ],
+      "LevelConfigMap": {
+        "1794": 100
+      },
+      "EnterCostItems": [
+        21020201,
+        21040101,
+        21040201
+      ],
+      "CityID": 4,
+      "ShowLevel": 90,
+      "LimitLevel": 45,
+      "LevelRevise": 89,
+      "PassCond": 51,
+      "DayEnterCount": 3,
+      "PassRewardPreviewID": 23446,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_RELEASE",
+      "AvatarLimitType": 81,
+      "IsDynamicLevel": false,
+      "SubType": "DUNGEON_SUB_RELIQUARY",
+      "DontShowPushTips": false,
+      "StatueCostID": 106,
+      "StatueCostCount": 20,
+      "StatueDrop": 85345500,
       "Challenge": null,
       "ElementChallenge": null,
       "LevelEntity": null,
@@ -40271,6 +41929,84 @@
       "LimitLevel": 1,
       "LevelRevise": 79,
       "PassCond": 286,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_RELEASE",
+      "AvatarLimitType": 1,
+      "IsDynamicLevel": false,
+      "DontShowPushTips": false,
+      "PlayType": "DUNGEON_PLAY_TYPE_TRIAL_AVATAR",
+      "Challenge": null,
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": null,
+      "Serial": null
+    },
+    {
+      "Id": 6065,
+      "Type": "DUNGEON_ACTIVITY",
+      "SceneId": 41065,
+      "InvolveType": "INVOLVE_ONLY_SINGLE",
+      "SettleCountdownTime": 999,
+      "FailSettleCountdownTime": 30,
+      "QuitSettleCountdownTime": 3,
+      "SettleShows": [
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "Fire",
+        "Electric",
+        "Ice",
+        "Wind"
+      ],
+      "LevelConfigMap": {},
+      "EnterCostItems": [],
+      "CityID": 1,
+      "ShowLevel": 80,
+      "LimitLevel": 1,
+      "LevelRevise": 79,
+      "PassCond": 290,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_RELEASE",
+      "AvatarLimitType": 1,
+      "IsDynamicLevel": false,
+      "DontShowPushTips": false,
+      "PlayType": "DUNGEON_PLAY_TYPE_TRIAL_AVATAR",
+      "Challenge": null,
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": null,
+      "Serial": null
+    },
+    {
+      "Id": 6066,
+      "Type": "DUNGEON_ACTIVITY",
+      "SceneId": 41066,
+      "InvolveType": "INVOLVE_ONLY_SINGLE",
+      "SettleCountdownTime": 999,
+      "FailSettleCountdownTime": 30,
+      "QuitSettleCountdownTime": 3,
+      "SettleShows": [
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "Fire",
+        "Electric",
+        "Ice",
+        "Wind"
+      ],
+      "LevelConfigMap": {},
+      "EnterCostItems": [],
+      "CityID": 1,
+      "ShowLevel": 80,
+      "LimitLevel": 1,
+      "LevelRevise": 79,
+      "PassCond": 291,
       "ForbiddenRestart": false,
       "StateType": "DUNGEON_STATE_RELEASE",
       "AvatarLimitType": 1,
@@ -47328,6 +49064,292 @@
       "LevelEntity": null,
       "Pass": null,
       "Serial": null
+    },
+    {
+      "Id": 9000,
+      "Type": "DUNGEON_AKA_FES_ARCHITECT",
+      "SceneId": 35900,
+      "InvolveType": "INVOLVE_ONLY_SINGLE",
+      "SettleCountdownTime": 60,
+      "FailSettleCountdownTime": 30,
+      "QuitSettleCountdownTime": 30,
+      "SettleShows": [
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "None",
+        "None",
+        "None",
+        "None"
+      ],
+      "LevelConfigMap": {
+        "1793": 100
+      },
+      "EnterCostItems": [],
+      "CityID": 4,
+      "ShowLevel": 1,
+      "LimitLevel": 1,
+      "PassCond": 75,
+      "DayEnterCount": 99,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_RELEASE",
+      "AvatarLimitType": 1,
+      "IsDynamicLevel": false,
+      "DontShowPushTips": false,
+      "Challenge": null,
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": null,
+      "Serial": null
+    },
+    {
+      "Id": 9001,
+      "Type": "DUNGEON_AKA_FES_ARCHITECT",
+      "SceneId": 35901,
+      "InvolveType": "INVOLVE_ONLY_SINGLE",
+      "SettleCountdownTime": 60,
+      "FailSettleCountdownTime": 30,
+      "QuitSettleCountdownTime": 30,
+      "SettleShows": [
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "None",
+        "None",
+        "None",
+        "None"
+      ],
+      "LevelConfigMap": {
+        "1793": 100
+      },
+      "EnterCostItems": [],
+      "CityID": 4,
+      "ShowLevel": 1,
+      "LimitLevel": 1,
+      "PassCond": 75,
+      "DayEnterCount": 99,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_RELEASE",
+      "AvatarLimitType": 1,
+      "IsDynamicLevel": false,
+      "DontShowPushTips": false,
+      "Challenge": {
+        "ChallengeType": "CHALLENGE_FATHER_SUCC_IN_TIME",
+        "NoFailHint": false,
+        "IsBlockTopTimer": false,
+        "IsSuccessWhenNotSettled": false
+      },
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": null,
+      "Serial": null
+    },
+    {
+      "Id": 9002,
+      "Type": "DUNGEON_AKA_FES_ARCHITECT",
+      "SceneId": 35902,
+      "InvolveType": "INVOLVE_ONLY_SINGLE",
+      "SettleCountdownTime": 60,
+      "FailSettleCountdownTime": 30,
+      "QuitSettleCountdownTime": 30,
+      "SettleShows": [
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "None",
+        "None",
+        "None",
+        "None"
+      ],
+      "LevelConfigMap": {
+        "1793": 100
+      },
+      "EnterCostItems": [],
+      "CityID": 4,
+      "ShowLevel": 1,
+      "LimitLevel": 1,
+      "PassCond": 75,
+      "DayEnterCount": 99,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_RELEASE",
+      "AvatarLimitType": 1,
+      "IsDynamicLevel": false,
+      "DontShowPushTips": false,
+      "Challenge": {
+        "ChallengeType": "CHALLENGE_TRIGGER_IN_TIME",
+        "NoFailHint": false,
+        "IsBlockTopTimer": false,
+        "IsSuccessWhenNotSettled": false
+      },
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": null,
+      "Serial": null
+    },
+    {
+      "Id": 9100,
+      "Type": "DUNGEON_INSTABLE_SPRAY",
+      "SceneId": 35910,
+      "InvolveType": "INVOLVE_ONLY_SINGLE",
+      "SettleCountdownTime": 999,
+      "FailSettleCountdownTime": 999,
+      "QuitSettleCountdownTime": 999,
+      "SettleShows": [
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "None",
+        "None",
+        "None",
+        "None"
+      ],
+      "LevelConfigMap": {},
+      "EnterCostItems": [],
+      "CityID": 4,
+      "ShowLevel": 1,
+      "LimitLevel": 1,
+      "PassCond": 51,
+      "ReviveMaxCount": 10,
+      "DayEnterCount": 99,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_RELEASE",
+      "AvatarLimitType": 1,
+      "IsDynamicLevel": false,
+      "DontShowPushTips": false,
+      "Challenge": null,
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": null,
+      "Serial": null
+    },
+    {
+      "Id": 9101,
+      "Type": "DUNGEON_INSTABLE_SPRAY",
+      "SceneId": 35911,
+      "InvolveType": "INVOLVE_ONLY_SINGLE",
+      "SettleCountdownTime": 999,
+      "FailSettleCountdownTime": 999,
+      "QuitSettleCountdownTime": 999,
+      "SettleShows": [
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "None",
+        "None",
+        "None",
+        "None"
+      ],
+      "LevelConfigMap": {},
+      "EnterCostItems": [],
+      "CityID": 4,
+      "ShowLevel": 1,
+      "LimitLevel": 1,
+      "PassCond": 51,
+      "ReviveMaxCount": 10,
+      "DayEnterCount": 99,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_RELEASE",
+      "AvatarLimitType": 1,
+      "IsDynamicLevel": false,
+      "DontShowPushTips": false,
+      "Challenge": null,
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": null,
+      "Serial": null
+    },
+    {
+      "Id": 9102,
+      "Type": "DUNGEON_INSTABLE_SPRAY",
+      "SceneId": 35912,
+      "InvolveType": "INVOLVE_ONLY_SINGLE",
+      "SettleCountdownTime": 999,
+      "FailSettleCountdownTime": 999,
+      "QuitSettleCountdownTime": 999,
+      "SettleShows": [
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "None",
+        "None",
+        "None",
+        "None"
+      ],
+      "LevelConfigMap": {},
+      "EnterCostItems": [],
+      "CityID": 4,
+      "ShowLevel": 1,
+      "LimitLevel": 1,
+      "PassCond": 51,
+      "ReviveMaxCount": 10,
+      "DayEnterCount": 99,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_RELEASE",
+      "AvatarLimitType": 1,
+      "IsDynamicLevel": false,
+      "DontShowPushTips": false,
+      "Challenge": null,
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": null,
+      "Serial": null
+    },
+    {
+      "Id": 9103,
+      "Type": "DUNGEON_INSTABLE_SPRAY",
+      "SceneId": 35913,
+      "InvolveType": "INVOLVE_ONLY_SINGLE",
+      "SettleCountdownTime": 999,
+      "FailSettleCountdownTime": 999,
+      "QuitSettleCountdownTime": 999,
+      "SettleShows": [
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE",
+        "SETTLE_SHOW_NONE"
+      ],
+      "RecommendElementTypes": [
+        "None",
+        "None",
+        "None",
+        "None"
+      ],
+      "LevelConfigMap": {},
+      "EnterCostItems": [],
+      "CityID": 4,
+      "ShowLevel": 1,
+      "LimitLevel": 1,
+      "PassCond": 51,
+      "ReviveMaxCount": 10,
+      "DayEnterCount": 99,
+      "ForbiddenRestart": false,
+      "StateType": "DUNGEON_STATE_RELEASE",
+      "AvatarLimitType": 1,
+      "IsDynamicLevel": false,
+      "DontShowPushTips": false,
+      "Challenge": null,
+      "ElementChallenge": null,
+      "LevelEntity": null,
+      "Pass": null,
+      "Serial": null
     }
   ],
   "Entry": [
@@ -48112,6 +50134,34 @@
       "IsShowInAdvHandbook": true,
       "CondComb": "LOGIC_OR",
       "RewardDataId": 220424,
+      "IsDailyRefresh": false,
+      "IsDefaultOpen": false
+    },
+    {
+      "Id": 23,
+      "SceneId": 3,
+      "DungeonEntryId": 803,
+      "Type": "DUNGEN_ENTRY_TYPE_RELIQUARY",
+      "CooldownTipsDungeonId": [],
+      "SatisfiedCond": [
+        {
+          "Type": "DUNGEON_ENTRY_CONDITION_LEVEL",
+          "Param1": 22
+        },
+        {
+          "Type": "DUNGEON_ENTRY_CONDITION_QUEST",
+          "Param1": 39604
+        }
+      ],
+      "DescriptionCycleRewardList": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "IsShowInAdvHandbook": true,
+      "CondComb": "LOGIC_OR",
+      "RewardDataId": 220425,
       "IsDailyRefresh": false,
       "IsDefaultOpen": false
     },
@@ -49738,6 +51788,115 @@
       "IsShowInAdvHandbook": false,
       "IsDailyRefresh": false,
       "IsDefaultOpen": true
+    },
+    {
+      "Id": 1077,
+      "SceneId": 3,
+      "DungeonEntryId": 812,
+      "Type": "DUNGEON_ENTRY_TYPE_ACTIVITY",
+      "CooldownTipsDungeonId": [],
+      "SatisfiedCond": [
+        {},
+        {}
+      ],
+      "DescriptionCycleRewardList": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "IsShowInAdvHandbook": false,
+      "IsDailyRefresh": false,
+      "IsDefaultOpen": true
+    },
+    {
+      "Id": 1078,
+      "SceneId": 3,
+      "DungeonEntryId": 838,
+      "Type": "DUNGEON_ENTRY_TYPE_ACTIVITY",
+      "CooldownTipsDungeonId": [],
+      "SatisfiedCond": [
+        {},
+        {}
+      ],
+      "DescriptionCycleRewardList": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "IsShowInAdvHandbook": false,
+      "IsDailyRefresh": false,
+      "IsDefaultOpen": true
+    },
+    {
+      "Id": 1079,
+      "SceneId": 3,
+      "DungeonEntryId": 848,
+      "Type": "DUNGEON_ENTRY_TYPE_TRIAL",
+      "CooldownTipsDungeonId": [
+        139,
+        140,
+        141,
+        142
+      ],
+      "SatisfiedCond": [
+        {},
+        {}
+      ],
+      "DescriptionCycleRewardList": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "IsShowInAdvHandbook": true,
+      "IsDailyRefresh": false,
+      "IsDefaultOpen": true
+    },
+    {
+      "Id": 1080,
+      "SceneId": 3,
+      "DungeonEntryId": 807,
+      "Type": "DUNGEON_ENTRY_TYPE_NORMAL",
+      "CooldownTipsDungeonId": [
+        4063
+      ],
+      "SatisfiedCond": [
+        {},
+        {}
+      ],
+      "DescriptionCycleRewardList": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "IsShowInAdvHandbook": false,
+      "IsDailyRefresh": false,
+      "IsDefaultOpen": false
+    },
+    {
+      "Id": 1081,
+      "SceneId": 3,
+      "DungeonEntryId": 805,
+      "Type": "DUNGEON_ENTRY_TYPE_NORMAL",
+      "CooldownTipsDungeonId": [
+        4064
+      ],
+      "SatisfiedCond": [
+        {},
+        {}
+      ],
+      "DescriptionCycleRewardList": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "IsShowInAdvHandbook": false,
+      "IsDailyRefresh": false,
+      "IsDefaultOpen": false
     }
   ],
   "MapArea": [

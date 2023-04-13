@@ -14019,6 +14019,250 @@
         }
       ],
       "PrevTalent": 805
+    },
+    {
+      "Id": 811,
+      "Name": "Kaveh_Constellation_1",
+      "MainCostItemId": 1181,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        3,
+        0.5,
+        0.25,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "Id": 812,
+      "Name": "Kaveh_Constellation_2",
+      "MainCostItemId": 1181,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.15000000596046448,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "PrevTalent": 811
+    },
+    {
+      "Id": 813,
+      "Name": "Kaveh_Constellation_3",
+      "MainCostItemId": 1181,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "PrevTalent": 812
+    },
+    {
+      "Id": 814,
+      "Name": "Kaveh_Constellation_4",
+      "MainCostItemId": 1181,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.6000000238418579,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "PrevTalent": 813
+    },
+    {
+      "Id": 815,
+      "Name": "Kaveh_Constellation_5",
+      "MainCostItemId": 1181,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "PrevTalent": 814
+    },
+    {
+      "Id": 816,
+      "Name": "Kaveh_Constellation_6",
+      "MainCostItemId": 1181,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.6179999709129333,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "PrevTalent": 815
+    },
+    {
+      "Id": 821,
+      "Name": "Baizhuer_Constellation_1",
+      "MainCostItemId": 1182,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": []
+    },
+    {
+      "Id": 822,
+      "Name": "Baizhuer_Constellation_2",
+      "MainCostItemId": 1182,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1,
+        2.5,
+        0.20000000298023224,
+        5,
+        0,
+        0,
+        0
+      ],
+      "Config": [],
+      "PrevTalent": 821
+    },
+    {
+      "Id": 823,
+      "Name": "Baizhuer_Constellation_3",
+      "MainCostItemId": 1182,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [],
+      "PrevTalent": 822
+    },
+    {
+      "Id": 824,
+      "Name": "Baizhuer_Constellation_4",
+      "MainCostItemId": 1182,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        80,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [],
+      "PrevTalent": 823
+    },
+    {
+      "Id": 825,
+      "Name": "Baizhuer_Constellation_5",
+      "MainCostItemId": 1182,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [],
+      "PrevTalent": 824
+    },
+    {
+      "Id": 826,
+      "Name": "Baizhuer_Constellation_6",
+      "MainCostItemId": 1182,
+      "MainCostItemCount": 1,
+      "AddProps": [
+        {},
+        {}
+      ],
+      "ParamList": [
+        1,
+        0.07999999821186066,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Config": [],
+      "PrevTalent": 825
     }
   ],
   "Equip": [
@@ -22036,40 +22280,6 @@
         0,
         0,
         0
-      ],
-      "Config": [
-        {
-          "$type": "AddAbility",
-          "AbilityName": "Weapon_Sword_Ayus"
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Sword_Ayus",
-          "ParamSpecial": "Ratio",
-          "ParamDelta": "%2",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Sword_Ayus",
-          "ParamSpecial": "MaxCount",
-          "ParamDelta": "%3",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Sword_Ayus",
-          "ParamSpecial": "Dura",
-          "ParamDelta": "%4",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Sword_Ayus",
-          "ParamSpecial": "CDTime",
-          "ParamDelta": "%5",
-          "ParamRatio": 0
-        }
       ]
     },
     {
@@ -22095,40 +22305,6 @@
         0,
         0,
         0
-      ],
-      "Config": [
-        {
-          "$type": "AddAbility",
-          "AbilityName": "Weapon_Sword_Ayus"
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Sword_Ayus",
-          "ParamSpecial": "Ratio",
-          "ParamDelta": "%2",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Sword_Ayus",
-          "ParamSpecial": "MaxCount",
-          "ParamDelta": "%3",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Sword_Ayus",
-          "ParamSpecial": "Dura",
-          "ParamDelta": "%4",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Sword_Ayus",
-          "ParamSpecial": "CDTime",
-          "ParamDelta": "%5",
-          "ParamRatio": 0
-        }
       ],
       "Level": 1
     },
@@ -22156,40 +22332,6 @@
         0,
         0
       ],
-      "Config": [
-        {
-          "$type": "AddAbility",
-          "AbilityName": "Weapon_Sword_Ayus"
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Sword_Ayus",
-          "ParamSpecial": "Ratio",
-          "ParamDelta": "%2",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Sword_Ayus",
-          "ParamSpecial": "MaxCount",
-          "ParamDelta": "%3",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Sword_Ayus",
-          "ParamSpecial": "Dura",
-          "ParamDelta": "%4",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Sword_Ayus",
-          "ParamSpecial": "CDTime",
-          "ParamDelta": "%5",
-          "ParamRatio": 0
-        }
-      ],
       "Level": 2
     },
     {
@@ -22216,40 +22358,6 @@
         0,
         0
       ],
-      "Config": [
-        {
-          "$type": "AddAbility",
-          "AbilityName": "Weapon_Sword_Ayus"
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Sword_Ayus",
-          "ParamSpecial": "Ratio",
-          "ParamDelta": "%2",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Sword_Ayus",
-          "ParamSpecial": "MaxCount",
-          "ParamDelta": "%3",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Sword_Ayus",
-          "ParamSpecial": "Dura",
-          "ParamDelta": "%4",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Sword_Ayus",
-          "ParamSpecial": "CDTime",
-          "ParamDelta": "%5",
-          "ParamRatio": 0
-        }
-      ],
       "Level": 3
     },
     {
@@ -22275,40 +22383,6 @@
         0,
         0,
         0
-      ],
-      "Config": [
-        {
-          "$type": "AddAbility",
-          "AbilityName": "Weapon_Sword_Ayus"
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Sword_Ayus",
-          "ParamSpecial": "Ratio",
-          "ParamDelta": "%2",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Sword_Ayus",
-          "ParamSpecial": "MaxCount",
-          "ParamDelta": "%3",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Sword_Ayus",
-          "ParamSpecial": "Dura",
-          "ParamDelta": "%4",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Sword_Ayus",
-          "ParamSpecial": "CDTime",
-          "ParamDelta": "%5",
-          "ParamRatio": 0
-        }
       ],
       "Level": 4
     },
@@ -27330,33 +27404,6 @@
         0,
         0,
         0
-      ],
-      "Config": [
-        {
-          "$type": "AddAbility",
-          "AbilityName": "Weapon_Claymore_Fleurfair"
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Claymore_Fleurfair",
-          "ParamSpecial": "Dura",
-          "ParamDelta": "%1",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Claymore_Fleurfair",
-          "ParamSpecial": "AttackRate",
-          "ParamDelta": "%2",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Claymore_Fleurfair",
-          "ParamSpecial": "ElemMastery",
-          "ParamDelta": "%3",
-          "ParamRatio": 0
-        }
       ]
     },
     {
@@ -27379,33 +27426,6 @@
         0,
         0,
         0
-      ],
-      "Config": [
-        {
-          "$type": "AddAbility",
-          "AbilityName": "Weapon_Claymore_Fleurfair"
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Claymore_Fleurfair",
-          "ParamSpecial": "Dura",
-          "ParamDelta": "%1",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Claymore_Fleurfair",
-          "ParamSpecial": "AttackRate",
-          "ParamDelta": "%2",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Claymore_Fleurfair",
-          "ParamSpecial": "ElemMastery",
-          "ParamDelta": "%3",
-          "ParamRatio": 0
-        }
       ],
       "Level": 1
     },
@@ -27430,33 +27450,6 @@
         0,
         0
       ],
-      "Config": [
-        {
-          "$type": "AddAbility",
-          "AbilityName": "Weapon_Claymore_Fleurfair"
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Claymore_Fleurfair",
-          "ParamSpecial": "Dura",
-          "ParamDelta": "%1",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Claymore_Fleurfair",
-          "ParamSpecial": "AttackRate",
-          "ParamDelta": "%2",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Claymore_Fleurfair",
-          "ParamSpecial": "ElemMastery",
-          "ParamDelta": "%3",
-          "ParamRatio": 0
-        }
-      ],
       "Level": 2
     },
     {
@@ -27480,33 +27473,6 @@
         0,
         0
       ],
-      "Config": [
-        {
-          "$type": "AddAbility",
-          "AbilityName": "Weapon_Claymore_Fleurfair"
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Claymore_Fleurfair",
-          "ParamSpecial": "Dura",
-          "ParamDelta": "%1",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Claymore_Fleurfair",
-          "ParamSpecial": "AttackRate",
-          "ParamDelta": "%2",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Claymore_Fleurfair",
-          "ParamSpecial": "ElemMastery",
-          "ParamDelta": "%3",
-          "ParamRatio": 0
-        }
-      ],
       "Level": 3
     },
     {
@@ -27529,33 +27495,6 @@
         0,
         0,
         0
-      ],
-      "Config": [
-        {
-          "$type": "AddAbility",
-          "AbilityName": "Weapon_Claymore_Fleurfair"
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Claymore_Fleurfair",
-          "ParamSpecial": "Dura",
-          "ParamDelta": "%1",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Claymore_Fleurfair",
-          "ParamSpecial": "AttackRate",
-          "ParamDelta": "%2",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Claymore_Fleurfair",
-          "ParamSpecial": "ElemMastery",
-          "ParamDelta": "%3",
-          "ParamRatio": 0
-        }
       ],
       "Level": 4
     },
@@ -29193,47 +29132,6 @@
         0,
         0,
         0
-      ],
-      "Config": [
-        {
-          "$type": "AddAbility",
-          "AbilityName": "Weapon_Claymore_Deshret"
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Claymore_Deshret",
-          "ParamSpecial": "AttackRate1",
-          "ParamDelta": "%1",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Claymore_Deshret",
-          "ParamSpecial": "Timer1",
-          "ParamDelta": "%2",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Claymore_Deshret",
-          "ParamSpecial": "AttackRate2",
-          "ParamDelta": "%3",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Claymore_Deshret",
-          "ParamSpecial": "Timer2",
-          "ParamDelta": "%4",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Claymore_Deshret",
-          "ParamSpecial": "HPRate",
-          "ParamDelta": "%5",
-          "ParamRatio": 0
-        }
       ]
     },
     {
@@ -29256,47 +29154,6 @@
         0,
         0,
         0
-      ],
-      "Config": [
-        {
-          "$type": "AddAbility",
-          "AbilityName": "Weapon_Claymore_Deshret"
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Claymore_Deshret",
-          "ParamSpecial": "AttackRate1",
-          "ParamDelta": "%1",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Claymore_Deshret",
-          "ParamSpecial": "Timer1",
-          "ParamDelta": "%2",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Claymore_Deshret",
-          "ParamSpecial": "AttackRate2",
-          "ParamDelta": "%3",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Claymore_Deshret",
-          "ParamSpecial": "Timer2",
-          "ParamDelta": "%4",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Claymore_Deshret",
-          "ParamSpecial": "HPRate",
-          "ParamDelta": "%5",
-          "ParamRatio": 0
-        }
       ],
       "Level": 1
     },
@@ -29321,47 +29178,6 @@
         0,
         0
       ],
-      "Config": [
-        {
-          "$type": "AddAbility",
-          "AbilityName": "Weapon_Claymore_Deshret"
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Claymore_Deshret",
-          "ParamSpecial": "AttackRate1",
-          "ParamDelta": "%1",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Claymore_Deshret",
-          "ParamSpecial": "Timer1",
-          "ParamDelta": "%2",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Claymore_Deshret",
-          "ParamSpecial": "AttackRate2",
-          "ParamDelta": "%3",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Claymore_Deshret",
-          "ParamSpecial": "Timer2",
-          "ParamDelta": "%4",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Claymore_Deshret",
-          "ParamSpecial": "HPRate",
-          "ParamDelta": "%5",
-          "ParamRatio": 0
-        }
-      ],
       "Level": 2
     },
     {
@@ -29385,47 +29201,6 @@
         0,
         0
       ],
-      "Config": [
-        {
-          "$type": "AddAbility",
-          "AbilityName": "Weapon_Claymore_Deshret"
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Claymore_Deshret",
-          "ParamSpecial": "AttackRate1",
-          "ParamDelta": "%1",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Claymore_Deshret",
-          "ParamSpecial": "Timer1",
-          "ParamDelta": "%2",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Claymore_Deshret",
-          "ParamSpecial": "AttackRate2",
-          "ParamDelta": "%3",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Claymore_Deshret",
-          "ParamSpecial": "Timer2",
-          "ParamDelta": "%4",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Claymore_Deshret",
-          "ParamSpecial": "HPRate",
-          "ParamDelta": "%5",
-          "ParamRatio": 0
-        }
-      ],
       "Level": 3
     },
     {
@@ -29448,47 +29223,6 @@
         0,
         0,
         0
-      ],
-      "Config": [
-        {
-          "$type": "AddAbility",
-          "AbilityName": "Weapon_Claymore_Deshret"
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Claymore_Deshret",
-          "ParamSpecial": "AttackRate1",
-          "ParamDelta": "%1",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Claymore_Deshret",
-          "ParamSpecial": "Timer1",
-          "ParamDelta": "%2",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Claymore_Deshret",
-          "ParamSpecial": "AttackRate2",
-          "ParamDelta": "%3",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Claymore_Deshret",
-          "ParamSpecial": "Timer2",
-          "ParamDelta": "%4",
-          "ParamRatio": 0
-        },
-        {
-          "$type": "ModifyAbility",
-          "AbilityName": "Weapon_Claymore_Deshret",
-          "ParamSpecial": "HPRate",
-          "ParamDelta": "%5",
-          "ParamRatio": 0
-        }
       ],
       "Level": 4
     },
@@ -42026,7 +41760,7 @@
     {
       "AffixId": 1145050,
       "Id": 114505,
-      "Name": "",
+      "Name": "Weapon_Catalyst_Morax",
       "NameTextMapHash": 2612600955,
       "DescTextMapHash": 3126185433,
       "AddProps": [
@@ -42035,12 +41769,12 @@
         {}
       ],
       "ParamList": [
-        0.07999999821186066,
-        10,
-        0.1599999964237213,
-        0.20000000298023224,
-        20,
-        40,
+        0.003000000026077032,
+        0.11999999731779099,
+        3,
+        2.5,
+        4.5,
+        0,
         0,
         0
       ]
@@ -42048,7 +41782,7 @@
     {
       "AffixId": 1145051,
       "Id": 114505,
-      "Name": "",
+      "Name": "Weapon_Catalyst_Morax",
       "NameTextMapHash": 1099173571,
       "DescTextMapHash": 152045553,
       "AddProps": [
@@ -42057,12 +41791,12 @@
         {}
       ],
       "ParamList": [
-        0.10000000149011612,
-        10,
+        0.004999999888241291,
         0.20000000298023224,
-        0.20000000298023224,
-        20,
-        40,
+        3,
+        2.5,
+        5,
+        0,
         0,
         0
       ],
@@ -42071,7 +41805,7 @@
     {
       "AffixId": 1145052,
       "Id": 114505,
-      "Name": "",
+      "Name": "Weapon_Catalyst_Morax",
       "NameTextMapHash": 3712117035,
       "DescTextMapHash": 3236878545,
       "AddProps": [
@@ -42080,12 +41814,12 @@
         {}
       ],
       "ParamList": [
-        0.11999999731779099,
-        10,
-        0.23999999463558197,
-        0.20000000298023224,
-        20,
-        40,
+        0.007000000216066837,
+        0.2800000011920929,
+        3,
+        2.5,
+        5.5,
+        0,
         0,
         0
       ],
@@ -42094,7 +41828,7 @@
     {
       "AffixId": 1145053,
       "Id": 114505,
-      "Name": "",
+      "Name": "Weapon_Catalyst_Morax",
       "NameTextMapHash": 4230343419,
       "DescTextMapHash": 401263433,
       "AddProps": [
@@ -42103,12 +41837,12 @@
         {}
       ],
       "ParamList": [
-        0.14000000059604645,
-        10,
-        0.2800000011920929,
-        0.20000000298023224,
-        20,
-        40,
+        0.008999999612569809,
+        0.36000001430511475,
+        3,
+        2.5,
+        6,
+        0,
         0,
         0
       ],
@@ -42117,7 +41851,7 @@
     {
       "AffixId": 1145054,
       "Id": 114505,
-      "Name": "",
+      "Name": "Weapon_Catalyst_Morax",
       "NameTextMapHash": 1523089323,
       "DescTextMapHash": 1464714049,
       "AddProps": [
@@ -42126,12 +41860,12 @@
         {}
       ],
       "ParamList": [
-        0.1599999964237213,
-        10,
-        0.3199999928474426,
-        0.20000000298023224,
-        20,
-        40,
+        0.010999999940395355,
+        0.4399999976158142,
+        3,
+        2.5,
+        6.5,
+        0,
         0,
         0
       ],
@@ -54406,6 +54140,102 @@
           "ParamSpecial": "Trigger_CD",
           "ParamDelta": "%7"
         }
+      ],
+      "Level": 1
+    },
+    {
+      "AffixId": 2150290,
+      "Id": 215029,
+      "Name": "",
+      "NameTextMapHash": 3583902035,
+      "DescTextMapHash": 3564514145,
+      "AddProps": [
+        {
+          "PropType": "FIGHT_PROP_WATER_ADD_HURT",
+          "Value": 0.15000000596046448
+        },
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.15000000596046448,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "AffixId": 2150291,
+      "Id": 215029,
+      "Name": "Relic_Narcissus",
+      "NameTextMapHash": 1925210475,
+      "DescTextMapHash": 3662501241,
+      "AddProps": [
+        {},
+        {},
+        {}
+      ],
+      "ParamList": [
+        8,
+        0.07000000029802322,
+        0.1599999964237213,
+        0.25,
+        0.03999999910593033,
+        0.09000000357627869,
+        0.15000000596046448,
+        0
+      ],
+      "Level": 1
+    },
+    {
+      "AffixId": 2150300,
+      "Id": 215030,
+      "Name": "",
+      "NameTextMapHash": 2519840043,
+      "DescTextMapHash": 4197544345,
+      "AddProps": [
+        {
+          "PropType": "FIGHT_PROP_HP_PERCENT",
+          "Value": 0.20000000298023224
+        },
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.20000000298023224,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "AffixId": 2150301,
+      "Id": 215030,
+      "Name": "Relic_Pari",
+      "NameTextMapHash": 235897163,
+      "DescTextMapHash": 1783751721,
+      "AddProps": [
+        {},
+        {},
+        {}
+      ],
+      "ParamList": [
+        0.10000000149011612,
+        0.800000011920929,
+        5,
+        5,
+        0,
+        0,
+        0,
+        0
       ],
       "Level": 1
     }
