@@ -3450,6 +3450,54 @@
     "IsUseDefault": true
   },
   {
+    "AreaID": 10196,
+    "WeatherAreaId": 10196,
+    "MaxHeightStr": "",
+    "Templates": [],
+    "Priority": 2200,
+    "ProfileName": "Data/Environment/EnviroSystemProfile/Dungeon/ESP_CycleDungeon_WindFlower",
+    "DefaultClimate": "CLIMATE_SUNNY",
+    "SceneID": 35906,
+    "IsDefaultValid": true,
+    "IsUseDefault": true
+  },
+  {
+    "AreaID": 10197,
+    "WeatherAreaId": 10197,
+    "MaxHeightStr": "",
+    "Templates": [],
+    "Priority": 2200,
+    "ProfileName": "Data/Environment/EnviroSystemProfile/Dungeon/ESP_CycleDungeon_WindFlower",
+    "DefaultClimate": "CLIMATE_SUNNY",
+    "SceneID": 35907,
+    "IsDefaultValid": true,
+    "IsUseDefault": true
+  },
+  {
+    "AreaID": 10198,
+    "WeatherAreaId": 10198,
+    "MaxHeightStr": "",
+    "Templates": [],
+    "Priority": 2200,
+    "ProfileName": "Data/Environment/EnviroSystemProfile/Dungeon/ESP_CycleDungeon_WindFlower",
+    "DefaultClimate": "CLIMATE_SUNNY",
+    "SceneID": 35908,
+    "IsDefaultValid": true,
+    "IsUseDefault": true
+  },
+  {
+    "AreaID": 10199,
+    "WeatherAreaId": 10199,
+    "MaxHeightStr": "",
+    "Templates": [],
+    "Priority": 2200,
+    "ProfileName": "Data/Environment/EnviroSystemProfile/Dungeon/ESP_CycleDungeon_WindFlower",
+    "DefaultClimate": "CLIMATE_SUNNY",
+    "SceneID": 35909,
+    "IsDefaultValid": true,
+    "IsUseDefault": true
+  },
+  {
     "AreaID": 10200,
     "WeatherAreaId": 10200,
     "MaxHeightStr": "",
@@ -9169,6 +9217,39 @@
     "Templates": [],
     "Priority": 3000,
     "ProfileName": "Data/Environment/EnviroSystemProfile/BigWorld/ESP_Xm33_StormDesert_Inner_S_Story",
+    "DefaultClimate": "CLIMATE_SUNNY",
+    "SceneID": 3,
+    "IsUseDefault": true
+  },
+  {
+    "AreaID": 4256,
+    "WeatherAreaId": 4256,
+    "MaxHeightStr": "",
+    "Templates": [],
+    "Priority": 3000,
+    "ProfileName": "Data/Environment/EnviroSystemProfile/BigWorld/ESP_Xm37_Robot_General_Copy",
+    "DefaultClimate": "CLIMATE_SUNNY",
+    "SceneID": 3,
+    "IsUseDefault": true
+  },
+  {
+    "AreaID": 4257,
+    "WeatherAreaId": 4257,
+    "MaxHeightStr": "",
+    "Templates": [],
+    "Priority": 3000,
+    "ProfileName": "Data/Environment/EnviroSystemProfile/BigWorld/ESP_Xm37_Zhimeng01_Dream",
+    "DefaultClimate": "CLIMATE_SUNNY",
+    "SceneID": 3,
+    "IsUseDefault": true
+  },
+  {
+    "AreaID": 4258,
+    "WeatherAreaId": 4258,
+    "MaxHeightStr": "",
+    "Templates": [],
+    "Priority": 2500,
+    "ProfileName": "Data/Environment/EnviroSystemProfile/BigWorld/ESP_Xm37_Robot_General_Copy02",
     "DefaultClimate": "CLIMATE_SUNNY",
     "SceneID": 3,
     "IsUseDefault": true

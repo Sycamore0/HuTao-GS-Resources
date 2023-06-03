@@ -1892,6 +1892,38 @@
     "SatiationParams": [],
     "DestroyReturnMaterial": [],
     "DestroyReturnMaterialCount": [],
+    "Id": 160,
+    "ItemType": "ITEM_VIRTUAL",
+    "NoFirstGetHint": true,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
     "Id": 201,
     "ItemType": "ITEM_VIRTUAL",
     "NoFirstGetHint": true,
@@ -5330,6 +5362,42 @@
   {
     "ItemUse": [
       {
+        "UseOp": "ITEM_USE_GAIN_AVATAR",
+        "UseParam": [
+          "10000061",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 1061,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "MaterialType": "MATERIAL_AVATAR",
+    "StackLimit": 1000,
+    "MaxUseCount": 99
+  },
+  {
+    "ItemUse": [
+      {
         "UseParam": [
           "",
           "",
@@ -7694,6 +7762,41 @@
     "DestroyReturnMaterial": [],
     "DestroyReturnMaterialCount": [],
     "Id": 1176,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 20,
+    "MaterialType": "MATERIAL_TALENT",
+    "StackLimit": 1000
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 1161,
     "ItemType": "ITEM_MATERIAL",
     "NoFirstGetHint": false,
     "IsForceGetHint": false,
@@ -15684,7 +15787,7 @@
     "Rank": 10,
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 70300038,
-    "StackLimit": 1000,
+    "StackLimit": 1,
     "Weight": 1
   },
   {
@@ -70229,7 +70332,7 @@
         "UseOp": "ITEM_USE_ADD_SERVER_BUFF",
         "UseParam": [
           "210304",
-          "1500",
+          "1800",
           "",
           "",
           ""
@@ -86230,6 +86333,47 @@
     "StackLimit": 2000,
     "MaxUseCount": 1,
     "UseTarget": "ITEM_USE_TARGET_CUR_TEAM"
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_ADD_SERVER_BUFF",
+        "UseParam": [
+          "100304",
+          "31",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [
+      27,
+      423000
+    ],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 108511,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 221005,
+    "MaterialType": "MATERIAL_NOTICE_ADD_HP",
+    "StackLimit": 2000,
+    "MaxUseCount": 1,
+    "UseTarget": "ITEM_USE_TARGET_SPECIFY_ALIVE_AVATAR"
   },
   {
     "ItemUse": [
@@ -113676,6 +113820,42 @@
     "SatiationParams": [],
     "DestroyReturnMaterial": [],
     "DestroyReturnMaterialCount": [],
+    "Id": 120336,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_QUEST",
+    "GadgetId": 71700645,
+    "StackLimit": 1,
+    "Weight": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
     "Id": 120345,
     "ItemType": "ITEM_MATERIAL",
     "NoFirstGetHint": false,
@@ -113975,6 +114155,41 @@
     "Rank": 10,
     "MaterialType": "MATERIAL_QUEST",
     "GadgetId": 71700670,
+    "StackLimit": 1,
+    "Weight": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 120354,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_QUEST",
     "StackLimit": 1,
     "Weight": 1
   },
@@ -122021,6 +122236,43 @@
     "DestroyReturnMaterial": [],
     "DestroyReturnMaterialCount": [],
     "Id": 200114,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 90,
+    "MaterialType": "MATERIAL_AVATAR_MATERIAL",
+    "GadgetId": 70600054,
+    "StackLimit": 9999,
+    "Weight": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 200115,
     "ItemType": "ITEM_MATERIAL",
     "NoFirstGetHint": false,
     "IsForceGetHint": false,
@@ -130136,6 +130388,78 @@
   {
     "ItemUse": [
       {
+        "UseOp": "ITEM_USE_GAIN_NAME_CARD",
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 210162,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": true,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "MaterialType": "MATERIAL_NAMECARD",
+    "StackLimit": 1000,
+    "MaxUseCount": 99
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_NAME_CARD",
+        "UseParam": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 210163,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": true,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "MaterialType": "MATERIAL_NAMECARD",
+    "StackLimit": 1000,
+    "MaxUseCount": 99
+  },
+  {
+    "ItemUse": [
+      {
         "UseParam": [
           "",
           "",
@@ -135120,6 +135444,42 @@
       {
         "UseOp": "ITEM_USE_GAIN_GCG_CARD",
         "UseParam": [
+          "1304",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 330009,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
           "1305",
           "",
           "",
@@ -135804,6 +136164,42 @@
       {
         "UseOp": "ITEM_USE_GAIN_GCG_CARD",
         "UseParam": [
+          "1204",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 330029,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
           "1205",
           "",
           "",
@@ -135912,6 +136308,42 @@
       {
         "UseOp": "ITEM_USE_GAIN_GCG_CARD",
         "UseParam": [
+          "1307",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 330033,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
           "1405",
           "",
           "",
@@ -135984,6 +136416,186 @@
       {
         "UseOp": "ITEM_USE_GAIN_GCG_CARD",
         "UseParam": [
+          "1407",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 330036,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "1408",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 330037,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "1503",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 330038,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "1504",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 330039,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "1603",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 330040,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
           "1605",
           "",
           "",
@@ -136038,6 +136650,186 @@
     "DestroyReturnMaterial": [],
     "DestroyReturnMaterialCount": [],
     "Id": 330043,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "1703",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 330044,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "2101",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 330045,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "2302",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 330046,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "2401",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 330047,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "1107",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 330048,
     "ItemType": "ITEM_MATERIAL",
     "NoFirstGetHint": false,
     "IsForceGetHint": true,
@@ -136362,6 +137154,42 @@
     "DestroyReturnMaterial": [],
     "DestroyReturnMaterialCount": [],
     "Id": 330508,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "213041",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 330509,
     "ItemType": "ITEM_MATERIAL",
     "NoFirstGetHint": false,
     "IsForceGetHint": true,
@@ -137172,6 +138000,114 @@
       {
         "UseOp": "ITEM_USE_GAIN_GCG_CARD",
         "UseParam": [
+          "215031",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 330532,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "215041",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 330533,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "216031",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 330534,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
           "217021",
           "",
           "",
@@ -137190,6 +138126,42 @@
     "DestroyReturnMaterial": [],
     "DestroyReturnMaterialCount": [],
     "Id": 330535,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "224011",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 330536,
     "ItemType": "ITEM_MATERIAL",
     "NoFirstGetHint": false,
     "IsForceGetHint": true,
@@ -137298,6 +138270,294 @@
     "DestroyReturnMaterial": [],
     "DestroyReturnMaterialCount": [],
     "Id": 330539,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "211071",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 330540,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "212041",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 330541,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "213071",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 330542,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "214071",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 330543,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "214081",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 330544,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "217031",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 330546,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "221011",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 330547,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "223021",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 330548,
     "ItemType": "ITEM_MATERIAL",
     "NoFirstGetHint": false,
     "IsForceGetHint": true,
@@ -138648,6 +139908,294 @@
       {
         "UseOp": "ITEM_USE_GAIN_GCG_CARD",
         "UseParam": [
+          "311204",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 331037,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "311104",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 331038,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "311205",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 331039,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "311304",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 331040,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "311305",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 331041,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "311404",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 331042,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "311405",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 331043,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "311504",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 331044,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
           "311505",
           "",
           "",
@@ -138666,6 +140214,222 @@
     "DestroyReturnMaterial": [],
     "DestroyReturnMaterialCount": [],
     "Id": 331045,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "312008",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 331046,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "312010",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 331047,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "312011",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 331048,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "312012",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 331049,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "312013",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 331050,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "312014",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 331051,
     "ItemType": "ITEM_MATERIAL",
     "NoFirstGetHint": false,
     "IsForceGetHint": true,
@@ -139422,6 +141186,438 @@
     "DestroyReturnMaterial": [],
     "DestroyReturnMaterialCount": [],
     "Id": 332020,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "321007",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 332021,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "321009",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 332022,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "321010",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 332023,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "321011",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 332024,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "321012",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 332025,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "322013",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 332026,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "322014",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 332027,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "322015",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 332028,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "322016",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 332029,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "322017",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 332030,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "323003",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 332031,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "323004",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 332032,
     "ItemType": "ITEM_MATERIAL",
     "NoFirstGetHint": false,
     "IsForceGetHint": true,
@@ -140770,6 +142966,474 @@
   {
     "ItemUse": [
       {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "331801",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 333037,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "331802",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 333038,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "331803",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 333039,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "331804",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 333040,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "332016",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 333041,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "332017",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 333042,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "332018",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 333043,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "332019",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 333044,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "332020",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 333045,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "333009",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 333046,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "333010",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 333047,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "333011",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 333048,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD",
+        "UseParam": [
+          "333012",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 333049,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD",
+    "StackLimit": 2
+  },
+  {
+    "ItemUse": [
+      {
         "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
         "UseParam": [
           "1101",
@@ -141078,6 +143742,42 @@
     "DestroyReturnMaterial": [],
     "DestroyReturnMaterialCount": [],
     "Id": 334008,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "1304",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 334009,
     "ItemType": "ITEM_MATERIAL",
     "NoFirstGetHint": false,
     "IsForceGetHint": true,
@@ -142032,6 +144732,438 @@
       {
         "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
         "UseParam": [
+          "1204",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 334036,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "1307",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 334037,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "1407",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 334038,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "1408",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 334039,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "1503",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 334040,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "1504",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 334041,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "1603",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 334042,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "1703",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 334044,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "2101",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 334045,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "2302",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 334046,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "2401",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 334047,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "1107",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 334048,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
           "211011",
           "黄金卡面",
           "",
@@ -142338,6 +145470,42 @@
     "DestroyReturnMaterial": [],
     "DestroyReturnMaterialCount": [],
     "Id": 334508,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "213041",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 334509,
     "ItemType": "ITEM_MATERIAL",
     "NoFirstGetHint": false,
     "IsForceGetHint": true,
@@ -143274,6 +146442,438 @@
     "DestroyReturnMaterial": [],
     "DestroyReturnMaterialCount": [],
     "Id": 334535,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "215031",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 334536,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "215041",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 334537,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "216031",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 334538,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "224011",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 334539,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "211071",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 334540,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "212041",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 334541,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "213071",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 334542,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "214071",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 334543,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "214081",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 334544,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "217031",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 334546,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "221011",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 334547,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "223021",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 334548,
     "ItemType": "ITEM_MATERIAL",
     "NoFirstGetHint": false,
     "IsForceGetHint": true,
@@ -144660,6 +148260,510 @@
       {
         "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
         "UseParam": [
+          "311204",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 335038,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "311104",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 335039,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "311205",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 335040,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "311304",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 335041,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "311305",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 335042,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "311404",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 335043,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "311405",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 335044,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "311504",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 335045,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "312008",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 335046,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "312010",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 335047,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "312011",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 335048,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "312012",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 335049,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "312013",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 335050,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "312014",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 335051,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
           "321001",
           "黄金卡面",
           "",
@@ -145398,6 +149502,438 @@
     "DestroyReturnMaterial": [],
     "DestroyReturnMaterialCount": [],
     "Id": 336020,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "321007",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 336021,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "321009",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 336022,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "321010",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 336023,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "321011",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 336024,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "321012",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 336025,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "322013",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 336026,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "322014",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 336027,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "322015",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 336028,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "322016",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 336029,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "322017",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 336030,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "323003",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 336031,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "323004",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 336032,
     "ItemType": "ITEM_MATERIAL",
     "NoFirstGetHint": false,
     "IsForceGetHint": true,
@@ -146746,6 +151282,474 @@
   {
     "ItemUse": [
       {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "331801",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 337037,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "331802",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 337038,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "331803",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 337039,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "331804",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 337040,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "332016",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 337041,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "332017",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 337042,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "332018",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 337043,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "332019",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 337044,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "332020",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 337045,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "333009",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 337046,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "333010",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 337047,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "333011",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 337048,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_FACE",
+        "UseParam": [
+          "333012",
+          "黄金卡面",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 337049,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_FACE",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
         "UseOp": "ITEM_USE_GAIN_GCG_CARD_BACK",
         "UseParam": [
           "0",
@@ -147378,6 +152382,42 @@
     "DestroyReturnMaterial": [],
     "DestroyReturnMaterialCount": [],
     "Id": 339021,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": true,
+    "UseOnGain": true,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 10,
+    "MaterialType": "MATERIAL_GCG_CARD_BACK",
+    "StackLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_GAIN_GCG_CARD_BACK",
+        "UseParam": [
+          "122",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 339022,
     "ItemType": "ITEM_MATERIAL",
     "NoFirstGetHint": false,
     "IsForceGetHint": true,
@@ -175349,6 +180389,690 @@
     "PlayGainEffect": false,
     "IsHidden": false,
     "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "361325",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 381325,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "362245",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 382245,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "362246",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 382246,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "362247",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 382247,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "362248",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 382248,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "363350",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 383350,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "363351",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 383351,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "362249",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 382249,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "363352",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 383352,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "362114",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 382114,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "362115",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 382115,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "362116",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 382116,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "362117",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 382117,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "361406",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 381406,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "361215",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 381215,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "362311",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 382311,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "362312",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 382312,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 3,
+    "Rank": 300401,
+    "MaterialType": "MATERIAL_FURNITURE_FORMULA",
+    "StackLimit": 1,
+    "MaxUseCount": 1,
+    "GlobalItemLimit": 1
+  },
+  {
+    "ItemUse": [
+      {
+        "UseOp": "ITEM_USE_UNLOCK_FURNITURE_FORMULA",
+        "UseParam": [
+          "373167",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "UseParam": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "SatiationParams": [],
+    "DestroyReturnMaterial": [],
+    "DestroyReturnMaterialCount": [],
+    "Id": 393167,
+    "ItemType": "ITEM_MATERIAL",
+    "NoFirstGetHint": false,
+    "IsForceGetHint": false,
+    "UseOnGain": false,
+    "IsSplitDrop": false,
+    "CloseBagAfterUsed": false,
+    "PlayGainEffect": false,
+    "IsHidden": false,
+    "RankLevel": 4,
     "Rank": 300401,
     "MaterialType": "MATERIAL_FURNITURE_FORMULA",
     "StackLimit": 1,

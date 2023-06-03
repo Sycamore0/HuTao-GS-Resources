@@ -2561,6 +2561,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 2.020524024963379
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 17.165605545043945
         }
       ]
     },
@@ -2623,6 +2628,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 2.3257699012756348
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 18.53504753112793
         }
       ]
     },
@@ -2685,6 +2695,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 2.6537070274353027
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 19.90485382080078
         }
       ]
     },
@@ -2747,6 +2762,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 3.0045559406280518
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 21.27490234375
         }
       ]
     },
@@ -2809,6 +2829,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 3.378627061843872
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 22.64539909362793
         }
       ]
     },
@@ -2871,6 +2896,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 3.7761850357055664
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 24.649612426757812
         }
       ]
     },
@@ -2933,6 +2963,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 4.197452068328857
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 26.640642166137695
         }
       ]
     },
@@ -2995,6 +3030,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 4.58076810836792
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 28.868587493896484
         }
       ]
     },
@@ -3057,6 +3097,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 4.981023788452148
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 31.367679595947266
         }
       ]
     },
@@ -3119,6 +3164,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 5.39831018447876
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 34.14334487915039
         }
       ]
     },
@@ -3181,6 +3231,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 5.958952903747559
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 37.20100021362305
         }
       ]
     },
@@ -3243,6 +3298,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 6.546090126037598
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 40.65999984741211
         }
       ]
     },
@@ -3305,6 +3365,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 7.160031795501709
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 44.4466667175293
         }
       ]
     },
@@ -3367,6 +3432,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 7.828999042510986
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 48.56351852416992
         }
       ]
     },
@@ -3429,6 +3499,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 8.527202606201172
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 53.74848175048828
         }
       ]
     },
@@ -3491,6 +3566,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 9.254998207092285
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 59.0818977355957
         }
       ]
     },
@@ -3553,6 +3633,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 10.244559288024902
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 64.4200439453125
         }
       ]
     },
@@ -3615,6 +3700,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 11.264464378356934
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 69.72445678710938
         }
       ]
     },
@@ -3677,6 +3767,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 12.314756393432617
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 75.12313842773438
         }
       ]
     },
@@ -3739,6 +3834,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 13.316082954406738
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 80.58477783203125
         }
       ]
     },
@@ -3801,6 +3901,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 14.266763687133789
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 86.11203002929688
         }
       ]
     },
@@ -3863,6 +3968,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 15.240578651428223
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 91.70374298095703
         }
       ]
     },
@@ -3925,6 +4035,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 16.203821182250977
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 97.24462890625
         }
       ]
     },
@@ -3987,6 +4102,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 17.188737869262695
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 102.8126449584961
         }
       ]
     },
@@ -4049,6 +4169,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 18.19528579711914
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 108.40956115722656
         }
       ]
     },
@@ -4111,6 +4236,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 18.88499641418457
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 113.20169067382812
         }
       ]
     },
@@ -4173,6 +4303,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 19.58527946472168
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 118.1029052734375
         }
       ]
     },
@@ -4235,6 +4370,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 20.29613494873047
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 122.97931671142578
         }
       ]
     },
@@ -4297,6 +4437,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 21.01760482788086
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 129.72732543945312
         }
       ]
     },
@@ -4359,6 +4504,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 21.74973487854004
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 136.29290771484375
         }
       ]
     },
@@ -4421,6 +4571,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 22.617612838745117
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 142.6708526611328
         }
       ]
     },
@@ -4483,6 +4638,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 23.500486373901367
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 149.02902221679688
         }
       ]
     },
@@ -4545,6 +4705,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 24.398399353027344
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 155.4169921875
         }
       ]
     },
@@ -4607,6 +4772,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 25.370620727539062
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 161.82550048828125
         }
       ]
     },
@@ -4669,6 +4839,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 26.197982788085938
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 169.10630798339844
         }
       ]
     },
@@ -4731,6 +4906,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 27.037641525268555
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 176.51808166503906
         }
       ]
     },
@@ -4793,6 +4973,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 28.307281494140625
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 184.07273864746094
         }
       ]
     },
@@ -4855,6 +5040,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 29.66657829284668
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 191.7095184326172
         }
       ]
     },
@@ -4917,6 +5107,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 31.052282333374023
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 199.55691528320312
         }
       ]
     },
@@ -4979,6 +5174,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 32.51702880859375
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 207.38204956054688
         }
       ]
     },
@@ -5041,6 +5241,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 33.693382263183594
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 215.39889526367188
         }
       ]
     },
@@ -5103,6 +5308,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 34.89269256591797
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 224.16566467285156
         }
       ]
     },
@@ -5165,6 +5375,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 36.064964294433594
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 233.50216674804688
         }
       ]
     },
@@ -5227,6 +5442,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 37.25873565673828
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 243.35057067871094
         }
       ]
     },
@@ -5289,6 +5509,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 38.474002838134766
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 256.0630798339844
         }
       ]
     },
@@ -5351,6 +5576,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 39.41548156738281
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 268.5434875488281
         }
       ]
     },
@@ -5413,6 +5643,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 40.83052444458008
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 281.52606201171875
         }
       ]
     },
@@ -5475,6 +5710,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 42.2723388671875
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 295.0136413574219
         }
       ]
     },
@@ -5537,6 +5777,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 43.74102020263672
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 309.06719970703125
         }
       ]
     },
@@ -5599,6 +5844,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 45.738365173339844
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 323.6015930175781
         }
       ]
     },
@@ -5661,6 +5911,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 47.114227294921875
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 336.7575378417969
         }
       ]
     },
@@ -5723,6 +5978,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 48.50505447387695
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 350.5303039550781
         }
       ]
     },
@@ -5785,6 +6045,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 49.91070556640625
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 364.4826965332031
         }
       ]
     },
@@ -5847,6 +6112,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 51.330989837646484
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 378.6191711425781
         }
       ]
     },
@@ -5909,6 +6179,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 52.68651580810547
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 398.60040283203125
         }
       ]
     },
@@ -5971,6 +6246,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 53.85537338256836
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 416.39825439453125
         }
       ]
     },
@@ -6033,6 +6313,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 55.51454162597656
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 434.3869934082031
         }
       ]
     },
@@ -6095,6 +6380,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 57.303253173828125
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 452.5668029785156
         }
       ]
     },
@@ -6157,6 +6447,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 59.11389923095703
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 471.42626953125
         }
       ]
     },
@@ -6219,6 +6514,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 61.090511322021484
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 490.4816589355469
         }
       ]
     },
@@ -6281,6 +6581,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 62.787330627441406
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 509.5042724609375
         }
       ]
     },
@@ -6343,6 +6648,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 64.61648559570312
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 532.7717895507812
         }
       ]
     },
@@ -6405,6 +6715,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 66.46421813964844
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 556.393310546875
         }
       ]
     },
@@ -6467,6 +6782,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 68.76543426513672
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 580.10302734375
         }
       ]
     },
@@ -6529,6 +6849,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 70.6720199584961
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 607.8949584960938
         }
       ]
     },
@@ -6591,6 +6916,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 72.0650634765625
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 630.2013549804688
         }
       ]
     },
@@ -6653,6 +6983,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 75.18614959716797
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 652.8668212890625
         }
       ]
     },
@@ -6715,6 +7050,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 77.2227783203125
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 675.1863403320312
         }
       ]
     },
@@ -6777,6 +7117,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 79.1561279296875
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 697.7826538085938
         }
       ]
     },
@@ -6839,6 +7184,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 81.23976135253906
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 720.1703491210938
         }
       ]
     },
@@ -6901,6 +7251,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 84.91717529296875
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 742.4546508789062
         }
       ]
     },
@@ -6963,6 +7318,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 88.59458923339844
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 765.2055053710938
         }
       ]
     },
@@ -7025,6 +7385,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 92.27201080322266
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 784.3746337890625
         }
       ]
     },
@@ -7087,6 +7452,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 95.94942474365234
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 803.4011840820312
         }
       ]
     },
@@ -7149,6 +7519,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 99.62684631347656
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 830.9207763671875
         }
       ]
     },
@@ -7211,6 +7586,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 103.30426025390625
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 854.4033203125
         }
       ]
     },
@@ -7273,6 +7653,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 106.98167419433594
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 877.759765625
         }
       ]
     },
@@ -7335,6 +7720,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 110.65909576416016
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 900.1172485351562
         }
       ]
     },
@@ -7397,6 +7787,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 114.33650970458984
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 923.7666625976562
         }
       ]
     },
@@ -7459,6 +7854,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 118.01392364501953
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 946.3702392578125
         }
       ]
     },
@@ -7521,6 +7921,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 121.69134521484375
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 968.6341552734375
         }
       ]
     },
@@ -7583,6 +7988,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 125.36875915527344
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 991.0293579101562
         }
       ]
     },
@@ -7645,6 +8055,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 129.04617309570312
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 1013.527099609375
         }
       ]
     },
@@ -7707,6 +8122,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 132.7235870361328
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 1036.1329345703125
         }
       ]
     },
@@ -7769,6 +8189,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 136.4010009765625
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 1066.6236572265625
         }
       ]
     },
@@ -7831,6 +8256,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 138.6579132080078
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 1089.9642333984375
         }
       ]
     },
@@ -7893,6 +8323,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 141.59420776367188
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 1114.9644775390625
         }
       ]
     },
@@ -7955,6 +8390,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 144.79605102539062
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 1141.66259765625
         }
       ]
     },
@@ -8017,6 +8457,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 148.02294921875
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 1171.9417724609375
         }
       ]
     },
@@ -8079,6 +8524,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 151.52366638183594
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 1202.813720703125
         }
       ]
     },
@@ -8141,6 +8591,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 155.44891357421875
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 1233.93994140625
         }
       ]
     },
@@ -8203,6 +8658,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 159.68016052246094
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 1264.69970703125
         }
       ]
     },
@@ -8265,6 +8725,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 163.96824645996094
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 1305.689453125
         }
       ]
     },
@@ -8327,6 +8792,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 169.5430450439453
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 1346.0843505859375
         }
       ]
     },
@@ -8389,6 +8859,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 173.81329345703125
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 1411.7381591796875
         }
       ]
     },
@@ -8451,6 +8926,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 175.20333862304688
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 1468.87451171875
         }
       ]
     },
@@ -8513,6 +8993,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 176.75738525390625
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 1524.041259765625
         }
       ]
     },
@@ -8575,6 +9060,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 189.769287109375
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 1576.96630859375
         }
       ]
     },
@@ -8637,6 +9127,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 191.44691467285156
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 1627.613037109375
         }
       ]
     },
@@ -8699,6 +9194,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 196.03573608398438
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 1674.8092041015625
         }
       ]
     },
@@ -8761,6 +9261,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 196.42373657226562
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 1719.824462890625
         }
       ]
     },
@@ -8823,6 +9328,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 196.81201171875
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 1764.716552734375
         }
       ]
     },
@@ -8885,6 +9395,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 197.20059204101562
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 1809.401123046875
         }
       ]
     },
@@ -8947,6 +9462,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 197.58938598632812
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 1843.1929931640625
         }
       ]
     },
@@ -9009,6 +9529,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 197.97850036621094
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 1884.97998046875
         }
       ]
     },
@@ -9071,6 +9596,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 198.3678741455078
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 1900.6527099609375
         }
       ]
     },
@@ -9133,6 +9663,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 198.7575225830078
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 1916.3758544921875
         }
       ]
     },
@@ -9195,6 +9730,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 199.14743041992188
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 1932.1495361328125
         }
       ]
     },
@@ -9257,6 +9797,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 199.5376434326172
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 1947.9739990234375
         }
       ]
     },
@@ -9319,6 +9864,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 199.92811584472656
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 1963.8492431640625
         }
       ]
     },
@@ -9381,6 +9931,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 200.31883239746094
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 1979.775390625
         }
       ]
     },
@@ -9443,6 +9998,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 200.7098388671875
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 1995.752685546875
         }
       ]
     },
@@ -9505,6 +10065,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 201.1011199951172
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2011.7811279296875
         }
       ]
     },
@@ -9567,6 +10132,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 201.49270629882812
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2027.86083984375
         }
       ]
     },
@@ -9629,6 +10199,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 201.88450622558594
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2055.471923828125
         }
       ]
     },
@@ -9691,6 +10266,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 202.27662658691406
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2074.89453125
         }
       ]
     },
@@ -9753,6 +10333,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 202.66896057128906
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2094.380859375
         }
       ]
     },
@@ -9815,6 +10400,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 203.06161499023438
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2113.930908203125
         }
       ]
     },
@@ -9877,6 +10467,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 203.45452880859375
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2133.544921875
         }
       ]
     },
@@ -9939,6 +10534,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 203.84774780273438
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2153.222900390625
         }
       ]
     },
@@ -10001,6 +10601,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 204.24119567871094
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2172.965087890625
         }
       ]
     },
@@ -10063,6 +10668,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 204.63494873046875
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2192.771728515625
         }
       ]
     },
@@ -10125,6 +10735,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 205.0289306640625
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2212.642822265625
         }
       ]
     },
@@ -10187,6 +10802,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 205.4232177734375
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2232.57861328125
         }
       ]
     },
@@ -10249,6 +10869,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 205.81776428222656
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2252.5791015625
         }
       ]
     },
@@ -10311,6 +10936,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 206.21258544921875
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2261.164794921875
         }
       ]
     },
@@ -10373,6 +11003,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 206.6077117919922
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2269.771484375
         }
       ]
     },
@@ -10435,6 +11070,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 207.0030517578125
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2278.399169921875
         }
       ]
     },
@@ -10497,6 +11137,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 207.39871215820312
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2287.048095703125
         }
       ]
     },
@@ -10559,6 +11204,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 207.7946319580078
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2295.71826171875
         }
       ]
     },
@@ -10621,6 +11271,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 208.19081115722656
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2304.40966796875
         }
       ]
     },
@@ -10683,6 +11338,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 208.58726501464844
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2313.122314453125
         }
       ]
     },
@@ -10745,6 +11405,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 208.98399353027344
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2321.8564453125
         }
       ]
     },
@@ -10807,6 +11472,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 209.38101196289062
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2330.611572265625
         }
       ]
     },
@@ -10869,6 +11539,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 209.77830505371094
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2339.388427734375
         }
       ]
     },
@@ -10931,6 +11606,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 210.1758270263672
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2348.1865234375
         }
       ]
     },
@@ -10993,6 +11673,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 210.57363891601562
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2357.00634765625
         }
       ]
     },
@@ -11055,6 +11740,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 210.97178649902344
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2365.847412109375
         }
       ]
     },
@@ -11117,6 +11807,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 211.37013244628906
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2374.710205078125
         }
       ]
     },
@@ -11179,6 +11874,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 211.7687530517578
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2383.5947265625
         }
       ]
     },
@@ -11241,6 +11941,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 212.1676788330078
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2392.500732421875
         }
       ]
     },
@@ -11303,6 +12008,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 212.56687927246094
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2401.428466796875
         }
       ]
     },
@@ -11365,6 +12075,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 212.96633911132812
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2410.378173828125
         }
       ]
     },
@@ -11427,6 +12142,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 213.36605834960938
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2419.349609375
         }
       ]
     },
@@ -11489,6 +12209,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 213.76605224609375
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2428.3427734375
         }
       ]
     },
@@ -11551,6 +12276,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 214.16635131835938
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2437.35791015625
         }
       ]
     },
@@ -11613,6 +12343,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 214.56687927246094
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2446.39501953125
         }
       ]
     },
@@ -11675,6 +12410,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 214.96771240234375
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2455.4541015625
         }
       ]
     },
@@ -11737,6 +12477,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 215.36880493164062
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2464.53515625
         }
       ]
     },
@@ -11799,6 +12544,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 215.77017211914062
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2473.63818359375
         }
       ]
     },
@@ -11861,6 +12611,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 216.1717987060547
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2482.763427734375
         }
       ]
     },
@@ -11923,6 +12678,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 216.57373046875
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2491.910888671875
         }
       ]
     },
@@ -11985,6 +12745,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 216.97589111328125
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2501.08056640625
         }
       ]
     },
@@ -12047,6 +12812,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 217.37835693359375
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2510.2724609375
         }
       ]
     },
@@ -12109,6 +12879,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 217.78109741210938
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2519.486572265625
         }
       ]
     },
@@ -12171,6 +12946,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 218.18409729003906
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2528.72314453125
         }
       ]
     },
@@ -12233,6 +13013,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 218.5873565673828
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2537.98193359375
         }
       ]
     },
@@ -12295,6 +13080,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 218.99093627929688
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2547.26318359375
         }
       ]
     },
@@ -12357,6 +13147,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 219.3947296142578
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2556.567138671875
         }
       ]
     },
@@ -12419,6 +13214,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 219.798828125
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2565.893310546875
         }
       ]
     },
@@ -12481,6 +13281,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 220.2032012939453
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2575.2421875
         }
       ]
     },
@@ -12543,6 +13348,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 220.6078338623047
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2584.61376953125
         }
       ]
     },
@@ -12605,6 +13415,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 221.0127410888672
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2594.0078125
         }
       ]
     },
@@ -12667,6 +13482,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 221.41795349121094
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2603.424560546875
         }
       ]
     },
@@ -12729,6 +13549,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 221.82337951660156
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2612.864013671875
         }
       ]
     },
@@ -12791,6 +13616,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 222.2291259765625
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2622.326416015625
         }
       ]
     },
@@ -12853,6 +13683,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 222.6351318359375
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2631.8115234375
         }
       ]
     },
@@ -12915,6 +13750,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 223.04139709472656
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2641.319580078125
         }
       ]
     },
@@ -12977,6 +13817,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 223.44793701171875
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2650.8505859375
         }
       ]
     },
@@ -13039,6 +13884,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 223.854736328125
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2660.404541015625
         }
       ]
     },
@@ -13101,6 +13951,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 224.26185607910156
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2669.9814453125
         }
       ]
     },
@@ -13163,6 +14018,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 224.6692352294922
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2679.581298828125
         }
       ]
     },
@@ -13225,6 +14085,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 225.0768280029297
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2689.204345703125
         }
       ]
     },
@@ -13287,6 +14152,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 225.4847412109375
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2698.8505859375
         }
       ]
     },
@@ -13349,6 +14219,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 225.89295959472656
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2708.519775390625
         }
       ]
     },
@@ -13411,6 +14286,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 226.3013916015625
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2718.21240234375
         }
       ]
     },
@@ -13473,6 +14353,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 226.71009826660156
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2727.92822265625
         }
       ]
     },
@@ -13535,6 +14420,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 227.11911010742188
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2737.66748046875
         }
       ]
     },
@@ -13597,6 +14487,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 227.5283966064453
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2747.429931640625
         }
       ]
     },
@@ -13659,6 +14554,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 227.9379425048828
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2757.2158203125
         }
       ]
     },
@@ -13721,6 +14621,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 228.34774780273438
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2767.025146484375
         }
       ]
     },
@@ -13783,6 +14688,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 228.75782775878906
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2776.858154296875
         }
       ]
     },
@@ -13845,6 +14755,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 229.168212890625
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2786.714599609375
         }
       ]
     },
@@ -13907,6 +14822,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 229.57882690429688
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2796.594482421875
         }
       ]
     },
@@ -13969,6 +14889,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 229.98973083496094
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2806.498046875
         }
       ]
     },
@@ -14031,6 +14956,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 230.4009246826172
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2816.425537109375
         }
       ]
     },
@@ -14093,6 +15023,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 230.81236267089844
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2826.37646484375
         }
       ]
     },
@@ -14155,6 +15090,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 231.2240753173828
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2836.35107421875
         }
       ]
     },
@@ -14217,6 +15157,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 231.6361083984375
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2846.349609375
         }
       ]
     },
@@ -14279,6 +15224,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 232.04833984375
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2856.3720703125
         }
       ]
     },
@@ -14341,6 +15291,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 232.4608917236328
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2866.41845703125
         }
       ]
     },
@@ -14403,6 +15358,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 232.87371826171875
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2876.48876953125
         }
       ]
     },
@@ -14465,6 +15425,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 233.28680419921875
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2886.582763671875
         }
       ]
     },
@@ -14527,6 +15492,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 233.7001953125
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2896.701171875
         }
       ]
     },
@@ -14589,6 +15559,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 234.1138153076172
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2906.843505859375
         }
       ]
     },
@@ -14651,6 +15626,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 234.52769470214844
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2916.888916015625
         }
       ]
     },
@@ -14713,6 +15693,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 234.94187927246094
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2927.079345703125
         }
       ]
     },
@@ -14775,6 +15760,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 235.35633850097656
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2937.2939453125
         }
       ]
     },
@@ -14837,6 +15827,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 235.77105712890625
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2947.53271484375
         }
       ]
     },
@@ -14899,6 +15894,11 @@
           "Type": "GROW_CURVE_ATTACK_2",
           "Arith": "ARITH_MULTI",
           "Value": 236.18603515625
+        },
+        {
+          "Type": "GROW_CURVE_HP_ENVIRONMENT",
+          "Arith": "ARITH_MULTI",
+          "Value": 2957.7958984375
         }
       ]
     }
